@@ -2,7 +2,7 @@ import { IWeek } from "@/shared/models/weeks.interface";
 
 export default function WeekItem({ semana }: { semana: IWeek }) {
   return (
-    <div className="column is-one-third">
+    <div className="column is-one-third animate__animated animate__fadeInUp">
       <div className="card">
         <div className="card-content">
           <div className="media">

@@ -3,7 +3,7 @@ import styles from './menu-aside.module.css';
 export default function MenuAside() {
   return (
     <aside>
-      <section className="section">
+      <section className="section pr-2">
         <div className={styles.containerLogo}>
           <figure className="image is-64x64">
             <img className="is-rounded" src="https://bulma.io/assets/images/placeholders/128x128.png" />
