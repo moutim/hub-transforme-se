@@ -1,0 +1,15 @@
+.menu {
+  margin-top: 30px;
+}
+
+.body {
+  display: flex;
+}
+
+.body aside {
+  width: 30%;
+}
+
+.main {
+  width: 100% !important;
+}
