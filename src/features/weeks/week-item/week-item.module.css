@@ -1,0 +1,8 @@
+.cardWeek {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.cardWeek:hover {
+  transform: translateY(-10px);
+}

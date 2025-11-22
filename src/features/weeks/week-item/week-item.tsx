@@ -1,9 +1,10 @@
 import { IWeek } from "@/shared/models/weeks.interface";
+import styles from './week-item.module.css';
 
 export default function WeekItem({ semana }: { semana: IWeek }) {
   return (
     <div className="column is-one-third animate__animated animate__fadeInUp">
-      <div className="card">
+      <div className={`card ${styles.cardWeek}`}>
         <div className="card-content">
           <div className="media">
             <div className="media-left">
