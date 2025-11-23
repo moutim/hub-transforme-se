@@ -22,19 +22,20 @@ export default function ThemeToggle() {
   }, [isDarkMode]);
 
   return (
-    <div className="is-flex is-align-items-center">
+    <div className="is-flex is-align-items-center" suppressHydrationWarning>
       <button
         ref={ref}
         onClick={toggleSwitchTheme}
         className="button is-ghost is-medium"
         aria-label="Toggle dark mode"
+        suppressHydrationWarning
       >
-        <span className={`icon ${isDarkMode ? 'has-text-info' : 'has-text-warning'}`}>
-          <i className={`fas ${isDarkMode ? 'fa-moon' : 'fa-sun'} fa-lg`}></i>
+        <span className={`icon ${isDarkMode ? 'has-text-info' : 'has-text-warning'}`} suppressHydrationWarning>
+          <i className={`fas ${isDarkMode ? 'fa-moon' : 'fa-sun'} fa-lg`} suppressHydrationWarning></i>
         </span>
       </button>
 
-      <p>{isDarkMode ? 'Modo escuro' : 'Modo claro'}</p>
+      <p suppressHydrationWarning>{isDarkMode ? 'Modo escuro' : 'Modo claro'}</p>
     </div>
 
   );

@@ -1,9 +1,18 @@
+'use client';
+
 import { IWeek } from "@/shared/models/weeks.interface";
 import styles from './week-item.module.css';
+import { useRouter } from "next/navigation";
 
 export default function WeekItem({ semana }: { semana: IWeek }) {
+  const router = useRouter();
+  const handleRedirect = (id: number) => router.push(`week/${id}`);
+
   return (
-    <div className="column is-one-third animate__animated animate__fadeInUp">
+    <div
+    onClick={() => handleRedirect(semana.id)}
+    className="column is-one-third animate__animated animate__fadeInUp"
+    >
       <div className={`card ${styles.cardWeek}`}>
         <div className="card-content">
           <div className="media">

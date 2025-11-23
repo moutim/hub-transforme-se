@@ -7,13 +7,14 @@ const weeksRequest = getWeeks();
 
 function WeeksContent() {
   const weeks = use(weeksRequest);
+
   return <WeeksList semanas={weeks.semanas} />;
 }
 
 export default function Home() {
   return (
     <main>
-      <section className="mt-6">
+      <section>
         <Suspense fallback={<WeekListSkeleton />}>
           <WeeksContent />
         </Suspense>
