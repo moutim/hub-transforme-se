@@ -1,10 +1,10 @@
 import { IDay } from "@/shared/models/weeks.interface";
 import DayItem from "../day-item/day-item";
 
-export default function DaysList({ dias }: { dias: IDay[] }) {
+export default function DaysList({ dias, titulo }: { dias: IDay[], titulo: string }) {
   return (
     <>
-      <h2 className="title is-2">Aulas</h2>
+      <h2 className="title is-2">Aulas da {titulo}</h2>
 
       <section className="columns is-multiline is-4">
         {

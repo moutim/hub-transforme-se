@@ -1,12 +1,22 @@
+'use client';
+
 import { IDay } from "@/shared/models/weeks.interface";
+import { useRouter } from "next/navigation";
 import styles from './day-item.module.css';
 
 export default function DayItem({ dia }: { dia: IDay }) {
+  const router = useRouter();
+
+  const handleRedirect = (id: number) => {
+    router.push(`day/${id}`);
+  };
+
   return (
     <div
       className="column is-half animate__animated animate__fadeInUp"
+      onClick={() => handleRedirect(dia.id)}
     >
-      <div className={`card`}>
+      <div className={`card ${styles.cardDay}`}>
         <div className="card-content">
           <div className="media">
             <div className="media-left">

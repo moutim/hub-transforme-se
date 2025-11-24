@@ -1,6 +1,7 @@
 import { getDayById } from "@/features/days/api/api";
 import DaySkeleton from "@/shared/components/skeletons/day/day-skeleton";
 import { Suspense } from "react";
+import styles from "./day.module.css";
 
 interface IDayProps {
   params: Promise<{
@@ -11,9 +12,9 @@ interface IDayProps {
 async function DayContent({ id }: { id: string }) {
   const dia = await getDayById(Number(id));
 
-  if (!dia) {
+  if (!dia || !dia.conteudo) {
     return (
-      <div className="container">
+      <div className="container has-text-centered">
         <h1 className="title">Dia não encontrado</h1>
         <p>O dia com ID {id} não foi encontrado.</p>
       </div>
@@ -24,8 +25,8 @@ async function DayContent({ id }: { id: string }) {
     <section>
       <h4 className="title is-2">{dia.titulo}</h4>
       <div 
-        className="container" 
-        dangerouslySetInnerHTML={{ __html: dia.conteudo || '' }}
+        className={`container ${styles.content} ${styles.containerBulma}`}
+        dangerouslySetInnerHTML={{ __html: dia.conteudo }}
       />
     </section>
   )

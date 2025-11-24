@@ -1,0 +1,110 @@
+/* Custom highlight classes */
+.highlightPink {
+  color: #e80170 !important;
+}
+
+.highlightGreen {
+  color: #48c78e !important;
+}
+
+/* Bulma text color utilities */
+.hasTextInfo {
+  color: #3e8ed0 !important;
+}
+
+.hasTextPurple {
+  color: #b86bff !important;
+}
+
+.hasTextWarning {
+  color: #ffe08a !important;
+}
+
+.hasTextGrey {
+  color: #7a7a7a !important;
+}
+
+.hasTextGreyLight {
+  color: #b5b5b5 !important;
+}
+
+.hasTextWhite {
+  color: #ffffff !important;
+}
+
+/* Custom styles */
+.borderLeftPink {
+  border-left: 4px solid #e80170;
+}
+
+/* Section title style */
+.sectionTitle {
+  border-bottom: 2px solid #e80170;
+  padding-bottom: 0.5rem;
+}
+
+/* Emoji large */
+.emojiLarge {
+  font-size: 3rem;
+}
+
+/* Global styles for content rendered with dangerouslySetInnerHTML */
+.content :global(.highlight-pink) {
+  color: #e80170 !important;
+}
+
+.content :global(.highlight-green) {
+  color: #48c78e !important;
+}
+
+.content :global(.has-text-info) {
+  color: #3e8ed0 !important;
+}
+
+.content :global(.has-text-purple) {
+  color: #b86bff !important;
+}
+
+.content :global(.has-text-warning) {
+  color: #ffe08a !important;
+}
+
+.content :global(.has-text-grey) {
+  color: #7a7a7a !important;
+}
+
+.content :global(.has-text-grey-light) {
+  color: #b5b5b5 !important;
+}
+
+.content :global(.has-text-white) {
+  color: #ffffff !important;
+}
+
+.content :global(.border-left-pink) {
+  border-left: 4px solid #e80170;
+}
+
+.content :global(.section-title) {
+  border-bottom: 2px solid #e80170;
+  padding-bottom: 0.5rem;
+}
+
+.content :global(.emoji-large) {
+  font-size: 3rem;
+}
+
+/* Padronização de imagens dentro de colunas */
+.content :global(.columns) :global(.image) img {
+  max-height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.content img {
+  border-radius: 5px;
+}
+
+.containerBulma {
+  margin: 0 !important;
+}

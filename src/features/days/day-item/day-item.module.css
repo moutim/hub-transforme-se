@@ -1,3 +1,8 @@
-.dayItem {
-  height: 340px;
+.cardDay {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.cardDay:hover {
+  transform: translateY(-10px);
 }

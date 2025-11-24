@@ -13,7 +13,7 @@ async function WeekContent({ id }: { id: string }) {
   const week = await getWeekById(Number(id));
 
   return (
-    <DaysList dias={week?.dias ?? []} />
+    <DaysList dias={week?.dias ?? []} titulo={week?.titulo.toLowerCase() ?? ''} />
   )
 }
 
