@@ -2070,7 +2070,422 @@ div {
       "titulo": "Semana 5",
       "subtitulo": "5/5 dias",
       "descricao": "Introdução à Lógica de Programação, Algoritmos e Portugol",
-      "icone": "fa-brain"
+      "icone": "fa-brain",
+      "dias": [
+        {
+          "id": 16,
+          "titulo": "Lógica de Programação: Ensinando o Computador a Pensar",
+          "subtitulo": "Aula 5.1",
+          "descricao": "Introduz lógica de programação: algoritmos, variáveis, operadores e condicionais. Praticamos Portugol e traduzimos soluções para JavaScript.",
+          "icone": "fa-brain",
+          "conteudo": `
+  <div class="container">
+    <section id="aula-5-1">
+      <div class="content is-size-5">
+        <div id="o-que-e-logica" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">1. O que é Lógica de Programação?</h3>
+          <p class="mb-5">Lógica de programação é a <strong><span class="highlight-pink">habilidade de organizar um pensamento de forma sequencial e coerente</span></strong> para resolver um problema. É como criar uma receita de bolo para o computador: uma lista de passos claros e sem ambiguidade que ele deve seguir para chegar a um resultado.</p>
+          <p class="mb-5">Antes de escrever qualquer código, você precisa primeiro pensar na lógica por trás da solução.</p>
+        </div>
+
+        <div id="algoritmos" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">2. Algoritmos: A Receita do Bolo</h3>
+          <p class="mb-5">Um <strong>algoritmo</strong> é exatamente essa sequência de passos. Trocar uma lâmpada, somar dois números, fazer café... tudo isso pode ser descrito como um algoritmo. O objetivo é pegar um problema complexo e quebrá-lo em passos pequenos e gerenciáveis.</p>
+
+          <div class="box box-dark p-4 mb-4">
+            <h4 class="title is-5 mb-2">Exemplo: Algoritmo para somar dois números</h4>
+            <ol>
+              <li>Receba o primeiro número.</li>
+              <li>Receba o segundo número.</li>
+              <li>Some os dois números.</li>
+              <li>Mostre o resultado.</li>
+            </ol>
+          </div>
+        </div>
+
+        <div id="variaveis" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">3. Variáveis: As "Caixas" para Guardar Informações</h3>
+          <p class="mb-5">Para que o computador execute os passos, ele precisa de um lugar para guardar as informações com as quais está trabalhando. <strong>Variáveis</strong> são como caixas com etiquetas: elas têm um nome e guardam um valor dentro.</p>
+
+          <div class="columns">
+            <div class="column">
+              <div class="box box-dark p-4">
+                <h4 class="title is-5 mb-2">Texto (String)</h4>
+                <p>Para guardar palavras e frases. Ex: <code class="inline">nome = "Maria"</code></p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box box-dark p-4">
+                <h4 class="title is-5 mb-2">Número (Integer/Float)</h4>
+                <p>Para guardar números inteiros ou com casas decimais. Ex: <code class="inline">idade = 30</code></p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box box-dark p-4">
+                <h4 class="title is-5 mb-2">Lógico (Boolean)</h4>
+                <p>Para guardar apenas dois valores: <code class="inline">Verdadeiro</code> ou <code class="inline">Falso</code>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="operadores" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">4. Operadores: As Ferramentas de Ação</h3>
+          <p class="mb-5">Operadores são os símbolos que usamos para realizar ações com nossas variáveis, como cálculos matemáticos ou comparações.</p>
+
+          <div class="columns">
+            <div class="column">
+              <div class="box box-dark p-4">
+                <h4 class="title is-5 mb-2">Aritméticos</h4>
+                <p>Soma (<code class="inline">+</code>), Subtração (<code class="inline">-</code>), Multiplicação (<code class="inline">*</code>), Divisão (<code class="inline">/</code>).</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box box-dark p-4">
+                <h4 class="title is-5 mb-2">Relacionais</h4>
+                <p>Maior que (<code class="inline">&gt;</code>), Menor que (<code class="inline">&lt;</code>), Igual a (<code class="inline">==</code>), Diferente de (<code class="inline">!=</code>).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="condicionais" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">5. Condicionais: Tomando Decisões</h3>
+          <p class="mb-5">Nem sempre um algoritmo segue uma linha reta. Às vezes, o computador precisa tomar uma decisão com base em uma condição. Para isso, usamos o <strong>SE / SENÃO</strong> (<code class="inline">if / else</code>).</p>
+
+          <pre class="p-4"><code>SE (idade &gt;= 18) ENTAO
+  escreva("Você é maior de idade.")
+SENAO
+  escreva("Você é menor de idade.")
+FIMSE
+</code></pre>
+        </div>
+
+        <div id="portugol-js" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">6. Portugol e JavaScript</h3>
+          <p class="mb-5">Para treinar nossa mente, vamos primeiro escrever nossos algoritmos em <strong><span class="highlight-pink">Portugol</span></strong>, uma "linguagem" que se parece com o português e foca apenas na lógica. Depois que a lógica estiver correta, vamos "traduzir" para o <strong><span class="highlight-pink">JavaScript</span></strong>, uma linguagem de programação real que os navegadores entendem.</p>
+        </div>
+
+      </div>
+    </section>
+  </div>
+`
+        },
+        {
+          "id": 17,
+          "titulo": "Exercícios: Praticando a Lógica 5.1",
+          "subtitulo": "Aula 5.1",
+          "descricao": "Exercícios práticos para fixar lógica: Olá Mundo, operações, médias, condições e estruturas de decisão; resolva em Portugol e JavaScript.",
+          "icone": "fa-brain",
+          "conteudo": `
+  <div class="container">
+    <section id="exercicios">
+      <h2 class="title is-3 lesson-title mb-5">Exercícios: Praticando a Lógica</h2>
+      <p class="content is-size-5 has-text-centered mb-5">Para cada problema, pense primeiro na solução em <strong>Portugol</strong> (a sequência de passos) e depois tente "traduzir" para <strong>JavaScript</strong>.</p>
+
+      <div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">1. Olá, Mundo!</h3>
+          <p>Crie um algoritmo que simplesmente mostre a mensagem "Olá, Mundo!" na tela.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">2. Nome e Sobrenome</h3>
+          <p>Crie um algoritmo que peça o nome e o sobrenome do usuário e, em seguida, mostre o nome completo.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">3. Soma de Dois Números</h3>
+          <p>Crie um algoritmo que solicite dois números ao usuário e mostre a soma deles.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">4. Calculadora de Média</h3>
+          <p>Crie um algoritmo que peça 3 notas de um aluno e calcule a média. Mostre a média no final.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">5. Sucessor e Antecessor</h3>
+          <p>Crie um algoritmo que peça um número e mostre na tela o seu antecessor e o seu sucessor.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">6. Aumento Salarial</h3>
+          <p>Crie um algoritmo que leia o salário de um funcionário e mostre seu novo salário com 15% de aumento.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">7. Conversor de Moedas</h3>
+          <p>Crie um algoritmo que leia um valor em Reais e converta para Dólares. Considere a cotação do Dólar como R$ 5,00.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">8. Par ou Ímpar?</h3>
+          <p>Crie um algoritmo que leia um número e diga se ele é par ou ímpar. (Dica: use o operador de resto de divisão %).</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">9. Maior de Idade</h3>
+          <p>Crie um algoritmo que leia a idade de uma pessoa e diga se ela é maior de idade (18 anos ou mais) ou não.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">10. Qual é maior?</h3>
+          <p>Crie um algoritmo que leia dois números e informe qual deles é o maior.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">11. Aprovado ou Reprovado?</h3>
+          <p>Crie um algoritmo que calcule a média de duas notas e informe se o aluno foi aprovado (média &gt;= 7) ou reprovado.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">12. Positivo, Negativo ou Zero?</h3>
+          <p>Crie um algoritmo que leia um número e informe se ele é positivo, negativo ou zero.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">13. Categoria de Nadador</h3>
+          <p>Crie um algoritmo que leia a idade de um nadador e o classifique em uma das seguintes categorias: Infantil A (5-7 anos), Infantil B (8-11 anos), Juvenil A (12-13 anos), Juvenil B (14-17 anos) ou Adulto (maiores de 18 anos).</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">14. Login Simples</h3>
+          <p>Crie um algoritmo que peça um nome de usuário e uma senha. Se o usuário for "admin" e a senha for "1234", mostre "Login efetuado com sucesso". Caso contrário, mostre "Falha na autenticação".</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">15. Calculadora de IMC</h3>
+          <p>Crie um algoritmo para calcular o IMC (Índice de Massa Corporal) de uma pessoa. Peça o peso (em kg) e a altura (em metros). A fórmula é: IMC = peso / (altura * altura). Mostre o resultado.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+`
+        },
+        {
+          id: 18,
+          titulo: "Revisão e Exercícios de Lógica — Parte 2",
+          subtitulo: "Aula 5.2",
+          descricao: "Revisão prática de lógica: condicionais, conversões, cálculos e validações; escrevemos algoritmos em Portugol para estruturar soluções passo a passo.",
+          icone: "fa-brain",
+          conteudo: `
+          <div class="container">
+            <section id="aula-5-2">
+              <div class="content is-size-5">
+                <p class="mb-5">Nesta aula revisamos e ampliamos exercícios práticos que envolvem condicionais, conversões, cálculos e validações. A ideia é primeiro estruturar a solução em Portugol e validar a lógica passo a passo.</p>
+
+                <div class="box box-dark p-4 mb-4">
+                  <h3 class="title is-5 mb-3">Objetivos</h3>
+                  <ul>
+                    <li>Praticar lógica com exemplos reais.</li>
+                    <li>Entender condições e tratamentos de casos.</li>
+                    <li>Validar entradas e formatar saídas.</li>
+                  </ul>
+                </div>
+
+                <div class="box box-dark p-4">
+                  <h3 class="title is-5 mb-3">Metodologia</h3>
+                  <p>Para cada problema, escreva primeiro o algoritmo em Portugol e valide usando os exemplos de entrada e saída.</p>
+                </div>
+              </div>
+            </section>
+          </div>
+        `
+        },
+        {
+          id: 19,
+          titulo: "Exercícios: Praticando a Lógica 5.2",
+          subtitulo: "Aula 5.2",
+          descricao: "Conjunto de exercícios avançados para praticar lógica usando Portugol: descontos, conversões, decisões, IMC, empréstimos e classificações passo a passo.",
+          icone: "fa-brain",
+          conteudo: `
+        <div class="container">
+          <section id="exercicios-5-2">
+            <p class="content is-size-5 has-text-centered mb-5">Use os exemplos de entrada e saída para validar a lógica dos seus algoritmos.</p>
+
+            <div>
+              <div class="box box-dark mb-4">
+                <h3 class="title is-5 mb-3">16. Calculadora de Desconto</h3>
+                <p>Peça o preço de um produto e a porcentagem de desconto. Calcule e mostre o valor do desconto e o preço final.</p>
+                <div class="mt-4 pt-4">
+                  <h4 class="is-6 has-text-grey mb-2">Exemplo de Entrada e Saída:</h4>
+                  <div class="box">
+                    <p><strong><span class="has-text-info">Entrada:</span></strong> Preço R$ 100, Desconto 20%</p>
+                    <p class="mt-2"><strong><span class="has-text-warning">Saída Esperada:</span></strong></p>
+                    <p>Valor do desconto: R$ 20.0</p>
+                    <p>Preço final: R$ 80.0</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-4">
+                <h3 class="title is-5 mb-3">17. Conversor de Temperatura</h3>
+                <p>Peça uma temperatura em Celsius e converta para Fahrenheit. A fórmula é: F = C * 1.8 + 32.</p>
+                <div class="mt-4 pt-4">
+                  <h4 class="is-6 has-text-grey mb-2">Exemplo de Entrada e Saída:</h4>
+                  <div class="box">
+                    <p><strong><span class="has-text-info">Entrada:</span></strong> 25°C</p>
+                    <p class="mt-2"><strong><span class="has-text-warning">Saída Esperada:</span></strong> A temperatura em Fahrenheit é: 77°F</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-4">
+                <h3 class="title is-5 mb-3">18. Aluguel de Carro</h3>
+                <p>Calcule o preço a pagar pelo aluguel de um carro. Peça a quantidade de dias e a quantidade de Km rodados. Preço: R$60/dia e R$0,15/Km.</p>
+                <div class="mt-4 pt-4">
+                  <h4 class="is-6 has-text-grey mb-2">Exemplo de Entrada e Saída:</h4>
+                  <div class="box">
+                    <p><strong><span class="has-text-info">Entrada:</span></strong> 10 dias, 500 Km</p>
+                    <p class="mt-2"><strong><span class="has-text-warning">Saída Esperada:</span></strong> O preço total a pagar é: R$ 675.0</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-4">
+                <h3 class="title is-5 mb-3">19. Situação de Votação</h3>
+                <p>Leia a idade de uma pessoa e informe se ela é "Não votante" (abaixo de 16), "Voto opcional" (entre 16 e 17) ou "Voto obrigatório" (entre 18 e 70).</p>
+                <div class="mt-4 pt-4">
+                  <h4 class="is-6 has-text-grey mb-2">Exemplo de Entrada e Saída:</h4>
+                  <div class="box">
+                    <p><strong><span class="has-text-info">Entrada:</span></strong> Idade 17</p>
+                    <p class="mt-2"><strong><span class="has-text-warning">Saída Esperada:</span></strong> Situação: Voto opcional.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-4">
+                <h3 class="title is-5 mb-3">20. IMC com Classificação</h3>
+                <p>Calcule o IMC e adicione a classificação: Abaixo de 18.5 (Abaixo do peso), entre 18.5 e 24.9 (Peso normal), entre 25 e 29.9 (Sobrepeso), 30 ou mais (Obesidade).</p>
+                <div class="mt-4 pt-4">
+                  <h4 class="is-6 has-text-grey mb-2">Exemplo de Entrada e Saída:</h4>
+                  <div class="box">
+                    <p><strong><span class="has-text-info">Entrada:</span></strong> Peso 70kg, Altura 1.75m</p>
+                    <p class="mt-2"><strong><span class="has-text-warning">Saída Esperada:</span></strong></p>
+                    <p>Seu IMC é: 22.85...</p>
+                    <p>Classificação: Peso normal.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-4">
+                <h3 class="title is-5 mb-3">21. Formas de Pagamento</h3>
+                <p>Leia o preço de um produto e informe o valor final conforme a condição de pagamento: À vista (10% de desconto), 2x no cartão (preço normal), 3x ou mais (20% de juros).</p>
+                <div class="mt-4 pt-4">
+                  <h4 class="is-6 has-text-grey mb-2">Exemplo de Entrada e Saída:</h4>
+                  <div class="box">
+                    <p><strong><span class="has-text-info">Entrada:</span></strong> Preço R$ 1000, Opção 3</p>
+                    <p class="mt-2"><strong><span class="has-text-warning">Saída Esperada:</span></strong> Valor final: R$ 1200.0</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-4">
+                <h3 class="title is-5 mb-3">22. É um Triângulo?</h3>
+                <p>Peça 3 comprimentos de retas e diga se elas podem ou não formar um triângulo. (Condição: a soma de dois lados deve ser sempre maior que o terceiro lado).</p>
+                <div class="mt-4 pt-4">
+                  <h4 class="is-6 has-text-grey mb-2">Exemplo de Entrada e Saída:</h4>
+                  <div class="box">
+                    <p><strong><span class="has-text-info">Entrada:</span></strong> Lados 7, 10, 5</p>
+                    <p class="mt-2"><strong><span class="has-text-warning">Saída Esperada:</span></strong> As retas PODEM formar um triângulo.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-4">
+                <h3 class="title is-5 mb-3">23. Maior de Três</h3>
+                <p>Leia três números e mostre qual é o maior deles.</p>
+                <div class="mt-4 pt-4">
+                  <h4 class="is-6 has-text-grey mb-2">Exemplo de Entrada e Saída:</h4>
+                  <div class="box">
+                    <p><strong><span class="has-text-info">Entrada:</span></strong> Números 25, 12, 30</p>
+                    <p class="mt-2"><strong><span class="has-text-warning">Saída Esperada:</span></strong> O maior número é: 30</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-4">
+                <h3 class="title is-5 mb-3">24. Ordem Crescente</h3>
+                <p>Leia dois números diferentes e os mostre em ordem crescente.</p>
+                <div class="mt-4 pt-4">
+                  <h4 class="is-6 has-text-grey mb-2">Exemplo de Entrada e Saída:</h4>
+                  <div class="box">
+                    <p><strong><span class="has-text-info">Entrada:</span></strong> Números 50, 25</p>
+                    <p class="mt-2"><strong><span class="has-text-warning">Saída Esperada:</span></strong> Ordem crescente: 25, 50</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-4">
+                <h3 class="title is-5 mb-3">25. Ano Bissexto</h3>
+                <p>Peça um ano e determine se ele é bissexto ou não. (Divisível por 4, mas não por 100, a menos que também seja por 400).</p>
+                <div class="mt-4 pt-4">
+                  <h4 class="is-6 has-text-grey mb-2">Exemplo de Entrada e Saída:</h4>
+                  <div class="box">
+                    <p><strong><span class="has-text-info">Entrada:</span></strong> Ano 2024</p>
+                    <p class="mt-2"><strong><span class="has-text-warning">Saída Esperada:</span></strong> O ano 2024 é bissexto.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-4">
+                <h3 class="title is-5 mb-3">26. Alistamento Militar</h3>
+                <p>Peça o ano de nascimento de um jovem e informe sua situação de alistamento. Considere o ano atual como 2025.</p>
+                <div class="mt-4 pt-4">
+                  <h4 class="is-6 has-text-grey mb-2">Exemplo de Entrada e Saída:</h4>
+                  <div class="box">
+                    <p><strong><span class="has-text-info">Entrada:</span></strong> Ano de nascimento 2010</p>
+                    <p class="mt-2"><strong><span class="has-text-warning">Saída Esperada:</span></strong></p>
+                    <p>Você tem 15 anos em 2025.</p>
+                    <p>Ainda vai se alistar. Faltam 3 anos.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-4">
+                <h3 class="title is-5 mb-3">27. Média com Status</h3>
+                <p>Peça duas notas, calcule a média e mostre o status: Reprovado (&lt; 5.0), Recuperação (>= 5.0 e &lt; 7.0) ou Aprovado (>= 7.0).</p>
+                <div class="mt-4 pt-4">
+                  <h4 class="is-6 has-text-grey mb-2">Exemplo de Entrada e Saída:</h4>
+                  <div class="box">
+                    <p><strong><span class="has-text-info">Entrada:</span></strong> Notas 6.0, 8.0</p>
+                    <p class="mt-2"><strong><span class="has-text-warning">Saída Esperada:</span></strong></p>
+                    <p>Sua média é: 7.0</p>
+                    <p>Status: APROVADO</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-4">
+                <h3 class="title is-5 mb-3">28. Pedra, Papel e Tesoura</h3>
+                <p>Peça a jogada de dois jogadores (1-Pedra, 2-Papel, 3-Tesoura) e determine o vencedor.</p>
+                <div class="mt-4 pt-4">
+                  <h4 class="is-6 has-text-grey mb-2">Exemplo de Entrada e Saída:</h4>
+                  <div class="box">
+                    <p><strong><span class="has-text-info">Entrada:</span></strong> Jogador 1: 2, Jogador 2: 1</p>
+                    <p class="mt-2"><strong><span class="has-text-warning">Saída Esperada:</span></strong> Jogador 1 VENCEU!</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-4">
+                <h3 class="title is-5 mb-3">29. Preço da Passagem</h3>
+                <p>Calcule o preço da passagem de ônibus. Peça a distância em Km. Até 200Km, custa R$0,50/Km. Acima disso, R$0,45/Km.</p>
+                <div class="mt-4 pt-4">
+                  <h4 class="is-6 has-text-grey mb-2">Exemplo de Entrada e Saída:</h4>
+                  <div class="box">
+                    <p><strong><span class="has-text-info">Entrada:</span></strong> Distância 300 Km</p>
+                    <p class="mt-2"><strong><span class="has-text-warning">Saída Esperada:</span></strong> O preço da passagem é: R$ 135.0</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-4">
+                <h3 class="title is-5 mb-3">30. Empréstimo Bancário</h3>
+                <p>Peça o valor da casa, o salário do comprador e em quantos anos ele vai pagar. A prestação mensal não pode exceder 30% do salário. Informe se o empréstimo foi aprovado ou negado.</p>
+                <div class="mt-4 pt-4">
+                  <h4 class="is-6 has-text-grey mb-2">Exemplo de Entrada e Saída:</h4>
+                  <div class="box">
+                    <p><strong><span class="has-text-info">Entrada:</span></strong> Valor da casa R$ 180000, Salário R$ 2000, Anos 30</p>
+                    <p class="mt-2"><strong><span class="has-text-warning">Saída Esperada:</span></strong></p>
+                    <p>A prestação mensal será de: R$ 500.0</p>
+                    <p>Empréstimo APROVADO!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      `
+        }
+      ]
     },
     {
       "id": 6,
