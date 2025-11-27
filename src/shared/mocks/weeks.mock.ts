@@ -2009,42 +2009,42 @@ div {
               <div class="columns is-multiline is-mobile">
                 <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                   <div class="box box-dark has-text-centered">
-                    <h4 class="title is-5 has-text-white">Clone do Spotify</h4>
+                    <h4 class="title is-5 ">Clone do Spotify</h4>
                   </div>
                 </div>
                 <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                   <div class="box box-dark has-text-centered">
-                    <h4 class="title is-5 has-text-white">Site de Notícias</h4>
+                    <h4 class="title is-5 ">Site de Notícias</h4>
                   </div>
                 </div>
                 <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                   <div class="box box-dark has-text-centered">
-                    <h4 class="title is-5 has-text-white">Clone do Tinder 🥵</h4>
+                    <h4 class="title is-5 ">Clone do Tinder 🥵</h4>
                   </div>
                 </div>
                 <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                   <div class="box box-dark has-text-centered">
-                    <h4 class="title is-5 has-text-white">Login do Facebook</h4>
+                    <h4 class="title is-5 ">Login do Facebook</h4>
                   </div>
                 </div>
                 <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                   <div class="box box-dark has-text-centered">
-                    <h4 class="title is-5 has-text-white">Site da Starbucks</h4>
+                    <h4 class="title is-5 ">Site da Starbucks</h4>
                   </div>
                 </div>
                 <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                   <div class="box box-dark has-text-centered">
-                    <h4 class="title is-5 has-text-white">Clone site da Tesla</h4>
+                    <h4 class="title is-5 ">Clone site da Tesla</h4>
                   </div>
                 </div>
                 <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                   <div class="box box-dark has-text-centered">
-                    <h4 class="title is-5 has-text-white">Clone do Youtube</h4>
+                    <h4 class="title is-5 ">Clone do Youtube</h4>
                   </div>
                 </div>
                 <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                   <div class="box box-dark has-text-centered">
-                    <h4 class="title is-5 has-text-white">Clone da Netflix</h4>
+                    <h4 class="title is-5 ">Clone da Netflix</h4>
                   </div>
                 </div>
               </div>
@@ -2053,7 +2053,7 @@ div {
             <div class="mb-6" id="conclusao-semana">
               <h2 class="title is-3 section-title mb-6">3. Conclusão e Próximos Passos</h2>
               <div class="box box-dark border-left-pink p-6">
-                <h4 class="title is-5 has-text-white mb-3">Parabéns pela dedicação!</h4>
+                <h4 class="title is-5  mb-3">Parabéns pela dedicação!</h4>
                 <div class="content">
                   <p class="mb-4">Esta semana de projetos provou que vocês são capazes de transformar conceitos em produtos reais. Cada linha de código escrita foi um passo importante na jornada de vocês como desenvolvedores.</p>
                   <p class="mt-4"><strong>Agora, estamos prontos para avançar para tópicos ainda mais avançados, construindo sobre esta base sólida que vocês criaram.</strong></p>
@@ -2074,7 +2074,7 @@ div {
       "dias": [
         {
           "id": 16,
-          "titulo": "Lógica de Programação: Ensinando o Computador a Pensar",
+          "titulo": "Lógica de Programação",
           "subtitulo": "Aula 5.1",
           "descricao": "Introduz lógica de programação: algoritmos, variáveis, operadores e condicionais. Praticamos Portugol e traduzimos soluções para JavaScript.",
           "icone": "fa-brain",
@@ -2175,7 +2175,7 @@ FIMSE
           "id": 17,
           "titulo": "Exercícios: Praticando a Lógica 5.1",
           "subtitulo": "Aula 5.1",
-          "descricao": "Exercícios práticos para fixar lógica: Olá Mundo, operações, médias, condições e estruturas de decisão; resolva em Portugol e JavaScript.",
+          "descricao": "Exercícios práticos para fixar lógica: Olá Mundo, operações, médias, condições e estruturas de decisão; resolva em Portugol e JavaScript usando lógica de programação.",
           "icone": "fa-brain",
           "conteudo": `
   <div class="container">
@@ -2484,6 +2484,481 @@ FIMSE
           </section>
         </div>
       `
+        },
+        {
+          id: 20,
+          titulo: "Estruturas de Dados e Laços de Repetição",
+          subtitulo: "Aula 5.3",
+          descricao: "Exploramos vetores, registros e laços de repetição em Portugol, praticando algoritmos para manipular coleções e automatizar tarefas.",
+          icone: "fa-brain",
+          conteudo: `
+            <div class="container">
+              <section id="aula-12">
+                <div class="content is-size-5">
+                  <div id="introducao" class="mb-6">
+                    <h3 class="title is-4 section-title mb-4">1. Por que Precisamos de Mais que Variáveis Simples?</h3>
+                    <p class="mb-5">Estruturas de dados como <strong class="highlight-pink">vetores</strong> e <strong class="highlight-pink">registros</strong> nos permitem organizar e agrupar informações de forma lógica e eficiente, mas como manipulamos essas coleções de dados sem repetir código várias vezes?</p>
+                  </div>
+                  <div id="vetores" class="mb-6">
+                    <h3 class="title is-4 section-title mb-4">2. Vetores (Arrays): Coleções Ordenadas</h3>
+                    <p class="mb-5">Um <strong>vetor</strong> é como um armário com várias gavetas numeradas (índices), que nos permite armazenar uma coleção de valores do mesmo tipo.</p>
+                    <pre class="p-4"><code>// Declara um vetor de 5 posições para guardar números inteiros\ninteiro notas[5]\nnotas[0] = 10\n// ...</code></pre>
+                  </div>
+                  <div id="lacos" class="mb-6">
+                    <h3 class="title is-4 section-title mb-4">3. Laços de Repetição: Automatizando Tarefas</h3>
+                    <p class="mb-5">Para trabalhar com vetores e outras tarefas repetitivas, usamos os <strong>laços de repetição</strong> (ou loops). Eles executam o mesmo bloco de código várias vezes.</p>
+                    <h4 class="title is-5 mb-2">PARA (for): Quando você sabe o número de repetições</h4>
+                    <p class="mb-4">O laço <code class="inline">para</code> é perfeito para percorrer vetores, pois sabemos exatamente o tamanho deles.</p>
+                    <pre class="p-4"><code>// Mostra todas as 5 notas do vetor\npara (inteiro i = 0; i < 5; i++) {\n  escreva("Nota na posição ", i, ": ", notas[i])\n}</code></pre>
+                    <h4 class="title is-5 mb-2">ENQUANTO (while): Quando a condição de parada é variável</h4>
+                    <p class="mb-4">O laço <code class="inline">enquanto</code> repete um bloco de código <strong>enquanto</strong> uma condição for verdadeira.</p>
+                    <pre class="p-4"><code>inteiro contador = 10\nenquanto (contador >= 0) {\n  escreva(contador, "...")\n  contador = contador - 1\n}\n// Saída: 10... 9... 8... etc.</code></pre>
+                  </div>
+                  <div id="registros" class="mb-6">
+                    <h3 class="title is-4 section-title mb-4">4. Registros (Objetos): Agrupando Dados Diferentes</h3>
+                    <p class="mb-5">Um <strong>registro</strong> é como uma ficha de cadastro, agrupando valores de tipos diferentes sobre uma mesma entidade.</p>
+                    <pre class="p-4"><code>registro Produto {\n  cadeia nome\n  real preco\n}\nProduto meuProduto\nmeuProduto.nome = "Teclado"</code></pre>
+                  </div>
+                  <div id="combinando" class="mb-6">
+                    <h3 class="title is-4 section-title mb-4">5. O Poder da Combinação: Percorrendo Vetores de Registros</h3>
+                    <p class="mb-5">Com os laços de repetição, agora podemos facilmente manipular um catálogo de produtos para, por exemplo, mostrar o nome de todos os itens.</p>
+                    <pre class="p-4"><code>// Usando um vetor de Produtos\nProduto catalogo[3]\n// (preencha o catálogo com 3 produtos)\npara (inteiro i = 0; i < 3; i++) {\n  escreva("Produto: ", catalogo[i].nome, " - Preço: R$ ", catalogo[i].preco)\n}</code></pre>
+                  </div>
+                </div>
+              </section>
+            </div>
+          `
+        },
+        {
+          id: 21,
+          titulo: "Exercícios: Praticando a Lógica 5.3",
+          subtitulo: "Aula 5.3",
+          descricao: "Conjunto de exercícios práticos sobre vetores e laços: preencher, somar, filtrar pares, buscar valores e inverter vetores usando Portugol.",
+          icone: "fa-brain",
+          conteudo: `
+  <div class="container">
+    <section id="exercicios-5-3">
+      <p class="content is-size-5 has-text-centered mb-5">Use os exemplos de entrada e saída para validar seus algoritmos em Portugol.</p>
+      <div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">1. Preencher e Exibir</h3>
+          <p>Crie um vetor de 5 posições. Use um laço <code class="inline">para</code> para pedir ao usuário que digite um número para cada posição. Ao final, exiba todos os números.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">2. Soma dos Elementos</h3>
+          <p>Crie um vetor de 6 números inteiros. Preencha-o e, usando um laço, calcule a soma de todos os seus elementos. Mostre o resultado final.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">3. Apenas os Pares</h3>
+          <p>Crie um vetor de 8 posições. Peça para o usuário preenchê-lo. Use um laço para percorrer o vetor e mostrar apenas os números pares.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">4. Encontrando o Maior Valor</h3>
+          <p>Crie um vetor de 7 números. Use um laço para encontrar o maior número dentro do vetor e mostre-o no final.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">5. Média da Turma</h3>
+          <p>Crie um vetor para armazenar a nota de 5 alunos. Use um laço para pedir as 5 notas. Ao final, calcule e mostre a média da turma.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">6. Contando Ímpares</h3>
+          <p>Crie um vetor com 10 números. Use um laço para contar quantos números ímpares existem no vetor e mostre essa contagem.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">7. Procurando um Número</h3>
+          <p>Crie um vetor de 10 posições. Peça ao usuário um número para buscar. Use um laço para verificar se o número está no vetor.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">8. Nomes com a Letra 'A'</h3>
+          <p>Crie um vetor com 5 nomes. Use um laço para mostrar apenas os nomes que começam com a letra 'A'.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">9. Vetor Invertido</h3>
+          <p>Crie um vetor com 6 números. Use um laço <code class="inline">para</code> que comece do final do vetor e vá até o início, mostrando os números em ordem inversa.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">10. Alunos Aprovados</h3>
+          <p>Crie um vetor para as notas de 8 alunos. Use um laço para contar e mostrar quantos alunos foram aprovados (nota &gt;= 7.0).</p>
+        </div>
+      </div>
+    </section>
+  </div>
+`
+        },
+        {
+          id: 22,
+          titulo: "O Laço enquanto (while)",
+          subtitulo: "Aula 5.4",
+          descricao: "Aprenda o laço 'enquanto' (while), suas diferenças para o 'para', uso em menus, e o perigo dos loops infinitos em Portugol.",
+          icone: "fa-brain",
+          conteudo: `
+  <div class="container">
+    <section id="aula-13">
+      <div class="content is-size-5">
+        <div id="introducao-while" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">1. Repetindo sem Saber o Fim</h3>
+          <p class="mb-5">O laço <code class="inline">para</code> é ótimo quando sabemos quantas vezes repetir. Mas se precisamos repetir até o <strong class="">usuário decidir parar</strong>?</p>
+          <p>O laço <strong class="has-text-pink">enquanto</strong> executa um bloco de código repetidamente <strong class="has-text-pink">enquanto uma condição for verdadeira</strong>.</p>
+        </div>
+        <div id="sintaxe-while" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">2. Sintaxe do <code class="inline">enquanto</code></h3>
+          <p class="mb-5">A estrutura é simples: testa a condição, executa o bloco, testa novamente. Só para quando a condição fica falsa.</p>
+          <pre class="p-4"><code>// Variável de controle fora do laço
+inteiro contador = 0
+
+enquanto (contador < 5) {
+  escreva("O valor do contador é: ", contador)
+  contador = contador + 1
+}
+// Saída:
+// O valor do contador é: 0
+// O valor do contador é: 1
+// ... até 4
+</code></pre>
+        </div>
+        <div id="para-vs-enquanto" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">3. <code class="inline">para</code> vs. <code class="inline">enquanto</code></h3>
+          <div class="columns">
+            <div class="column box">
+              <h4 class="title is-5 mb-2">Use <code class="inline">para</code></h4>
+              <ul>
+                <li>Percorrer vetor de tamanho fixo</li>
+                <li>Executar algo exatamente 10 vezes</li>
+                <li>Contagem regressiva</li>
+              </ul>
+            </div>
+            <div class="column box">
+              <h4 class="title is-5 mb-2">Use <code class="inline">enquanto</code></h4>
+              <ul>
+                <li>Esperar usuário digitar "sair"</li>
+                <li>Validar senha</li>
+                <li>Menu de opções ativo</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div id="switch-case" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">4. Menus com <code class="inline">escolha caso</code></h3>
+          <p>Para menus, usamos <strong class="has-text-pink">escolha caso</strong> para avaliar uma variável e executar o bloco correspondente.</p>
+          <pre class="p-4"><code>inteiro opcao
+escreva("Escolha uma opção (1 ou 2): ")
+leia(opcao)
+escolha (opcao) {
+  caso 1:
+    escreva("Você escolheu a opção 1.")
+    pare
+  caso 2:
+    escreva("Você escolheu a opção 2.")
+    pare
+  caso contrario:
+    escreva("Opção inválida!")
+}
+</code></pre>
+        </div>
+        <div id="loop-infinito" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">5. O Perigo do Loop Infinito</h3>
+          <p>Se a condição nunca fica falsa, o programa repete para sempre. Isso é um <strong class="has-text-pink">loop infinito</strong> e trava o programa.</p>
+          <pre class="p-4"><code>// Exemplo de loop infinito
+inteiro contador = 0
+
+enquanto (contador < 5) {
+  escreva("Isso vai repetir para sempre!")
+  // Esquecemos de incrementar o contador
+}
+</code></pre>
+        </div>
+      </div>
+    </section>
+  </div>
+`
+        },
+        {
+          id: 23,
+          titulo: "Exercícios: Praticando a Lógica 5.2",
+          subtitulo: "Aula 5.4",
+          descricao: "Exercícios práticos com o laço 'enquanto': contagem, validação, somas, fatorial, Fibonacci e manipulação de vetores em Portugol.",
+          icone: "fa-brain",
+          conteudo: `
+  <div class="container">
+    <section id="exercicios-5-4">
+      <div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">1. Contagem Crescente</h3>
+          <p>Use um laço <code class="inline">enquanto</code> para mostrar os números de 1 a 10.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">2. Peça um Número Positivo</h3>
+          <p>Peça ao usuário para digitar um número. Continue pedindo até que ele digite um número maior que 0.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">3. Adivinhe o Número</h3>
+          <p>Crie um "jogo" onde o número secreto é 42. Continue pedindo até que o usuário acerte.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">4. Somador com 'flag'</h3>
+          <p>Peça para o usuário digitar números para somar. O programa para quando digitar -1.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">5. Validação de Resposta</h3>
+          <p>Pergunte: "Você gosta de programação? (s/n)". Continue até que a resposta seja 's' ou 'n'.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">6. Potência sem usar operador direto</h3>
+          <p>Peça uma base e um expoente. Calcule a potência usando um laço <code class="inline">enquanto</code>.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">7. Contagem de Pares</h3>
+          <p>Mostre todos os números pares de 0 até 20.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">8. Média da Turma (com 'flag')</h3>
+          <p>Peça as notas de vários alunos. Pare quando uma nota negativa for digitada. Calcule e mostre a média.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">9. Fatorial de um Número</h3>
+          <p>Peça um número e calcule seu fatorial.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">10. Sequência de Fibonacci</h3>
+          <p>Peça um número N e mostre os N primeiros termos da sequência de Fibonacci.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">11. Divisão por Subtrações Sucessivas</h3>
+          <p>Peça dois números e calcule a divisão inteira usando apenas subtrações.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">12. Maior e Menor (com 'flag')</h3>
+          <p>Peça vários números. Pare quando digitar 0. Mostre o maior e o menor número digitado.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">13. Simulando um Saque</h3>
+          <p>Comece com saldo de R$500. Peça valores de saque até que seja menor ou igual ao saldo.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">14. Preenchendo Vetor com 'while'</h3>
+          <p>Crie um vetor de 5 posições. Use um laço <code class="inline">enquanto</code> para pedir os 5 números.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">15. Cadastro na Lista</h3>
+          <p>Crie um vetor de nomes. Permita digitar nomes até que o usuário digite "fim".</p>
+        </div>
+      </div>
+    </section>
+  </div>
+`
+        },
+        {
+          id: 24,
+          titulo: "Desfafio: Mini Calculadora Interativa",
+          subtitulo: "Desafio",
+          descricao: "Desafio final: implemente uma calculadora com menu interativo usando laço 'enquanto' e Portugol.",
+          icone: "fa-calculator",
+          conteudo: `
+  <div class="container">
+    <section id="desafio-calculadora">
+      <div class="box box-dark mb-5">
+        <h3 class="title is-5 mb-3">Enunciado do Desafio</h3>
+        <p>Crie um programa que funcione como uma mini calculadora. Ele deve mostrar um menu de opções para o usuário e continuar funcionando até que o usuário escolha sair.</p>
+        <p>Use um laço <code class="inline">enquanto</code> para manter o menu ativo.</p>
+        <p class="has-text-weight-bold mt-4">O menu deve ter as opções:</p>
+        <ul>
+          <li>1 - Somar dois números</li>
+          <li>2 - Verificar se um número é Par ou Ímpar</li>
+          <li>3 - Mostrar a Tabuada de um número</li>
+          <li>4 - Mostrar uma mensagem 10 vezes</li>
+          <li>5 - Sair</li>
+        </ul>
+        <p class="mt-4">Se o usuário digitar uma opção inválida, o programa deve mostrar "Opção inválida!" e exibir o menu novamente.</p>
+      </div>
+      <div class="box box-dark">
+        <h3 class="title is-5 mb-3">Exemplo de Funcionamento</h3>
+        <pre class="example-box p-4"><code>--- MENU ---
+1 - Somar
+2 - Par ou Ímpar
+3 - Tabuada
+4 - Mensagem 10x
+5 - Sair
+Escolha uma opção: 1
+
+Digite o primeiro número: 10
+Digite o segundo número: 5
+A soma é: 15
+
+--- MENU ---
+1 - Somar
+2 - Par ou Ímpar
+3 - Tabuada
+4 - Mensagem 10x
+5 - Sair
+Escolha uma opção: 3
+
+Digite um número para ver a tabuada: 7
+7 x 1 = 7
+7 x 2 = 14
+... (até 10)
+
+--- MENU ---
+1 - Somar
+2 - Par ou Ímpar
+3 - Tabuada
+4 - Mensagem 10x
+5 - Sair
+Escolha uma opção: 5
+
+Encerrando o programa...
+</code></pre>
+      </div>
+    </section>
+  </div>
+`
+        },
+        {
+          id: 25,
+          titulo: "Funções: Criando Nossas Ferramentas",
+          subtitulo: "Aula 5.5",
+          descricao: "Funções em Portugol: como criar, usar parâmetros, retornar valores e evitar repetição de código.",
+          icone: "fa-brain",
+          conteudo: `
+  <div class="container">
+    <section id="aula-14">
+      <div class="content is-size-5">
+        <div id="o-problema-repeticao" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">1. O Problema: Código Repetido</h3>
+          <p class="mb-5">Calcular a média de notas em vários lugares gera repetição, mais trabalho, mais erros e dificulta manutenção.</p>
+          <ul>
+            <li>Dá mais trabalho.</li>
+            <li>Aumenta a chance de erros.</li>
+            <li>Dificulta a manutenção.</li>
+          </ul>
+        </div>
+        <div id="o-que-e-funcao" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">2. O que é uma Função?</h3>
+          <p class="mb-5">Uma <strong class="has-text-pink">função</strong> é um bloco de código reutilizável, como uma "máquina" que você constrói uma vez e usa sempre que quiser.</p>
+          <p>Funções ajudam a seguir o princípio <strong class="">DRY (Don't Repeat Yourself)</strong>.</p>
+        </div>
+        <div id="funcao-simples" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">3. Criando uma Função Simples</h3>
+          <p class="mb-5">Função básica: executa uma ação, sem receber ou devolver informações.</p>
+          <pre class="p-4"><code>// Definindo a função
+funcao mostrarMenu() {
+  escreva("--- MENU ---\n")
+  escreva("1 - Jogar\n")
+  escreva("2 - Sair\n")
+}
+
+funcao inicio() {
+  mostrarMenu()
+}
+</code></pre>
+        </div>
+        <div id="parametros" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">4. Parâmetros: Os "Ingredientes" da Função</h3>
+          <p class="mb-5">Parâmetros são variáveis que a função recebe para executar sua tarefa.</p>
+          <pre class="p-4"><code>// Função recebe um 'nome' como parâmetro
+funcao saudar(cadeia nome) {
+  escreva("Olá, ", nome, "! Bem-vindo(a).")
+}
+
+funcao inicio() {
+  saudar("Vitor")
+  saudar("Maria")
+}
+</code></pre>
+        </div>
+        <div id="retorno" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">5. Retorno: O "Produto Final" da Função</h3>
+          <p class="mb-5">Funções podem calcular um valor e <strong class="has-text-pink">retornar</strong> para quem chamou. Defina o tipo de dado e use <code class="inline">retorne</code>.</p>
+          <pre class="p-4"><code>// Função recebe dois inteiros e retorna um inteiro
+funcao inteiro somar(inteiro n1, inteiro n2) {
+  inteiro resultado = n1 + n2
+  retorne resultado
+}
+
+funcao inicio() {
+  inteiro somaTotal = somar(10, 5)
+  escreva("O resultado da soma é: ", somaTotal)
+}
+</code></pre>
+        </div>
+      </div>
+    </section>
+  </div>
+`
+        },
+        {
+          id: 26,
+          titulo: "Exercícios: Praticando a Lógica 5.5",
+          subtitulo: "Aula 5.5",
+          descricao: "Exercícios práticos com funções: parâmetros, retorno, vetores, tabuada, calculadora e refatoração em Portugol.",
+          icone: "fa-brain",
+          conteudo: `
+  <div class="container">
+    <section id="exercicios-5-5">
+      <div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">1. Mensagem de Boas-Vindas</h3>
+          <p>Crie uma função chamada <code class="inline">mostrarBoasVindas</code> que não recebe parâmetros e mostra "Bem-vindo ao nosso programa!".</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">2. Saudação Personalizada</h3>
+          <p>Crie uma função <code class="inline">saudarUsuario</code> que recebe um <code class="inline">nome</code> e mostra "Olá, [nome]! Tenha um bom dia!".</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">3. Dobro de um Número</h3>
+          <p>Crie uma função <code class="inline">calcularDobro</code> que recebe um inteiro e retorna o dobro.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">4. Média de Três Números</h3>
+          <p>Crie uma função <code class="inline">calcularMedia</code> que recebe três notas e retorna a média.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">5. Verificador de Par ou Ímpar</h3>
+          <p>Crie uma função <code class="inline">verificarParidade</code> que recebe um inteiro e mostra se é "Par" ou "Ímpar".</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">6. Maior de Dois Números</h3>
+          <p>Crie uma função <code class="inline">encontrarMaior</code> que recebe dois inteiros e retorna o maior.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">7. Tabuada com Função</h3>
+          <p>Crie uma função <code class="inline">mostrarTabuada</code> que recebe um inteiro e mostra a tabuada de 1 a 10.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">8. Contagem Regressiva com Função</h3>
+          <p>Crie uma função <code class="inline">contagemRegressiva</code> que recebe um inteiro inicial e faz contagem regressiva até 0.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">9. Somar Elementos de um Vetor</h3>
+          <p>Crie uma função <code class="inline">somarVetor</code> que recebe um vetor de inteiros e retorna a soma dos elementos.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">10. Encontrar o Menor Valor em um Vetor</h3>
+          <p>Crie uma função <code class="inline">encontrarMenor</code> que recebe um vetor e retorna o menor valor.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">11. Contar Pares em um Vetor</h3>
+          <p>Crie uma função <code class="inline">contarPares</code> que recebe um vetor de inteiros e retorna a quantidade de pares.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">12. Situação do Aluno</h3>
+          <p>Crie uma função <code class="inline">verificarAprovacao</code> que recebe uma média e retorna "Aprovado" ou "Reprovado".</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">13. Calculadora Simples</h3>
+          <p>Crie uma função <code class="inline">calculadora</code> que recebe dois números e uma operação (<code class="inline">+ - * /</code>) e retorna o resultado.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">14. Limpador de Tela</h3>
+          <p>Crie uma função <code class="inline">limparTela</code> que escreve 50 linhas em branco, simulando limpeza de console.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">15. Refatorando o Desafio</h3>
+          <p>Refatore o desafio da calculadora: crie uma função para cada opção do menu e deixe <code class="inline">inicio</code> apenas com o laço do menu.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+`
         }
       ]
     },
@@ -2492,28 +2967,2693 @@ FIMSE
       "titulo": "Semana 6",
       "subtitulo": "4/4 dias",
       "descricao": "JavaScript - Dando vida às páginas com interatividade",
-      "icone": "fa-js"
+      "icone": "fa-js",
+      "dias": [
+        {
+          id: 27,
+          titulo: "JavaScript: A Linguagem da Web Interativa",
+          subtitulo: "Aula 6.1",
+          descricao: "Introdução ao JavaScript: linguagem da web interativa, variáveis, sintaxe e tradução de Portugol para JS.",
+          icone: "fa-code",
+          conteudo: `
+  <div class="container">
+    <section id="aula-15">
+      <div class="content is-size-5">
+        <div id="o-que-e-js" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">1. O que é JavaScript?</h3>
+          <p class="mb-5">Até agora, aprendemos HTML e CSS. O <strong class="has-text-pink">JavaScript (JS)</strong> é a terceira camada: linguagem que adiciona <strong class="">interatividade, lógica e dinamismo</strong> às páginas.</p>
+          <p>Se HTML é o esqueleto e CSS é a pele, JavaScript é o sistema nervoso e os músculos.</p>
+        </div>
+        <div id="onde-roda" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">2. Onde o JavaScript Roda?</h3>
+          <div class="columns">
+            <div class="column box">
+              <h4 class="title is-5 mb-2">No Navegador (Front-end)</h4>
+              <p>Ambiente natural. Todo navegador moderno tem um motor JS (como V8 do Chrome) que executa código e permite manipular a página, responder a cliques, validar formulários, etc.</p>
+            </div>
+            <div class="column box">
+              <h4 class="title is-5 mb-2">Fora do Navegador (com Node.js)</h4>
+              <p>Graças ao <strong class="">Node.js</strong>, podemos usar JS para back-end, ferramentas de linha de comando e mais, rodando na máquina.</p>
+            </div>
+          </div>
+        </div>
+        <div id="como-usar" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">3. Como Adicionar JavaScript a uma Página</h3>
+          <p class="mb-5">Duas maneiras principais de incluir JS em HTML.</p>
+          <h4 class="title is-5 mb-2 ">Método 1: Script Interno</h4>
+          <p class="mb-4">Escrever código diretamente no HTML, dentro de <code class="inline">&lt;script&gt;</code>. Geralmente no final do <code class="inline">&lt;body&gt;</code>.</p>
+          <pre class="p-4"><code>&lt;body&gt;
+  &lt;!-- Conteúdo do site --&gt;
+
+  &lt;script&gt;
+    console.log("Olá, Mundo! Isso roda no console do navegador.");
+  &lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+          <h4 class="title is-5 mb-2 ">Método 2: Script Externo (Recomendado)</h4>
+          <p class="mb-4">Melhor prática: arquivo separado com extensão <code class="inline">.js</code> e linkar ao HTML. Mantém código organizado.</p>
+          <pre class="p-4"><code>&lt;!-- No arquivo index.html --&gt;
+&lt;body&gt;
+  &lt;!-- Conteúdo do site --&gt;
+
+  &lt;script src="meu_script.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+
+&lt;!-- No arquivo meu_script.js --&gt;
+console.log("Este código veio de um arquivo externo!");
+</code></pre>
+        </div>
+        <div id="variaveis-js" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">4. Declarando Variáveis: <code class="inline">var</code>, <code class="inline">let</code> e <code class="inline">const</code></h3>
+          <p class="mb-5">Em JS moderno, usar principalmente <code class="inline">let</code> e <code class="inline">const</code>. <code class="inline">var</code> é antigo e deve ser evitado.</p>
+          <div class="mb-6">
+            <div class="box">
+              <h4 class="title is-5 ">const (Constante)</h4>
+              <p>Use para valores que <strong class="">não vão mudar</strong>. Uma vez declarada, não pode atribuir novo valor. Escolha padrão.</p>
+              <pre class="mt-2 p-2"><code>const nome = "Vitor";</code></pre>
+            </div>
+            <div class="box">
+              <h4 class="title is-5 ">let (Variável)</h4>
+              <p>Use para valores que <strong class="">precisam ser alterados</strong>, como contador em laço.</p>
+              <pre class="mt-2 p-2"><code>let idade = 25;
+idade = 26; // Funciona!</code></pre>
+            </div>
+            <div class="box has-background-danger-light">
+              <h4 class="title is-5 ">var (Antigo)</h4>
+              <p>Forma antiga. Comportamento de escopo pode causar bugs. <strong class="has-text-danger">Evite em código novo.</strong></p>
+            </div>
+          </div>
+          <div class="notification is-info is-light">
+            <h4 class="title is-5  mb-2">Regra de Ouro</h4>
+            <p>Comece sempre com <code class="inline">const</code>. Se precisar mudar, troque para <code class="inline">let</code>.</p>
+          </div>
+        </div>
+        <div id="portugol-para-js" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">5. De Portugol para JavaScript: Guia de "Tradução"</h3>
+          <p class="mb-5">A lógica é a mesma! Muda a sintaxe. Esta tabela ajuda a "traduzir".</p>
+          <table class="table is-fullwidth is-striped">
+            <thead>
+              <tr>
+                <th>Conceito</th>
+                <th>Portugol (Portugol Studio)</th>
+                <th>JavaScript</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="has-text-weight-semibold">Escrever no console</td>
+                <td><code class="inline">escreva("Alguma coisa")</code></td>
+                <td><code class="inline">console.log("Alguma coisa")</code></td>
+              </tr>
+              <tr>
+                <td class="has-text-weight-semibold">Declaração de Variável</td>
+                <td><code class="inline">inteiro idade = 18</code><br><code class="inline">cadeia nome = "Ana"</code></td>
+                <td><code class="inline">let idade = 18;</code><br><code class="inline">const nome = "Ana";</code></td>
+              </tr>
+              <tr>
+                <td class="has-text-weight-semibold">Saída de Dados</td>
+                <td><code class="inline">escreva("Olá")</code></td>
+                <td><code class="inline">console.log("Olá")</code></td>
+              </tr>
+              <tr>
+                <td class="has-text-weight-semibold">Condicional</td>
+                <td><code class="inline">se (idade >= 18) { ... } senao { ... }</code></td>
+                <td><code class="inline">if (idade >= 18) { ... } else { ... }</code></td>
+              </tr>
+              <tr>
+                <td class="has-text-weight-semibold">Operadores Lógicos</td>
+                <td><code class="inline">e</code>, <code class="inline">ou</code></td>
+                <td><code class="inline">&&</code>, <code class="inline">||</code></td>
+              </tr>
+              <tr>
+                <td class="has-text-weight-semibold">Laço <code class="inline">para</code> (for)</td>
+                <td><code class="inline">para (inteiro i=0; i < 5; i++) { ... }</code></td>
+                <td><code class="inline">for (let i = 0; i < 5; i++) { ... }</code></td>
+              </tr>
+              <tr>
+                <td class="has-text-weight-semibold">Laço <code class="inline">enquanto</code> (while)</td>
+                <td><code class="inline">enquanto (condicao) { ... }</code></td>
+                <td><code class="inline">while (condicao) { ... }</code></td>
+              </tr>
+              <tr>
+                <td class="has-text-weight-semibold">Função com Retorno</td>
+                <td><code class="inline">funcao inteiro somar(...) { retorne ... }</code></td>
+                <td><code class="inline">function somar(...) { return ... }</code></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </div>
+`
+        },
+        {
+          id: 28,
+          titulo: "Exercícios: Praticando Com JavaScript",
+          subtitulo: "Aula 6.1",
+          descricao: "Exercícios práticos de lógica com JavaScript: variáveis, condicionais, laços, funções e arrays.",
+          icone: "fa-code",
+          conteudo: `
+  <div class="container">
+    <section id="exercicios-6-1">
+      <p class="content is-size-5 has-text-centered mb-5">Crie um arquivo HTML e um arquivo JS separado para resolver cada exercício. Use <code class="inline">console.log()</code> para mostrar os resultados no console do navegador.</p>
+      <div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">1. Olá, Mundo no Console</h3>
+          <p>Escreva um código que mostre a mensagem "Olá, Mundo!" no console.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">2. Variáveis com Nome</h3>
+          <p>Crie uma variável <code class="inline">nome</code> e uma <code class="inline">sobrenome</code>. Atribua seus dados e mostre "Meu nome completo é: [nome] [sobrenome]".</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">3. Soma Simples</h3>
+          <p>Crie duas variáveis, <code class="inline">numero1</code> e <code class="inline">numero2</code>, com valores numéricos. Some-as e mostre o resultado.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">4. Média de Notas (Array)</h3>
+          <p>Crie um array <code class="inline">notas</code> com 3 notas. Calcule a média e mostre o resultado.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">5. Par ou Ímpar</h3>
+          <p>Crie uma variável com um número. Use <code class="inline">if/else</code> para verificar se é par ou ímpar e mostre a mensagem.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">6. Situação do Aluno</h3>
+          <p>Usando o exercício da média, verifique se o aluno foi "Aprovado" (média >= 7) ou "Reprovado".</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">7. Tabuada com <code class="inline">for</code></h3>
+          <p>Crie uma variável <code class="inline">numeroTabuada</code>. Use um laço <code class="inline">for</code> para mostrar a tabuada de 1 a 10.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">8. Percorrendo Nomes</h3>
+          <p>Crie um array com 5 nomes. Use um laço <code class="inline">for</code> para mostrar cada nome no console.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">9. Contagem Regressiva com <code class="inline">while</code></h3>
+          <p>Use um laço <code class="inline">while</code> para fazer uma contagem regressiva de 10 a 0.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">10. Função de Saudação</h3>
+          <p>Crie uma função <code class="inline">saudar</code> que recebe um <code class="inline">nome</code> e retorna "Olá, [nome]!". Chame e mostre no console.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">11. Função de Soma</h3>
+          <p>Crie uma função <code class="inline">somar</code> que recebe dois números e retorna a soma.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">12. Função para Calcular Média de um Array</h3>
+          <p>Crie uma função <code class="inline">calcularMediaArray</code> que recebe um array de notas e retorna a média. Use um laço dentro.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">13. Encontrando o Maior Número em um Array</h3>
+          <p>Crie uma função <code class="inline">encontrarMaior</code> que recebe um array de números e retorna o maior valor.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">14. Contando Vogais</h3>
+          <p>Crie uma função que recebe uma <code class="inline">palavra</code> (string) e retorna o número de vogais.</p>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">15. Invertendo uma String</h3>
+          <p>Crie uma função que recebe uma <code class="inline">palavra</code> e a retorna invertida. Ex: "javascript" -> "tpircsavaj".</p>
+        </div>
+      </div>
+    </section>
+  </div>
+`
+        },
+        {
+          id: 29,
+          titulo: "Manipulando o DOM com JavaScript",
+          subtitulo: "Aula 6.2",
+          descricao: "Manipulação do DOM com JavaScript: selecionar elementos, modificar conteúdo, estilos e responder a eventos.",
+          icone: "fa-code",
+          conteudo: `
+  <div class="container">
+    <section id="aula-16">
+      <div class="content is-size-5">
+        <div id="o-que-e-dom" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">1. O que é o DOM?</h3>
+          <p class="mb-5">Quando o navegador carrega uma página HTML, ele cria uma representação da estrutura na memória. Essa representação é o <strong class="has-text-pink">DOM (Document Object Model)</strong>.</p>
+          <p>Pense no DOM como uma <strong class="">árvore hierárquica</strong> onde cada tag HTML é um "nó". O JS pode acessar e modificar essa árvore, alterando o que é exibido <strong class="">sem recarregar</strong>.</p>
+          <div class="columns">
+            <div class="column">
+              <h4 class="title is-5  mb-2">Exemplo de HTML:</h4>
+              <pre class="p-4"><code>&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Minha Página&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Título&lt;/h1&gt;
+    &lt;p&gt;Um parágrafo.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+            </div>
+            <div class="column">
+              <h4 class="title is-5  mb-2">Árvore DOM Correspondente:</h4>
+              <pre class="dom-tree p-4">Document
+└── html
+    ├── head
+    │   └── title
+    │       └── #text ("Minha Página")
+    └── body
+        ├── h1
+        │   └── #text ("Título")
+        └── p
+            └── #text ("Um parágrafo.")
+</pre>
+            </div>
+          </div>
+        </div>
+        <div id="selecionando-elementos" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">2. Selecionando Elementos HTML</h3>
+          <p class="mb-5">Para modificar um elemento, primeiro precisamos "encontrá-lo" no DOM. JS oferece várias formas.</p>
+          <h4 class="title is-5 mb-2 "><code class="inline">getElementById()</code>: Buscando por ID</h4>
+          <p class="mb-4">A forma mais direta. Se um elemento tem um atributo <code class="inline">id</code> único, podemos selecioná-lo facilmente.</p>
+          <pre class="p-4"><code>// HTML: &lt;h1 id="titulo-principal"&gt;Olá&lt;/h1&gt;
+const titulo = document.getElementById('titulo-principal');
+// Agora a variável 'titulo' representa o elemento H1
+</code></pre>
+          <h4 class="title is-5 mb-2 "><code class="inline">querySelector()</code>: Buscando com Seletor CSS</h4>
+          <p class="mb-4">Mais versátil. Permite usar seletores CSS para encontrar o <strong class="">primeiro</strong> elemento que corresponda.</p>
+          <pre class="p-4"><code>// HTML: &lt;button class="botao-confirmar"&gt;Enviar&lt;/button&gt;
+const botao = document.querySelector('.botao-confirmar'); // Busca pela classe
+const primeiroParagrafo = document.querySelector('p'); // Busca pela tag
+const elementoComID = document.querySelector('#id-especifico'); // Busca pelo ID
+</code></pre>
+          <h4 class="title is-5 mb-2 "><code class="inline">querySelectorAll()</code>: Buscando Vários Elementos</h4>
+          <p class="mb-4">Similar ao <code class="inline">querySelector</code>, mas retorna uma <strong class="">lista</strong> (NodeList) de <strong class="">todos</strong> os elementos que correspondem.</p>
+          <pre class="p-4"><code>// HTML: &lt;li&gt;Item 1&lt;/li&gt; &lt;li&gt;Item 2&lt;/li&gt;
+const todosOsItensDaLista = document.querySelectorAll('li');
+// Retorna uma lista com os dois LIs
+</code></pre>
+        </div>
+        <div id="modificando-conteudo" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">3. Modificando o Conteúdo</h3>
+          <p class="mb-5">Uma vez selecionado, podemos alterar seu conteúdo de texto ou HTML.</p>
+          <h4 class="title is-5 mb-2 "><code class="inline">innerText</code> ou <code class="inline">textContent</code>: Alterando o Texto</h4>
+          <p class="mb-4">Ambos servem para ler ou definir o conteúdo de texto, ignorando tags HTML.</p>
+          <pre class="p-4"><code>const titulo = document.getElementById('titulo-principal');
+titulo.innerText = "Novo Título da Página"; // Muda o texto do H1
+console.log(titulo.textContent); // Mostra o texto atual no console
+</code></pre>
+          <h4 class="title is-5 mb-2 "><code class="inline">innerHTML</code>: Alterando o HTML Interno</h4>
+          <p class="mb-4">Permite ler ou definir todo o conteúdo HTML. Use com <strong class="has-text-danger">cuidado</strong>, pois pode abrir brechas de segurança.</p>
+          <pre class="p-4"><code>const caixa = document.querySelector('.minha-caixa');
+caixa.innerHTML = "&lt;strong&gt;Texto em negrito&lt;/strong&gt; dentro da caixa.";
+</code></pre>
+        </div>
+        <div id="modificando-estilos" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">4. Modificando Estilos CSS</h3>
+          <p class="mb-5">Podemos alterar estilos diretamente ou manipulando classes CSS.</p>
+          <h4 class="title is-5 mb-2 ">Diretamente com <code class="inline">style</code></h4>
+          <p class="mb-4">Útil para alterações rápidas. Propriedades CSS com hífen viram camelCase.</p>
+          <pre class="p-4"><code>const botao = document.querySelector('button');
+botao.style.backgroundColor = '#e80170';
+botao.style.color = 'white';
+</code></pre>
+          <h4 class="title is-5 mb-2 ">Manipulando Classes com <code class="inline">classList</code> (Recomendado)</h4>
+          <p class="mb-4">Forma mais limpa. Define classes no CSS e usa JS para adicionar/remover.</p>
+          <pre class="p-4"><code>// CSS: .ativo { background-color: #e80170; color: white; }
+
+const itemMenu = document.querySelector('#menu-item-1');
+
+itemMenu.classList.add('ativo');    // Adiciona a classe
+itemMenu.classList.remove('ativo'); // Remove a classe
+
+// O mais útil: toggle!
+// Se existe, remove. Se não, adiciona. Perfeito para botões e menus.
+itemMenu.classList.toggle('ativo');
+</code></pre>
+        </div>
+        <div id="event-listener" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">5. Respondendo a Ações: Event Listeners</h3>
+          <p class="mb-5">Para fazer a página responder às ações do usuário, usamos <strong class="has-text-pink">Event Listeners</strong> para "ouvir" eventos e executar uma função.</p>
+          <pre class="p-4"><code>// HTML: &lt;button id="meu-botao"&gt;Clique Aqui&lt;/button&gt;
+//       &lt;p id="mensagem"&gt;&lt;/p&gt;
+
+const botao = document.getElementById('meu-botao');
+const paragrafoMensagem = document.getElementById('mensagem');
+
+// Adiciona um "ouvinte" para o evento de 'click' no botão
+botao.addEventListener('click', function() {
+  // Esta função será executada QUANDO o botão for clicado
+  paragrafoMensagem.textContent = "O botão foi clicado!";
+  botao.classList.toggle('ativo'); // Exemplo usando toggle no clique
+});
+</code></pre>
+          <p class="mt-4">Existem muitos tipos de eventos: <code class="inline">click</code>, <code class="inline">mouseover</code>, <code class="inline">keydown</code>, <code class="inline">submit</code>, etc.</p>
+        </div>
+        <div id="conclusao-dom" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">6. Conclusão</h3>
+          <div class="notification is-info is-light">
+            <p class="mb-4">Dominar a manipulação do DOM é a chave para páginas dinâmicas. Hoje vimos:</p>
+            <ul>
+              <li>Selecionar elementos (<code class="inline">getElementById</code>, <code class="inline">querySelector</code>).</li>
+              <li>Alterar conteúdo (<code class="inline">innerText</code>, <code class="inline">innerHTML</code>).</li>
+              <li>Alterar estilos (<code class="inline">.style</code> e <code class="inline">.classList</code>).</li>
+              <li>Ouvir eventos (<code class="inline">addEventListener</code>).</li>
+            </ul>
+            <p class="has-text-weight-bold mt-4">Com essas ferramentas, vocês já podem criar pequenas interações!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+`
+        },
+        {
+          id: 30,
+          titulo: "Exercícios: Manipulando o DOM",
+          subtitulo: "Aula 6.2",
+          descricao: "Exercícios práticos de manipulação do DOM: selecionar, modificar conteúdo, estilos e eventos com JavaScript.",
+          icone: "fa-code",
+          conteudo: `
+  <div class="container">
+    <section id="exercicios-6-2">
+      <p class="content is-size-5 has-text-centered mb-5">Crie um arquivo HTML e um arquivo JS para cada exercício. Use o HTML fornecido como base.</p>
+      <div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">1. Mudar Texto do Título</h3>
+          <p>Selecione o <code class="inline">&lt;h1&gt;</code> pelo seu ID e altere seu texto para "Título Modificado pelo JS".</p>
+          <pre class="html-snippet p-2 mt-3">&lt;h1 id="titulo"&gt;Título Original&lt;/h1&gt;</pre>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">2. Mudar Cor do Parágrafo</h3>
+          <p>Selecione o <code class="inline">&lt;p&gt;</code> usando <code class="inline">querySelector</code> e altere a cor do seu texto para <code class="inline">#e80170</code>.</p>
+          <pre class="html-snippet p-2 mt-3">&lt;p class="paragrafo"&gt;Este é um parágrafo.&lt;/p&gt;</pre>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">3. Alerta no Clique</h3>
+          <p>Selecione o botão pelo ID. Adicione um <code class="inline">addEventListener</code> para o evento <code class="inline">click</code> que mostre um <code class="inline">console.log("Botão clicado!")</code>.</p>
+          <pre class="html-snippet p-2 mt-3">&lt;button id="meuBotao" class="example-btn"&gt;Clique Aqui&lt;/button&gt;</pre>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">4. Mudar Texto no Clique</h3>
+          <p>Selecione o botão e o parágrafo. Quando o botão for clicado, mude o texto do parágrafo para "Texto alterado!".</p>
+          <pre class="html-snippet p-2 mt-3">&lt;button id="btnMudar" class="example-btn"&gt;Mudar Texto&lt;/button&gt;
+&lt;p id="textoParaMudar"&gt;Texto inicial.&lt;/p&gt;</pre>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">5. Mostrar/Ocultar Elemento</h3>
+          <p>Selecione o botão e a <code class="inline">div</code>. Quando o botão for clicado, oculte a <code class="inline">div</code> definindo seu estilo <code class="inline">display</code> como <code class="inline">none</code>.</p>
+          <pre class="html-snippet p-2 mt-3">&lt;button id="btnOcultar" class="example-btn"&gt;Ocultar&lt;/button&gt;
+&lt;div id="caixa" style="width:100px; height:100px; background-color: #e80170; margin-top: 10px;"&gt;&lt;/div&gt;</pre>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">6. Mudar Estilo no MouseOver</h3>
+          <p>Selecione a <code class="inline">div</code>. Adicione um <code class="inline">addEventListener</code> para o evento <code class="inline">mouseover</code>. Quando o mouse passar sobre a <code class="inline">div</code>, mude sua cor de fundo para <code class="inline">blue</code>.</p>
+          <pre class="html-snippet p-2 mt-3">&lt;div id="hoverDiv" style="width:100px; height:100px; background-color: #e80170;"&gt;Passe o mouse aqui&lt;/div&gt;</pre>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">7. Voltar Estilo no MouseOut</h3>
+          <p>Complementando o exercício anterior, adicione um <code class="inline">addEventListener</code> para <code class="inline">mouseout</code>. Quando o mouse sair da <code class="inline">div</code>, volte a cor de fundo para <code class="inline">#e80170</code>.</p>
+          <pre class="html-snippet p-2 mt-3">(Use o mesmo HTML do exercício 6)</pre>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">8. Contar Cliques</h3>
+          <p>Selecione o botão e o <code class="inline">span</code>. Crie uma variável <code class="inline">contador</code> inicializada com 0. A cada clique no botão, incremente o contador e atualize o texto do <code class="inline">span</code>.</p>
+          <pre class="html-snippet p-2 mt-3">&lt;button id="btnContador" class="example-btn"&gt;Clique +1&lt;/button&gt;
+&lt;p&gt;Cliques: &lt;span id="numCliques"&gt;0&lt;/span&gt;&lt;/p&gt;</pre>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">9. Alterar <code class="inline">innerHTML</code></h3>
+          <p>Selecione a <code class="inline">div</code> pelo ID. Use <code class="inline">innerHTML</code> para colocar dentro dela o seguinte HTML: <code class="inline">&lt;strong&gt;Texto em negrito&lt;/strong&gt; e &lt;em&gt;itálico&lt;/em&gt;.</code>.</p>
+          <pre class="html-snippet p-2 mt-3">&lt;div id="conteudoHtml"&gt;&lt;/div&gt;</pre>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">10. Mudar Imagem no Clique</h3>
+          <p>Selecione o botão e a imagem. Quando o botão for clicado, altere o atributo <code class="inline">src</code> da imagem para <code class="inline">https://placehold.co/200x100/e80170/white?text=Imagem+2</code>.</p>
+          <pre class="html-snippet p-2 mt-3">&lt;button id="btnTrocaImg" class="example-btn"&gt;Trocar Imagem&lt;/button&gt;
+&lt;img id="minhaImagem" src="https://placehold.co/200x100/cccccc/black?text=Imagem+1" alt="Placeholder" style="margin-top: 10px;"&gt;</pre>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">11. Pegar Valor do Input</h3>
+          <p>Selecione o botão e o input. Quando o botão for clicado, pegue o valor digitado no input (propriedade <code class="inline">.value</code>) e mostre no console.</p>
+          <pre class="html-snippet p-2 mt-3">&lt;input type="text" id="meuInput" placeholder="Digite algo" class="text-gray-900 p-2 rounded"&gt;
+&lt;button id="btnPegarValor" class="example-btn"&gt;Mostrar Valor&lt;/button&gt;</pre>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">12. Copiar Texto do Input</h3>
+          <p>Selecione o input, o botão e o parágrafo. Quando o botão for clicado, copie o valor do input para o <code class="inline">textContent</code> do parágrafo.</p>
+          <pre class="html-snippet p-2 mt-3">&lt;input type="text" id="inputCopiar" placeholder="Digite para copiar" class="text-gray-900 p-2 rounded"&gt;
+&lt;button id="btnCopiar" class="example-btn"&gt;Copiar&lt;/button&gt;
+&lt;p id="destinoCopia"&gt;O texto aparecerá aqui.&lt;/p&gt;</pre>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">13. Alterar Todos os Itens da Lista</h3>
+          <p>Selecione todos os <code class="inline">li</code> usando <code class="inline">querySelectorAll</code>. Use um laço <code class="inline">for</code> para percorrer a lista e alterar o <code class="inline">textContent</code> de cada item para "Item modificado".</p>
+          <pre class="html-snippet p-2 mt-3">&lt;ul&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+  &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ul&gt;</pre>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">14. Mudar Classe CSS no Clique</h3>
+          <p>Crie uma classe CSS <code class="inline">destacado</code> e adicione-a ao bloco <code class="inline">style</code> principal. Selecione o botão e o parágrafo. Quando o botão for clicado, adicione a classe <code class="inline">destacado</code> ao parágrafo usando <code class="inline">classList.add()</code>.</p>
+          <pre class="html-snippet p-2 mt-3">&lt;button id="btnClasse" class="example-btn"&gt;Destacar&lt;/button&gt;
+&lt;p id="textoClasse"&gt;Este texto pode ser destacado.&lt;/p&gt;</pre>
+        </div>
+        <div class="box box-dark mb-4">
+          <h3 class="title is-5 mb-3">15. Alternar (Toggle) Classe CSS</h3>
+          <p>Similar ao anterior, mas use <code class="inline">classList.toggle('destacado')</code>. Agora, cada clique no botão vai adicionar ou remover a classe.</p>
+          <pre class="html-snippet p-2 mt-3">(Use o mesmo HTML do exercício 14)</pre>
+        </div>
+      </div>
+    </section>
+  </div>
+`
+        },
+        {
+          id: 31,
+          titulo: "Projeto: Todo List com JavaScript",
+          subtitulo: "Aula 6.4",
+          descricao: "Projeto Todo List: estrutura HTML inicial, CSS básico e seleção de elementos com JavaScript.",
+          icone: "fa-code",
+          conteudo: `
+  <div class="container">
+    <section id="aula-18">
+      <div class="content is-size-5">
+        <div id="objetivo-projeto" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">1. Objetivo do Projeto</h3>
+          <p class="mb-5">Nesta série de aulas, vamos construir uma aplicação de lista de tarefas (Todo List) funcional, aplicando tudo que aprendemos sobre HTML, CSS e JavaScript, incluindo a manipulação do DOM e o uso do <code class="inline">localStorage</code> para salvar as tarefas.</p>
+          <p>Nosso ponto de partida é o design definido no Figma: <a href="https://figma.com/design/mUt1H6wsEFyCk1c47iyqjB/Todo-List---JavaScript--Community-?t=PISwnbS3FnJucj0N-0" target="_blank" class="has-text-link">Link do Protótipo</a>.</p>
+        </div>
+        <div id="estrutura-html-inicial" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">2. Estrutura HTML Inicial</h3>
+          <p class="mb-5">Começamos criando o esqueleto da nossa aplicação no arquivo <code class="inline">index.html</code>. Definimos as áreas principais: o título, o campo para adicionar novas tarefas e a lista onde as tarefas serão exibidas.</p>
+          <pre class="p-4"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-BR"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Todo List&lt;/title&gt;
+    &lt;link rel="stylesheet" href="style.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class="container"&gt;
+        &lt;h1&gt;Minha Lista de Tarefas&lt;/h1&gt;
+
+        &lt;div class="input-section"&gt;
+            &lt;input type="text" id="nova-tarefa" placeholder="Adicione uma nova tarefa..."&gt;
+            &lt;button id="btn-adicionar"&gt;Adicionar&lt;/button&gt;
+        &lt;/div&gt;
+
+        &lt;ul id="lista-tarefas"&gt;
+            &lt;!-- As tarefas serão adicionadas aqui via JS --&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+
+    &lt;script src="script.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+          <p class="mt-4">Note que já linkamos um arquivo <code class="inline">style.css</code> e um <code class="inline">script.js</code>.</p>
+        </div>
+        <div id="estilo-css-base" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">3. Estilização Básica (CSS)</h3>
+          <p class="mb-5">No arquivo <code class="inline">style.css</code>, adicionamos alguns estilos iniciais para dar uma aparência mais organizada, baseada no protótipo. (Exemplos simplificados)</p>
+          <pre class="p-4"><code>body {
+  /* Estilos gerais */
+}
+
+.container {
+  /* Centralização, largura máxima */
+}
+
+.input-section {
+  /* Display flex para alinhar input e botão */
+}
+
+#nova-tarefa {
+  /* Estilos do input */
+}
+
+#btn-adicionar {
+  /* Estilos do botão */
+}
+
+#lista-tarefas {
+  /* Estilos da lista */
+}
+
+/* (Estilos para os itens da lista serão adicionados depois) */
+</code></pre>
+        </div>
+        <div id="javascript-inicial" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">4. JavaScript Inicial: Selecionando Elementos</h3>
+          <p class="mb-5">No arquivo <code class="inline">script.js</code>, o primeiro passo é selecionar os elementos HTML com os quais vamos interagir:</p>
+          <pre class="p-4"><code>// Seleciona o campo de input
+const inputNovaTarefa = document.getElementById('nova-tarefa');
+
+// Seleciona o botão de adicionar
+const btnAdicionar = document.getElementById('btn-adicionar');
+
+// Seleciona a lista UL onde as tarefas serão mostradas
+const listaTarefas = document.getElementById('lista-tarefas');
+
+console.log(inputNovaTarefa, btnAdicionar, listaTarefas); // Verifica se selecionou corretamente
+</code></pre>
+          <p class="mt-4">Com esses elementos selecionados, estamos prontos para adicionar a lógica de criar e exibir as tarefas na próxima aula.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+`
+        },
+        {
+          id: 32,
+          titulo: "localStorage: Guardando Dados no Navegador",
+          subtitulo: "Aula 6.4",
+          descricao: "Aprenda a usar localStorage para armazenar dados persistentes no navegador, incluindo manipulação de chave-valor e uso de JSON.",
+          icone: "fa-brain",
+          conteudo: `
+<section>
+  <div class="container">
+    <div class="content">
+
+      <div id="o-que-e-ls">
+        <h2 class="title is-3 has-text-weight-bold">1. O que é localStorage?</h2>
+        <p class="is-size-5 mb-4">
+          O <strong class="has-text-primary">localStorage</strong> é um mecanismo que permite aos sites e aplicações web armazenarem dados (chave-valor) diretamente no navegador do usuário, de forma <strong class="">persistente</strong>.
+        </p>
+        <p class="is-size-5">
+          "Persistente" significa que os dados <strong class="">não se apagam</strong> quando o navegador é fechado ou o computador reiniciado. Eles ficam lá até serem removidos explicitamente.
+        </p>
+        <p class="is-size-5 mt-4">
+          É ótimo para guardar preferências do usuário (como tema escuro/claro), pequenos dados de sessão ou informações que não precisam ir para um banco de dados.
+        </p>
+      </div>
+
+      <div id="como-funciona" class="mt-6">
+        <h2 class="title is-3 has-text-weight-bold">2. Como Funciona? Chave-Valor</h2>
+        <p class="is-size-5 mb-4">
+          O localStorage funciona como um dicionário simples: você guarda informações associadas a uma <strong class="">chave</strong> (um nome único) e depois usa essa mesma chave para recuperar o <strong class="">valor</strong>.
+        </p>
+        <div class="box has-background-dark has-text-centered">
+          <p class="is-size-4">Chave <code class="has-background-grey-dark has-text-grey-light px-2 py-1 is-rounded">"nomeUsuario"</code> ➡️ Valor <code class="has-background-grey-dark has-text-grey-light px-2 py-1 is-rounded">"Maria Silva"</code></p>
+          <p class="is-size-4 mt-2">Chave <code class="has-background-grey-dark has-text-grey-light px-2 py-1 is-rounded">"tema"</code> ➡️ Valor <code class="has-background-grey-dark has-text-grey-light px-2 py-1 is-rounded">"dark"</code></p>
+        </div>
+        <p class="is-size-5 mt-4">
+          <strong class="has-text-danger">Importante:</strong> O localStorage só armazena dados como <strong class="">strings (texto)</strong>. Se você precisar guardar números, arrays ou objetos, terá que convertê-los antes.
+        </p>
+      </div>
+
+      <div id="manipulando-ls" class="mt-6">
+        <h2 class="title is-3 has-text-weight-bold">3. Manipulando o localStorage</h2>
+        <p class="is-size-5 mb-4">JavaScript nos dá métodos simples para interagir com o localStorage.</p>
+
+        <h3 class="title is-4  mt-4 mb-2">setItem(chave, valor): Salvando Dados</h3>
+        <p class="mb-4">Guarda um valor associado a uma chave. Se a chave já existir, o valor antigo é substituído.</p>
+        <pre><code class="language-javascript has-background-dark has-text-grey-light p-4 is-block">
+localStorage.setItem('usuarioLogado', 'joao123');
+localStorage.setItem('preferenciaCor', 'azul');
+        </code></pre>
+
+        <h3 class="title is-4  mt-4 mb-2">getItem(chave): Lendo Dados</h3>
+        <p class="mb-4">Recupera o valor associado a uma chave. Se a chave não existir, retorna null.</p>
+        <pre><code class="language-javascript has-background-dark has-text-grey-light p-4 is-block">
+const usuario = localStorage.getItem('usuarioLogado'); // usuario terá o valor "joao123"
+const cor = localStorage.getItem('preferenciaCor');   // cor terá o valor "azul"
+const tema = localStorage.getItem('temaSite');       // tema terá o valor null (se não foi setado)
+
+console.log(usuario);
+        </code></pre>
+
+        <h3 class="title is-4  mt-4 mb-2">removeItem(chave): Removendo um Item</h3>
+        <p class="mb-4">Apaga um par chave-valor específico.</p>
+        <pre><code class="language-javascript has-background-dark has-text-grey-light p-4 is-block">
+localStorage.removeItem('preferenciaCor'); // Apaga apenas a preferência de cor
+        </code></pre>
+
+        <h3 class="title is-4  mt-4 mb-2">clear(): Removendo Tudo</h3>
+        <p class="mb-4">Apaga <strong class="">todos</strong> os dados armazenados pelo seu site no localStorage.</p>
+        <pre><code class="language-javascript has-background-dark has-text-grey-light p-4 is-block">
+localStorage.clear(); // Limpa todo o localStorage para este domínio
+        </code></pre>
+      </div>
+
+      <div id="json-ls" class="mt-6">
+        <h2 class="title is-3 has-text-weight-bold">4. Guardando Dados Complexos e JSON</h2>
+        <p class="is-size-5 mb-4">Como o localStorage só guarda strings, precisamos de um jeito de representar dados mais complexos (como arrays e objetos) em formato de texto. Para isso, usamos o <strong class="has-text-primary">JSON (JavaScript Object Notation)</strong>.</p>
+        <p class="is-size-5 mb-4">JSON é um formato padrão leve para intercâmbio de dados, que é fácil para humanos lerem e para máquinas interpretarem. O JavaScript nos dá duas funções essenciais para trabalhar com JSON:</p>
+
+        <ul class="mb-4">
+          <li><code class="has-background-grey-dark has-text-grey-light px-2 py-1 is-rounded">JSON.stringify(objetoOuArray)</code>: Converte um objeto ou array JavaScript em uma <strong class="">string no formato JSON</strong>.</li>
+          <li><code class="has-background-grey-dark has-text-grey-light px-2 py-1 is-rounded">JSON.parse(stringJSON)</code>: Converte uma string no formato JSON de volta em um <strong class="">objeto ou array JavaScript</strong>.</li>
+        </ul>
+
+        <pre><code class="language-javascript has-background-dark has-text-grey-light p-4 is-block">
+// Objeto JavaScript
+const preferencias = { tema: 'escuro', fonte: 16 };
+
+// 1. Converter para string JSON antes de salvar
+const preferenciasString = JSON.stringify(preferencias);
+localStorage.setItem('configUsuario', preferenciasString);
+console.log("Salvo no localStorage:", preferenciasString); // Ex: {"tema":"escuro","fonte":16}
+
+// 2. Ler a string do localStorage
+const configSalvaString = localStorage.getItem('configUsuario');
+
+// 3. Converter a string JSON de volta para objeto
+const configObjeto = JSON.parse(configSalvaString);
+
+console.log("Objeto recuperado:", configObjeto); // Ex: { tema: 'escuro', fonte: 16 }
+console.log("Tema recuperado:", configObjeto.tema); // Saída: escuro
+        </code></pre>
+      </div>
+
+      <div id="consideracoes" class="mt-6">
+        <h2 class="title is-3 has-text-weight-bold">5. Considerações Importantes</h2>
+        <ul>
+          <li><strong class="">Limite de Tamanho:</strong> Geralmente 5MB a 10MB por domínio. Não é feito para guardar grandes volumes de dados.</li>
+          <li><strong class="">Apenas Strings:</strong> Lembre-se sempre da necessidade de converter outros tipos de dados usando JSON.</li>
+          <li><strong class="has-text-danger">Segurança:</strong> Os dados no localStorage <strong class="has-text-danger">não são seguros</strong>. Qualquer script na página pode acessá-los. Nunca guarde senhas, tokens ou informações sensíveis nele.</li>
+          <li><strong class="">Síncrono:</strong> As operações (setItem, getItem) bloqueiam a execução do código até terminarem. Usar excessivamente com dados grandes pode travar a página.</li>
+          <li><strong class="">Por Domínio:</strong> Os dados são isolados por origem (protocolo + domínio + porta). Um site a.com não pode ler o localStorage de b.com.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+`
+        },
+      ]
     },
     {
       "id": 7,
       "titulo": "Semana 7",
       "subtitulo": "2/2 dias",
       "descricao": "Projeto Prático - Revisão Geral dos Fundamentos da Web",
-      "icone": "fa-project-diagram"
+      "icone": "fa-project-diagram",
+      "dias": [
+        {
+          id: 33,
+          titulo: "Revisão: Conectando os Pontos",
+          subtitulo: "Aula 7.x",
+          descricao: "Revisão geral dos fundamentos de JavaScript, conectando lógica de programação, sintaxe, arrays, laços, funções, DOM e localStorage para o projeto Todo List.",
+          icone: "fa-brain",
+          conteudo: `
+  <div class="container">
+    <section id="aula-19">
+
+      <div class="content is-size-5">
+        <div id="logica-e-sintaxe" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">1. Lógica de Programação e Sintaxe JS</h3>
+          <p class="mb-5">A lógica é o "o quê" (a receita), a sintaxe é o "como" (a língua). A lógica que aprendemos no Portugol é a mesma do JavaScript, só mudam as palavras.</p>
+          <div class="columns">
+            <div class="column">
+              <pre class="p-4"><code>// Portugol (Lógica)
+se (idade >= 18) entao
+  escreva("Maior de idade")
+senao
+  escreva("Menor de idade")
+fimse</code></pre>
+            </div>
+            <div class="column">
+              <pre class="p-4"><code>// JavaScript (Sintaxe)
+if (idade >= 18) {
+  console.log("Maior de idade");
+} else {
+  console.log("Menor de idade");
+}</code></pre>
+            </div>
+          </div>
+        </div>
+
+        <div id="arrays-loops" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">2. Laços de Repetição e Arrays</h3>
+          <p class="mb-5">Arrays (vetores) guardam listas de dados. Laços (<code>for</code>, <code>while</code>) são as ferramentas para <strong>percorrer</strong> e <strong>manipular</strong> essas listas. Quase sempre usamos um <code>for</code> para "varrer" um array.</p>
+          <pre class="p-4"><code>const notas = [10, 8, 7, 9];
+let soma = 0;
+
+for (let i = 0; i &lt; notas.length; i++) {
+  soma = soma + notas[i];
+}
+// O laço 'for' visitou cada item do array
+console.log(soma); // 34</code></pre>
+        </div>
+
+        <div id="funcoes" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">3. Funções Distintas</h3>
+          <p class="mb-5">O princípio mais importante da programação é <strong>DRY (Don't Repeat Yourself - Não se Repita)</strong>. Em vez de escrever o mesmo código várias vezes, nós o "empacotamos" em uma função.</p>
+          <p>No nosso Todo List, temos funções com responsabilidades únicas: <code>criarTarefaAfazer()</code>, <code>adicionaTarefaFazerLocalStorage()</code>, <code>botaoExcluir()</code>. Isso torna o código organizado e fácil de dar manutenção.</p>
+        </div>
+
+        <div id="dom" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">4. Manipulando o HTML (DOM)</h3>
+          <p class="mb-5">É a ponte entre o JavaScript e o HTML. Precisamos de 3 passos:</p>
+          <ol class="mb-5">
+            <li><strong>Selecionar o elemento:</strong><br>
+              <code>const botao = document.getElementById("meu-botao");</code><br>
+              <code>const div = document.querySelector(".minha-classe");</code></li>
+            <li><strong>Ouvir um evento (ex: clique):</strong><br>
+              <code>botao.addEventListener('click', function() { ... });</code></li>
+            <li><strong>Modificar algo:</strong><br>
+              <code>div.textContent = "Novo texto";</code> (muda o texto)<br>
+              <code>div.classList.add("classe-nova");</code> (adiciona classe CSS)</li>
+          </ol>
+        </div>
+
+        <div id="localstorage-revisao" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">5. localStorage</h3>
+          <p class="mb-5">É a "memória" do navegador. Permite que nossas tarefas continuem na tela mesmo se o usuário fechar a página. Só guarda <strong>texto (strings)</strong>.</p>
+          <ul class="mb-5">
+            <li><code>localStorage.setItem(chave, valor)</code>: Salva ou atualiza um item.</li>
+            <li><code>localStorage.getItem(chave)</code>: Lê um item.</li>
+            <li><code>localStorage.removeItem(chave)</code>: Remove um item.</li>
+            <li><strong>Para salvar arrays/objetos:</strong> Usamos <code>JSON.stringify()</code> para transformar em texto antes de salvar.</li>
+            <li><strong>Para ler arrays/objetos:</strong> Usamos <code>JSON.parse()</code> para transformar o texto de volta em objeto/array.</li>
+          </ul>
+        </div>
+
+        <div id="metodos" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">6. Métodos do JavaScript</h3>
+          <p class="mb-5">No nosso projeto Todo List, usamos vários "métodos" (funções prontas) do JavaScript. A tabela na próxima seção servirá como um glossário de consulta para os comandos mais importantes do projeto.</p>
+        </div>
+
+        <div id="glossario" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">7. Glossário de Código - Projeto Todo List</h3>
+          <p class="has-text-centered mb-5">Uma consulta rápida dos principais comandos e métodos que usamos no projeto Todo List, baseados no código que escrevemos.</p>
+
+          <table class="table is-fullwidth">
+            <thead>
+              <tr>
+                <th>Comando / Método</th>
+                <th>O que faz? (Explicação)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>document.getElementById('...')</code></td>
+                <td>Busca no HTML um elemento que tenha o ID exato fornecido.</td>
+              </tr>
+              <tr>
+                <td><code>document.querySelector('...')</code></td>
+                <td>Busca o <strong>primeiro</strong> elemento no HTML que combine com o seletor CSS (ex: ".minha-classe" ou "p").</td>
+              </tr>
+              <tr>
+                <td><code>document.querySelectorAll('...')</code></td>
+                <td>Busca <strong>todos</strong> os elementos no HTML que combinem com o seletor. Retorna um array (NodeList).</td>
+              </tr>
+              <tr>
+                <td><code>localStorage.getItem('...')</code></td>
+                <td>Lê e retorna o valor (string) que está salvo no localStorage com a chave fornecida.</td>
+              </tr>
+              <tr>
+                <td><code>localStorage.setItem('...', json)</code></td>
+                <td>Salva um valor (string) no localStorage, associado a uma chave.</td>
+              </tr>
+              <tr>
+                <td><code>JSON.parse(string)</code></td>
+                <td>Converte uma string em formato JSON de volta para um objeto ou array JavaScript.</td>
+              </tr>
+              <tr>
+                <td><code>JSON.stringify(array)</code></td>
+                <td>Converte um objeto ou array JavaScript em uma string no formato JSON (para salvar no localStorage).</td>
+              </tr>
+              <tr>
+                <td><code>array.push(tarefa)</code></td>
+                <td>Adiciona um novo item (a tarefa) no final do array.</td>
+              </tr>
+              <tr>
+                <td><code>document.createElement('div')</code></td>
+                <td>Cria um novo elemento HTML (uma <code>&lt;div&gt;</code>, nesse caso) na memória do navegador. Ele ainda não está na tela.</td>
+              </tr>
+              <tr>
+                <td><code>div.classList.add('...')</code></td>
+                <td>Adiciona uma classe CSS a um elemento HTML.</td>
+              </tr>
+              <tr>
+                <td><code>div.innerHTML = '...'</code></td>
+                <td>Define o conteúdo HTML interno de um elemento. (Usado para adicionar o card da tarefa).</td>
+              </tr>
+              <tr>
+                <td><code>container.appendChild(div)</code></td>
+                <td>"Adiciona o filho" - Coloca o elemento criado (a <code>div</code> da tarefa) dentro do elemento pai (o <code>container</code>), tornando-o visível na tela.</td>
+              </tr>
+              <tr>
+                <td><code>botao.addEventListener('click', ...)</code></td>
+                <td>"Ouvinte de Evento" - Faz o JavaScript esperar por uma ação (um 'click') em um elemento (o <code>botao</code>) para executar uma função.</td>
+              </tr>
+              <tr>
+                <td><code>input.value</code></td>
+                <td>Pega ou define o valor (o texto) que está escrito dentro de um campo de <code>input</code>.</td>
+              </tr>
+              <tr>
+                <td><code>array.forEach(...)</code></td>
+                <td>Percorre um array, executando uma função para cada item da lista (similar ao laço <code>para</code>).</td>
+              </tr>
+              <tr>
+                <td><code>event.target</code></td>
+                <td>Dentro de um <code>addEventListener</code>, <code>event.target</code> é o elemento exato que disparou o evento (ex: a imagem da lixeira).</td>
+              </tr>
+              <tr>
+                <td><code>elemento.closest('.classe')</code></td>
+                <td>"O mais próximo" - Sobe na hierarquia do HTML (pai, avô, etc.) e encontra o primeiro elemento que tenha a classe fornecida. (Usado no lugar de <code>parentNode</code> repetidas vezes).</td>
+              </tr>
+              <tr>
+                <td><code>elemento.remove()</code></td>
+                <td>Remove o elemento do HTML (da tela).</td>
+              </tr>
+              <tr>
+                <td><code>elemento.querySelector('...')</code></td>
+                <td>Busca um elemento <strong>dentro</strong> de outro elemento. (Usado para achar o nome da tarefa dentro do card que foi clicado).</td>
+              </tr>
+              <tr>
+                <td><code>elemento.textContent</code></td>
+                <td>Pega o conteúdo de texto de um elemento (usado para ler o nome da tarefa).</td>
+              </tr>
+              <tr>
+                <td><code>array.filter(...)</code></td>
+                <td>"Filtrar" - Cria um novo array contendo apenas os itens que passam em uma condição (usado para remover a tarefa da lista do localStorage).</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </div>
+`
+        },
+        {
+          id: 34,
+          titulo: "Desafio: Meu Orçamento Pessoal",
+          subtitulo: "Desafio Opcional",
+          descricao: "Desafio opcional para criar uma aplicação de orçamento pessoal usando JavaScript, DOM e localStorage para registrar receitas, despesas e calcular saldos.",
+          icone: "fa-brain",
+          conteudo: `
+  <div class="container">
+    <section id="desafio-orcamento">
+      <p class="content is-size-5 has-text-centered mb-5">Um projeto simples, mas funcional, para aplicar todos os conceitos de JavaScript, DOM e LocalStorage.</p>
+
+      <div class="box box-dark mb-4">
+        <h3 class="title is-5 mb-3">1. O Objetivo</h3>
+        <p>Criar uma pequena aplicação onde o usuário possa registrar suas receitas (ganhos) e despesas (gastos). A aplicação deve calcular e mostrar o total de receitas, o total de despesas e o saldo final. Os dados devem persistir ao recarregar a página.</p>
+      </div>
+
+      <div class="box box-dark mb-4">
+        <h3 class="title is-5 mb-3">2. Conceitos Aplicados</h3>
+        <ul class="mb-3">
+          <li>Manipulação do DOM (<code>getElementById</code>, <code>querySelector</code>, <code>createElement</code>, <code>appendChild</code>)</li>
+          <li>Eventos (<code>addEventListener</code> no botão de adicionar)</li>
+          <li>JavaScript (<code>let</code>, <code>const</code>, <code>if/else</code>, Operadores)</li>
+          <li>Funções (para organizar o código)</li>
+          <li>Arrays e Laços (para guardar e percorrer a lista de transações)</li>
+          <li>LocalStorage (para salvar os dados usando <code>JSON.stringify</code> e <code>JSON.parse</code>)</li>
+        </ul>
+      </div>
+
+      <div class="box box-dark mb-4">
+        <h3 class="title is-5 mb-3">3. Estrutura HTML Sugerida</h3>
+        <p class="mb-3">Comece com este HTML básico para estruturar sua página.</p>
+        <pre class="p-4"><code>&lt;h1&gt;Meu Orçamento&lt;/h1&gt;
+
+&lt;div class="resumo"&gt;
+  &lt;div&gt;
+    &lt;h4&gt;Receitas&lt;/h4&gt;
+    &lt;p id="valor-receitas"&gt;R$ 0.00&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h4&gt;Despesas&lt;/h4&gt;
+    &lt;p id="valor-despesas"&gt;R$ 0.00&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h4&gt;Saldo&lt;/h4&gt;
+    &lt;p id="valor-saldo"&gt;R$ 0.00&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="nova-transacao"&gt;
+  &lt;h3&gt;Adicionar Transação&lt;/h3&gt;
+  &lt;input type="text" id="input-descricao" placeholder="Descrição"&gt;
+  &lt;input type="number" id="input-valor" placeholder="Valor (ex: 150 ou -50)"&gt;
+  &lt;button id="btn-adicionar"&gt;Adicionar&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;Histórico de Transações&lt;/h3&gt;
+&lt;ul id="lista-transacoes"&gt;
+  &lt;!-- Transações serão adicionadas aqui via JS --&gt;
+&lt;/ul&gt;</code></pre>
+      </div>
+
+      <div class="box box-dark mb-4">
+        <h3 class="title is-5 mb-3">4. Guia de Passos (Lógica JavaScript)</h3>
+        <ol class="mb-3 p-4">
+          <li>Crie um array (ex: <code>transacoes</code>) para guardar as transações. Tente carregar o que já existe no <code>localStorage</code> ao iniciar.</li>
+          <li>Adicione um <code>addEventListener</code> de clique ao botão <code>btn-adicionar</code>.</li>
+          <li>Dentro do evento:
+            <ul>
+              <li>Pegue os valores dos inputs <code>descricao</code> e <code>valor</code>.</li>
+              <li>Verifique se os campos não estão vazios.</li>
+              <li>Crie um objeto (ex: <code>{ id: Date.now(), desc: 'Salário', valor: 500 }</code>).</li>
+              <li>Adicione (<code>.push()</code>) esse objeto ao seu array <code>transacoes</code>.</li>
+              <li>Chame uma função para salvar o array no <code>localStorage</code> (lembre-se do <code>JSON.stringify</code>).</li>
+              <li>Chame uma função para atualizar a tela e limpar os inputs.</li>
+            </ul>
+          </li>
+          <li>Crie uma função <code>atualizarTela()</code> que:
+            <ul>
+              <li>Limpe a lista <code>lista-transacoes</code> (<code>innerHTML = ''</code>).</li>
+              <li>Inicie variáveis <code>receitas = 0</code>, <code>despesas = 0</code>.</li>
+              <li>Use um laço (<code>forEach</code> ou <code>for</code>) para percorrer seu array <code>transacoes</code>.</li>
+              <li>Dentro do laço: se o valor for positivo, some em <code>receitas</code>; se for negativo, some em <code>despesas</code>.</li>
+              <li>Também dentro do laço, crie o elemento <code>&lt;li&gt;</code> no DOM (<code>createElement</code>) para mostrar a transação na lista.</li>
+              <li>Após o laço, atualize o <code>textContent</code> dos elementos <code>valor-receitas</code>, <code>valor-despesas</code> e <code>valor-saldo</code>.</li>
+            </ul>
+          </li>
+          <li>Chame a função <code>atualizarTela()</code> uma vez no início do script para carregar os dados do <code>localStorage</code>.</li>
+        </ol>
+      </div>
+
+      <div class="box box-dark mb-4">
+        <h3 class="title is-5 mb-3">5. Desafio Extra (Se sobrar tempo)</h3>
+        <ul class="mb-3">
+          <li>Adicione um botão "X" (excluir) em cada <code>&lt;li&gt;</code> da lista de transações.</li>
+          <li>Faça o botão "X" funcionar: ele deve remover a transação do DOM e também do array (usando <code>.filter()</code>).</li>
+          <li>Após remover do array, salve a nova lista no <code>localStorage</code> e atualize os totais.</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+`
+        },
+        {
+          id: 35,
+          titulo: "Projeto Todo: Visão Geral",
+          subtitulo: "Aula 7.3",
+          descricao: "Resumo do projeto Todo List, explorando estrutura Kanban, manipulação dinâmica do DOM, persistência com localStorage e lições aprendidas no desenvolvimento.",
+          icone: "fa-brain",
+          conteudo: `
+  <div class="container">
+    <section id="resumo-projeto">
+
+      <div class="content is-size-5">
+        <div id="estrutura-colunas" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">1. A Estrutura Kanban</h3>
+          <p class="mb-5">O projeto foi baseado em um layout Kanban, uma ferramenta visual de gerenciamento de fluxo. Dividimos a interface em três colunas principais para representar o ciclo de vida de uma tarefa:</p>
+          <div class="columns">
+            <div class="column">
+              <div class="box box-dark has-text-centered">
+                <h4 class="title is-5 mb-2">A Fazer</h4>
+                <p>Coluna inicial onde todas as novas tarefas são criadas.</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box box-dark has-text-centered">
+                <h4 class="title is-5 mb-2">Em Andamento</h4>
+                <p>Tarefas que estão sendo executadas no momento.</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box box-dark has-text-centered">
+                <h4 class="title is-5 mb-2">Feito</h4>
+                <p>Tarefas que foram concluídas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="dom-dinamico" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">2. Manipulação Dinâmica do DOM</h3>
+          <p class="mb-5">A principal funcionalidade do projeto é a movimentação das tarefas entre as colunas. Isso foi feito <strong>sem recarregar a página</strong>, usando JavaScript para manipular o DOM:</p>
+          <ul class="mb-5">
+            <li><strong>Criação de Tarefas:</strong> Usamos <code>document.createElement('div')</code> e <code>innerHTML</code> para criar um novo card de tarefa com o texto do input.</li>
+            <li><strong>Adição na Tela:</strong> A nova tarefa era adicionada na coluna "A Fazer" usando <code>containerTarefasAfazer.appendChild(novaTarefa)</code>.</li>
+            <li><strong>Movimentação entre Colunas:</strong> Ao clicar no botão de mover, o JavaScript:
+              <ol>
+                <li>Identificava o card da tarefa (ex: com <code>event.target.closest('.tarefa')</code>).</li>
+                <li>Removia o elemento da coluna atual (com <code>elementoPai.remove()</code>).</li>
+                <li>Recriava o card na nova coluna (chamando uma nova função, ex: <code>criarTarefaAndamento()</code>).</li>
+              </ol>
+            </li>
+          </ul>
+        </div>
+
+        <div id="persistencia-ls" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">3. Persistência de Dados com LocalStorage</h3>
+          <p class="mb-5">Para que as tarefas não sumissem ao fechar o navegador, usamos o <span class="highlight-pink">localStorage</span>.</p>
+          <p class="mb-5">Como o localStorage só armazena texto, nós criamos um <strong>array de objetos</strong> para cada coluna e usamos <code>JSON.stringify()</code> para convertê-lo em string antes de salvar.</p>
+          <pre class="p-4"><code>// Exemplo de como salvamos a lista "A Fazer"
+const tarefasAFazer = [
+  { nome: 'Estudar JS', coluna: 'fazer' },
+  { nome: 'Fazer café', coluna: 'fazer' }
+];
+
+const listaString = JSON.stringify(tarefasAFazer);
+localStorage.setItem('tarefasFazer', listaString);</code></pre>
+          <p class="mt-5">Ao carregar a página, o script faz o processo inverso: usa <code>localStorage.getItem()</code> para ler a string e <code>JSON.parse()</code> para convertê-la de volta em um array. Em seguida, um laço <code>for</code> percorre o array e chama a função <code>criarTarefaAfazer()</code> para cada item, populando a tela.</p>
+        </div>
+
+        <div id="conclusao-projeto" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">4. O que Aprendemos</h3>
+          <div class="box box-dark border-left-pink">
+            <p class="mb-4">Este projeto conectou todos os pontos essenciais do front-end moderno:</p>
+            <ul>
+              <li>Como estruturar um HTML semântico.</li>
+              <li>Como selecionar e manipular elementos do DOM em resposta a eventos.</li>
+              <li>Como criar e remover elementos dinamicamente.</li>
+              <li>Como organizar o código em funções reutilizáveis.</li>
+              <li>Como persistir dados no navegador usando <code>localStorage</code> e <code>JSON</code>.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+`
+        }
+      ]
     },
     {
       "id": 8,
       "titulo": "Semana 8",
       "subtitulo": "4/4 dias",
       "descricao": "JavaScript Assíncrono e APIs - Conectando ao mundo real",
-      "icone": "fa-cloud"
+      "icone": "fa-cloud",
+      "dias": [
+        {
+          id: 36,
+          titulo: "Consumindo APIs",
+          subtitulo: "Aula 8.1",
+          descricao: "Introdução ao JavaScript assíncrono, APIs e consumo de dados externos usando fetch, async/await e tratamento de erros com try/catch.",
+          icone: "fa-brain",
+          conteudo: `
+  <div class="container">
+    <section id="aula-20">
+
+      <div class="content is-size-5">
+        <div id="o-que-e-api" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">1. O que é uma API? (A Analogia do Garçom)</h3>
+          <p class="mb-5">Imagine que você está em um restaurante.</p>
+          <ul class="mb-5">
+            <li>O <strong>Cliente (Você)</strong> é o Front-end (seu código JS no navegador).</li>
+            <li>A <strong>Cozinha</strong> é o Back-end (o servidor onde os dados estão).</li>
+            <li>O <span class="highlight-pink">Garçom</span> é a <span class="highlight-pink">API</span> (Interface de Programação de Aplicações).</li>
+          </ul>
+          <p>Você não vai até a cozinha pegar sua comida. Você chama o garçom (API), faz um pedido (requisição) e ele te traz uma resposta (o prato pronto). A API é o contrato que define como o front-end deve pedir dados ao back-end.</p>
+        </div>
+
+        <div id="sync-vs-async" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">2. Síncrono vs. Assíncrono</h3>
+          <p class="mb-5">Por padrão, o JavaScript é <strong>síncrono</strong>, ou seja, executa uma linha de cada vez. Se ele precisa esperar 5 segundos por uma resposta de API, ele <strong>trava a página inteira</strong>. Ninguém consegue clicar em nada.</p>
+          <p class="mb-5">O código <span class="highlight-pink">Assíncrono</span> resolve isso. Ele permite que o JS faça uma requisição e "siga em frente" com outras tarefas. Quando a resposta da API chegar, ele executa a função de retorno.</p>
+
+          <h4 class="title is-5 mb-2">Exemplo com <code>setTimeout</code></h4>
+          <p class="mb-4"><code>setTimeout</code> é uma função assíncrona simples. Ela agenda a execução de uma função para depois de X milissegundos, mas não para o resto do código.</p>
+          <pre class="p-4"><code>console.log("1 - Primeiro");
+
+setTimeout(function() {
+  console.log("2 - Segundo (veio depois de 2s)");
+}, 2000); // 2000 milissegundos = 2 segundos
+
+console.log("3 - Terceiro");
+
+// Ordem no console: 1, 3, 2</code></pre>
+        </div>
+
+        <div id="fetch-await" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">3. <code>fetch</code> com <code>async/await</code> (A Forma Moderna)</h3>
+          <p class="mb-5"><code>fetch</code> é a ferramenta moderna do JS para fazer requisições a APIs. <code>async/await</code> é a sintaxe que nos permite escrever código assíncrono de uma forma que parece síncrona (mais fácil de ler).</p>
+          <ul class="mb-5">
+            <li><code>async</code>: Declara que uma função conterá código que "espera".</li>
+            <li><code>await</code>: Pausa a execução da função (e não do navegador) até que a promessa (<code>fetch</code>) seja resolvida.</li>
+          </ul>
+          <pre class="p-4"><code>// 1. Declara a função como 'async'
+async function buscarDadosDaAPI() {
+
+  // 2. Faz a chamada com 'await'
+  const response = await fetch('https://api.exemplo.com/dados');
+
+  // 3. Espera a conversão dos dados (também é assíncrono!)
+  const dados = await response.json();
+
+  console.log(dados);
+}
+
+buscarDadosDaAPI(); // Chama a função</code></pre>
+        </div>
+
+        <div id="try-catch" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">4. Tratando Erros com <code>try...catch</code></h3>
+          <p class="mb-5">E se a internet cair? Ou a API estiver fora do ar? O <code>await</code> vai falhar e quebrar nosso código. Para evitar isso, "tentamos" (<code>try</code>) executar o código e "capturamos" (<code>catch</code>) o erro se ele acontecer.</p>
+          <pre class="p-4"><code>async function buscarDadosComSeguranca() {
+  try {
+    // Tenta fazer isso
+    const response = await fetch('https://api.exemplo.com/dados');
+
+    // Se a resposta não for OK (ex: erro 404, 500), nós mesmos geramos um erro
+    if (!response.ok) {
+      throw new Error('Erro na rede: ' + response.statusText);
+    }
+
+    const dados = await response.json();
+    console.log("Dados recebidos:", dados);
+
+  } catch (error) {
+    // Se qualquer coisa no 'try' falhar, o 'catch' é executado
+    console.error("Houve um problema na requisição:", error.message);
+    alert("Não foi possível carregar os dados. Tente novamente.");
+  }
+}</code></pre>
+        </div>
+
+        <div id="conclusao-api" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">5. Conclusão</h3>
+          <div class="box box-dark border-left-pink">
+            <p class="mb-4">Hoje aprendemos o fluxo essencial para consumir dados externos:</p>
+            <ol>
+              <li>Usamos <code>async/await</code> para lidar com o tempo de espera.</li>
+              <li>Usamos <code>fetch</code> para fazer o "pedido" à API.</li>
+              <li>Usamos <code>.json()</code> para "desempacotar" a resposta.</li>
+              <li>Usamos <code>try...catch</code> para garantir que nosso código não quebre se o pedido falhar.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+`
+        },
+        {
+          id: 37,
+          titulo: "Trabalho em Equipe: Git e GitHub",
+          subtitulo: "Aula 8.2",
+          descricao: "Fundamentos da colaboração com Git e GitHub, incluindo branches, pull requests, CI/CD e fluxo de trabalho em equipe para se dar bem desenvolvendo o PI.",
+          icone: "fa-brain",
+          conteudo: `
+  <div class="container">
+    <section id="aula-21">
+
+      <div class="content is-size-5">
+        <div id="intro-collab" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">1. Por que Colaborar?</h3>
+          <p class="mb-5">Programação é um esporte coletivo. Quase todo projeto profissional envolve múltiplos desenvolvedores trabalhando no mesmo código. O Git e o GitHub são as ferramentas que impedem que esse trabalho vire um caos, permitindo que todos contribuam de forma organizada.</p>
+        </div>
+
+        <div id="como-organizar" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">2. Como Organizar um Repositório Compartilhado</h3>
+          <p class="mb-5">Existem duas formas principais de compartilhar um repositório no GitHub para que sua equipe possa contribuir:</p>
+          <div class="columns">
+            <div class="column">
+              <div class="box box-dark">
+                <h4 class="title is-5 mb-3">Opção 1: Repositório Pessoal + Colaboradores</h4>
+                <p>Uma pessoa (líder técnico ou dono) cria o repositório em sua conta pessoal e vai em <code>Settings > Collaborators</code> para convidar os outros membros da equipe. É simples e rápido para projetos pequenos ou pessoais.</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box box-dark">
+                <h4 class="title is-5 mb-3">Opção 2: Conta Corporativa (Organization)</h4>
+                <p>Cria-se uma "Organização" no GitHub (ex: "Serasa"). O repositório pertence à organização, não a uma pessoa. Os membros são adicionados à organização e ganham permissões. <strong>Esta é a forma profissional</strong> e usada por todas as empresas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="o-que-e-branch" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">3. O que é uma Branch (Ramificação)?</h3>
+          <div class="columns is-vcentered">
+            <div class="column">
+              <p class="mb-4">Pense na branch <code>main</code> como a "versão oficial" e estável do seu projeto, o código que está funcionando.</p>
+              <p class="mb-4">Uma <span class="highlight-pink">branch</span> é uma "linha do tempo" independente, uma cópia que você cria a partir da <code>main</code>. Nela, você pode trabalhar em uma nova funcionalidade (ex: "login-facebook") ou corrigir um bug sem estragar a versão principal.</p>
+              <p>Depois que seu trabalho na branch está pronto e testado, você a "mescla" (merge) de volta na <code>main</code>.</p>
+            </div>
+            <div class="column">
+              <figure class="image">
+                <img src="https://hermes.dio.me/assets/articles/b498d93b-ff2c-4710-a5b6-2305ef40a8e7.png" alt="Diagrama ilustrando a branch main e uma feature branch saindo e voltando" />
+              </figure>
+            </div>
+          </div>
+        </div>
+
+        <div id="gitflow-basico" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">4. O Fluxo de Trabalho Básico (Git Workflow)</h3>
+          <p class="mb-5">Para evitar conflitos, seguimos um fluxo de trabalho. A regra de ouro é: <strong>NUNCA ENVIE CÓDIGO DIRETO PARA A BRANCH <code>main</code></strong>.</p>
+          <div class="mb-5">
+            <h4 class="title is-5 mb-3">Passo 1: Criar uma Branch (Ramificação)</h4>
+            <p class="mb-3">A <code>main</code> é a nossa versão "de produção". Para criar uma nova funcionalidade, você cria uma "cópia" dela para trabalhar sem afetar o código principal.</p>
+            <pre class="p-4"><code>git checkout -b minha-nova-feature</code></pre>
+          </div>
+          <div class="mb-5">
+            <h4 class="title is-5 mb-3">Passo 2: Fazer Commits</h4>
+            <p class="mb-3">Trabalhe na sua <code>branch</code> e salve seu progresso com commits claros.</p>
+            <pre class="p-4"><code>git add .
+git commit -m "Adiciona o formulário de login"</code></pre>
+          </div>
+          <div class="mb-5">
+            <h4 class="title is-5 mb-3">Passo 3: Enviar sua Branch (Push)</h4>
+            <p class="mb-3">Envie sua <code>branch</code> (com seus commits) para o GitHub.</p>
+            <pre class="p-4"><code>git push origin minha-nova-feature</code></pre>
+          </div>
+          <div class="mb-5">
+            <h4 class="title is-5 mb-3">Passo 4: Abrir um Pull Request (PR)</h4>
+            <p class="mb-3">No site do GitHub, você abre um "Pedido de Junção" (Pull Request), pedindo para juntar (merge) a sua <code>minha-nova-feature</code> na branch <code>main</code>. Aqui é onde seu time revisa seu código, sugere melhorias e aprova as mudanças.</p>
+          </div>
+          <div class="mb-5">
+            <h4 class="title is-5 mb-3">Passo 5: Merge</h4>
+            <p>Após aprovado, o líder do time (ou você mesmo, dependendo das regras) clica em "Merge". Seu código agora faz parte da branch <code>main</code>!</p>
+          </div>
+        </div>
+
+        <div id="ci-cd" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">5. CI/CD com GitHub Pages</h3>
+          <p class="mb-5"><span class="highlight-pink">CI/CD</span> significa "Integração Contínua / Deploy Contínuo". É um processo <strong>automático</strong> que acontece após o merge.</p>
+          <div class="box box-dark">
+            <h4 class="title is-5 mb-3">Como configuramos (Ex: GitHub Pages):</h4>
+            <ol class="mb-3">
+              <li>Nas configurações do repositório, ativamos o GitHub Pages para fazer o "deploy" a partir da branch <code>main</code>.</li>
+              <li>O GitHub automaticamente cria um fluxo (uma "Action") de CI/CD.</li>
+              <li><strong>Quando um PR é mergeado na <code>main</code>...</strong></li>
+              <li>O GitHub detecta a mudança e aciona a pipeline de CI/CD.</li>
+              <li>Essa pipeline "constrói" o site e o publica automaticamente.</li>
+              <li>Em 1 ou 2 minutos, o site ao vivo (no link .github.io) está atualizado!</li>
+            </ol>
+            <p class="mt-3">Isso garante que a branch <code>main</code> sempre representa o código que está em produção.</p>
+          </div>
+        </div>
+
+        <div id="conclusao-collab" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">6. Resumo do Fluxo</h3>
+          <div class="box box-dark border-left-pink">
+            <p class="mb-4">Este é o ciclo de vida de uma nova funcionalidade no desenvolvimento profissional:</p>
+            <p class="has-text-centered is-size-5"><code>Branch</code> ➡️ <code>Commit</code> ➡️ <code>Push</code> ➡️ <code>Pull Request (Revisão)</code> ➡️ <code>Merge</code> ➡️ <code>Deploy (CI/CD)</code></p>
+          </div>
+        </div>
+
+        <div id="comandos-git" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">7. Comandos Git Essenciais para Branches</h3>
+          <p class="mb-5">Aqui estão os comandos mais importantes para trabalhar com branches no dia a dia:</p>
+          <div class="mb-5">
+            <div class="box box-dark mb-4">
+              <h4 class="title is-5 mb-3">Criar uma nova branch</h4>
+              <pre class="p-4"><code>git checkout -b nome-da-branch</code></pre>
+              <p class="mt-2">Cria uma nova branch e já muda para ela automaticamente.</p>
+            </div>
+            <div class="box box-dark mb-4">
+              <h4 class="title is-5 mb-3">Listar todas as branches</h4>
+              <pre class="p-4"><code>git branch</code></pre>
+              <p class="mt-2">Mostra todas as branches locais. A branch atual aparece com um asterisco (*).</p>
+              <pre class="p-4"><code>git branch -a</code></pre>
+              <p class="mt-2">Mostra todas as branches (locais e remotas).</p>
+            </div>
+            <div class="box box-dark mb-4">
+              <h4 class="title is-5 mb-3">Mudar de branch</h4>
+              <pre class="p-4"><code>git checkout nome-da-branch</code></pre>
+              <p class="mt-2">Alterna para uma branch existente.</p>
+              <pre class="p-4"><code>git switch nome-da-branch</code></pre>
+              <p class="mt-2">Comando mais moderno para mudar de branch (Git 2.23+).</p>
+            </div>
+            <div class="box box-dark mb-4">
+              <h4 class="title is-5 mb-3">Atualizar sua branch com mudanças remotas</h4>
+              <pre class="p-4"><code>git pull origin nome-da-branch</code></pre>
+              <p class="mt-2">Puxa (baixa) as últimas mudanças da branch remota para sua branch local.</p>
+              <pre class="p-4"><code>git pull</code></pre>
+              <p class="mt-2">Se você já está na branch, pode usar apenas <code>git pull</code>.</p>
+            </div>
+            <div class="box box-dark mb-4">
+              <h4 class="title is-5 mb-3">Enviar sua branch para o GitHub</h4>
+              <pre class="p-4"><code>git push origin nome-da-branch</code></pre>
+              <p class="mt-2">Envia sua branch local para o repositório remoto (GitHub).</p>
+              <pre class="p-4"><code>git push -u origin nome-da-branch</code></pre>
+              <p class="mt-2">O <code>-u</code> configura o rastreamento, então depois você pode usar apenas <code>git push</code>.</p>
+              <pre class="p-4"><code>git push --set-upstream origin nome-da-branch</code></pre>
+              <p class="mt-2">Forma mais explícita do comando anterior. O <code>--set-upstream</code> é o mesmo que <code>-u</code>, configurando a branch remota como "upstream" (referência) da sua branch local. Após usar este comando uma vez, você pode simplesmente usar <code>git push</code> ou <code>git pull</code> sem especificar origem e branch.</p>
+            </div>
+            <div class="box box-dark mb-4">
+              <h4 class="title is-5 mb-3">Atualizar a branch main local</h4>
+              <pre class="p-4"><code>git checkout main
+git pull origin main</code></pre>
+              <p class="mt-2">Sempre atualize sua branch <code>main</code> local antes de criar uma nova branch.</p>
+            </div>
+            <div class="box box-dark mb-4">
+              <h4 class="title is-5 mb-3">Deletar uma branch (após o merge)</h4>
+              <pre class="p-4"><code>git branch -d nome-da-branch</code></pre>
+              <p class="mt-2">Deleta uma branch local que já foi mergeada.</p>
+              <pre class="p-4"><code>git push origin --delete nome-da-branch</code></pre>
+              <p class="mt-2">Deleta a branch no repositório remoto (GitHub).</p>
+            </div>
+            <div class="box box-dark mb-4">
+              <h4 class="title is-5 mb-3">Ver o status da sua branch</h4>
+              <pre class="p-4"><code>git status</code></pre>
+              <p class="mt-2">Mostra em qual branch você está e quais arquivos foram modificados.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="github-desktop" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">8. Passo a Passo com GitHub Desktop</h3>
+          <p class="mb-5">Se você prefere uma interface gráfica, o GitHub Desktop facilita muito o trabalho com branches. Veja como fazer:</p>
+          <div class="mb-5">
+            <div class="box box-dark mb-4">
+              <h4 class="title is-5 mb-3">📋 Passo 1: Atualizar a Branch Main</h4>
+              <ol class="mb-3">
+                <li>Certifique-se de que está na branch <code>main</code> (você vê o nome no topo da janela)</li>
+                <li>Clique no botão <strong>"Fetch origin"</strong> para verificar se há atualizações</li>
+                <li>Se aparecer <strong>"Pull origin"</strong>, clique para baixar as mudanças mais recentes</li>
+              </ol>
+            </div>
+            <div class="box box-dark mb-4">
+              <h4 class="title is-5 mb-3">🌿 Passo 2: Criar uma Nova Branch</h4>
+              <ol class="mb-3">
+                <li>Clique no botão <strong>"Current Branch"</strong> no topo</li>
+                <li>Clique em <strong>"New Branch"</strong></li>
+                <li>Digite um nome descritivo para sua branch (ex: <code>feature/login-facebook</code>)</li>
+                <li>Certifique-se de que está criando a partir de <code>main</code></li>
+                <li>Clique em <strong>"Create Branch"</strong></li>
+              </ol>
+              <p class="mt-3 p-3 box-dark">💡 <strong>Dica:</strong> Use nomes descritivos como <code>feature/nova-funcionalidade</code>, <code>bugfix/corrige-erro</code>, ou <code>hotfix/problema-critico</code></p>
+            </div>
+            <div class="box box-dark mb-4">
+              <h4 class="title is-5 mb-3">💻 Passo 3: Fazer Suas Alterações</h4>
+              <ol class="mb-3">
+                <li>Trabalhe normalmente no seu código</li>
+                <li>O GitHub Desktop detectará automaticamente os arquivos modificados</li>
+                <li>Você verá a lista de mudanças no painel esquerdo</li>
+              </ol>
+            </div>
+            <div class="box box-dark mb-4">
+              <h4 class="title is-5 mb-3">💾 Passo 4: Fazer Commit das Mudanças</h4>
+              <ol class="mb-3">
+                <li>Revise as mudanças no painel central</li>
+                <li>Marque os arquivos que deseja incluir no commit (geralmente todos)</li>
+                <li>No campo inferior, escreva uma mensagem de commit clara e descritiva</li>
+                <li>Clique no botão azul <strong>"Commit to nome-da-branch"</strong></li>
+              </ol>
+              <p class="mt-3 p-3 box-dark">💡 <strong>Dica:</strong> Faça commits pequenos e frequentes com mensagens claras como "Adiciona formulário de login" ou "Corrige bug no botão de envio"</p>
+            </div>
+            <div class="box box-dark mb-4">
+              <h4 class="title is-5 mb-3">☁️ Passo 5: Publicar/Enviar a Branch (Push)</h4>
+              <ol class="mb-3">
+                <li>Após fazer o commit, você verá um botão <strong>"Publish branch"</strong> (primeira vez)</li>
+                <li>Clique nele para enviar sua branch para o GitHub</li>
+                <li>Nos próximos commits, o botão mudará para <strong>"Push origin"</strong></li>
+                <li>Sempre clique em <strong>"Push origin"</strong> após fazer commits para enviar ao GitHub</li>
+              </ol>
+            </div>
+            <div class="box box-dark mb-4">
+              <h4 class="title is-5 mb-3">🔀 Passo 6: Criar um Pull Request</h4>
+              <ol class="mb-3">
+                <li>Após fazer push, aparecerá um botão <strong>"Create Pull Request"</strong></li>
+                <li>Clique nele para abrir o navegador no GitHub</li>
+                <li>Ou vá manualmente ao GitHub e clique em <strong>"Compare & pull request"</strong></li>
+                <li>Adicione uma descrição detalhada do que foi feito</li>
+                <li>Selecione os revisores (membros da equipe)</li>
+                <li>Clique em <strong>"Create Pull Request"</strong></li>
+              </ol>
+            </div>
+            <div class="box box-dark mb-4">
+              <h4 class="title is-5 mb-3">✅ Passo 7: Após Aprovação e Merge</h4>
+              <ol class="mb-3">
+                <li>Aguarde a revisão e aprovação do time</li>
+                <li>Após o merge no GitHub, volte ao GitHub Desktop</li>
+                <li>Mude para a branch <code>main</code></li>
+                <li>Clique em <strong>"Fetch origin"</strong> e depois <strong>"Pull origin"</strong></li>
+                <li>Sua branch <code>main</code> local agora está atualizada!</li>
+                <li>(Opcional) Delete a branch antiga clicando em <strong>"Branch"</strong> > <strong>"Delete"</strong></li>
+              </ol>
+            </div>
+            <div class="box box-dark border-left-pink">
+              <h4 class="title is-5 mb-3">📌 Resumo Visual do Fluxo no GitHub Desktop</h4>
+              <p class="has-text-centered is-size-5">Main atualizada → Nova Branch → Alterações → Commit → Push → Pull Request → Merge → Voltar para Main</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+`
+        },
+        {
+          id: 38,
+          titulo: "APIs, Animações e Clipboard",
+          subtitulo: "Aula 8.3",
+          descricao: "Exploração de APIs públicas, uso de bibliotecas CSS via CDN como Animate.css e implementação de funcionalidades de clipboard para copiar texto.",
+          icone: "fa-brain",
+          conteudo: `
+  <div class="container">
+    <section id="aula-22">
+
+      <div class="content is-size-5">
+        <div id="public-apis" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">1. Onde Encontrar APIs para Praticar?</h3>
+          <p class="mb-5">Na última aula, vimos como buscar dados com <code>fetch</code>. Mas onde encontrar dados reais para nossos projetos?</p>
+          <div class="box box-dark">
+            <h4 class="title is-5 mb-3">Recurso: <code>publicapi.dev</code></h4>
+            <p class="mb-4">Este site é um repositório gigantesco de APIs públicas e gratuitas que você pode usar para praticar.</p>
+            <ul class="mb-4">
+              <li>Quer dados sobre Pokémon? Use a PokeAPI.</li>
+              <li>Quer dados sobre filmes? Use a OMDb API.</li>
+              <li>Quer dados sobre o clima? Existem várias APIs para isso.</li>
+            </ul>
+            <a href="https://publicapi.dev/" target="_blank" class="button is-link">Visitar o publicapi.dev</a>
+          </div>
+        </div>
+
+        <div id="cdn-animate" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">2. CSS Externo (CDN) e <code>Animate.css</code></h3>
+          <p class="mb-5">Não precisamos escrever todas as nossas animações ou estilos do zero. Podemos usar bibliotecas de CSS prontas, como a <strong>Animate.css</strong>.</p>
+
+          <h4 class="title is-5 mb-2">O que é um CDN?</h4>
+          <p class="mb-4">CDN (Content Delivery Network) é um serviço que hospeda arquivos (como bibliotecas CSS ou JS) em servidores ao redor do mundo. Em vez de baixar o arquivo, nós apenas o linkamos no nosso <code>&lt;head&gt;</code>.</p>
+
+          <h4 class="title is-5 mb-2">Usando Animate.css</h4>
+          <p class="mb-4">É uma biblioteca com dezenas de animações prontas que podemos usar apenas adicionando classes ao nosso HTML.</p>
+          <pre class="p-4"><code>&lt;!-- 1. Adicione o link do CDN no &lt;head&gt; --&gt;
+&lt;head&gt;
+  &lt;link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /&gt;
+&lt;/head&gt;
+
+&lt;!-- 2. Use as classes no HTML para animar --&gt;
+&lt;h1 class="animate__animated animate__bounce"&gt;Isso aqui pula!&lt;/h1&gt;
+
+&lt;!-- 3. Use com JS para animar em um evento --&gt;
+&lt;button id="meu-botao"&gt;Clique para animar&lt;/button&gt;
+&lt;p id="texto-animado"&gt;Eu vou aparecer com fade!&lt;/p&gt;
+
+&lt;script&gt;
+  const botao = document.getElementById('meu-botao');
+  const texto = document.getElementById('texto-animado');
+
+  botao.addEventListener('click', () => {
+    texto.classList.add('animate__animated', 'animate__fadeInUp');
+  });
+&lt;/script&gt;</code></pre>
+        </div>
+
+        <div id="clipboard" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">3. Copiando Texto (Clipboard)</h3>
+          <p class="mb-5">Muitas vezes queremos dar ao usuário um botão para "Copiar" um código, um link de convite ou um cupom.</p>
+
+          <h4 class="title is-5 mb-2">Método <code>navigator.clipboard</code> (Moderno)</h4>
+          <p class="mb-4">A forma mais nova e limpa de fazer isso. Funciona com <code>async/await</code> e é baseada em "Promessas". <strong>Nota:</strong> Pode não funcionar em todos os ambientes (ex: alguns iframes ou sites não-HTTPS).</p>
+          <pre class="p-4"><code>async function copiarTextoModerno(texto) {
+  try {
+    await navigator.clipboard.writeText(texto);
+    alert('Texto copiado com sucesso!');
+  } catch (err) {
+    console.error('Falha ao copiar: ', err);
+  }
+}
+
+// Para usar:
+// copiarTextoModerno('Seu cupom: VITOR10');</code></pre>
+
+          <h4 class="title is-5 mb-2">Método <code>document.execCommand</code> (Compatível)</h4>
+          <p class="mb-4">É a forma mais antiga, mas <strong>funciona em praticamente todos os lugares</strong>, incluindo ambientes de teste. Ela é um pouco mais "manual":</p>
+          <pre class="p-4"><code>function copiarTextoCompativel(texto) {
+  // 1. Cria um textarea temporário fora da tela
+  const textarea = document.createElement('textarea');
+  textarea.value = texto;
+  document.body.appendChild(textarea);
+
+  // 2. Seleciona o texto dentro do textarea
+  textarea.select();
+
+  // 3. Executa o comando "copiar"
+  try {
+    document.execCommand('copy');
+    alert('Texto copiado!');
+  } catch (err) {
+    console.error('Falha ao copiar', err);
+  }
+
+  // 4. Remove o textarea temporário
+  document.body.removeChild(textarea);
+}
+
+// Para usar:
+// copiarTextoCompativel('Seu cupom: VITOR10');</code></pre>
+        </div>
+      </div>
+    </section>
+  </div>
+`
+        },
+        {
+          id: 39,
+          titulo: "O Que É Um iFrame?",
+          subtitulo: "Aula 6.4",
+          descricao: "Introdução ao elemento iframe, sua sintaxe, usos comuns como embeds de vídeos e mapas, e considerações de segurança.",
+          icone: "fa-brain",
+          conteudo: `
+  <div class="container">
+    <section id="aula-24">
+      <div class="content is-size-5">
+        <div id="o-que-e-iframe" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">1. Uma Janela dentro do seu Site</h3>
+          <p class="mb-5">A tag <code>&lt;iframe&gt;</code> (Inline Frame) é um elemento HTML que permite <span class="highlight-pink">embutir outra página web completa</span> dentro da sua página atual.</p>
+          <p>Pense nela como abrir uma "janela" no seu site onde você pode exibir o conteúdo de um outro site, como um vídeo do YouTube ou um mapa do Google Maps. O conteúdo dentro do iframe é totalmente independente do seu site.</p>
+        </div>
+
+        <div id="sintaxe-iframe" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">2. Sintaxe e Atributos Principais</h3>
+          <p class="mb-5">A tag é simples de usar. O atributo mais importante é o <code>src</code>, que define o URL da página que você quer carregar.</p>
+          <pre class="p-4"><code>&lt;iframe
+  src="https://www.example.com"
+  width="600"
+  height="400"
+  frameborder="0"
+  allowfullscreen
+&gt;&lt;/iframe&gt;</code></pre>
+          <div class="columns mt-4">
+            <div class="column">
+              <div class="box box-dark"><strong>src</strong>: A URL da página a ser embutida.</div>
+            </div>
+            <div class="column">
+              <div class="box box-dark"><strong>width/height</strong>: Definem o tamanho da janela do iframe.</div>
+            </div>
+            <div class="column">
+              <div class="box box-dark"><strong>frameborder="0"</strong>: Remove a borda padrão feia do iframe.</div>
+            </div>
+            <div class="column">
+              <div class="box box-dark"><strong>allowfullscreen</strong>: Permite que o conteúdo (como um vídeo) possa ser exibido em tela cheia.</div>
+            </div>
+          </div>
+        </div>
+
+        <div id="exemplos-uso" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">3. Exemplos de Uso Comum</h3>
+          <p class="mb-5">Você usa iframes o tempo todo, mesmo sem perceber. Os famosos "embeds" quase sempre são iframes.</p>
+
+          <h4 class="title is-5 mb-2">Embutir um Vídeo do YouTube</h4>
+          <p class="mb-4">O próprio YouTube fornece o código de iframe pronto para você copiar e colar.</p>
+          <pre class="p-4"><code>&lt;iframe
+  width="560" height="315"
+  src="https://www.youtube.com/embed/VIDEO_ID_AQUI"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen&gt;
+&lt;/iframe&gt;</code></pre>
+
+          <h4 class="title is-5 mb-2">Embutir um Mapa do Google Maps</h4>
+          <p class="mb-4">O Google Maps também tem uma opção "Compartilhar > Incorporar um mapa" que gera um iframe.</p>
+          <pre class="p-4"><code>&lt;iframe
+  src="https://www.google.com/maps/embed?pb=..."
+  width="600" height="450"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy"&gt;
+&lt;/iframe&gt;</code></pre>
+        </div>
+
+        <div id="consideracoes-iframe" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">4. Considerações de Segurança</h3>
+          <p class="mb-5">Iframes são poderosos, mas podem ser um risco de segurança. Por isso, os navegadores impõem restrições:</p>
+          <ul class="mb-5">
+            <li><strong>Same-Origin Policy:</strong> Por padrão, o JavaScript da sua página <strong>não pode</strong> ler ou manipular o conteúdo de um iframe que venha de um domínio diferente (ex: seu site não pode ler o que acontece dentro do iframe do YouTube).</li>
+            <li><strong>X-Frame-Options:</strong> Muitos sites (como o Google, Facebook, e o próprio Serasa) proíbem ser carregados dentro de um iframe. Eles enviam um aviso ao navegador dizendo "Não me coloque em uma janela!", para prevenir ataques de "clickjacking".</li>
+          </ul>
+          <p class="mt-3">Em resumo: use iframes para embutir conteúdo de serviços que explicitamente permitem isso (como YouTube, Maps, Spotify).</p>
+        </div>
+      </div>
+    </section>
+  </div>
+`
+        }
+      ]
     },
     {
       "id": 9,
       "titulo": "Semana 9",
       "subtitulo": "2/2 dias",
       "descricao": "Ferramentas Modernas - Variáveis CSS, Bulma e Métodos de Array",
-      "icone": "fa-tools"
+      "icone": "fa-tools",
+      "dias": [
+        {
+          id: 40,
+          titulo: "Variáveis CSS, Bulma e Métodos de Array",
+          subtitulo: "Aula 9.1",
+          descricao: "Introdução a variáveis CSS, framework Bulma com componentes como botões, notificações e formulários, e métodos de array como forEach, map, filter, find e reduce.",
+          icone: "fa-brain",
+          conteudo: `
+  <div class="container">
+    <section id="aula-25">
+
+      <div class="content is-size-5">
+        <div id="variaveis-css" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">1. Variáveis CSS (Propriedades Customizadas)</h3>
+          <p class="mb-5">Variáveis CSS são uma forma de definir valores (como cores, fontes, tamanhos) em um lugar e reutilizá-los em todo o seu arquivo CSS. Isso é <strong>excelente para manutenção</strong>, especialmente para criar temas (como Dark/Light Mode).</p>
+          <p class="mb-5">Declaramos uma variável usando <code>--nome-da-variavel</code> dentro do seletor <code>:root</code> (que representa a raiz do documento HTML).</p>
+          <pre class="p-4"><code>/* 1. Definindo as variáveis no :root */
+:root {
+  --cor-principal: #e80170;
+  --cor-fundo: #111827;
+  --tamanho-fonte-padrao: 16px;
+}
+
+/* 2. Usando as variáveis com a função var() */
+body {
+  background-color: var(--cor-fundo);
+  font-size: var(--tamanho-fonte-padrao);
+}
+
+.botao-destaque {
+  background-color: var(--cor-principal);
+  color: white;
+}</code></pre>
+        </div>
+
+        <div id="o-que-e-framework" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">2. O que é um Framework CSS?</h3>
+          <p class="mb-5">Um Framework CSS é um conjunto de código CSS pré-escrito que fornece uma base de estilos e componentes para acelerar o desenvolvimento. Ele resolve problemas comuns de layout, responsividade e design.</p>
+
+          <div class="box box-dark">
+            <h4 class="title is-5 mb-3">Baseado em Componentes (Ex: Bulma, Bootstrap)</h4>
+            <p>Fornece "componentes prontos". Você usa classes que representam o componente (ex: <code>button</code>, <code>card</code>). É ótimo para construir rápido sem ter que inventar o design do zero.</p>
+            <pre class="p-4"><code>&lt;button class="button is-primary"&gt;&lt;/button&gt;</code></pre>
+          </div>
+        </div>
+
+        <div id="intro-bulma" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">3. Introdução ao Bulma CSS</h3>
+          <p class="mb-5">O <strong>Bulma</strong> é um framework CSS moderno, leve e baseado em componentes. Ele <strong>não usa JavaScript</strong>, sendo focado apenas em CSS. É famoso por sua sintaxe limpa e seu poderoso sistema de layout baseado em Flexbox.</p>
+
+          <h4 class="title is-5 mb-2">Como Usar (Via CDN)</h4>
+          <p class="mb-4">Assim como o Animate.css, podemos apenas linkar o arquivo CDN no nosso <code>&lt;head&gt;</code>:</p>
+          <pre class="p-4"><code>&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"&gt;
+&lt;/head&gt;</code></pre>
+        </div>
+
+        <div id="exemplos-bulma" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">4. Exemplos de Componentes Bulma</h3>
+          <p class="mb-5">A estilização no Bulma é feita adicionando classes com nomes fáceis de entender:</p>
+
+          <h4 class="title is-5 mb-2">Botões (Button)</h4>
+          <pre class="p-4"><code>&lt;button class="button is-primary"&gt;Botão Primário&lt;/button&gt;
+&lt;button class="button is-link is-light"&gt;Botão Link Claro&lt;/button&gt;
+&lt;button class="button is-danger is-large"&gt;Botão Perigo Grande&lt;/button&gt;
+&lt;button class="button is-loading"&gt;Carregando...&lt;/button&gt;</code></pre>
+          <div class="box">
+            <button class="button is-primary">Botão Primário</button>
+            <button class="button is-link is-light">Botão Link Claro</button>
+            <button class="button is-danger is-large">Botão Perigo Grande</button>
+            <button class="button is-loading">Carregando...</button>
+          </div>
+
+          <h4 class="title is-5 mb-2">Notificações (Notification)</h4>
+          <pre class="p-4"><code>&lt;div class="notification is-success"&gt;
+  Formulário enviado com sucesso!
+&lt;/div&gt;</code></pre>
+          <div class="box">
+            <div class="notification is-success">
+              Formulário enviado com sucesso!
+            </div>
+          </div>
+
+          <h4 class="title is-5 mb-2">Cartão (Card)</h4>
+          <pre class="p-4"><code>&lt;div class="card" style="width: 300px;"&gt;
+  &lt;div class="card-image"&gt;
+    &lt;figure class="image is-4by3"&gt;
+      &lt;img src="https://placehold.co/300x225" alt="Placeholder image"&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div class="card-content"&gt;
+    &lt;p class="title is-4"&gt;Título do Card&lt;/p&gt;
+    &lt;p class="subtitle is-6"&gt;@bulmacss&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+          <div class="box">
+            <div class="card" style="width: 300px;">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="https://placehold.co/300x225/e80170/white?text=Bulma" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <p class="title is-4">Título do Card</p>
+                <p class="subtitle is-6">@bulmacss</p>
+              </div>
+            </div>
+          </div>
+
+          <h4 class="title is-5 mb-2">Herói (Hero)</h4>
+          <pre class="p-4"><code>&lt;section class="hero is-primary"&gt;
+  &lt;div class="hero-body"&gt;
+    &lt;p class="title"&gt;
+      Seção Hero Primária
+    &lt;/p&gt;
+    &lt;p class="subtitle"&gt;
+      Um subtítulo simples
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/section&gt;</code></pre>
+          <div class="box">
+            <section class="hero is-primary">
+              <div class="hero-body">
+                <p class="title">
+                  Seção Hero Primária
+                </p>
+                <p class="subtitle">
+                  Um subtítulo simples
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <h4 class="title is-5 mb-2">Formulário (Form)</h4>
+          <pre class="p-4"><code>&lt;div class="field"&gt;
+  &lt;label class="label"&gt;Nome&lt;/label&gt;
+  &lt;div class="control"&gt;
+    &lt;input class="input" type="text" placeholder="Seu nome"&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="field"&gt;
+  &lt;label class="label"&gt;Email&lt;/label&gt;
+  &lt;div class="control"&gt;
+    &lt;input class="input is-danger" type="email" placeholder="email@exemplo.com"&gt;
+  &lt;/div&gt;
+  &lt;p class="help is-danger"&gt;Este email é inválido&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+          <div class="box">
+            <div class="field">
+              <label class="label">Nome</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="Seu nome">
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label">Email</label>
+              <div class="control">
+                <input class="input is-danger" type="email" placeholder="email@exemplo.com">
+              </div>
+              <p class="help is-danger">Este email é inválido</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="hof" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">5. Métodos de Array (Funções de Ordem Superior)</h3>
+          <p class="mb-5">O JavaScript moderno nos dá ferramentas muito poderosas para manipular arrays sem precisar escrever laços <code>for</code> manualmente. Essas ferramentas são chamadas de <strong>Funções de Ordem Superior (Higher-Order Functions)</strong>.</p>
+          <p class="mb-5">Elas são chamadas assim porque são funções (métodos) que <strong>recebem outra função</strong> (chamada de "callback") como argumento, aplicando essa função "callback" a cada item do array.</p>
+          <p class="mb-5">Os métodos <code>.forEach()</code>, <code>.map()</code> e <code>.filter()</code> são os exemplos mais comuns que usamos no dia a dia.</p>
+
+          <h4 class="title is-5 mb-2"><code>.forEach()</code> - O "para cada"</h4>
+          <p class="mb-4">É uma alternativa moderna ao laço <code>for</code>. Ele executa uma função para cada item de um array.</p>
+          <pre class="p-4"><code>const nomes = ['Ana', 'Bia', 'Carlos'];
+
+// Para cada 'nome' dentro do array 'nomes', execute a função
+nomes.forEach(function(nome) {
+  console.log(\`Olá, \${nome}\`);
+});
+// Saída: Olá, Ana
+//         Olá, Bia
+//         Olá, Carlos</code></pre>
+
+          <h4 class="title is-5 mb-2"><code>.map()</code> - O "transformador"</h4>
+          <p class="mb-4">Executa uma função para cada item e <strong>retorna um novo array</strong> com os resultados da transformação. Não modifica o array original.</p>
+          <pre class="p-4"><code>const numeros = [1, 2, 3, 4];
+
+// Para cada 'numero', retorne ele multiplicado por 2
+const numerosDobrados = numeros.map(function(numero) {
+  return numero * 2;
+});
+
+console.log(numerosDobrados); // Saída: [2, 4, 6, 8]
+console.log(numeros);         // Saída: [1, 2, 3, 4] (o original não mudou)</code></pre>
+
+          <h4 class="title is-5 mb-2"><code>.filter()</code> - O "filtro"</h4>
+          <p class="mb-4">Executa uma função de teste para cada item e <strong>retorna um novo array</strong> apenas com os itens que passaram no teste (onde a função retornou <code>true</code>).</p>
+          <pre class="p-4"><code>const idades = [15, 20, 32, 12, 18];
+
+// Para cada 'idade', retorne 'true' APENAS SE a idade for >= 18
+const maioresDeIdade = idades.filter(function(idade) {
+  return idade >= 18;
+});
+
+console.log(maioresDeIdade); // Saída: [20, 32, 18]</code></pre>
+
+          <h4 class="title is-5 mb-2"><code>.find()</code> - O "localizador"</h4>
+          <p class="mb-4">Parecido com o <code>.filter()</code>, mas ele para e <strong>retorna o primeiro item (o valor)</strong> que satisfaz a condição. Retorna <code>undefined</code> se não encontrar.</p>
+          <pre class="p-4"><code>const produtos = [
+  { id: 1, nome: 'Mouse', preco: 150 },
+  { id: 2, nome: 'Teclado', preco: 300 },
+  { id: 3, nome: 'Monitor', preco: 800 }
+];
+
+const produtoEncontrado = produtos.find(function(produto) {
+  return produto.preco > 200;
+});
+
+console.log(produtoEncontrado); // Saída: { id: 2, nome: 'Teclado', preco: 300 }</code></pre>
+
+          <h4 class="title is-5 mb-2"><code>.reduce()</code> - O "acumulador"</h4>
+          <p class="mb-4">O mais poderoso. Ele "reduz" o array a um <strong>valor único</strong> (como um número, uma string, etc.). Ele executa uma função para cada item, passando o resultado da iteração anterior (o "acumulador") para a próxima.</p>
+          <pre class="p-4"><code>const numeros = [10, 20, 30, 40];
+
+// O 'reduce' recebe a função (acumulador, valorAtual) e um valor inicial (0)
+const somaTotal = numeros.reduce(function(acumulador, numero) {
+  return acumulador + numero;
+}, 0); // O '0' é o valor inicial do acumulador
+
+console.log(somaTotal); // Saída: 100</code></pre>
+        </div>
+      </div>
+    </section>
+  </div>
+`
+        },
+        {
+          id: 41,
+          titulo: "Organizando seu Código JavaScript",
+          subtitulo: "Aula 9.2",
+          descricao: "Organização de código JavaScript com módulos, separação de responsabilidades, uso de import/export, e comparação entre método moderno e clássico.",
+          icone: "fa-brain",
+          conteudo: `
+  <div class="container">
+    <section id="aula-26">
+
+      <div class="content is-size-5">
+        <div id="o-problema" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">1. O Problema do "Arquivo Único"</h3>
+          <p class="mb-5">Até agora, colocamos todo o nosso código JavaScript em um único arquivo (ex: <code>script.js</code>). Para projetos pequenos, isso funciona.</p>
+          <p class="mb-5">Mas o que acontece quando seu projeto cresce? Seu <code>script.js</code> pode chegar a 500, 1000, 5000 linhas. Isso causa vários problemas:</p>
+          <ul class="mb-5">
+            <li><strong>Dificuldade de Leitura:</strong> Encontrar uma função específica vira um pesadelo.</li>
+            <li><strong>Manutenção Difícil:</strong> Alterar uma parte do código pode quebrar outra sem querer.</li>
+            <li><strong>Reutilização Zero:</strong> Você não consegue reaproveitar funções facilmente em outros projetos.</li>
+            <li><strong>Conflitos no Git:</strong> Duas pessoas trabalhando no mesmo arquivo gigante ao mesmo tempo é receita para conflitos.</li>
+          </ul>
+        </div>
+
+        <div id="a-solucao" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">2. A Solução: Separação de Responsabilidades</h3>
+          <p class="mb-5">A solução é dividir nosso código em múltiplos arquivos, onde cada arquivo tem uma <strong>responsabilidade única</strong>.</p>
+          <p class="mb-5">Usando o seu exemplo, podemos pensar em uma "cozinha profissional":</p>
+          <ul class="mb-5">
+            <li><strong>Arquivo 1: <code>elements.js</code> (O Almoxarife)</strong><br>
+              Responsabilidade: Apenas selecionar e "entregar" os elementos do DOM. Ele não faz mais nada.</li>
+            <li><strong>Arquivo 2: <code>api.js</code> (O Entregador)</strong><br>
+              Responsabilidade: Apenas buscar dados externos (API). Ele não sabe o que vai acontecer com esses dados.</li>
+            <li><strong>Arquivo 3: <code>main.js</code> (O Chef)</strong><br>
+              Responsabilidade: Orquestrar tudo. Ele pede os elementos ao "Almoxarife", pede os dados ao "Entregador" e aplica a lógica (Event Listeners).</li>
+          </ul>
+        </div>
+
+        <div id="diagrama-fluxo" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">3. Diagrama Visual do Fluxo (Módulos)</h3>
+          <p class="mb-5">Podemos visualizar essa organização da seguinte forma. O HTML é o ponto de entrada que carrega apenas o "Chef" (<code>main.js</code>), e o "Chef" se encarrega de importar as ferramentas dos outros arquivos.</p>
+          <pre class="p-4"><code>  index.html
+      │
+      └── &lt;script type="module" src="main.js"&gt;&lt;/script&gt;
+                   │
+                   ├── import { ... } from './elements.js'
+                   │     (Busca os elementos do DOM)
+                   │
+                   └── import { ... } from './api.js'
+                         (Busca as funções da API)</code></pre>
+        </div>
+
+        <div id="como-fazer" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">4. A Solução Moderna: Módulos JS (import/export)</h3>
+          <p class="mb-5">Para fazer os arquivos "conversarem" de forma segura, usamos as palavras-chave <code>export</code> (para expor uma função/variável) e <code>import</code> (para buscar).</p>
+
+          <h4 class="title is-5 mb-2"><code>export</code>: Disponibilizando o código</h4>
+          <p class="mb-4">No arquivo que queremos disponibilizar (ex: <code>elements.js</code>), nós usamos <code>export</code> na frente do que queremos "enviar para fora".</p>
+          <pre class="p-4"><code>// Em: elements.js
+export const botaoAdicionar = document.getElementById('botao-adicionar-tarefa');
+export const containerTarefas = document.querySelector('.container-tarefas-a-fazer');
+
+// Em: api.js
+export async function buscarDadosDaAPI() {
+  const response = await fetch('https://api.exemplo.com/dados');
+  const data = await response.json();
+  return data;
+}</code></pre>
+
+          <h4 class="title is-5 mb-2"><code>import</code>: Buscando o código</h4>
+          <p class="mb-4">No nosso arquivo principal (ex: <code>main.js</code>), nós usamos <code>import</code> para "puxar" as funções e variáveis que precisamos.</p>
+          <pre class="p-4"><code>// Em: main.js (O "Chef")
+
+// 1. Importamos o que precisamos dos outros arquivos
+import { botaoAdicionar, containerTarefas } from './elements.js';
+import { buscarDadosDaAPI } from './api.js';
+
+// 2. Agora podemos usá-los!
+botaoAdicionar.addEventListener('click', () => {
+  // ... lógica do clique ...
+  containerTarefas.innerHTML = "Novo item!";
+});</code></pre>
+        </div>
+
+        <div id="html-modules" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">5. A Mágica no HTML: <code>type="module"</code></h3>
+          <p class="mb-5">Nada disso funciona se não avisarmos o HTML que estamos usando Módulos. Para fazer isso, adicionamos <code>type="module"</code> na tag <code>&lt;script&gt;</code>.</p>
+          <pre class="p-4"><code>&lt;body&gt;
+  &lt;!-- ... seu HTML ... --&gt;
+
+  &lt;!--
+    Carregamos APENAS o 'main.js' como um módulo.
+    O navegador entenderá que ele precisa buscar
+    os arquivos que ele 'importa'.
+  --&gt;
+  &lt;script type="module" src="main.js"&gt;&lt;/script&gt;
+&lt;/body&gt;</code></pre>
+        </div>
+
+        <div id="metodo-classico" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">6. O Método "Clássico" (Alternativa Antiga)</h3>
+          <p class="mb-5">Antes da introdução dos Módulos JS, a forma de dividir o código era simplesmente importar múltiplos arquivos <code>&lt;script&gt;</code> (sem <code>type="module"</code>).</p>
+          <pre class="p-4"><code>&lt;body&gt;
+  &lt;!-- ... seu HTML ... --&gt;
+
+  &lt;!--
+    Método Clássico: A ORDEM DE CARREGAMENTO IMPORTA!
+    'elements.js' e 'api.js' precisam vir ANTES de 'main.js'.
+  --&gt;
+  &lt;script src="elements.js"&gt;&lt;/script&gt;
+  &lt;script src="api.js"&gt;&lt;/script&gt;
+  &lt;script src="main.js"&gt;&lt;/script&gt;
+&lt;/body&gt;</code></pre>
+
+          <h4 class="title is-5 mb-2">Como isso funciona? (Escopo Global)</h4>
+          <p class="mb-4">Neste método, não usamos <code>import</code> ou <code>export</code>. Todas as funções e variáveis declaradas "soltas" nesses arquivos são "jogadas" no <strong>escopo global</strong> (o objeto <code>window</code>).</p>
+          <p class="mb-4">O <code>main.js</code> funciona simplesmente porque ele consegue "enxergar" as funções e variáveis declaradas nos arquivos anteriores.</p>
+          <p class="mb-5"><strong>Problemas:</strong> Isso é perigoso. Causa "poluição do escopo global", onde dois arquivos podem acidentalmente criar variáveis com o mesmo nome, causando bugs. A ordem de carregamento também é uma fonte de erros.</p>
+        </div>
+
+        <div id="conclusao-modulos" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">7. Conclusão: Módulos vs. Escopo Global</h3>
+          <div class="box box-dark">
+            <ul class="mb-5">
+              <li><strong>Método Moderno (Módulos):</strong> Use <code>type="module"</code>, <code>import</code> e <code>export</code>. Os arquivos são isolados, seguros e organizados. <strong>Este é o padrão da indústria.</strong></li>
+              <li><strong>Método Clássico (Global):</strong> Apenas liste os scripts. É mais simples para coisas pequenas, mas perigoso para projetos, pois causa colisão de nomes e depende da ordem.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+`
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titulo": "Revisão dos conteúdos",
+      "subtitulo": "Revisões",
+      "descricao": "Revisão geral das coisas que apredemos sobre HTML, CSS E Javascript",
+      "icone": "fa-tools",
+      "dias": [
+        {
+          id: 42,
+          titulo: "HTML: Estrutura e Semântica",
+          subtitulo: "Revisão",
+          descricao: "Revisão completa dos conceitos fundamentais de HTML: estrutura básica, semântica, formulários, iframes e melhores práticas para desenvolvimento web.",
+          icone: "fas fa-html5",
+          conteudo: `
+<section class="">
+  <div class="container">
+    
+    <div class="content">
+      <h2 class="title is-3">1. Estrutura Básica</h2>
+      <p>Todo documento HTML começa com a declaração DOCTYPE e as tags html, head e body.</p>
+      <pre class="p-4"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-BR"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Título da Página&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Olá Mundo!&lt;/h1&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+      
+      <h2 class="title is-3">2. Semântica</h2>
+      <p>Usar tags semânticas melhora a acessibilidade e SEO.</p>
+      <div class="box box-dark">
+        <h4 class="title is-4 has-text-white">Tags Semânticas Principais</h4>
+        <ul>
+          <li><strong>&lt;header&gt;</strong>: Cabeçalho da página</li>
+          <li><strong>&lt;nav&gt;</strong>: Navegação</li>
+          <li><strong>&lt;main&gt;</strong>: Conteúdo principal</li>
+          <li><strong>&lt;section&gt;</strong>: Seções do conteúdo</li>
+          <li><strong>&lt;article&gt;</strong>: Artigos independentes</li>
+          <li><strong>&lt;aside&gt;</strong>: Conteúdo lateral</li>
+          <li><strong>&lt;footer&gt;</strong>: Rodapé</li>
+        </ul>
+      </div>
+      
+      <h2 class="title is-3">3. Formulários</h2>
+      <p>Formulários permitem interação com o usuário.</p>
+      <pre class="p-4"><code>&lt;form action="/submit" method="POST"&gt;
+  &lt;label for="nome"&gt;Nome:&lt;/label&gt;
+  &lt;input type="text" id="nome" name="nome" required&gt;
+  
+  &lt;label for="email"&gt;Email:&lt;/label&gt;
+  &lt;input type="email" id="email" name="email" required&gt;
+  
+  &lt;button type="submit"&gt;Enviar&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+      
+      <h2 class="title is-3">4. Iframes e Multimídia</h2>
+      <p>Incorporar conteúdo externo como vídeos ou mapas.</p>
+      <pre class="p-4"><code>&lt;iframe src="https://www.youtube.com/embed/VIDEO_ID" 
+        width="560" height="315" frameborder="0" allowfullscreen&gt;
+&lt;/iframe&gt;</code></pre>
+      
+      <h2 class="title is-3">5. Melhores Práticas</h2>
+      <ul>
+        <li>Sempre usar DOCTYPE html5</li>
+        <li>Definir lang no html</li>
+        <li>Usar meta charset UTF-8</li>
+        <li>Estruturar com semântica</li>
+        <li>Validar o HTML</li>
+      </ul>
+    </div>
+  </div>
+</section>
+`
+        },
+        {
+          id: 43,
+          titulo: "CSS: Estilo, Layout e Responsividade",
+          subtitulo: "Revisão",
+          descricao: "Revisão completa dos conceitos de CSS: seletores, box model, propriedades essenciais, flexbox, responsividade e frameworks modernos.",
+          icone: "fas fa-css3",
+          conteudo: `
+<section class="">
+  <div class="container">
+    
+    <div class="content">
+      <h2 class="title is-3">1. Fundamentos: Seletores e Cascata</h2>
+      <p>O CSS funciona aplicando regras de estilo aos elementos HTML. A ordem (cascata) e o tipo de seletor (especificidade) determinam qual regra ganha.</p>
+      <div class="box box-dark">
+        <h4 class="title is-4 has-text-white">Hierarquia de Seletores (Poder)</h4>
+        <ol>
+          <li><span class="has-text-danger">Inline (style="")</span>: Vence quase tudo.</li>
+          <li><span class="has-text-warning">ID (#header)</span>: Muito específico.</li>
+          <li><span class="has-text-info">Classe (.btn)</span>: O mais usado, equilíbrio ideal.</li>
+          <li><span class="has-text-grey">Tag (p, div)</span>: O mais fraco, afeta todos os elementos.</li>
+        </ol>
+      </div>
+      
+      <h2 class="title is-3">2. Box Model e Reset</h2>
+      <p>Todo elemento HTML é essencialmente uma caixa. Entender como as camadas dessa caixa funcionam é vital.</p>
+      
+      <div class="box box-dark has-text-centered">
+        <div class="has-background-warning has-text-black p-4">
+          MARGIN
+          <div class="is-size-7">(Espaço externo)</div>
+          
+          <div class="has-background-warning-light has-text-black p-4 mt-2">
+            BORDER
+            <div class="is-size-7">(Borda visível)</div>
+            
+            <div class="has-background-success has-text-black p-4 mt-2">
+              PADDING
+              <div class="is-size-7">(Respiro interno)</div>
+              
+              <div class="has-background-info has-text-white p-4 mt-2">
+                CONTENT
+                <br><span class="is-size-7">(Texto/Img)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <p>Para evitar problemas de cálculo de tamanho, usamos sempre o Reset Universal no início do CSS:</p>
+      <pre class="p-4"><code>* {
+  box-sizing: border-box; /* O padding não aumenta a largura do elemento */
+  margin: 0;
+  padding: 0;
+}</code></pre>
+      
+      <h2 class="title is-3">3. Glossário de Propriedades Essenciais</h2>
+      <p>O CSS tem centenas de propriedades, mas você usará essas aqui em 90% do tempo.</p>
+      
+      <div class="columns">
+        <div class="column">
+          <div class="box box-dark">
+            <h4 class="title is-4 has-text-white">Texto e Tipografia</h4>
+            <table class="table is-fullwidth">
+              <tbody>
+                <tr>
+                  <th>color</th>
+                  <td>Cor do texto (ex: <code>#fff</code>, <code>red</code>).</td>
+                </tr>
+                <tr>
+                  <th>font-size</th>
+                  <td>Tamanho da fonte (ex: <code>16px</code>, <code>1.5rem</code>).</td>
+                </tr>
+                <tr>
+                  <th>font-weight</th>
+                  <td>Peso da fonte (ex: <code>bold</code>, <code>700</code>).</td>
+                </tr>
+                <tr>
+                  <th>text-align</th>
+                  <td>Alinhamento do texto (ex: <code>center</code>, <code>right</code>).</td>
+                </tr>
+                <tr>
+                  <th>line-height</th>
+                  <td>Altura da linha. Importante para leitura.</td>
+                </tr>
+                <tr>
+                  <th>text-decoration</th>
+                  <td>Decoração (ex: <code>none</code> remove sublinhado de links).</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="box box-dark">
+            <h4 class="title is-4 has-text-white">Fundo e Visual</h4>
+            <table class="table is-fullwidth">
+              <tbody>
+                <tr>
+                  <th>background-color</th>
+                  <td>Cor de fundo do elemento.</td>
+                </tr>
+                <tr>
+                  <th>background-image</th>
+                  <td>Imagem de fundo (ex: <code>url('foto.jpg')</code>).</td>
+                </tr>
+                <tr>
+                  <th>border</th>
+                  <td>Borda (ex: <code>1px solid black</code>).</td>
+                </tr>
+                <tr>
+                  <th>border-radius</th>
+                  <td>Arredondamento das pontas (ex: <code>10px</code>, <code>50%</code>).</td>
+                </tr>
+                <tr>
+                  <th>box-shadow</th>
+                  <td>Sombra da caixa.</td>
+                </tr>
+                <tr>
+                  <th>opacity</th>
+                  <td>Transparência (0 a 1).</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      
+      <div class="box box-dark">
+        <h4 class="title is-4 has-text-white">Layout e Tamanho</h4>
+        <table class="table is-fullwidth">
+          <tbody>
+            <tr>
+              <th>width / height</th>
+              <td>Largura e Altura. Use <code>%</code> para responsividade.</td>
+            </tr>
+            <tr>
+              <th>margin</th>
+              <td>Espaço externo (afasta os vizinhos). <code>margin: 0 auto</code> centraliza.</td>
+            </tr>
+            <tr>
+              <th>padding</th>
+              <td>Espaço interno (entre a borda e o conteúdo).</td>
+            </tr>
+            <tr>
+              <th>display</th>
+              <td>Comportamento do elemento (<code>block</code>, <code>inline</code>, <code>flex</code>, <code>none</code>).</td>
+            </tr>
+            <tr>
+              <th>position</th>
+              <td>Posicionamento avançado (<code>relative</code>, <code>absolute</code>, <code>fixed</code>).</td>
+            </tr>
+            <tr>
+              <th>z-index</th>
+              <td>Ordem de empilhamento (quem fica em cima de quem).</td>
+            </tr>
+            <tr>
+              <th>cursor</th>
+              <td>Muda o ponteiro do mouse (ex: <code>pointer</code> para mãozinha).</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <h2 class="title is-3">4. Flexbox: O Rei do Layout</h2>
+      <p>A ferramenta principal para alinhar elementos (lado a lado ou empilhados).</p>
+      <pre class="p-4"><code>.container {
+  display: flex; /* Ativa o flexbox */
+  justify-content: center; /* Alinha horizontalmente (eixo principal) */
+  align-items: center; /* Alinha verticalmente (eixo cruzado) */
+  gap: 20px; /* Espaço entre os filhos */
+  flex-wrap: wrap; /* Permite quebrar linha se faltar espaço */
+}</code></pre>
+      
+      <h2 class="title is-3">5. Responsividade (Media Queries)</h2>
+      <p>Fazer o site se adaptar a celulares e tablets usando regras condicionais.</p>
+      <pre class="p-4"><code>/* Regra padrão (Mobile First ou Desktop) */
+.menu { display: flex; }
+
+/* Regra para telas menores que 768px (Celulares) */
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column; /* Muda para coluna no celular */
+    background-color: #333;
+  }
+}</code></pre>
+      
+      <h2 class="title is-3">6. CSS Moderno e Frameworks</h2>
+      <p>Nas últimas aulas, vimos como profissionalizar o CSS.</p>
+      
+      <h4 class="title is-4">Variáveis CSS</h4>
+      <p>Guardam valores reutilizáveis para facilitar manutenção.</p>
+      <pre class="p-4"><code>:root { --cor-principal: #e80170; }</code></pre>
+      
+      <h4 class="title is-4">Frameworks</h4>
+      <ul>
+        <li><strong>Tailwind (Utility-First):</strong> Estiliza via classes utilitárias no HTML (<code>bg-blue-500</code>, <code>p-4</code>).</li>
+        <li><strong>Bulma (Component-Based):</strong> Oferece componentes prontos (<code>.button</code>, <code>.card</code>).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+    `
+        },
+        {
+          id: 44,
+          titulo: "Lógica e JavaScript: O Cérebro da Web",
+          subtitulo: "Revisão",
+          descricao: "Revisão completa dos conceitos de JavaScript: variáveis, tipos, controle de fluxo, funções, DOM, assincronismo, arrays e localStorage.",
+          icone: "fas fa-js-square",
+          conteudo: `
+<section class="">
+  <div class="container">    
+    <div class="content">
+      <h2 class="title is-3">1. Fundamentos: Variáveis e Tipos</h2>
+      <p>Antes de correr, precisamos andar. Tudo começa com onde guardamos dados e que tipos de dados existem.</p>
+      
+      <div class="columns">
+        <div class="column">
+          <div class="box box-dark">
+            <h4 class="title is-4 has-text-white">Variáveis (Caixas)</h4>
+            <ul>
+              <li><code>const</code>: Para valores que <strong>não mudam</strong> (90% dos casos). Ex: Seleção de elementos HTML.</li>
+              <li><code>let</code>: Para valores que <strong>vão mudar</strong>. Ex: Contadores, resultados de soma.</li>
+              <li><strong class="has-text-danger">var</strong>: Antigo e perigoso. Evite usar.</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="box box-dark">
+            <h4 class="title is-4 has-text-white">Tipos de Dados</h4>
+            <ul>
+              <li><strong class="has-text-warning">String:</strong> Texto ("Olá").</li>
+              <li><strong class="has-text-info">Number:</strong> Números (10, 5.5).</li>
+              <li><strong class="has-text-purple">Boolean:</strong> Verdadeiro/Falso (true, false).</li>
+              <li><strong class="has-text-grey">Array:</strong> Lista ([1, 2, 3]).</li>
+              <li><strong class="has-text-success">Object:</strong> Estrutura complexa ({ nome: "Ana" }).</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <h2 class="title is-3">2. Controle de Fluxo (Decisões e Loops)</h2>
+      <p>Como o programa toma decisões e repete tarefas?</p>
+      
+      <div class="columns">
+        <div class="column">
+          <h4 class="title is-5 has-text-white">Condicionais (Se / Senão)</h4>
+          <pre class="p-4"><code>if (idade >= 18) {
+  console.log("Pode entrar");
+} else if (idade >= 16) {
+  console.log("Acompanhado");
+} else {
+  console.log("Barrado");
+}</code></pre>
+        </div>
+        
+        <div class="column">
+          <h4 class="title is-5 has-text-white">Laços (Repetição)</h4>
+          <pre class="p-4"><code>// Para quando sabemos o fim (ex: array)
+for (let i = 0; i &lt; lista.length; i++) {
+  console.log(lista[i]);
+}
+
+// Para quando a condição é dinâmica
+while (usuarioNaoClicou) {
+  esperar();
+}</code></pre>
+        </div>
+      </div>
+      
+      <h2 class="title is-3">3. Funções: O Poder do Reuso</h2>
+      <p>Funções são "mini-programas" dentro do seu código. Elas recebem dados (parâmetros) e devolvem um resultado (retorno).</p>
+      <pre class="p-4"><code>// Sintaxe Clássica
+function somar(a, b) {
+  return a + b;
+}
+
+// Sintaxe Moderna (Arrow Function)
+const multiplicar = (a, b) =&gt; {
+  return a * b;
+};
+
+const resultado = somar(10, 5); // 15</code></pre>
+      
+      <h2 class="title is-3">4. Manipulando o DOM (HTML)</h2>
+      <p>É assim que o JS "conversa" com o HTML. O processo é sempre: Selecionar -> Ouvir -> Modificar.</p>
+      <div class="box box-dark">
+        <h4 class="title is-4 has-text-white">Receita de Bolo do DOM</h4>
+        <ol>
+          <li><strong>Selecionar:</strong> Busque o elemento.<br><code>const btn = document.querySelector("#meu-botao");</code></li>
+          <li><strong>Ouvir:</strong> Adicione um "fofoqueiro" (Listener).<br><code>btn.addEventListener("click", minhaFuncao);</code></li>
+          <li><strong>Modificar:</strong> Altere texto, estilo ou classes.<br><code>elemento.textContent = "Novo Texto";</code><br><code>elemento.classList.toggle("ativo");</code></li>
+        </ol>
+      </div>
+      
+      <h2 class="title is-3">5. Assincronismo e APIs</h2>
+      <p>O JavaScript não para. Se algo demora (como buscar dados em um servidor), usamos promessas (async/await) para esperar sem travar a tela.</p>
+      
+      <div class="box box-dark">
+        <h4 class="title is-4 has-text-white">Fetch API (O "Garçom")</h4>
+        <pre class="p-4"><code>async function buscarDados() {
+  try {
+    // 1. Faz o pedido (espera chegar)
+    const resposta = await fetch("https://api.exemplo.com/dados");
+    
+    // 2. Converte o pacote (espera converter)
+    const dados = await resposta.json();
+    
+    // 3. Usa os dados
+    console.log(dados);
+    
+  } catch (erro) {
+    console.error("Deu ruim:", erro);
+  }
+}</code></pre>
+      </div>
+      
+      <h2 class="title is-3">6. Poder dos Arrays (Métodos)</h2>
+      <p>Maneiras modernas de lidar com listas sem usar o for tradicional.</p>
+      <div class="columns is-multiline">
+        <div class="column is-half">
+          <div class="notification is-primary">
+            <strong>.forEach()</strong>: Executa uma ação para cada item (sem retorno).
+          </div>
+        </div>
+        <div class="column is-half">
+          <div class="notification is-link">
+            <strong>.map()</strong>: Transforma cada item e cria uma NOVA lista.
+          </div>
+        </div>
+        <div class="column is-half">
+          <div class="notification is-info">
+            <strong>.filter()</strong>: Cria uma nova lista apenas com os itens que passaram no teste.
+          </div>
+        </div>
+        <div class="column is-half">
+          <div class="notification is-success">
+            <strong>.find()</strong>: Encontra o PRIMEIRO item que passa no teste.
+          </div>
+        </div>
+      </div>
+      
+      <h2 class="title is-3">7. Persistência (localStorage)</h2>
+      <p>Guardando dados no navegador para não perder ao recarregar (ex: Todo List).</p>
+      <pre class="p-4"><code>// Salvar (precisa virar texto/JSON)
+const usuario = { nome: "Vitor", tema: "dark" };
+localStorage.setItem("user_data", JSON.stringify(usuario));
+
+// Ler (precisa voltar a ser Objeto)
+const dadosSalvos = localStorage.getItem("user_data");
+const objetoUsuario = JSON.parse(dadosSalvos);</code></pre>
+      
+      <h2 class="title is-3">8. Glossário de Comandos Essenciais</h2>
+      <p>Uma lista rápida para você consultar enquanto programa.</p>
+      
+      <div class="columns">
+        <div class="column">
+          <div class="box box-dark">
+            <h4 class="title is-4 has-text-white">Básico & Debug</h4>
+            <table class="table is-fullwidth">
+              <tbody>
+                <tr>
+                  <th>console.log(x)</th>
+                  <td>Mostra mensagem ou valor no console do navegador.</td>
+                </tr>
+                <tr>
+                  <th>alert(msg)</th>
+                  <td>Mostra um pop-up de aviso na tela.</td>
+                </tr>
+                <tr>
+                  <th>prompt(msg)</th>
+                  <td>Pede um texto ao usuário via pop-up.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="box box-dark">
+            <h4 class="title is-4 has-text-white">DOM (HTML)</h4>
+            <table class="table is-fullwidth">
+              <tbody>
+                <tr>
+                  <th>document.getElementById('id')</th>
+                  <td>Seleciona elemento pelo ID.</td>
+                </tr>
+                <tr>
+                  <th>document.querySelector('.classe')</th>
+                  <td>Seleciona o primeiro elemento que bate com o seletor.</td>
+                </tr>
+                <tr>
+                  <th>elm.textContent = '...'</th>
+                  <td>Muda o texto dentro do elemento.</td>
+                </tr>
+                <tr>
+                  <th>elm.innerHTML = '...'</th>
+                  <td>Muda o HTML interno (perigoso, use com cuidado).</td>
+                </tr>
+                <tr>
+                  <th>elm.classList.add('classe')</th>
+                  <td>Adiciona uma classe CSS.</td>
+                </tr>
+                <tr>
+                  <th>elm.classList.toggle('classe')</th>
+                  <td>Liga/Desliga uma classe CSS.</td>
+                </tr>
+                <tr>
+                  <th>elm.addEventListener('click', fn)</th>
+                  <td>Executa uma função quando o evento ocorre.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      
+      <div class="columns">
+        <div class="column">
+          <div class="box box-dark">
+            <h4 class="title is-4 has-text-white">Dados & Storage</h4>
+            <table class="table is-fullwidth">
+              <tbody>
+                <tr>
+                  <th>JSON.stringify(obj)</th>
+                  <td>Converte Objeto/Array para String.</td>
+                </tr>
+                <tr>
+                  <th>JSON.parse(str)</th>
+                  <td>Converte String JSON para Objeto/Array.</td>
+                </tr>
+                <tr>
+                  <th>localStorage.setItem('k', 'v')</th>
+                  <td>Salva um item no navegador.</td>
+                </tr>
+                <tr>
+                  <th>localStorage.getItem('k')</th>
+                  <td>Recupera um item do navegador.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="box box-dark">
+            <h4 class="title is-4 has-text-white">Arrays</h4>
+            <table class="table is-fullwidth">
+              <tbody>
+                <tr>
+                  <th>arr.push(item)</th>
+                  <td>Adiciona item ao final da lista.</td>
+                </tr>
+                <tr>
+                  <th>arr.length</th>
+                  <td>Retorna o tamanho da lista.</td>
+                </tr>
+                <tr>
+                  <th>arr.forEach(fn)</th>
+                  <td>Loop simples para cada item.</td>
+                </tr>
+                <tr>
+                  <th>arr.map(fn)</th>
+                  <td>Cria nova lista transformada.</td>
+                </tr>
+                <tr>
+                  <th>arr.filter(fn)</th>
+                  <td>Cria nova lista filtrada.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    `
+        },
+        {
+          id: 45,
+          titulo: "Landing Page Aplicando Conceitos",
+          subtitulo: "Revisão",
+          descricao: "Exemplo prático de landing page responsiva usando HTML semântico, CSS com variáveis, flexbox, grid e media queries para adaptar nossas aplicações para o mobile.",
+          icone: "fas fa-laptop-code",
+          conteudo: `
+<section class="">
+  <div class="container">
+    
+    <div class="content">
+      <h2 class="title is-3">1. Estrutura HTML Semântica</h2>
+      <p>Usando tags semânticas para melhor acessibilidade e SEO.</p>
+      <pre class="p-4"><code>&lt;header&gt;
+  &lt;nav&gt;
+    &lt;div class="logo"&gt;☕ Café Dev&lt;/div&gt;
+    &lt;ul class="nav-links"&gt;
+      &lt;li&gt;&lt;a href="#home"&gt;Início&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#produtos"&gt;Produtos&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#sobre"&gt;Sobre&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#contato"&gt;Contato&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/nav&gt;
+&lt;/header&gt;
+
+&lt;main&gt;
+  &lt;section id="home" class="hero"&gt;
+    &lt;h1&gt;Codifique com mais energia&lt;/h1&gt;
+    &lt;p&gt;O café especial selecionado para programadores.&lt;/p&gt;
+    &lt;a href="#produtos" class="cta-button"&gt;Ver Nossos Cafés&lt;/a&gt;
+  &lt;/section&gt;
+  
+  &lt;section id="produtos" class="produtos"&gt;
+    &lt;h2&gt;Nossos Blends&lt;/h2&gt;
+    &lt;div class="grid-container"&gt;
+      &lt;article class="card"&gt;
+        &lt;h3&gt;Java Espresso&lt;/h3&gt;
+        &lt;p&gt;Forte e intenso, ideal para noites de deploy.&lt;/p&gt;
+        &lt;div class="preco"&gt;R$ 35,00&lt;/div&gt;
+        &lt;a href="#" class="cta-button"&gt;Comprar&lt;/a&gt;
+      &lt;/article&gt;
+      &lt;!-- Mais cards --&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+  
+  &lt;section id="contato" class="newsletter"&gt;
+    &lt;h2&gt;Fique por dentro&lt;/h2&gt;
+    &lt;form&gt;
+      &lt;input type="email" placeholder="Seu e-mail" required&gt;
+      &lt;button type="submit"&gt;Inscrever-se&lt;/button&gt;
+    &lt;/form&gt;
+  &lt;/section&gt;
+&lt;/main&gt;
+
+&lt;footer&gt;
+  &lt;p&gt;&copy; 2025 Café Dev. Feito com HTML e CSS puro.&lt;/p&gt;
+&lt;/footer&gt;</code></pre>
+      
+      <h2 class="title is-3">2. CSS com Variáveis</h2>
+      <p>Variáveis CSS facilitam a manutenção e consistência das cores.</p>
+      <pre class="p-4"><code>:root {
+  --cor-primaria: #e80170;
+  --cor-secundaria: #2d3748;
+  --cor-fundo: #f7fafc;
+  --cor-texto: #1a202c;
+  --cor-branca: #ffffff;
+  --fonte-padrao: 'Segoe UI', sans-serif;
+}</code></pre>
+      
+      <h2 class="title is-3">3. Flexbox para Layout</h2>
+      <p>Flexbox permite alinhar elementos horizontal e verticalmente com facilidade.</p>
+      <pre class="p-4"><code>nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}</code></pre>
+      
+      <h2 class="title is-3">4. Grid Responsivo</h2>
+      <p>Flexbox com flex-wrap cria um grid que se adapta ao tamanho da tela.</p>
+      <pre class="p-4"><code>.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.card {
+  flex: 1 1 300px;
+  max-width: 350px;
+}</code></pre>
+      
+      <h2 class="title is-3">5. Media Queries</h2>
+      <p>Adapta o layout para dispositivos móveis.</p>
+      <pre class="p-4"><code>@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+  
+  .nav-links {
+    flex-direction: column;
+    text-align: center;
+  }
+}</code></pre>
+      
+      <h2 class="title is-3">6. Demonstração Visual</h2>
+      <p>Veja como o layout se adapta:</p>
+      <div class="box">
+        <div class="columns">
+          <div class="column">
+            <div class="notification is-info">
+              <strong>Desktop:</strong> Menu horizontal, grid de 3 colunas
+            </div>
+          </div>
+          <div class="column">
+            <div class="notification is-warning">
+              <strong>Mobile:</strong> Menu vertical, grid empilhado
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <h2 class="title is-3">7. Melhores Práticas Aplicadas</h2>
+      <ul>
+        <li>Reset CSS com box-sizing: border-box</li>
+        <li>Variáveis CSS para cores e fontes</li>
+        <li>HTML semântico</li>
+        <li>Flexbox para layouts modernos</li>
+        <li>Media queries para responsividade</li>
+        <li>Transições suaves para interações</li>
+      </ul>
+    </div>
+  </div>
+</section>
+    `
+        }
+      ]
     }
   ]
 }

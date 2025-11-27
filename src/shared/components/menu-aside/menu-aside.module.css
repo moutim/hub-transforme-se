@@ -13,3 +13,18 @@
 .themeToggle {
   border-top: 1px solid var(--bulma-border-weak);
 }
+
+.logo {
+  width: 170px;
+}
+
+.menuAsideArrow {
+  color: var(--bulma-text) !important;
+}
+
+.asideClosed {
+  width: 80px;
+  padding: 10px 0;
+  justify-content: center;
+  transition: 1s ease;
+}

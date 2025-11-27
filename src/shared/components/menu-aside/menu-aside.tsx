@@ -1,51 +1,49 @@
+'use client';
+
 import styles from './menu-aside.module.css';
 import ThemeToggle from '../theme-toggle/theme-toggle';
+import { useState } from 'react';
+import ListItem from '../list-item/list-item';
 
 export default function MenuAside() {
+  const [asideClosed, setAsideClosed] = useState<boolean>(false);
+  const handleCloseAside = () => setAsideClosed(!asideClosed);
+
   return (
     <aside>
-      <section className={`${styles.asideStyle} is-flex is-flex-direction-column is-justify-content-space-between`}>
+      <section className={`${styles.asideStyle} ${asideClosed ? styles.asideClosed : ''} is-flex is-flex-direction-column is-justify-content-space-between`}>
         <div>
-          <div className={`${styles.containerLogo} section pl-5 pr-5 pb-5`}>
-            <figure className="image is-64x64">
-              <img className="is-rounded" src="https://bulma.io/assets/images/placeholders/128x128.png" />
-            </figure>
+          <div className={`${styles.containerLogo} ${asideClosed ? styles.asideClosed : ''} section pl-5 pr-5 pb-5`}>
+            {
+              !asideClosed && (
+                <figure className={`image ${styles.logo}`}>
+                  <img src="/logo.png" />
+                </figure>
+              )
+            }
 
-            <h1>Transforme-se</h1>
+            <button
+              onClick={() => handleCloseAside()}
+              className={`button is-ghost`}
+            >
+              <span className="icon is-small">
+                <i className={`fas ${styles.containerLogo} ${asideClosed ? 'fa-arrow-right' : 'fa-arrow-left'} ${styles.menuAsideArrow}`}></i>
+              </span>
+            </button>
           </div>
 
           <nav className="menu section pl-5 pr-5 pt-5">
             <ul className="menu-list">
-              <li className="mb-3">
-                <a>
-                  <i className="fas fa-calendar-week mr-4"></i>
-                  Semanas
-                </a>
-              </li>
-              <li className="mb-3">
-                <a>
-                  <i className="fas fa-calendar-day mr-4"></i>
-                  Dias
-                </a>
-              </li>
-              <li className="mb-3">
-                <a>
-                  <i className="fas fa-group-arrows-rotate mr-4"></i>
-                  Grupos
-                </a>
-              </li>
-              <li className="mb-3">
-                <a>
-                  <i className="fas fa-folder-open mr-4"></i>
-                  Material complementar
-                </a>
-              </li>
+              <ListItem text={asideClosed ? '': 'Semanas'} icon='fa-calendar-week' route="/" />
+              <ListItem text={asideClosed ? '': 'Dias'} icon='fa-calendar-day' route="/day" />
+              <ListItem text={asideClosed ? '': 'Grupos'} icon='fa-arrows-rotate' route="/group" />
+              <ListItem text={asideClosed ? '': 'Complementar'} icon='fa-folder-open' route="/complementar" />
             </ul>
           </nav>
         </div>
 
-        <div className={`section pl-5 pr-5 pt-5 pb-5 ${styles.themeToggle}`}>
-          <ThemeToggle />
+        <div className={`section pl-5 pr-5 pt-5 pb-5 ${styles.themeToggle} ${styles.containerLogo} ${asideClosed ? styles.asideClosed : ''}`}>
+          <ThemeToggle textVisible={ asideClosed ? false : true } />
         </div>
       </section>
     </aside>

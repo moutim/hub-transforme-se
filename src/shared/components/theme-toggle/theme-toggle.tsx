@@ -4,9 +4,9 @@ import { useModeAnimation, ThemeAnimationType } from 'react-theme-switch-animati
 import { useEffect } from 'react';
 import styles from './theme-toggle.module.css';
 
-export default function ThemeToggle() {
+export default function ThemeToggle({ textVisible = true }: { textVisible: boolean }) {
   const { ref, toggleSwitchTheme, isDarkMode } = useModeAnimation({
-    animationType: ThemeAnimationType.CIRCLE
+    animationType: ThemeAnimationType.BLUR_CIRCLE
   });
 
   useEffect(() => {
@@ -35,7 +35,7 @@ export default function ThemeToggle() {
         </span>
       </button>
 
-      <p suppressHydrationWarning>{isDarkMode ? 'Modo escuro' : 'Modo claro'}</p>
+      <p suppressHydrationWarning>{textVisible ? isDarkMode ? 'Modo escuro' : 'Modo claro' : false}</p>
     </div>
 
   );
