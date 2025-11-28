@@ -8,13 +8,11 @@ export default function MaterialsList({ materials }: IMaterials) {
   return (
     <>
       <h2 className="title is-2">Materiais Complementares</h2>
-      <div className="columns is-multiline is-4">
+      <ul className="list">
         {materials.map((material, index) => (
-          <div key={index} className="column">
-            <MaterialItem title={material.title} subtitle={material.url} />
-          </div>
+          <MaterialItem key={index} title={material.title} subtitle={material.url} />
         ))}
-      </div>
+      </ul>
     </>
   );
 }
