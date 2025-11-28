@@ -30,7 +30,7 @@ export default function WeekItem({ semana }: { semana: IWeek }) {
           </div>
 
           <div className="content mt-2">
-            <progress className="progress" value="60" max="100">
+            <progress className="progress" value="100" max="100">
               45%
             </progress>
           </div>
