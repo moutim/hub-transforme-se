@@ -1,11 +1,17 @@
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 
-export default function ListItem({ icon, text, activeColor = '#e8006f', route }: { icon: string, text: string, activeColor?: string, route?: string }) {
+export default function ListItem(
+  { icon, text, activeColor = '#e8006f', route }:
+  { icon: string, text: string, activeColor?: string, route?: string }) {
+  const router = useRouter();
   const pathname = usePathname();
-  const isActive = route && pathname === route;
+  console.log(pathname);
+  
+  const isActive = route === '/' ? pathname === '/' : pathname === route || pathname.startsWith(route + '/');
+  const handleRedirect = (route: string) => router.push(route);
 
   return (
-    <li className="mb-3">
+    <li onClick={() => handleRedirect(route ?? '')} className="mb-3">
       <a>
         <i
           className={`fas ${icon} mr-4`}

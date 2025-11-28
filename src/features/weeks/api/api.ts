@@ -1,4 +1,4 @@
-import { IWeek, IWeeks } from "@/shared/models/weeks.interface";
+import { IDay, IWeek, IWeeks } from "@/shared/models/weeks.interface";
 import weeksMock from "@/shared/mocks/weeks.mock";
 
 export async function getWeeks(): Promise<IWeeks> {
@@ -14,6 +14,16 @@ export async function getWeekById(id: number): Promise<IWeek | undefined> {
     setTimeout(() => {
       resolve(
         weeksMock.semanas.find(semana => semana.id == id)
+      );
+    }, 1000);
+  });
+}
+
+export async function getDays(): Promise<IDay[] | undefined> {
+    return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(
+        weeksMock.semanas.flatMap((semana) => semana.dias || [])
       );
     }, 1000);
   });

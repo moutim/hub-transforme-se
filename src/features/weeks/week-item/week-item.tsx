@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 
 export default function WeekItem({ semana }: { semana: IWeek }) {
   const router = useRouter();
-  const handleRedirect = (id: number) => router.push(`week/${id}`);
+  const handleRedirect = (id: number) => router.push(`/${id}`);
 
   return (
     <div

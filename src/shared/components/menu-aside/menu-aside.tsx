@@ -35,9 +35,9 @@ export default function MenuAside() {
           <nav className="menu section pl-5 pr-5 pt-5">
             <ul className="menu-list">
               <ListItem text={asideClosed ? '': 'Semanas'} icon='fa-calendar-week' route="/" />
-              <ListItem text={asideClosed ? '': 'Dias'} icon='fa-calendar-day' route="/day" />
-              <ListItem text={asideClosed ? '': 'Grupos'} icon='fa-arrows-rotate' route="/group" />
-              <ListItem text={asideClosed ? '': 'Complementar'} icon='fa-folder-open' route="/complementar" />
+              <ListItem text={asideClosed ? '': 'Dias'} icon='fa-calendar-day' route="/days" />
+              <ListItem text={asideClosed ? '': 'Grupos'} icon='fa-arrows-rotate' route="/groups" />
+              <ListItem text={asideClosed ? '': 'Complementar'} icon='fa-folder-open' route="/materials" />
             </ul>
           </nav>
         </div>

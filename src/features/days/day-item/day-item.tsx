@@ -8,7 +8,7 @@ export default function DayItem({ dia }: { dia: IDay }) {
   const router = useRouter();
 
   const handleRedirect = (id: number) => {
-    router.push(`day/${id}`);
+    router.push(`/day/${id}`);
   };
 
   return (
