@@ -52,7 +52,7 @@ export default function Search() {
             {results.map((day) => (
               <a
                 key={day.id}
-                href={`/week/day/${day.id}`}
+                href={`/day/${day.id}`}
                 className={styles.dropdownItem}
               >
                 <div className={styles.dropdownMedia}>
