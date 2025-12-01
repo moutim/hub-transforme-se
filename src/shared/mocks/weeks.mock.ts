@@ -5654,6 +5654,2730 @@ const objetoUsuario = JSON.parse(dadosSalvos);</code></pre>
     `
         }
       ]
+    },
+    {
+      id: 11,
+      titulo: "Semana 11",
+      subtitulo: "Bônus",
+      descricao: "Bônus - Conteúdo extracurricular para evoluir mais ainda as habilidades de programação",
+      icone: "fa-star",
+      dias: [
+        {
+          id: 50,
+          titulo: "Próximos Passos na Programação",
+          subtitulo: "Aula 11.5",
+          descricao: "Guia completo para continuar sua jornada como desenvolvedor front-end: frameworks, bibliotecas e práticas essenciais",
+          icone: "fa-rocket",
+          conteudo: `
+          <div class="container">
+            <div class="mb-6" id="introducao">
+              <h2 class="title is-4 section-title mb-5">1. Parabéns por Chegar Até Aqui! 🎉</h2>
+              <div class="content is-size-5">
+                <p class="mb-5">
+                  Você dominou os fundamentos: <strong>HTML, CSS e JavaScript</strong>. Aprendeu sobre Git, APIs, pacotes NPM e até banco de dados! Agora é hora de <span class="highlight-pink">elevar seu conhecimento ao próximo nível</span> e se tornar um desenvolvedor front-end profissional.
+                </p>
+                <div class="box box-dark border-left-pink">
+                  <h3 class="title is-5 mb-3">🎯 O Que Vem a Seguir?</h3>
+                  <p>Este guia vai te mostrar o caminho para evoluir na sua carreira, com recomendações práticas e recursos valiosos. A jornada está apenas começando!</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="frameworks">
+              <h2 class="title is-4 section-title mb-5">2. ⭐ PRIORIDADE MÁXIMA: Aprender um Framework Front-End</h2>
+              <div class="content is-size-5 mb-5">
+                <p class="mb-5">
+                  No mercado de trabalho atual, <strong>saber apenas HTML, CSS e JavaScript vanilla não é suficiente</strong>. As empresas esperam que você domine pelo menos um framework moderno de front-end. É aqui que você realmente se destaca!
+                </p>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🤔 Por Que Aprender um Framework?</h3>
+                <div class="content">
+                  <div class="columns">
+                    <div class="column">
+                      <ul>
+                        <li class="mb-3"><strong>✅ Produtividade:</strong> Desenvolva aplicações complexas muito mais rápido</li>
+                        <li class="mb-3"><strong>✅ Componentização:</strong> Reutilize código e mantenha tudo organizado</li>
+                        <li class="mb-3"><strong>✅ Mercado:</strong> 90% das vagas pedem conhecimento em frameworks</li>
+                      </ul>
+                    </div>
+                    <div class="column">
+                      <ul>
+                        <li class="mb-3"><strong>✅ Ecossistema:</strong> Bibliotecas e ferramentas prontas</li>
+                        <li class="mb-3"><strong>✅ Comunidade:</strong> Suporte e recursos abundantes</li>
+                        <li class="mb-3"><strong>✅ Performance:</strong> Otimizações automáticas</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5 border-left-pink">
+                <h3 class="title is-4 mb-4 has-text-centered">🚀 Recomendação Principal: Next.js</h3>
+                
+                <div class="content is-size-5">
+                  <h4 class="title is-5 mb-3 mt-5">O Que é Next.js?</h4>
+                  <p class="mb-4">
+                    <strong>Next.js</strong> é um framework construído em cima do React (a biblioteca JavaScript mais popular do mundo) que adiciona superpoderes como renderização no servidor, roteamento automático, otimização de imagens e muito mais. É usado por empresas como <strong>Netflix, TikTok, Twitch, Nike e Uber</strong>.
+                  </p>
+
+                  <h4 class="title is-5 mb-3 mt-5">Por Que Next.js é a Melhor Escolha?</h4>
+                  <div class="columns mb-4">
+                    <div class="column">
+                      <ul>
+                        <li class="mb-2">✨ Mais fácil de aprender que React puro</li>
+                        <li class="mb-2">🚀 Performance excepcional out-of-the-box</li>
+                        <li class="mb-2">📁 Roteamento baseado em arquivos (super intuitivo)</li>
+                        <li class="mb-2">🎨 Suporte nativo a CSS Modules e Tailwind</li>
+                      </ul>
+                    </div>
+                    <div class="column">
+                      <ul>
+                        <li class="mb-2">⚡ Hot Reload (recarrega instantaneamente)</li>
+                        <li class="mb-2">📱 Responsivo e PWA pronto</li>
+                        <li class="mb-2">🌍 Usado por grandes empresas</li>
+                        <li class="mb-2">📚 Documentação excelente</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="notification is-info is-light mb-4">
+                    <h4 class="title is-6 mb-3">🎓 Curso Recomendado (GRATUITO):</h4>
+                    <p class="mb-3"><strong>Next.js do Zero ao Avançado</strong></p>
+                    <a href="https://www.youtube.com/watch?v=e6FigV2fLC8&themeRefresh=1" target="_blank" class="button is-primary is-medium">
+                      <span class="icon">
+                        <i class="fab fa-youtube"></i>
+                      </span>
+                      <span>Assistir Curso Completo no YouTube</span>
+                    </a>
+                    <p class="mt-3"><small>Este curso completo te levará do zero ao avançado em Next.js, com projetos práticos e tudo que você precisa saber!</small></p>
+                  </div>
+
+                  <h4 class="title is-5 mb-3 mt-5">O Que Você Vai Aprender com Next.js:</h4>
+                  <ul class="mb-4">
+                    <li>📦 Componentes React (a base do Next.js)</li>
+                    <li>🛣️ Sistema de rotas automático</li>
+                    <li>🎨 Estilização com CSS Modules e Tailwind CSS</li>
+                    <li>⚡ Server-Side Rendering (SSR) e Static Site Generation (SSG)</li>
+                    <li>🔌 Integração com APIs (consumir e criar)</li>
+                    <li>📱 Aplicações responsivas e performáticas</li>
+                    <li>🚀 Deploy em produção (Vercel)</li>
+                  </ul>
+
+                  <div class="notification is-warning is-light mt-4">
+                    <strong>💡 Dica de Ouro:</strong> Dedique pelo menos 2-3 meses estudando e praticando Next.js. Construa projetos reais! Isso vai multiplicar suas chances no mercado de trabalho.
+                  </div>
+                </div>
+              </div>
+
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">🎯 Outras Opções de Frameworks (se você quiser explorar):</h3>
+                <div class="content">
+                  <div class="columns">
+                    <div class="column">
+                      <h4 class="title is-6 mb-2">React.js</h4>
+                      <p class="mb-3">Biblioteca mais popular. Next.js é baseado nele.</p>
+                    </div>
+                    <div class="column">
+                      <h4 class="title is-6 mb-2">Vue.js</h4>
+                      <p class="mb-3">Framework progressivo, fácil de aprender.</p>
+                    </div>
+                    <div class="column">
+                      <h4 class="title is-6 mb-2">Angular</h4>
+                      <p class="mb-3">Framework completo do Google, mais enterprise.</p>
+                    </div>
+                  </div>
+                  <p class="mt-3"><strong>Mas comece com Next.js!</strong> Ele te dá a base de React + funcionalidades avançadas prontas.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="bibliotecas-estilo">
+              <h2 class="title is-4 section-title mb-5">3. 🎨 Dominar uma Biblioteca de Estilização</h2>
+              <div class="content is-size-5 mb-5">
+                <p class="mb-5">
+                  Escrever CSS do zero é importante para aprender, mas no dia a dia profissional, você vai usar <strong>bibliotecas de estilização</strong> para acelerar o desenvolvimento e manter consistência visual.
+                </p>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">💎 Recomendação: Bulma CSS</h3>
+                <div class="content">
+                  <p class="mb-4">
+                    <strong>Bulma</strong> é um framework CSS moderno baseado em Flexbox. É 100% CSS puro (sem JavaScript), o que o torna leve, fácil de aprender e perfeito para iniciantes que já conhecem CSS.
+                  </p>
+                  
+                  <div class="columns mb-4">
+                    <div class="column">
+                      <h4 class="title is-6 mb-3">Por Que Bulma?</h4>
+                      <ul>
+                        <li>✅ Sintaxe simples e intuitiva</li>
+                        <li>✅ Classes com nomes legíveis</li>
+                        <li>✅ Componentes prontos (cards, modals, navbar)</li>
+                        <li>✅ Totalmente responsivo</li>
+                        <li>✅ Sistema de grid flexível</li>
+                        <li>✅ Fácil de customizar</li>
+                      </ul>
+                    </div>
+                    <div class="column">
+                      <h4 class="title is-6 mb-3">Exemplo de Código:</h4>
+                      <pre class="p-3"><code>&lt;div class="card"&gt;
+  &lt;div class="card-content"&gt;
+    &lt;p class="title"&gt;Título&lt;/p&gt;
+    &lt;p class="subtitle"&gt;Subtítulo&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;button class="button is-primary"&gt;
+  Clique Aqui
+&lt;/button&gt;</code></pre>
+                    </div>
+                  </div>
+
+                  <div class="notification is-info is-light">
+                    <strong>🔗 Documentação Oficial:</strong> 
+                    <a href="https://bulma.io" target="_blank">https://bulma.io</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">🎨 Outras Bibliotecas Populares:</h3>
+                <div class="content">
+                  <ul class="mb-4">
+                    <li class="mb-3"><strong>Tailwind CSS:</strong> Utility-first, super poderoso (curva de aprendizado média)</li>
+                    <li class="mb-3"><strong>Bootstrap:</strong> O mais usado no mercado, componentes ricos</li>
+                    <li class="mb-3"><strong>Material UI:</strong> Design do Google, ótimo com React</li>
+                    <li class="mb-3"><strong>Chakra UI:</strong> Moderno, acessível, feito para React</li>
+                  </ul>
+                  <p><strong>Dica:</strong> Comece com Bulma pela simplicidade, depois explore Tailwind (muito usado com Next.js)!</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="pratica-apis">
+              <h2 class="title is-4 section-title mb-5">4. 🔌 Praticar MUITO com Projetos de APIs</h2>
+              <div class="content is-size-5 mb-5">
+                <p class="mb-5">
+                  No dia a dia de um desenvolvedor front-end, <strong>a maior parte do trabalho é consumir APIs</strong>. Você vai buscar dados, enviar informações, autenticar usuários - tudo através de APIs.
+                </p>
+              </div>
+
+              <div class="box box-dark mb-5 border-left-pink">
+                <h3 class="title is-5 mb-4">🎯 Por Que Isso É Tão Importante?</h3>
+                <div class="content">
+                  <p class="mb-3">Em uma aplicação real, você vai:</p>
+                  <ul class="mb-4">
+                    <li>📡 Fazer requisições HTTP com <code>fetch</code> ou <code>axios</code></li>
+                    <li>🔄 Gerenciar estados de loading, sucesso e erro</li>
+                    <li>🎨 Renderizar dados dinâmicos na interface</li>
+                    <li>✏️ Criar formulários que enviam dados para a API</li>
+                    <li>🔒 Lidar com autenticação e autorização</li>
+                    <li>📱 Criar experiências reativas e responsivas</li>
+                  </ul>
+                  <p><strong>90% do trabalho de um dev front-end é exatamente isso!</strong></p>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">💡 Projetos Práticos Recomendados:</h3>
+                <div class="content">
+                  <div class="columns">
+                    <div class="column">
+                      <h4 class="title is-6 mb-3">1. App de Clima</h4>
+                      <p class="mb-3">Use a API do OpenWeather para mostrar previsão do tempo.</p>
+                      
+                      <h4 class="title is-6 mb-3 mt-4">2. Dashboard de GitHub</h4>
+                      <p class="mb-3">Consuma a API do GitHub para mostrar perfis e repositórios.</p>
+                      
+                      <h4 class="title is-6 mb-3 mt-4">3. Lista de Tarefas (ToDo)</h4>
+                      <p class="mb-3">CRUD completo conectado com sua API do Express.js.</p>
+                    </div>
+                    <div class="column">
+                      <h4 class="title is-6 mb-3">4. E-commerce Simples</h4>
+                      <p class="mb-3">Catálogo de produtos com carrinho de compras.</p>
+                      
+                      <h4 class="title is-6 mb-3 mt-4">5. Blog Pessoal</h4>
+                      <p class="mb-3">Sistema de posts com comentários e autenticação.</p>
+                      
+                      <h4 class="title is-6 mb-3 mt-4">6. Pokedex</h4>
+                      <p class="mb-3">Use a PokéAPI para criar uma enciclopédia de Pokémon.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">🌐 APIs Públicas Gratuitas para Praticar:</h3>
+                <div class="content">
+                  <ul>
+                    <li><strong>JSONPlaceholder:</strong> <a href="https://jsonplaceholder.typicode.com" target="_blank">jsonplaceholder.typicode.com</a> - API fake para testes</li>
+                    <li><strong>PokéAPI:</strong> <a href="https://pokeapi.co" target="_blank">pokeapi.co</a> - Dados de Pokémon</li>
+                    <li><strong>The Movie DB:</strong> <a href="https://www.themoviedb.org/documentation/api" target="_blank">themoviedb.org</a> - Filmes e séries</li>
+                    <li><strong>GitHub API:</strong> <a href="https://api.github.com" target="_blank">api.github.com</a> - Dados do GitHub</li>
+                    <li><strong>OpenWeather API:</strong> <a href="https://openweathermap.org/api" target="_blank">openweathermap.org/api</a> - Clima</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="outras-recomendacoes">
+              <h2 class="title is-4 section-title mb-5">5. 📚 Outras Recomendações Essenciais</h2>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🔧 TypeScript - O Próximo Nível do JavaScript</h3>
+                <div class="content">
+                  <p class="mb-3">
+                    <strong>TypeScript</strong> é um "JavaScript com superpoderes" que adiciona tipagem estática ao código. É usado em 80% das empresas modernas.
+                  </p>
+                  <div class="columns">
+                    <div class="column">
+                      <h4 class="title is-6 mb-2">Por Que Aprender?</h4>
+                      <ul>
+                        <li>✅ Previne bugs antes de acontecerem</li>
+                        <li>✅ Autocompletar inteligente</li>
+                        <li>✅ Código mais profissional</li>
+                        <li>✅ Obrigatório em muitas empresas</li>
+                      </ul>
+                    </div>
+                    <div class="column">
+                      <h4 class="title is-6 mb-2">Exemplo:</h4>
+                      <pre class="p-3"><code>// JavaScript
+function somar(a, b) {
+  return a + b;
+}
+
+// TypeScript
+function somar(a: number, b: number): number {
+  return a + b;
+}</code></pre>
+                    </div>
+                  </div>
+                  <p class="mt-3"><strong>Quando aprender:</strong> Depois de estar confortável com Next.js.</p>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🧪 Testes Automatizados</h3>
+                <div class="content">
+                  <p class="mb-3">Empresas sérias esperam que você saiba escrever testes para seu código.</p>
+                  <ul>
+                    <li><strong>Jest:</strong> Framework de testes JavaScript</li>
+                    <li><strong>React Testing Library:</strong> Testes de componentes</li>
+                    <li><strong>Cypress:</strong> Testes end-to-end</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📱 Responsividade e Mobile-First</h3>
+                <div class="content">
+                  <p class="mb-3">Mais de 60% dos acessos vêm de dispositivos móveis. Domine:</p>
+                  <ul>
+                    <li>Media Queries avançadas</li>
+                    <li>Flexbox e Grid Layout</li>
+                    <li>Design Mobile-First</li>
+                    <li>Progressive Web Apps (PWA)</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">⚡ Performance e Otimização</h3>
+                <div class="content">
+                  <p class="mb-3">Sites rápidos convertem mais e ranqueiam melhor no Google:</p>
+                  <ul>
+                    <li>Lazy Loading de imagens</li>
+                    <li>Code Splitting</li>
+                    <li>Otimização de assets (imagens, fontes)</li>
+                    <li>Lighthouse e Web Vitals</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🔐 Autenticação e Segurança</h3>
+                <div class="content">
+                  <p class="mb-3">Essencial para qualquer aplicação real:</p>
+                  <ul>
+                    <li>JWT (JSON Web Tokens)</li>
+                    <li>OAuth e login social</li>
+                    <li>Proteção contra XSS e CSRF</li>
+                    <li>HTTPS e certificados SSL</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🎨 UI/UX e Design</h3>
+                <div class="content">
+                  <p class="mb-3">Um bom desenvolvedor front-end tem noção de design:</p>
+                  <ul>
+                    <li>Princípios de design (contraste, hierarquia, espaçamento)</li>
+                    <li>Figma (ferramenta de design colaborativa)</li>
+                    <li>Acessibilidade (a11y)</li>
+                    <li>Paletas de cores e tipografia</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">🚀 Deploy e DevOps Básico</h3>
+                <div class="content">
+                  <p class="mb-3">Publique seus projetos no ar:</p>
+                  <ul>
+                    <li><strong>Vercel:</strong> Perfeito para Next.js (deploy com 1 clique)</li>
+                    <li><strong>Netlify:</strong> Ótimo para sites estáticos</li>
+                    <li><strong>GitHub Pages:</strong> Hospedagem gratuita</li>
+                    <li><strong>Railway/Render:</strong> Para APIs e backends</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="roteiro-estudo">
+              <h2 class="title is-4 section-title mb-5">6. 🗺️ Roteiro de Estudo Recomendado</h2>
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">Ordem Sugerida para Máximo Aprendizado:</h3>
+                <div class="content">
+                  <div class="timeline">
+                    <div class="notification is-primary is-light mb-3">
+                      <strong>Mês 1-2:</strong> Next.js (foco total! Faça o curso recomendado)
+                    </div>
+                    <div class="notification is-info is-light mb-3">
+                      <strong>Mês 3:</strong> Bulma ou Tailwind CSS + projetos práticos
+                    </div>
+                    <div class="notification is-success is-light mb-3">
+                      <strong>Mês 4:</strong> Praticar com APIs públicas (3-4 projetos completos)
+                    </div>
+                    <div class="notification is-warning is-light mb-3">
+                      <strong>Mês 5:</strong> TypeScript básico
+                    </div>
+                    <div class="notification is-danger is-light mb-3">
+                      <strong>Mês 6:</strong> Testes, performance e deploy
+                    </div>
+                  </div>
+                  <div class="notification is-dark mt-5">
+                    <strong>Durante TODOS os meses:</strong> Construa projetos reais e coloque no GitHub! Isso será seu portfólio.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="dicas-finais">
+              <h2 class="title is-4 section-title mb-5">7. 💎 Dicas de Ouro para Sua Jornada</h2>
+              <div class="columns">
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-4 has-text-success">✅ Faça</h3>
+                    <div class="content">
+                      <ul>
+                        <li>Pratique TODOS OS DIAS (mesmo que 30 min)</li>
+                        <li>Construa projetos do zero</li>
+                        <li>Leia documentação oficial</li>
+                        <li>Participe de comunidades (Discord, Stack Overflow)</li>
+                        <li>Faça code review de outros</li>
+                        <li>Mantenha um portfólio no GitHub</li>
+                        <li>Aprenda inglês técnico</li>
+                        <li>Seja paciente consigo mesmo</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-4 has-text-danger">❌ Evite</h3>
+                    <div class="content">
+                      <ul>
+                        <li>Pular fundamentos</li>
+                        <li>Só assistir tutoriais sem praticar</li>
+                        <li>Aprender muitas coisas ao mesmo tempo</li>
+                        <li>Comparar seu progresso com outros</li>
+                        <li>Desistir nos primeiros erros</li>
+                        <li>Copiar código sem entender</li>
+                        <li>Não fazer projetos próprios</li>
+                        <li>Ignorar boas práticas</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="conclusao">
+              <h2 class="title is-4 section-title mb-5">8. Mensagem Final</h2>
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-4 mb-3 has-text-centered">Você Está Pronto para Decolar! 🚀</h3>
+                <div class="content is-size-5">
+                  <p class="mb-4">
+                    A jornada de desenvolvedor é de <strong>aprendizado contínuo</strong>. A tecnologia evolui rápido, e isso é emocionante! Você já deu os primeiros passos mais importantes: aprendeu os fundamentos sólidos.
+                  </p>
+                  
+                  <p class="mb-4">
+                    Agora é hora de <span class="highlight-pink">escolher um caminho e se aprofundar</span>. Nossa recomendação? Comece com Next.js, faça o curso indicado, construa 3-4 projetos práticos integrando com APIs, e você estará pronto para o mercado!
+                  </p>
+
+                  <div class="notification is-warning is-light my-5">
+                    <h4 class="title is-5 mb-3">📌 Checklist de Ação Imediata:</h4>
+                    <ul class="mb-0">
+                      <li>☐ Assistir o curso de Next.js completo</li>
+                      <li>☐ Criar seu primeiro projeto em Next.js</li>
+                      <li>☐ Escolher 2 APIs públicas e construir apps com elas</li>
+                      <li>☐ Aprender Bulma ou Tailwind CSS</li>
+                      <li>☐ Fazer deploy de pelo menos 1 projeto na Vercel</li>
+                      <li>☐ Atualizar seu GitHub com projetos novos</li>
+                      <li>☐ Começar a estudar TypeScript (após Next.js)</li>
+                    </ul>
+                  </div>
+
+                  <p class="mb-4 has-text-centered is-size-4 mt-6">
+                    <strong>Lembre-se:</strong> Todo desenvolvedor experiente já foi iniciante um dia. A diferença está em <span class="highlight-pink">não desistir e praticar consistentemente</span>.
+                  </p>
+
+                  <div class="has-text-centered mt-6">
+                    <p class="is-size-3 mb-3">🎯</p>
+                    <p class="is-size-5"><strong>Seu próximo passo?</strong></p>
+                    <p class="is-size-5">Abra o curso de Next.js e comece AGORA!</p>
+                    <a href="https://www.youtube.com/watch?v=e6FigV2fLC8&themeRefresh=1" target="_blank" class="button is-primary is-large mt-4">
+                      <span class="icon">
+                        <i class="fab fa-youtube"></i>
+                      </span>
+                      <span>Começar a Aprender Next.js</span>
+                    </a>
+                  </div>
+
+                  <p class="has-text-centered mt-6 is-size-4">
+                    <strong>Boa sorte na sua jornada! 🚀✨</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          `
+        },
+        {
+          id: 46,
+          titulo: "O Uso Consciente da IA",
+          subtitulo: "Aula 11.1",
+          descricao: "Aprenda a usar a IA de forma consciente para aprender HTML, CSS e JavaScript, além de criar projetos front-end para suas APIs",
+          icone: "fa-brain",
+          conteudo: `
+          <div class="container">
+            <div class="mb-6" id="introducao">
+              <h2 class="title is-4 section-title mb-5">1. A IA como Ferramenta de Aprendizado</h2>
+              <div class="content is-size-5">
+                <p class="mb-5">
+                  A Inteligência Artificial revolucionou a forma como aprendemos a programar. Ferramentas como ChatGPT, Claude, e GitHub Copilot podem ser <strong>professores particulares disponíveis 24/7</strong>, mas é fundamental usá-las de forma consciente e estratégica.
+                </p>
+                <div class="box box-dark border-left-pink">
+                  <h3 class="title is-5 mb-3">⚠️ Princípio Fundamental</h3>
+                  <p>A IA é uma <strong>ferramenta de aprendizado</strong>, não um substituto para o aprendizado. O objetivo é <span class="highlight-pink">aprender e entender</span>, não apenas copiar e colar.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="aprendendo-html">
+              <h2 class="title is-4 section-title mb-5">2. Usando IA para Aprender HTML</h2>
+              <div class="content is-size-5 mb-5">
+                <p class="mb-5">
+                  HTML é a base de toda página web. Veja como usar a IA para dominar essa linguagem de forma efetiva:
+                </p>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📝 Prompt 1: Entendendo Tags e Estrutura</h3>
+                <div class="content">
+                  <pre class="p-4 mb-4"><code>Explique como funciona a tag &lt;section&gt; em HTML. 
+Qual a diferença entre ela e a tag &lt;div&gt;? 
+Quando devo usar cada uma? 
+Me dê 3 exemplos práticos de uso.</code></pre>
+                  <p><strong>Por que funciona:</strong> Pede explicação conceitual + comparação + exemplos práticos</p>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📝 Prompt 2: Aprendendo com Exercícios</h3>
+                <div class="content">
+                  <pre class="p-4 mb-4"><code>Crie 5 exercícios progressivos para eu praticar formulários HTML.
+Comece do básico e vá aumentando a dificuldade.
+Para cada exercício, me dê:
+1. O desafio
+2. Dicas (sem dar a resposta completa)
+3. A solução comentada</code></pre>
+                  <p><strong>Por que funciona:</strong> Cria um caminho de aprendizado estruturado com prática ativa</p>
+                </div>
+              </div>
+
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">📝 Prompt 3: Revisão e Feedback</h3>
+                <div class="content">
+                  <pre class="p-4 mb-4"><code>Aqui está meu código HTML para um formulário de contato:
+[cole seu código]
+
+Analise meu código e me dê:
+1. O que está bom
+2. O que pode ser melhorado
+3. Boas práticas que não estou seguindo
+4. Sugestões de acessibilidade</code></pre>
+                  <p><strong>Por que funciona:</strong> Obtém feedback personalizado e aprende com seus próprios erros</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="aprendendo-css">
+              <h2 class="title is-4 section-title mb-5">3. Usando IA para Aprender CSS</h2>
+              <div class="content is-size-5 mb-5">
+                <p class="mb-5">
+                  CSS pode ser desafiador no início. A IA pode ajudar a visualizar conceitos e entender o porquê das coisas funcionarem:
+                </p>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🎨 Prompt 1: Entendendo Conceitos</h3>
+                <div class="content">
+                  <pre class="p-4 mb-4"><code>Explique Flexbox como se eu fosse uma criança de 10 anos.
+Depois, me mostre um exemplo prático de um layout de 3 colunas.
+Por fim, me diga quando NÃO devo usar Flexbox.</code></pre>
+                  <p><strong>Por que funciona:</strong> Simplifica conceitos complexos e mostra aplicações práticas</p>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🎨 Prompt 2: Debugando Problemas</h3>
+                <div class="content">
+                  <pre class="p-4 mb-4"><code>Meu elemento não está centralizando. Aqui está meu CSS:
+[cole seu código CSS]
+
+Me explique:
+1. Por que não está funcionando
+2. Quais são as diferentes formas de centralizar elementos
+3. Qual seria a melhor solução para este caso específico
+4. Me ensine a pensar sobre centralização no futuro</code></pre>
+                  <p><strong>Por que funciona:</strong> Resolve o problema atual e ensina a prevenir problemas futuros</p>
+                </div>
+              </div>
+
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">🎨 Prompt 3: Desafios Práticos</h3>
+                <div class="content">
+                  <pre class="p-4 mb-4"><code>Crie um desafio CSS para eu recriar este layout:
+[descreva o layout ou cole uma imagem]
+
+Me dê:
+1. O HTML básico para começar
+2. Dicas de quais propriedades CSS usar
+3. Deixe EU tentar resolver primeiro
+4. Depois me mostre a solução comentada</code></pre>
+                  <p><strong>Por que funciona:</strong> Incentiva tentativa e erro antes de ver a resposta</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="aprendendo-javascript">
+              <h2 class="title is-4 section-title mb-5">4. Usando IA para Aprender JavaScript</h2>
+              <div class="content is-size-5 mb-5">
+                <p class="mb-5">
+                  JavaScript é onde a lógica de programação realmente entra em jogo. Use a IA para entender conceitos e praticar:
+                </p>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">⚡ Prompt 1: Conceitos Fundamentais</h3>
+                <div class="content">
+                  <pre class="p-4 mb-4"><code>Explique o conceito de "closure" em JavaScript.
+Use analogias do mundo real para me ajudar a entender.
+Depois me dê 3 exemplos práticos de quando usar closures.
+Por fim, me dê um exercício para praticar.</code></pre>
+                  <p><strong>Por que funciona:</strong> Vai do conceito à prática de forma estruturada</p>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">⚡ Prompt 2: Debugando Lógica</h3>
+                <div class="content">
+                  <pre class="p-4 mb-4"><code>Este código deveria filtrar números pares, mas não está funcionando:
+[cole seu código]
+
+Me ajude a:
+1. Identificar o erro
+2. Entender POR QUE é um erro
+3. Corrigir de forma que EU aprenda
+4. Me ensinar a debugar problemas similares sozinho</code></pre>
+                  <p><strong>Por que funciona:</strong> Foca em ensinar a debugar, não apenas corrigir</p>
+                </div>
+              </div>
+
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">⚡ Prompt 3: Projeto Guiado</h3>
+                <div class="content">
+                  <pre class="p-4 mb-4"><code>Quero criar um cronômetro em JavaScript puro.
+Me guie através do processo:
+1. Quebre o projeto em pequenas tarefas
+2. Para cada tarefa, me dê dicas (não a solução completa)
+3. Deixe eu implementar
+4. Depois revise meu código e me dê feedback
+5. Mostre formas de melhorar</code></pre>
+                  <p><strong>Por que funciona:</strong> Simula um mentor que guia sem fazer por você</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="criando-frontend-api">
+              <h2 class="title is-4 section-title mb-5">5. Criando um Front-end para sua API</h2>
+              <div class="content is-size-5 mb-5">
+                <p class="mb-5">
+                  Um dos usos mais práticos da IA é criar interfaces para suas APIs. Aqui está um passo a passo completo:
+                </p>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🚀 Passo 1: Planejamento da Interface</h3>
+                <div class="content">
+                  <pre class="p-4 mb-4"><code>Tenho uma API REST que gerencia tarefas (To-Do List) com estes endpoints:
+- GET /tasks - Lista todas as tarefas
+- POST /tasks - Cria nova tarefa
+- PUT /tasks/:id - Atualiza tarefa
+- DELETE /tasks/:id - Deleta tarefa
+
+Me ajude a planejar o front-end:
+1. Que telas/componentes preciso criar?
+2. Qual a melhor estrutura de pastas?
+3. Que funcionalidades a interface deve ter?
+4. Como organizar o código para ser escalável?</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🚀 Passo 2: Estrutura HTML</h3>
+                <div class="content">
+                  <pre class="p-4 mb-4"><code>Com base no planejamento anterior, crie a estrutura HTML para:
+1. Um formulário para adicionar novas tarefas
+2. Uma lista para exibir as tarefas existentes
+3. Botões para editar e deletar cada tarefa
+
+Use HTML semântico e pense em acessibilidade.
+Me explique suas escolhas de tags.</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🚀 Passo 3: Estilização Moderna</h3>
+                <div class="content">
+                  <pre class="p-4 mb-4"><code>Preciso estilizar a interface do To-Do List.
+Quero um design moderno e responsivo.
+
+Me ajude a criar:
+1. Uma paleta de cores profissional
+2. Layout responsivo com Flexbox ou Grid
+3. Animações sutis para interações
+4. Estados visuais (hover, active, disabled)
+
+Use CSS moderno com variáveis e boas práticas.</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🚀 Passo 4: Conectando com a API</h3>
+                <div class="content">
+                  <pre class="p-4 mb-4"><code>Me ensine a conectar o front-end com minha API:
+1. Como usar fetch() para fazer requisições
+2. Como lidar com promessas e async/await
+3. Como tratar erros de forma elegante
+4. Como atualizar a interface quando os dados mudam
+
+Para cada funcionalidade (criar, listar, atualizar, deletar):
+- Me explique a lógica
+- Me dê o código comentado
+- Me mostre como debugar problemas comuns</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">🚀 Passo 5: Melhorias e Otimizações</h3>
+                <div class="content">
+                  <pre class="p-4 mb-4"><code>Meu To-Do List está funcionando! Agora quero melhorar:
+1. Adicionar loading states (spinners)
+2. Implementar validação de formulário
+3. Adicionar confirmação antes de deletar
+4. Melhorar a UX com feedback visual
+5. Otimizar performance
+
+Para cada melhoria:
+- Explique por que é importante
+- Me guie na implementação
+- Me mostre o antes e depois</code></pre>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="template-projeto-completo">
+              <h2 class="title is-4 section-title mb-5">6. Template: Prompt Completo para Projeto Front-end</h2>
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-4">📋 Prompt Master para Criar Front-end de API</h3>
+                <div class="content">
+                  <pre class="p-4"><code>Atue como um mentor de desenvolvimento front-end experiente.
+
+CONTEXTO:
+Tenho uma API [descreva sua API] com os seguintes endpoints:
+[liste os endpoints e o que cada um faz]
+
+OBJETIVO:
+Criar uma interface web moderna, responsiva e user-friendly.
+
+REQUISITOS:
+1. HTML semântico e acessível
+2. CSS moderno com Flexbox/Grid
+3. JavaScript vanilla (sem frameworks por enquanto)
+4. Design responsivo (mobile-first)
+5. Boas práticas de UX
+
+PROCESSO:
+Me guie passo a passo:
+
+Fase 1 - Planejamento:
+- Análise dos endpoints e funcionalidades necessárias
+- Wireframe da interface (descrição textual)
+- Estrutura de pastas e arquivos
+
+Fase 2 - HTML:
+- Estrutura semântica de cada componente
+- Formulários e inputs necessários
+- Elementos de lista/visualização de dados
+
+Fase 3 - CSS:
+- Sistema de design (cores, tipografia, espaçamentos)
+- Layout responsivo
+- Componentes reutilizáveis
+- Estados e animações
+
+Fase 4 - JavaScript:
+- Funções para cada operação CRUD
+- Manipulação do DOM
+- Tratamento de erros
+- Validações
+
+Fase 5 - Integração:
+- Conexão com a API usando fetch
+- Gerenciamento de estado
+- Feedback visual para o usuário
+
+Fase 6 - Polimento:
+- Melhorias de UX
+- Otimizações de performance
+- Testes manuais
+
+IMPORTANTE:
+- Explique o PORQUÊ de cada decisão
+- Me dê dicas, mas deixe EU implementar primeiro
+- Quando eu pedir, revise meu código
+- Me ensine a debugar problemas
+- Sugira recursos para aprender mais
+
+Está pronto para me guiar? Vamos começar pela Fase 1!</code></pre>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="boas-praticas">
+              <h2 class="title is-4 section-title mb-5">7. Boas Práticas no Uso da IA</h2>
+              <div class="columns">
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-4 has-text-success">✅ Faça</h3>
+                    <div class="content">
+                      <ul>
+                        <li>Peça explicações, não apenas código</li>
+                        <li>Tente resolver antes de pedir a solução</li>
+                        <li>Peça para a IA explicar o código gerado</li>
+                        <li>Use para aprender conceitos novos</li>
+                        <li>Peça exercícios para praticar</li>
+                        <li>Solicite revisão do seu código</li>
+                        <li>Pergunte o "porquê" das coisas</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-4 has-text-danger">❌ Não Faça</h3>
+                    <div class="content">
+                      <ul>
+                        <li>Copiar e colar sem entender</li>
+                        <li>Usar a IA como substituto do aprendizado</li>
+                        <li>Aceitar código sem questionar</li>
+                        <li>Pular a parte de tentar sozinho</li>
+                        <li>Ignorar as explicações</li>
+                        <li>Usar apenas para "fazer por você"</li>
+                        <li>Esquecer de testar e validar o código</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="conclusao">
+              <h2 class="title is-4 section-title mb-5">8. Conclusão</h2>
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-3">O Equilíbrio Perfeito</h3>
+                <div class="content">
+                  <p class="mb-4">
+                    A IA é uma ferramenta poderosa que pode <strong>acelerar seu aprendizado</strong>, mas nunca deve substituir o processo de aprender. Use-a como um mentor sempre disponível, que te guia, explica e desafia, mas deixa você fazer o trabalho pesado de realmente entender e praticar.
+                  </p>
+                  <p class="mb-4">
+                    Lembre-se: o objetivo não é ter código pronto, mas sim <span class="highlight-pink">desenvolver a habilidade de criar código por conta própria</span>. A IA te ajuda a chegar lá mais rápido, mas o caminho ainda precisa ser percorrido por você.
+                  </p>
+                  <div class="notification is-info is-light mt-5">
+                    <strong>💡 Dica Final:</strong> Sempre que a IA te der uma solução, desafie-se a recriar sem olhar. Se conseguir, você realmente aprendeu. Se não conseguir, peça mais explicações e tente novamente.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          `
+        },
+        {
+          id: 47,
+          titulo: "Construindo uma Mini API com Express.js",
+          subtitulo: "Aula 11.2",
+          descricao: "Aprenda a criar uma API REST do zero usando Express.js e a arquitetura MSC (Model, Service, Controller)",
+          icone: "fa-server",
+          conteudo: `
+          <div class="container">
+            <div class="mb-6" id="o-que-e-api">
+              <h2 class="title is-4 section-title mb-5">1. O que é uma API?</h2>
+              <div class="content is-size-5">
+                <p class="mb-5">
+                  <strong>API</strong> significa <strong>Application Programming Interface</strong> (Interface de Programação de Aplicações). Em termos simples, é um <span class="highlight-pink">intermediário que permite que diferentes aplicações conversem entre si</span>.
+                </p>
+                <div class="box box-dark">
+                  <h3 class="title is-5 mb-4">🍕 Analogia do Restaurante</h3>
+                  <div class="content">
+                    <p class="mb-3">Imagine que você está em um restaurante:</p>
+                    <ul>
+                      <li><strong>Você (Cliente/Front-end):</strong> Quer comer uma pizza</li>
+                      <li><strong>Garçom (API):</strong> Anota seu pedido e leva para a cozinha</li>
+                      <li><strong>Cozinha (Servidor/Back-end):</strong> Prepara a pizza</li>
+                      <li><strong>Garçom (API):</strong> Traz a pizza pronta de volta para você</li>
+                    </ul>
+                    <p class="mt-4">A API funciona exatamente assim: ela recebe solicitações, processa (ou encaminha para processamento) e retorna uma resposta.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="columns mt-5">
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-3">API REST</h3>
+                    <p>É um estilo de arquitetura que usa o protocolo HTTP para comunicação. Cada operação é representada por um método HTTP (GET, POST, PUT, DELETE).</p>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-3">Endpoint</h3>
+                    <p>É uma URL específica que representa um recurso. Ex: <code>/api/users</code> ou <code>/api/products/1</code></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="fluxo-requisicao">
+              <h2 class="title is-4 section-title mb-5">2. O Fluxo Completo de uma Requisição</h2>
+              <div class="content is-size-5 mb-5">
+                <p class="mb-5">
+                  Vamos entender o caminho que uma requisição percorre desde o momento que o cliente faz o pedido até receber a resposta:
+                </p>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4 has-text-centered">📊 Fluxo da Requisição</h3>
+                <div class="content">
+                  <div class="notification is-info is-light mb-4">
+                    <strong>1. Cliente faz a requisição</strong><br>
+                    O front-end (navegador, app mobile, etc.) faz uma chamada HTTP para um endpoint.<br>
+                    Exemplo: <code>GET http://localhost:3000/api/users</code>
+                  </div>
+                  
+                  <div class="has-text-centered mb-4">⬇️</div>
+                  
+                  <div class="notification is-primary is-light mb-4">
+                    <strong>2. Express recebe a requisição</strong><br>
+                    O servidor Express captura a requisição e identifica qual rota deve ser acionada baseado na URL e no método HTTP.
+                  </div>
+                  
+                  <div class="has-text-centered mb-4">⬇️</div>
+                  
+                  <div class="notification is-success is-light mb-4">
+                    <strong>3. Controller (Controlador)</strong><br>
+                    Recebe a requisição, extrai os dados necessários (params, query, body) e chama a camada de serviço.<br>
+                    <em>Responsabilidade: Gerenciar a entrada e saída de dados.</em>
+                  </div>
+                  
+                  <div class="has-text-centered mb-4">⬇️</div>
+                  
+                  <div class="notification is-warning is-light mb-4">
+                    <strong>4. Service (Serviço)</strong><br>
+                    Contém a lógica de negócio. Valida dados, aplica regras e chama a camada de modelo quando necessário.<br>
+                    <em>Responsabilidade: Implementar as regras de negócio.</em>
+                  </div>
+                  
+                  <div class="has-text-centered mb-4">⬇️</div>
+                  
+                  <div class="notification is-danger is-light mb-4">
+                    <strong>5. Model (Modelo)</strong><br>
+                    Interage diretamente com o banco de dados ou fonte de dados. Executa queries e retorna os dados brutos.<br>
+                    <em>Responsabilidade: Acesso e manipulação de dados.</em>
+                  </div>
+                  
+                  <div class="has-text-centered mb-4">⬆️ <small>(Dados retornam pelo mesmo caminho)</small></div>
+                  
+                  <div class="notification is-light mb-4">
+                    <strong>6. Resposta ao Cliente</strong><br>
+                    O Express envia a resposta HTTP de volta ao cliente com o status code apropriado e os dados (geralmente em JSON).
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="arquitetura-msc">
+              <h2 class="title is-4 section-title mb-5">3. Arquitetura MSC (Model-Service-Controller)</h2>
+              <div class="content is-size-5 mb-5">
+                <p class="mb-5">
+                  A arquitetura MSC separa as responsabilidades em três camadas distintas, tornando o código mais organizado, testável e escalável:
+                </p>
+              </div>
+
+              <div class="columns">
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-3">📋 Controller</h3>
+                    <div class="content">
+                      <p class="mb-3"><strong>Responsabilidade:</strong></p>
+                      <ul>
+                        <li>Receber requisições HTTP</li>
+                        <li>Extrair dados (params, query, body)</li>
+                        <li>Chamar o Service</li>
+                        <li>Retornar resposta HTTP</li>
+                      </ul>
+                      <p class="mt-3"><strong>NÃO deve:</strong> Ter lógica de negócio ou acessar banco de dados diretamente.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-3">⚙️ Service</h3>
+                    <div class="content">
+                      <p class="mb-3"><strong>Responsabilidade:</strong></p>
+                      <ul>
+                        <li>Implementar lógica de negócio</li>
+                        <li>Validar dados</li>
+                        <li>Orquestrar chamadas ao Model</li>
+                        <li>Aplicar regras da aplicação</li>
+                      </ul>
+                      <p class="mt-3"><strong>NÃO deve:</strong> Lidar com requisições HTTP ou queries SQL diretas.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-3">🗄️ Model</h3>
+                    <div class="content">
+                      <p class="mb-3"><strong>Responsabilidade:</strong></p>
+                      <ul>
+                        <li>Interagir com banco de dados</li>
+                        <li>Executar queries</li>
+                        <li>Mapear dados</li>
+                        <li>Retornar dados brutos</li>
+                      </ul>
+                      <p class="mt-3"><strong>NÃO deve:</strong> Conter lógica de negócio ou validações complexas.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="configurando-projeto">
+              <h2 class="title is-4 section-title mb-5">4. Configurando o Projeto</h2>
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">Passo 1: Inicializar o Projeto</h3>
+                <div class="content">
+                  <pre class="p-4 mb-4"><code># Criar pasta do projeto
+mkdir api-tarefas
+cd api-tarefas
+
+# Inicializar projeto Node.js
+npm init -y
+
+# Instalar dependências
+npm install express
+npm install --save-dev nodemon</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">Passo 2: Estrutura de Pastas</h3>
+                <div class="content">
+                  <pre class="p-4"><code>api-tarefas/
+├── src/
+│   ├── controllers/
+│   │   └── taskController.js
+│   ├── services/
+│   │   └── taskService.js
+│   ├── models/
+│   │   └── taskModel.js
+│   ├── routes/
+│   │   └── taskRoutes.js
+│   └── app.js
+├── server.js
+├── package.json
+└── .gitignore</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">Passo 3: Configurar Scripts no package.json</h3>
+                <div class="content">
+                  <pre class="p-4"><code>{
+  "name": "api-tarefas",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}</code></pre>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="implementando-api">
+              <h2 class="title is-4 section-title mb-5">5. Implementando a API</h2>
+              
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📄 server.js - Ponto de Entrada</h3>
+                <div class="content">
+                  <pre class="p-4"><code>const app = require('./src/app');
+
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log(\`🚀 Servidor rodando na porta \${PORT}\`);
+});</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📄 src/app.js - Configuração do Express</h3>
+                <div class="content">
+                  <pre class="p-4"><code>const express = require('express');
+const taskRoutes = require('./routes/taskRoutes');
+
+const app = express();
+
+// Middleware para parsing de JSON
+app.use(express.json());
+
+// Rotas
+app.use('/api/tasks', taskRoutes);
+
+// Rota de teste
+app.get('/', (req, res) => {
+  res.json({ message: 'API de Tarefas está funcionando!' });
+});
+
+module.exports = app;</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📄 src/models/taskModel.js - Camada de Dados</h3>
+                <div class="content">
+                  <p class="mb-3">Por simplicidade, vamos usar um array em memória (em produção, seria um banco de dados real):</p>
+                  <pre class="p-4"><code>// Simulando um banco de dados
+let tasks = [
+  { id: 1, title: 'Estudar Express', completed: false },
+  { id: 2, title: 'Criar API', completed: true },
+];
+
+let nextId = 3;
+
+const taskModel = {
+  // Buscar todas as tarefas
+  findAll: async () => {
+    return tasks;
+  },
+
+  // Buscar tarefa por ID
+  findById: async (id) => {
+    return tasks.find(task => task.id === parseInt(id));
+  },
+
+  // Criar nova tarefa
+  create: async (taskData) => {
+    const newTask = {
+      id: nextId++,
+      title: taskData.title,
+      completed: false,
+    };
+    tasks.push(newTask);
+    return newTask;
+  },
+
+  // Atualizar tarefa
+  update: async (id, taskData) => {
+    const index = tasks.findIndex(task => task.id === parseInt(id));
+    if (index === -1) return null;
+    
+    tasks[index] = { ...tasks[index], ...taskData };
+    return tasks[index];
+  },
+
+  // Deletar tarefa
+  delete: async (id) => {
+    const index = tasks.findIndex(task => task.id === parseInt(id));
+    if (index === -1) return false;
+    
+    tasks.splice(index, 1);
+    return true;
+  },
+};
+
+module.exports = taskModel;</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📄 src/services/taskService.js - Lógica de Negócio</h3>
+                <div class="content">
+                  <pre class="p-4"><code>const taskModel = require('../models/taskModel');
+
+const taskService = {
+  // Listar todas as tarefas
+  getAllTasks: async () => {
+    const tasks = await taskModel.findAll();
+    return tasks;
+  },
+
+  // Buscar tarefa por ID
+  getTaskById: async (id) => {
+    const task = await taskModel.findById(id);
+    if (!task) {
+      throw new Error('Tarefa não encontrada');
+    }
+    return task;
+  },
+
+  // Criar nova tarefa
+  createTask: async (taskData) => {
+    // Validação
+    if (!taskData.title || taskData.title.trim() === '') {
+      throw new Error('O título é obrigatório');
+    }
+
+    if (taskData.title.length < 3) {
+      throw new Error('O título deve ter pelo menos 3 caracteres');
+    }
+
+    const newTask = await taskModel.create(taskData);
+    return newTask;
+  },
+
+  // Atualizar tarefa
+  updateTask: async (id, taskData) => {
+    // Verifica se a tarefa existe
+    await taskService.getTaskById(id);
+
+    // Validação se título foi fornecido
+    if (taskData.title !== undefined) {
+      if (taskData.title.trim() === '') {
+        throw new Error('O título não pode ser vazio');
+      }
+      if (taskData.title.length < 3) {
+        throw new Error('O título deve ter pelo menos 3 caracteres');
+      }
+    }
+
+    const updatedTask = await taskModel.update(id, taskData);
+    return updatedTask;
+  },
+
+  // Deletar tarefa
+  deleteTask: async (id) => {
+    // Verifica se a tarefa existe
+    await taskService.getTaskById(id);
+
+    const deleted = await taskModel.delete(id);
+    return deleted;
+  },
+};
+
+module.exports = taskService;</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📄 src/controllers/taskController.js - Gerenciador de Requisições</h3>
+                <div class="content">
+                  <pre class="p-4"><code>const taskService = require('../services/taskService');
+
+const taskController = {
+  // GET /api/tasks - Listar todas as tarefas
+  getAllTasks: async (req, res) => {
+    try {
+      const tasks = await taskService.getAllTasks();
+      return res.status(200).json(tasks);
+    } catch (error) {
+      return res.status(500).json({ error: error.message });
+    }
+  },
+
+  // GET /api/tasks/:id - Buscar tarefa por ID
+  getTaskById: async (req, res) => {
+    try {
+      const { id } = req.params;
+      const task = await taskService.getTaskById(id);
+      return res.status(200).json(task);
+    } catch (error) {
+      return res.status(404).json({ error: error.message });
+    }
+  },
+
+  // POST /api/tasks - Criar nova tarefa
+  createTask: async (req, res) => {
+    try {
+      const taskData = req.body;
+      const newTask = await taskService.createTask(taskData);
+      return res.status(201).json(newTask);
+    } catch (error) {
+      return res.status(400).json({ error: error.message });
+    }
+  },
+
+  // PUT /api/tasks/:id - Atualizar tarefa
+  updateTask: async (req, res) => {
+    try {
+      const { id } = req.params;
+      const taskData = req.body;
+      const updatedTask = await taskService.updateTask(id, taskData);
+      return res.status(200).json(updatedTask);
+    } catch (error) {
+      const statusCode = error.message === 'Tarefa não encontrada' ? 404 : 400;
+      return res.status(statusCode).json({ error: error.message });
+    }
+  },
+
+  // DELETE /api/tasks/:id - Deletar tarefa
+  deleteTask: async (req, res) => {
+    try {
+      const { id } = req.params;
+      await taskService.deleteTask(id);
+      return res.status(204).send();
+    } catch (error) {
+      const statusCode = error.message === 'Tarefa não encontrada' ? 404 : 500;
+      return res.status(statusCode).json({ error: error.message });
+    }
+  },
+};
+
+module.exports = taskController;</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">📄 src/routes/taskRoutes.js - Definição de Rotas</h3>
+                <div class="content">
+                  <pre class="p-4"><code>const express = require('express');
+const taskController = require('../controllers/taskController');
+
+const router = express.Router();
+
+// Rotas CRUD
+router.get('/', taskController.getAllTasks);
+router.get('/:id', taskController.getTaskById);
+router.post('/', taskController.createTask);
+router.put('/:id', taskController.updateTask);
+router.delete('/:id', taskController.deleteTask);
+
+module.exports = router;</code></pre>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="testando-api">
+              <h2 class="title is-4 section-title mb-5">6. Testando a API</h2>
+              
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">Iniciar o Servidor</h3>
+                <div class="content">
+                  <pre class="p-4"><code>npm run dev</code></pre>
+                  <p class="mt-3">Você deve ver: <code>🚀 Servidor rodando na porta 3000</code></p>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">Testando os Endpoints</h3>
+                <div class="content">
+                  <p class="mb-4">Você pode usar ferramentas como Insomnia, Postman ou até o próprio navegador para algumas rotas. Aqui estão exemplos com cURL:</p>
+                  
+                  <h4 class="title is-6 mt-5 mb-3">1. Listar todas as tarefas (GET)</h4>
+                  <pre class="p-4"><code>curl http://localhost:3000/api/tasks</code></pre>
+                  
+                  <h4 class="title is-6 mt-5 mb-3">2. Buscar tarefa por ID (GET)</h4>
+                  <pre class="p-4"><code>curl http://localhost:3000/api/tasks/1</code></pre>
+                  
+                  <h4 class="title is-6 mt-5 mb-3">3. Criar nova tarefa (POST)</h4>
+                  <pre class="p-4"><code>curl -X POST http://localhost:3000/api/tasks \\
+  -H "Content-Type: application/json" \\
+  -d '{"title":"Aprender Node.js"}'</code></pre>
+                  
+                  <h4 class="title is-6 mt-5 mb-3">4. Atualizar tarefa (PUT)</h4>
+                  <pre class="p-4"><code>curl -X PUT http://localhost:3000/api/tasks/1 \\
+  -H "Content-Type: application/json" \\
+  -d '{"completed":true}'</code></pre>
+                  
+                  <h4 class="title is-6 mt-5 mb-3">5. Deletar tarefa (DELETE)</h4>
+                  <pre class="p-4"><code>curl -X DELETE http://localhost:3000/api/tasks/1</code></pre>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="status-codes">
+              <h2 class="title is-4 section-title mb-5">7. Status Codes HTTP</h2>
+              <div class="content is-size-5 mb-5">
+                <p class="mb-5">
+                  Entender os códigos de status HTTP é fundamental para APIs REST. Aqui estão os mais comuns:
+                </p>
+              </div>
+
+              <div class="columns">
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-3 has-text-success">2xx - Sucesso</h3>
+                    <div class="content">
+                      <ul>
+                        <li><code>200 OK</code> - Requisição bem-sucedida</li>
+                        <li><code>201 Created</code> - Recurso criado com sucesso</li>
+                        <li><code>204 No Content</code> - Sucesso, sem conteúdo para retornar</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-3 has-text-warning">4xx - Erro do Cliente</h3>
+                    <div class="content">
+                      <ul>
+                        <li><code>400 Bad Request</code> - Dados inválidos</li>
+                        <li><code>404 Not Found</code> - Recurso não encontrado</li>
+                        <li><code>401 Unauthorized</code> - Não autenticado</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-3 has-text-danger">5xx - Erro do Servidor</h3>
+                    <div class="content">
+                      <ul>
+                        <li><code>500 Internal Server Error</code> - Erro interno</li>
+                        <li><code>503 Service Unavailable</code> - Serviço indisponível</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="boas-praticas">
+              <h2 class="title is-4 section-title mb-5">8. Boas Práticas</h2>
+              <div class="columns">
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-4 has-text-success">✅ Faça</h3>
+                    <div class="content">
+                      <ul>
+                        <li>Use verbos HTTP corretamente (GET, POST, PUT, DELETE)</li>
+                        <li>Retorne status codes apropriados</li>
+                        <li>Valide dados de entrada</li>
+                        <li>Use try/catch para erros</li>
+                        <li>Mantenha as camadas separadas</li>
+                        <li>Use nomes de rotas claros e consistentes</li>
+                        <li>Documente sua API</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-4 has-text-danger">❌ Não Faça</h3>
+                    <div class="content">
+                      <ul>
+                        <li>Misturar lógica de negócio no Controller</li>
+                        <li>Acessar banco de dados diretamente no Controller</li>
+                        <li>Ignorar tratamento de erros</li>
+                        <li>Usar apenas GET e POST para tudo</li>
+                        <li>Expor erros sensíveis ao cliente</li>
+                        <li>Deixar rotas sem validação</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="conclusao">
+              <h2 class="title is-4 section-title mb-5">9. Conclusão e Próximos Passos</h2>
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-3">Você criou sua primeira API! 🎉</h3>
+                <div class="content">
+                  <p class="mb-4">
+                    Parabéns! Agora você entende o fluxo completo de uma requisição, desde o cliente até o banco de dados e de volta. A arquitetura MSC mantém seu código organizado e fácil de manter.
+                  </p>
+                  
+                  <h4 class="title is-6 mt-5 mb-3">📚 O que você aprendeu:</h4>
+                  <ul class="mb-4">
+                    <li>O que é uma API e como ela funciona</li>
+                    <li>O fluxo completo de uma requisição HTTP</li>
+                    <li>Arquitetura MSC (Model-Service-Controller)</li>
+                    <li>Implementação prática com Express.js</li>
+                    <li>CRUD completo (Create, Read, Update, Delete)</li>
+                    <li>Status codes HTTP</li>
+                    <li>Boas práticas de desenvolvimento de APIs</li>
+                  </ul>
+                  
+                  <h4 class="title is-6 mt-5 mb-3">🚀 Próximos passos para evoluir:</h4>
+                  <ul>
+                    <li>Integrar com um banco de dados real (MongoDB, PostgreSQL)</li>
+                    <li>Adicionar autenticação e autorização (JWT)</li>
+                    <li>Implementar middleware de validação (express-validator)</li>
+                    <li>Adicionar documentação (Swagger)</li>
+                    <li>Implementar testes automatizados</li>
+                    <li>Deploy em produção (Heroku, Railway, Render)</li>
+                  </ul>
+                  
+                  <div class="notification is-info is-light mt-5">
+                    <strong>💡 Dica:</strong> Agora que você tem uma API funcionando, use os conhecimentos da aula anterior (11.1) para criar um front-end consumindo esta API! Você terá uma aplicação full-stack completa.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          `
+        },
+        {
+          id: 48,
+          titulo: "Pacotes NPM e Como Utilizá-los",
+          subtitulo: "Aula 11.3",
+          descricao: "Aprenda o que é NPM, como instalar e usar pacotes em seus projetos, com exemplos práticos para HTML e CSS",
+          icone: "fa-box",
+          conteudo: `
+          <div class="container">
+            <div class="mb-6" id="o-que-e-npm">
+              <h2 class="title is-4 section-title mb-5">1. O que é NPM?</h2>
+              <div class="content is-size-5">
+                <p class="mb-5">
+                  <strong>NPM</strong> significa <strong>Node Package Manager</strong> (Gerenciador de Pacotes do Node). É o maior ecossistema de bibliotecas e ferramentas de código aberto do mundo, permitindo que você use código criado por outros desenvolvedores em seus projetos.
+                </p>
+                <div class="box box-dark">
+                  <h3 class="title is-5 mb-4">🎁 Analogia da Loja de Ferramentas</h3>
+                  <div class="content">
+                    <p class="mb-3">Imagine que você está construindo uma casa:</p>
+                    <ul>
+                      <li><strong>Sem NPM:</strong> Você teria que fabricar cada ferramenta do zero (martelo, serra, furadeira)</li>
+                      <li><strong>Com NPM:</strong> Você vai à loja e compra ferramentas prontas e testadas</li>
+                    </ul>
+                    <p class="mt-4">NPM é essa "loja" onde você encontra milhões de "ferramentas" (pacotes) prontas para usar!</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="columns mt-5">
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-3">📦 Pacote (Package)</h3>
+                    <p>Uma biblioteca ou ferramenta reutilizável. Ex: <code>express</code>, <code>axios</code>, <code>lodash</code></p>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-3">📄 package.json</h3>
+                    <p>Arquivo que gerencia as dependências do seu projeto, como uma "lista de compras" de pacotes</p>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-3">📁 node_modules</h3>
+                    <p>Pasta onde todos os pacotes instalados ficam armazenados</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="instalando-npm">
+              <h2 class="title is-4 section-title mb-5">2. Instalando e Verificando o NPM</h2>
+              <div class="content is-size-5 mb-5">
+                <p class="mb-5">
+                  O NPM já vem instalado automaticamente quando você instala o Node.js. Vamos verificar se está tudo certo:
+                </p>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">Verificar Instalação</h3>
+                <div class="content">
+                  <pre class="p-4"><code># Verificar versão do Node.js
+node --version
+
+# Verificar versão do NPM
+npm --version</code></pre>
+                  <p class="mt-3">Se ambos os comandos retornarem versões, está tudo pronto!</p>
+                </div>
+              </div>
+
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">Inicializar um Projeto NPM</h3>
+                <div class="content">
+                  <pre class="p-4 mb-4"><code># Criar o arquivo package.json
+npm init -y</code></pre>
+                  <p>O comando <code>npm init -y</code> cria um arquivo <code>package.json</code> com configurações padrão. Esse arquivo é o coração do seu projeto Node.js.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="comandos-basicos">
+              <h2 class="title is-4 section-title mb-5">3. Comandos Básicos do NPM</h2>
+              
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📥 Instalar Pacotes</h3>
+                <div class="content">
+                  <pre class="p-4 mb-4"><code># Instalar um pacote (adiciona às dependências de produção)
+npm install nome-do-pacote
+
+# Forma abreviada
+npm i nome-do-pacote
+
+# Instalar como dependência de desenvolvimento
+npm install --save-dev nome-do-pacote
+npm i -D nome-do-pacote
+
+# Instalar globalmente (disponível em todo o sistema)
+npm install -g nome-do-pacote
+
+# Instalar múltiplos pacotes de uma vez
+npm install pacote1 pacote2 pacote3</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🗑️ Remover Pacotes</h3>
+                <div class="content">
+                  <pre class="p-4"><code># Desinstalar um pacote
+npm uninstall nome-do-pacote
+
+# Forma abreviada
+npm un nome-do-pacote</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🔄 Outros Comandos Úteis</h3>
+                <div class="content">
+                  <pre class="p-4"><code># Instalar todas as dependências listadas no package.json
+npm install
+
+# Atualizar pacotes
+npm update
+
+# Listar pacotes instalados
+npm list
+
+# Ver informações de um pacote
+npm info nome-do-pacote
+
+# Limpar cache do NPM
+npm cache clean --force</code></pre>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="package-json">
+              <h2 class="title is-4 section-title mb-5">4. Entendendo o package.json</h2>
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">Exemplo de package.json</h3>
+                <div class="content">
+                  <pre class="p-4"><code>{
+  "name": "meu-projeto",
+  "version": "1.0.0",
+  "description": "Projeto incrível com NPM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "webpack --mode production"
+  },
+  "keywords": ["html", "css", "javascript"],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "webpack": "^5.89.0"
+  }
+}</code></pre>
+                </div>
+              </div>
+
+              <div class="columns mt-5">
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-6 mb-3">dependencies</h3>
+                    <p>Pacotes necessários para o projeto funcionar em produção</p>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-6 mb-3">devDependencies</h3>
+                    <p>Pacotes usados apenas durante o desenvolvimento (testes, build, etc.)</p>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-6 mb-3">scripts</h3>
+                    <p>Comandos personalizados que podem ser executados com <code>npm run nome-do-script</code></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="pacotes-html-css">
+              <h2 class="title is-4 section-title mb-5">5. Pacotes NPM para Projetos HTML e CSS</h2>
+              <div class="content is-size-5 mb-5">
+                <p class="mb-5">
+                  Vamos explorar 5 pacotes simples e úteis que podem melhorar significativamente seus projetos front-end. Todos são fáceis de usar, perfeitos para iniciantes!
+                </p>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🎨 1. Bootstrap - Framework CSS Completo</h3>
+                <div class="content">
+                  <p class="mb-3">Framework CSS mais popular do mundo, agora via NPM.</p>
+                  <pre class="p-4 mb-4"><code># Instalar
+npm install bootstrap
+
+# Importar no seu arquivo JS
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
+# Ou linkar no HTML
+&lt;link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"&gt;</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🎨 1. Bootstrap - Framework CSS Completo</h3>
+                <div class="content">
+                  <p class="mb-3">Framework CSS mais popular do mundo com componentes prontos para usar.</p>
+                  <pre class="p-4 mb-4"><code># Instalar
+npm install bootstrap
+
+# Linkar no HTML
+&lt;link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"&gt;
+&lt;script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"&gt;&lt;/script&gt;</code></pre>
+
+                  <p class="mb-3 mt-4"><strong>Exemplo de uso:</strong></p>
+                  <pre class="p-4"><code>&lt;button class="btn btn-primary"&gt;Botão Azul&lt;/button&gt;
+&lt;div class="alert alert-success"&gt;Sucesso!&lt;/div&gt;
+&lt;div class="card"&gt;
+  &lt;div class="card-body"&gt;
+    &lt;h5 class="card-title"&gt;Título do Card&lt;/h5&gt;
+    &lt;p class="card-text"&gt;Conteúdo do card&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                  <p class="mt-3"><strong>Benefício:</strong> Componentes prontos sem precisar escrever CSS!</p>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🎭 2. Animate.css - Animações CSS Prontas</h3>
+                <div class="content">
+                  <p class="mb-3">Biblioteca com dezenas de animações CSS prontas para usar. Basta adicionar classes!</p>
+                  <pre class="p-4 mb-4"><code># Instalar
+npm install animate.css
+
+# Linkar no HTML
+&lt;link rel="stylesheet" href="node_modules/animate.css/animate.min.css"&gt;</code></pre>
+
+                  <p class="mb-3 mt-4"><strong>Exemplos de animações:</strong></p>
+                  <pre class="p-4"><code>&lt;!-- Bounce (pular) --&gt;
+&lt;h1 class="animate__animated animate__bounce"&gt;Título Pulando&lt;/h1&gt;
+
+&lt;!-- Fade In (aparecer suavemente) --&gt;
+&lt;div class="animate__animated animate__fadeIn"&gt;Aparece suavemente&lt;/div&gt;
+
+&lt;!-- Slide In (deslizar) --&gt;
+&lt;p class="animate__animated animate__slideInLeft"&gt;Desliza da esquerda&lt;/p&gt;
+
+&lt;!-- Zoom In (aumentar) --&gt;
+&lt;img class="animate__animated animate__zoomIn" src="foto.jpg"&gt;</code></pre>
+                  <p class="mt-3"><strong>Benefício:</strong> Animações profissionais sem escrever JavaScript!</p>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🎨 3. Font Awesome - Ícones Prontos</h3>
+                <div class="content">
+                  <p class="mb-3">Biblioteca com milhares de ícones prontos para usar.</p>
+                  <pre class="p-4 mb-4"><code># Instalar
+npm install @fortawesome/fontawesome-free
+
+# Importar no CSS
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+# Ou linkar no HTML
+&lt;link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css"&gt;</code></pre>
+
+                  <p class="mb-3 mt-4"><strong>Exemplo de uso:</strong></p>
+                  <pre class="p-4"><code>&lt;i class="fas fa-heart"&gt;&lt;/i&gt;
+&lt;i class="fab fa-github"&gt;&lt;/i&gt;
+&lt;i class="fas fa-shopping-cart"&gt;&lt;/i&gt;</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🎨 3. Font Awesome - Ícones Prontos</h3>
+                <div class="content">
+                  <p class="mb-3">Biblioteca com milhares de ícones prontos para usar.</p>
+                  <pre class="p-4 mb-4"><code># Instalar
+npm install @fortawesome/fontawesome-free
+
+# Linkar no HTML
+&lt;link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css"&gt;</code></pre>
+
+                  <p class="mb-3 mt-4"><strong>Exemplo de uso:</strong></p>
+                  <pre class="p-4"><code>&lt;i class="fas fa-heart"&gt;&lt;/i&gt; Coração
+&lt;i class="fab fa-github"&gt;&lt;/i&gt; GitHub
+&lt;i class="fas fa-shopping-cart"&gt;&lt;/i&gt; Carrinho
+&lt;i class="fas fa-star"&gt;&lt;/i&gt; Estrela
+&lt;i class="fas fa-user"&gt;&lt;/i&gt; Usuário</code></pre>
+                  <p class="mt-3"><strong>Benefício:</strong> Ícones profissionais sem precisar baixar imagens!</p>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">✨ 4. AOS (Animate On Scroll) - Animações ao Rolar a Página</h3>
+                <div class="content">
+                  <p class="mb-3">Crie animações incríveis que aparecem quando o usuário rola a página para baixo.</p>
+                  <pre class="p-4 mb-4"><code># Instalar
+npm install aos
+
+# Linkar no HTML
+&lt;link rel="stylesheet" href="node_modules/aos/dist/aos.css"&gt;
+&lt;script src="node_modules/aos/dist/aos.js"&gt;&lt;/script&gt;
+
+# Inicializar (adicione no final do HTML)
+&lt;script&gt;
+  AOS.init();
+&lt;/script&gt;</code></pre>
+
+                  <p class="mb-3 mt-4"><strong>Exemplos de animações:</strong></p>
+                  <pre class="p-4"><code>&lt;!-- Fade (aparecer) --&gt;
+&lt;div data-aos="fade-up"&gt;Aparece de baixo para cima&lt;/div&gt;
+
+&lt;!-- Zoom --&gt;
+&lt;img data-aos="zoom-in" src="foto.jpg"&gt;
+
+&lt;!-- Flip (virar) --&gt;
+&lt;div data-aos="flip-left"&gt;Vira da esquerda&lt;/div&gt;
+
+&lt;!-- Com delay (atraso) --&gt;
+&lt;p data-aos="fade-right" data-aos-delay="300"&gt;Aparece depois&lt;/p&gt;</code></pre>
+                  <p class="mt-3"><strong>Benefício:</strong> Efeito "wow" quando o usuário rola a página!</p>
+                </div>
+              </div>
+
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">� 5. Typed.js - Efeito de Digitação</h3>
+                <div class="content">
+                  <p class="mb-3">Cria um efeito de texto sendo digitado, perfeito para títulos e chamadas de atenção.</p>
+                  <pre class="p-4 mb-4"><code># Instalar
+npm install typed.js
+
+# Linkar no HTML
+&lt;script src="node_modules/typed.js/dist/typed.umd.js"&gt;&lt;/script&gt;</code></pre>
+
+                  <p class="mb-3 mt-4"><strong>Exemplo de uso:</strong></p>
+                  <pre class="p-4"><code>&lt;!-- HTML --&gt;
+&lt;h1&gt;Eu sou &lt;span id="typed"&gt;&lt;/span&gt;&lt;/h1&gt;
+
+&lt;!-- JavaScript --&gt;
+&lt;script&gt;
+  var typed = new Typed('#typed', {
+    strings: [
+      'Desenvolvedor Front-end',
+      'Designer',
+      'Criativo'
+    ],
+    typeSpeed: 50,      // Velocidade de digitação
+    backSpeed: 30,      // Velocidade de apagar
+    loop: true          // Repetir infinitamente
+  });
+&lt;/script&gt;</code></pre>
+                  <p class="mt-3"><strong>Benefício:</strong> Títulos dinâmicos e chamativos com pouquíssimo código!</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="projeto-completo">
+              <h2 class="title is-4 section-title mb-5">6. Projeto Prático Completo</h2>
+              <div class="content is-size-5 mb-5">
+                <p class="mb-5">
+                  Vamos criar um projeto HTML/CSS moderno usando vários pacotes NPM:
+                </p>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">Passo 1: Estrutura do Projeto</h3>
+                <div class="content">
+                  <pre class="p-4"><code>meu-site/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── package.json
+└── .gitignore</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">Passo 2: Instalar Pacotes</h3>
+                <div class="content">
+                  <pre class="p-4"><code># Inicializar projeto
+npm init -y
+
+# Instalar pacotes
+npm install bootstrap animate.css @fortawesome/fontawesome-free aos typed.js</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">Passo 3: HTML (index.html)</h3>
+                <div class="content">
+                  <pre class="p-4"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-BR"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;Meu Site com NPM&lt;/title&gt;
+  
+  &lt;!-- Bootstrap --&gt;
+  &lt;link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"&gt;
+  
+  &lt;!-- Animate.css --&gt;
+  &lt;link rel="stylesheet" href="node_modules/animate.css/animate.min.css"&gt;
+  
+  &lt;!-- Font Awesome --&gt;
+  &lt;link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css"&gt;
+  
+  &lt;!-- AOS --&gt;
+  &lt;link rel="stylesheet" href="node_modules/aos/dist/aos.css"&gt;
+  
+  &lt;!-- Seu CSS --&gt;
+  &lt;link rel="stylesheet" href="css/style.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;!-- Header com animação --&gt;
+  &lt;header class="bg-dark text-white text-center py-5 animate__animated animate__fadeInDown"&gt;
+    &lt;div class="container"&gt;
+      &lt;h1&gt;
+        &lt;i class="fas fa-rocket"&gt;&lt;/i&gt; 
+        &lt;span id="typed"&gt;&lt;/span&gt;
+      &lt;/h1&gt;
+      &lt;p class="lead"&gt;Usando Bootstrap, Animate.css, Font Awesome, AOS e Typed.js&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/header&gt;
+
+  &lt;!-- Seção com cards animados ao rolar --&gt;
+  &lt;section class="container my-5"&gt;
+    &lt;div class="row"&gt;
+      &lt;div class="col-md-4" data-aos="fade-up"&gt;
+        &lt;div class="card"&gt;
+          &lt;div class="card-body text-center"&gt;
+            &lt;i class="fas fa-heart fa-3x text-danger mb-3"&gt;&lt;/i&gt;
+            &lt;h5 class="card-title"&gt;Design Moderno&lt;/h5&gt;
+            &lt;p class="card-text"&gt;Interface bonita com Bootstrap&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      
+      &lt;div class="col-md-4" data-aos="fade-up" data-aos-delay="200"&gt;
+        &lt;div class="card"&gt;
+          &lt;div class="card-body text-center"&gt;
+            &lt;i class="fas fa-star fa-3x text-warning mb-3"&gt;&lt;/i&gt;
+            &lt;h5 class="card-title"&gt;Animações Incríveis&lt;/h5&gt;
+            &lt;p class="card-text"&gt;Efeitos com Animate.css e AOS&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      
+      &lt;div class="col-md-4" data-aos="fade-up" data-aos-delay="400"&gt;
+        &lt;div class="card"&gt;
+          &lt;div class="card-body text-center"&gt;
+            &lt;i class="fas fa-code fa-3x text-primary mb-3"&gt;&lt;/i&gt;
+            &lt;h5 class="card-title"&gt;Fácil de Usar&lt;/h5&gt;
+            &lt;p class="card-text"&gt;Tudo com pacotes NPM&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;!-- Bootstrap JS --&gt;
+  &lt;script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"&gt;&lt;/script&gt;
+  
+  &lt;!-- AOS --&gt;
+  &lt;script src="node_modules/aos/dist/aos.js"&gt;&lt;/script&gt;
+  
+  &lt;!-- Typed.js --&gt;
+  &lt;script src="node_modules/typed.js/dist/typed.umd.js"&gt;&lt;/script&gt;
+  
+  &lt;!-- Seu JavaScript --&gt;
+  &lt;script src="js/script.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">Passo 4: CSS (css/style.css)</h3>
+                <div class="content">
+                  <pre class="p-4"><code>body {
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.card {
+  transition: transform 0.3s;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">Passo 5: JavaScript (js/script.js)</h3>
+                <div class="content">
+                  <pre class="p-4"><code>// Inicializar AOS (Animate On Scroll)
+AOS.init({
+  duration: 1000,
+  once: true
+});
+
+// Inicializar Typed.js (efeito de digitação)
+var typed = new Typed('#typed', {
+  strings: [
+    'Bem-vindo ao meu site!',
+    'Projeto com NPM',
+    'Fácil e Profissional!'
+  ],
+  typeSpeed: 50,
+  backSpeed: 30,
+  loop: true
+});</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">Passo 6: Abrir no Navegador</h3>
+                <div class="content">
+                  <p class="mb-3">Simplesmente abra o arquivo <code>index.html</code> no seu navegador!</p>
+                  <div class="notification is-info is-light mt-4">
+                    <strong>💡 Dica:</strong> Use a extensão "Live Server" do VS Code para abrir com reload automático, ou simplesmente clique duas vezes no arquivo HTML.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="gitignore">
+              <h2 class="title is-4 section-title mb-5">7. Importante: .gitignore</h2>
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">Nunca commite node_modules!</h3>
+                <div class="content">
+                  <p class="mb-3">A pasta <code>node_modules</code> pode ter milhares de arquivos. Sempre adicione ao .gitignore:</p>
+                  <pre class="p-4"><code># .gitignore
+node_modules/
+*.log</code></pre>
+                  <div class="notification is-warning is-light mt-4">
+                    <strong>⚠️ Importante:</strong> Quando clonar um projeto, sempre execute <code>npm install</code> para instalar as dependências listadas no package.json.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="boas-praticas">
+              <h2 class="title is-4 section-title mb-5">8. Boas Práticas com NPM</h2>
+              <div class="columns">
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-4 has-text-success">✅ Faça</h3>
+                    <div class="content">
+                      <ul>
+                        <li>Sempre use <code>package.json</code> para gerenciar dependências</li>
+                        <li>Adicione <code>node_modules</code> ao .gitignore</li>
+                        <li>Use versões específicas ou ranges controlados</li>
+                        <li>Mantenha as dependências atualizadas</li>
+                        <li>Leia a documentação dos pacotes</li>
+                        <li>Prefira pacotes bem mantidos e populares</li>
+                        <li>Use scripts do NPM para automatizar tarefas</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-4 has-text-danger">❌ Não Faça</h3>
+                    <div class="content">
+                      <ul>
+                        <li>Instalar pacotes sem necessidade</li>
+                        <li>Commitar a pasta node_modules</li>
+                        <li>Ignorar avisos de segurança</li>
+                        <li>Usar pacotes desatualizados ou abandonados</li>
+                        <li>Instalar tudo globalmente</li>
+                        <li>Modificar arquivos dentro de node_modules</li>
+                        <li>Copiar código sem entender as dependências</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="conclusao">
+              <h2 class="title is-4 section-title mb-5">9. Conclusão</h2>
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-3">O Poder do Ecossistema NPM 🚀</h3>
+                <div class="content">
+                  <p class="mb-4">
+                    O NPM abre um mundo de possibilidades para seus projetos! Com milhões de pacotes disponíveis, você pode construir aplicações profissionais sem reinventar a roda.
+                  </p>
+                  
+                  <h4 class="title is-6 mt-5 mb-3">📚 O que você aprendeu:</h4>
+                  <ul class="mb-4">
+                    <li>O que é NPM e como funciona</li>
+                    <li>Comandos essenciais do NPM</li>
+                    <li>Como gerenciar dependências com package.json</li>
+                    <li>5 pacotes úteis para projetos HTML/CSS</li>
+                    <li>Como criar um projeto moderno do zero</li>
+                    <li>Boas práticas de gerenciamento de pacotes</li>
+                  </ul>
+                  
+                  <h4 class="title is-6 mt-5 mb-3">🎯 Pacotes Que Você Aprendeu a Usar:</h4>
+                  <ul class="mb-4">
+                    <li><strong>Bootstrap:</strong> Framework CSS com componentes prontos</li>
+                    <li><strong>Animate.css:</strong> Animações CSS prontas</li>
+                    <li><strong>Font Awesome:</strong> Biblioteca de ícones</li>
+                    <li><strong>AOS:</strong> Animações ao rolar a página</li>
+                    <li><strong>Typed.js:</strong> Efeito de digitação em textos</li>
+                  </ul>
+                  
+                  <div class="notification is-info is-light mt-5">
+                    <strong>💡 Próximo Passo:</strong> Explore o site <a href="https://www.npmjs.com" target="_blank">npmjs.com</a> para descobrir mais pacotes! Use a busca para encontrar soluções para problemas específicos do seu projeto.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          `
+        },
+        {
+          id: 49,
+          titulo: "Introdução a Banco de Dados",
+          subtitulo: "Aula 11.4",
+          descricao: "Aprenda os conceitos fundamentais de banco de dados: tabelas, colunas, relacionamentos e como estruturar dados de forma eficiente",
+          icone: "fa-database",
+          conteudo: `
+          <div class="container">
+            <div class="mb-6" id="o-que-e-bd">
+              <h2 class="title is-4 section-title mb-5">1. O que é um Banco de Dados?</h2>
+              <div class="content is-size-5">
+                <p class="mb-5">
+                  Um <strong>Banco de Dados</strong> é um sistema organizado para armazenar, gerenciar e recuperar informações. Pense nele como um <span class="highlight-pink">arquivo digital gigante e super organizado</span> que permite guardar e encontrar dados rapidamente.
+                </p>
+                <div class="box box-dark">
+                  <h3 class="title is-5 mb-4">📚 Analogia da Biblioteca</h3>
+                  <div class="content">
+                    <p class="mb-3">Imagine uma biblioteca bem organizada:</p>
+                    <ul>
+                      <li><strong>Biblioteca:</strong> É o Banco de Dados completo</li>
+                      <li><strong>Estantes:</strong> São as Tabelas</li>
+                      <li><strong>Livros:</strong> São os Registros (linhas)</li>
+                      <li><strong>Características dos livros (título, autor, ano):</strong> São as Colunas</li>
+                      <li><strong>Sistema de catalogação:</strong> São os Relacionamentos</li>
+                    </ul>
+                    <p class="mt-4">Assim como você pode encontrar qualquer livro rapidamente usando o sistema da biblioteca, um banco de dados permite encontrar qualquer informação de forma eficiente!</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="columns mt-5">
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-3">💾 Banco de Dados Relacional</h3>
+                    <p>Organiza dados em tabelas com linhas e colunas. Exemplos: MySQL, PostgreSQL, SQL Server.</p>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-3">🔗 SQL</h3>
+                    <p>Linguagem padrão para comunicar com bancos de dados relacionais (Structured Query Language).</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="tabelas">
+              <h2 class="title is-4 section-title mb-5">2. Tabelas - A Estrutura Fundamental</h2>
+              <div class="content is-size-5 mb-5">
+                <p class="mb-5">
+                  Uma <strong>tabela</strong> é a estrutura básica onde os dados são armazenados. Ela é organizada em <strong>linhas</strong> (registros) e <strong>colunas</strong> (campos).
+                </p>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📋 Exemplo de Tabela: Clientes</h3>
+                <div class="content">
+                  <table class="table is-bordered is-striped is-fullwidth">
+                    <thead>
+                      <tr class="has-background-dark has-text-white">
+                        <th>id</th>
+                        <th>nome</th>
+                        <th>email</th>
+                        <th>telefone</th>
+                        <th>data_cadastro</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Maria Silva</td>
+                        <td>maria@email.com</td>
+                        <td>(11) 98888-8888</td>
+                        <td>2025-01-15</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>João Santos</td>
+                        <td>joao@email.com</td>
+                        <td>(21) 97777-7777</td>
+                        <td>2025-02-20</td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Ana Costa</td>
+                        <td>ana@email.com</td>
+                        <td>(31) 96666-6666</td>
+                        <td>2025-03-10</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p class="mt-4">Cada <strong>linha</strong> representa um cliente. Cada <strong>coluna</strong> representa uma característica do cliente.</p>
+                </div>
+              </div>
+
+              <div class="columns">
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-6 mb-3">Linha (Registro)</h3>
+                    <p>Cada linha representa <strong>uma entrada</strong> completa na tabela. No exemplo, cada cliente é uma linha.</p>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-6 mb-3">Coluna (Campo)</h3>
+                    <p>Cada coluna armazena <strong>um tipo específico</strong> de informação. Ex: nome, email, telefone.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="colunas-tipos">
+              <h2 class="title is-4 section-title mb-5">3. Colunas e Tipos de Dados</h2>
+              <div class="content is-size-5 mb-5">
+                <p class="mb-5">
+                  Cada coluna tem um <strong>tipo de dado</strong> que define que tipo de informação pode ser armazenada nela:
+                </p>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🔢 Tipos de Dados Mais Comuns</h3>
+                <div class="content">
+                  <table class="table is-bordered is-fullwidth">
+                    <thead>
+                      <tr class="has-background-dark has-text-white">
+                        <th>Tipo</th>
+                        <th>Descrição</th>
+                        <th>Exemplo</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><code>INT</code></td>
+                        <td>Números inteiros</td>
+                        <td>1, 100, -50</td>
+                      </tr>
+                      <tr>
+                        <td><code>VARCHAR(n)</code></td>
+                        <td>Texto de tamanho variável (até n caracteres)</td>
+                        <td>'Maria Silva'</td>
+                      </tr>
+                      <tr>
+                        <td><code>TEXT</code></td>
+                        <td>Texto longo (sem limite definido)</td>
+                        <td>Descrições, comentários</td>
+                      </tr>
+                      <tr>
+                        <td><code>DATE</code></td>
+                        <td>Data (ano-mês-dia)</td>
+                        <td>2025-12-01</td>
+                      </tr>
+                      <tr>
+                        <td><code>DATETIME</code></td>
+                        <td>Data e hora</td>
+                        <td>2025-12-01 14:30:00</td>
+                      </tr>
+                      <tr>
+                        <td><code>DECIMAL(n,d)</code></td>
+                        <td>Números decimais (n dígitos, d após vírgula)</td>
+                        <td>199.99, 1500.50</td>
+                      </tr>
+                      <tr>
+                        <td><code>BOOLEAN</code></td>
+                        <td>Verdadeiro ou Falso</td>
+                        <td>TRUE, FALSE</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">🔑 Conceitos Importantes</h3>
+                <div class="columns">
+                  <div class="column">
+                    <div class="content">
+                      <h4 class="title is-6 mb-3">Primary Key (Chave Primária)</h4>
+                      <p>Identificador <strong>único</strong> de cada registro. Geralmente é a coluna <code>id</code>. Não pode repetir e não pode ser vazio.</p>
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="content">
+                      <h4 class="title is-6 mb-3">NOT NULL</h4>
+                      <p>Indica que a coluna <strong>não pode ficar vazia</strong>. Obriga o preenchimento do campo.</p>
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="content">
+                      <h4 class="title is-6 mb-3">AUTO_INCREMENT</h4>
+                      <p>Incrementa automaticamente o valor da coluna. Usado geralmente no <code>id</code>.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="relacionamentos">
+              <h2 class="title is-4 section-title mb-5">4. Relacionamentos entre Tabelas</h2>
+              <div class="content is-size-5 mb-5">
+                <p class="mb-5">
+                  O poder real dos bancos de dados relacionais está na capacidade de <strong>conectar informações entre diferentes tabelas</strong>. Isso evita repetição de dados e mantém tudo organizado.
+                </p>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🔗 Tipos de Relacionamentos</h3>
+                <div class="content">
+                  <div class="mb-5">
+                    <h4 class="title is-6 mb-3">1. Um para Muitos (1:N) - Mais Comum</h4>
+                    <p class="mb-3">Um registro de uma tabela pode estar relacionado a <strong>vários registros</strong> de outra tabela.</p>
+                    <p><strong>Exemplo:</strong> Um cliente pode fazer vários pedidos, mas cada pedido pertence a apenas um cliente.</p>
+                  </div>
+
+                  <div class="mb-5">
+                    <h4 class="title is-6 mb-3">2. Um para Um (1:1)</h4>
+                    <p class="mb-3">Um registro de uma tabela está relacionado a <strong>apenas um registro</strong> de outra tabela.</p>
+                    <p><strong>Exemplo:</strong> Um cliente tem apenas um endereço de entrega principal.</p>
+                  </div>
+
+                  <div>
+                    <h4 class="title is-6 mb-3">3. Muitos para Muitos (N:N)</h4>
+                    <p class="mb-3">Vários registros de uma tabela podem estar relacionados a <strong>vários registros</strong> de outra.</p>
+                    <p><strong>Exemplo:</strong> Um produto pode estar em vários pedidos, e um pedido pode conter vários produtos.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">🔑 Foreign Key (Chave Estrangeira)</h3>
+                <div class="content">
+                  <p class="mb-3">É a coluna que cria o relacionamento entre tabelas. Ela armazena o <code>id</code> (chave primária) de outra tabela.</p>
+                  <p><strong>Exemplo:</strong> Na tabela de Pedidos, a coluna <code>cliente_id</code> é uma chave estrangeira que aponta para o <code>id</code> da tabela Clientes.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="exemplo-completo">
+              <h2 class="title is-4 section-title mb-5">5. Exemplo Completo: Sistema de Cadastro de Clientes</h2>
+              <div class="content is-size-5 mb-5">
+                <p class="mb-5">
+                  Vamos criar um sistema completo com 3 tabelas relacionadas: Clientes, Endereços e Pedidos.
+                </p>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📊 Diagrama do Relacionamento</h3>
+                <div class="content has-text-centered">
+                  <pre class="p-4 has-text-left"><code>┌─────────────────┐          ┌──────────────────┐
+│    CLIENTES     │          │    ENDERECOS     │
+├─────────────────┤          ├──────────────────┤
+│ id (PK)         │──┐   ┌──│ id (PK)          │
+│ nome            │  │   │  │ cliente_id (FK)  │
+│ email           │  │   │  │ rua              │
+│ telefone        │  │   │  │ numero           │
+│ data_cadastro   │  │   │  │ cidade           │
+└─────────────────┘  │   │  │ estado           │
+                     │   │  │ cep              │
+         1           │   │  └──────────────────┘
+         :           │   │           1
+         :           │   │
+         N           │   │
+                     │   │
+┌─────────────────┐  │   │
+│     PEDIDOS     │  │   │
+├─────────────────┤  │   │
+│ id (PK)         │  │   │
+│ cliente_id (FK) │──┘   │
+│ data_pedido     │      │
+│ valor_total     │      │
+│ status          │      │
+└─────────────────┘      │
+                         │
+         1:N = Um cliente pode ter vários pedidos
+         1:1 = Um cliente tem um endereço principal</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📝 SQL: Criando a Tabela CLIENTES</h3>
+                <div class="content">
+                  <pre class="p-4"><code>CREATE TABLE clientes (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    telefone VARCHAR(20),
+    data_cadastro DATE NOT NULL
+);
+
+-- Inserindo dados de exemplo
+INSERT INTO clientes (nome, email, telefone, data_cadastro) VALUES
+('Maria Silva', 'maria@email.com', '(11) 98888-8888', '2025-01-15'),
+('João Santos', 'joao@email.com', '(21) 97777-7777', '2025-02-20'),
+('Ana Costa', 'ana@email.com', '(31) 96666-6666', '2025-03-10');</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📝 SQL: Criando a Tabela ENDERECOS</h3>
+                <div class="content">
+                  <pre class="p-4"><code>CREATE TABLE enderecos (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    cliente_id INT NOT NULL,
+    rua VARCHAR(200) NOT NULL,
+    numero VARCHAR(10) NOT NULL,
+    complemento VARCHAR(100),
+    bairro VARCHAR(100) NOT NULL,
+    cidade VARCHAR(100) NOT NULL,
+    estado VARCHAR(2) NOT NULL,
+    cep VARCHAR(9) NOT NULL,
+    FOREIGN KEY (cliente_id) REFERENCES clientes(id)
+);
+
+-- Inserindo dados de exemplo
+INSERT INTO enderecos (cliente_id, rua, numero, bairro, cidade, estado, cep) VALUES
+(1, 'Rua das Flores', '123', 'Centro', 'São Paulo', 'SP', '01234-567'),
+(2, 'Av. Brasil', '456', 'Copacabana', 'Rio de Janeiro', 'RJ', '22070-000'),
+(3, 'Rua Minas Gerais', '789', 'Savassi', 'Belo Horizonte', 'MG', '30140-000');</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📝 SQL: Criando a Tabela PEDIDOS</h3>
+                <div class="content">
+                  <pre class="p-4"><code>CREATE TABLE pedidos (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    cliente_id INT NOT NULL,
+    data_pedido DATETIME NOT NULL,
+    valor_total DECIMAL(10, 2) NOT NULL,
+    status VARCHAR(20) NOT NULL,
+    FOREIGN KEY (cliente_id) REFERENCES clientes(id)
+);
+
+-- Inserindo dados de exemplo
+INSERT INTO pedidos (cliente_id, data_pedido, valor_total, status) VALUES
+(1, '2025-11-01 14:30:00', 299.90, 'entregue'),
+(1, '2025-11-15 10:00:00', 150.00, 'em_transito'),
+(2, '2025-11-20 16:45:00', 450.50, 'processando'),
+(3, '2025-11-25 09:15:00', 89.90, 'entregue');</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">🔍 SQL: Consultando Dados com Relacionamento</h3>
+                <div class="content">
+                  <p class="mb-3">Para buscar dados de tabelas relacionadas, usamos <code>JOIN</code>:</p>
+                  
+                  <h4 class="title is-6 mt-5 mb-3">Listar todos os pedidos com nome do cliente:</h4>
+                  <pre class="p-4"><code>SELECT 
+    pedidos.id,
+    clientes.nome AS cliente,
+    pedidos.data_pedido,
+    pedidos.valor_total,
+    pedidos.status
+FROM pedidos
+INNER JOIN clientes ON pedidos.cliente_id = clientes.id
+ORDER BY pedidos.data_pedido DESC;</code></pre>
+
+                  <h4 class="title is-6 mt-5 mb-3">Buscar cliente com seu endereço:</h4>
+                  <pre class="p-4"><code>SELECT 
+    clientes.nome,
+    clientes.email,
+    enderecos.rua,
+    enderecos.numero,
+    enderecos.cidade,
+    enderecos.estado
+FROM clientes
+INNER JOIN enderecos ON clientes.id = enderecos.cliente_id
+WHERE clientes.id = 1;</code></pre>
+
+                  <h4 class="title is-6 mt-5 mb-3">Contar quantos pedidos cada cliente fez:</h4>
+                  <pre class="p-4"><code>SELECT 
+    clientes.nome,
+    COUNT(pedidos.id) AS total_pedidos,
+    SUM(pedidos.valor_total) AS valor_total_gasto
+FROM clientes
+LEFT JOIN pedidos ON clientes.id = pedidos.cliente_id
+GROUP BY clientes.id, clientes.nome;</code></pre>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="mysql-workbench">
+              <h2 class="title is-4 section-title mb-5">6. Ferramentas: MySQL Workbench</h2>
+              <div class="content is-size-5 mb-5">
+                <p class="mb-5">
+                  O <strong>MySQL Workbench</strong> é uma ferramenta visual gratuita para trabalhar com bancos de dados MySQL. Com ela, você pode criar tabelas, executar consultas, visualizar relacionamentos e muito mais!
+                </p>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📥 Download do MySQL Workbench</h3>
+                <div class="content">
+                  <div class="notification is-info is-light mb-4">
+                    <strong>🔗 Link oficial:</strong> 
+                    <a href="https://dev.mysql.com/downloads/workbench/" target="_blank" class="is-size-5">
+                      https://dev.mysql.com/downloads/workbench/
+                    </a>
+                  </div>
+                  
+                  <p class="mb-3"><strong>O que você vai precisar:</strong></p>
+                  <ol>
+                    <li class="mb-2"><strong>MySQL Server:</strong> O banco de dados em si</li>
+                    <li class="mb-2"><strong>MySQL Workbench:</strong> A interface visual para gerenciar o banco</li>
+                  </ol>
+                  
+                  <div class="notification is-warning is-light mt-4">
+                    <strong>💡 Dica:</strong> Baixe o pacote completo "MySQL Installer" que já inclui o Server e o Workbench juntos! Disponível para Windows, macOS e Linux.
+                  </div>
+                </div>
+              </div>
+
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">🎯 Principais Recursos do Workbench</h3>
+                <div class="columns">
+                  <div class="column">
+                    <div class="content">
+                      <ul>
+                        <li>✅ Editor visual de tabelas</li>
+                        <li>✅ Executor de queries SQL</li>
+                        <li>✅ Diagrama de relacionamentos (ERD)</li>
+                        <li>✅ Importar/Exportar dados</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="content">
+                      <ul>
+                        <li>✅ Gerenciamento de usuários</li>
+                        <li>✅ Backup e restore</li>
+                        <li>✅ Monitoramento de performance</li>
+                        <li>✅ Interface intuitiva e visual</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="comandos-sql">
+              <h2 class="title is-4 section-title mb-5">7. Comandos SQL Essenciais</h2>
+              
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📝 CREATE - Criar Tabela</h3>
+                <div class="content">
+                  <pre class="p-4"><code>CREATE TABLE nome_tabela (
+    coluna1 TIPO,
+    coluna2 TIPO,
+    ...
+);</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">➕ INSERT - Inserir Dados</h3>
+                <div class="content">
+                  <pre class="p-4"><code>INSERT INTO nome_tabela (coluna1, coluna2) 
+VALUES ('valor1', 'valor2');</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🔍 SELECT - Consultar Dados</h3>
+                <div class="content">
+                  <pre class="p-4"><code>-- Buscar todos os registros
+SELECT * FROM nome_tabela;
+
+-- Buscar colunas específicas
+SELECT coluna1, coluna2 FROM nome_tabela;
+
+-- Buscar com filtro
+SELECT * FROM nome_tabela WHERE coluna1 = 'valor';</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">✏️ UPDATE - Atualizar Dados</h3>
+                <div class="content">
+                  <pre class="p-4"><code>UPDATE nome_tabela 
+SET coluna1 = 'novo_valor' 
+WHERE id = 1;</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">🗑️ DELETE - Deletar Dados</h3>
+                <div class="content">
+                  <pre class="p-4"><code>DELETE FROM nome_tabela 
+WHERE id = 1;</code></pre>
+                  <div class="notification is-danger is-light mt-4">
+                    <strong>⚠️ Atenção:</strong> Sempre use WHERE no DELETE, senão todos os registros serão apagados!
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="boas-praticas">
+              <h2 class="title is-4 section-title mb-5">8. Boas Práticas com Banco de Dados</h2>
+              <div class="columns">
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-4 has-text-success">✅ Faça</h3>
+                    <div class="content">
+                      <ul>
+                        <li>Use nomes descritivos para tabelas e colunas</li>
+                        <li>Sempre defina uma chave primária</li>
+                        <li>Use tipos de dados apropriados</li>
+                        <li>Defina relacionamentos com foreign keys</li>
+                        <li>Use índices para melhorar performance</li>
+                        <li>Faça backups regulares</li>
+                        <li>Normalize seus dados (evite repetição)</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-4 has-text-danger">❌ Não Faça</h3>
+                    <div class="content">
+                      <ul>
+                        <li>Usar SELECT * em produção</li>
+                        <li>Esquecer o WHERE em UPDATE/DELETE</li>
+                        <li>Armazenar senhas sem criptografia</li>
+                        <li>Criar tabelas sem planejamento</li>
+                        <li>Ignorar relacionamentos entre dados</li>
+                        <li>Usar apenas uma tabela gigante</li>
+                        <li>Deixar dados sensíveis desprotegidos</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="conclusao">
+              <h2 class="title is-4 section-title mb-5">9. Conclusão</h2>
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-3">Você Dominou os Fundamentos de Banco de Dados! 🎉</h3>
+                <div class="content">
+                  <p class="mb-4">
+                    Agora você entende como os dados são organizados, armazenados e relacionados em um banco de dados. Esse conhecimento é fundamental para qualquer desenvolvedor!
+                  </p>
+                  
+                  <h4 class="title is-6 mt-5 mb-3">📚 O que você aprendeu:</h4>
+                  <ul class="mb-4">
+                    <li>O que é um banco de dados e como funciona</li>
+                    <li>Estrutura de tabelas, linhas e colunas</li>
+                    <li>Tipos de dados e constraints (NOT NULL, PRIMARY KEY, etc.)</li>
+                    <li>Relacionamentos entre tabelas (1:1, 1:N, N:N)</li>
+                    <li>Foreign Keys e como conectar dados</li>
+                    <li>Sistema completo de cadastro de clientes</li>
+                    <li>Comandos SQL essenciais (CREATE, INSERT, SELECT, UPDATE, DELETE)</li>
+                    <li>Como usar JOIN para consultar dados relacionados</li>
+                    <li>MySQL Workbench como ferramenta visual</li>
+                  </ul>
+                  
+                  <h4 class="title is-6 mt-5 mb-3">🚀 Próximos passos:</h4>
+                  <ul class="mb-4">
+                    <li>Instale o MySQL Workbench e pratique criando as tabelas</li>
+                    <li>Experimente os comandos SQL apresentados</li>
+                    <li>Crie seus próprios relacionamentos</li>
+                    <li>Conecte seu banco de dados com a API da aula 11.2</li>
+                    <li>Explore índices e otimização de queries</li>
+                  </ul>
+                  
+                  <div class="notification is-info is-light mt-5">
+                    <strong>💡 Projeto Prático:</strong> Combine esta aula com a aula 11.2 (Express.js) para criar uma API completa que salva dados em um banco MySQL real! Você terá um sistema full-stack funcional.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          `
+        },
+      ]
     }
   ]
 }
