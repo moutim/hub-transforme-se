@@ -6,7 +6,7 @@ import styles from './theme-toggle.module.css';
 
 export default function ThemeToggle({ textVisible = true }: { textVisible: boolean }) {
   const { ref, toggleSwitchTheme, isDarkMode } = useModeAnimation({
-    animationType: ThemeAnimationType.BLUR_CIRCLE
+    animationType: ThemeAnimationType.CIRCLE
   });
 
   useEffect(() => {
