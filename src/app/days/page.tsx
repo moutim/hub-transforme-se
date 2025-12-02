@@ -7,7 +7,7 @@ async function DaysContent() {
   const days = await getDays();
 
   return (
-    <DaysList dias={days ?? []} titulo="1ª a 12ª" />
+    <DaysList dias={days ?? []} titulo="1ª a 12ª semana" />
   )
 }
 
