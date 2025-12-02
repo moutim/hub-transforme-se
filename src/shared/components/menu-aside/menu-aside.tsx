@@ -10,7 +10,7 @@ export default function MenuAside() {
   const handleCloseAside = () => setAsideClosed(!asideClosed);
 
   return (
-    <aside>
+    <aside className={`${styles.aside}`}>
       <section className={`${styles.asideStyle} ${asideClosed ? styles.asideClosed : ''} is-flex is-flex-direction-column is-justify-content-space-between`}>
         <div>
           <div className={`${styles.containerLogo} ${asideClosed ? styles.asideClosed : ''} section pl-5 pr-5 pb-5`}>
