@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import './global.css';
 import styles from './layout.module.css';
 import MenuAside from "@/shared/components/menu-aside/menu-aside";
@@ -43,6 +45,8 @@ export default function RootLayout({
           <Search />
           {children}
         </main>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
