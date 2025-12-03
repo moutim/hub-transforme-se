@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Hub Transforme-se",
   description: "Plataforma com os conteúdos do curso do programa Transforme-se. Acesse conteúdos, acompanhe seu progresso e desenvolva suas habilidades em programação.",
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({
