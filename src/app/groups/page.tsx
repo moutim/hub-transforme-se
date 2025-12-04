@@ -65,6 +65,15 @@ async function GroupsContent() {
               >
                 <span>Repositório</span>
               </a>
+              <a 
+                href={grupo.links.linktree} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="button is-medium"
+                style={{ backgroundColor: '#43E55E', color: 'white', borderColor: '#43E55E' }}
+              >
+                <span>Linktree</span>
+              </a>
             </div>
           </div>
         </div>

@@ -7,6 +7,7 @@ export interface Grupo {
     dossie: string;
     projeto: string;
     repositorio: string;
+    linktree: string;
   };
 }
 
@@ -26,7 +27,8 @@ const grupos: Grupo[] = [
     links: {
       dossie: 'https://heyzine.com/flip-book/927180dd42.html',
       projeto: 'https://finup-theta.vercel.app/',
-      repositorio: 'https://github.com/Grupo-SP02-Transforme-se/SP02_Transforme-se.git'
+      repositorio: 'https://github.com/Grupo-SP02-Transforme-se/SP02_Transforme-se.git',
+      linktree: 'https://linktr.ee/projeto.finup'
     }
   },
   {
@@ -44,7 +46,8 @@ const grupos: Grupo[] = [
     links: {
       dossie: 'https://docs.google.com/document/d/1jZdeQngS0jjYxLWYVaaWQhzY5Ayex9-QO4KaY9qW2HM/edit?tab=t.0',
       projeto: 'https://herois-reais.github.io/herois-reais/',
-      repositorio: 'https://github.com/Herois-Reais/herois-reais'
+      repositorio: 'https://github.com/Herois-Reais/herois-reais',
+      linktree: '#'
     }
   },
   {
@@ -60,7 +63,8 @@ const grupos: Grupo[] = [
     links: {
       dossie: 'https://www.canva.com/design/DAG6NCpWYoM/IAzOHMdysRKjBtHGBbbigQ',
       projeto: 'https://gaia-projeto.vercel.app',
-      repositorio: 'https://github.com/Grupo-03-GAIA'
+      repositorio: 'https://github.com/Grupo-03-GAIA',
+      linktree: '#'
     }
   },
   {
@@ -78,7 +82,8 @@ const grupos: Grupo[] = [
     links: {
       dossie: 'https://heyzine.com/flip-book/3c333f5a8f.html',
       projeto: 'https://seniorbank-ecru.vercel.app/',
-      repositorio: 'https://github.com/Senior-Bank/senior-bank'
+      repositorio: 'https://github.com/Senior-Bank/senior-bank',
+      linktree: '#'
     }
   }
 ];
