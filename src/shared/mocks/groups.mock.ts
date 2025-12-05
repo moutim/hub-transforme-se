@@ -73,7 +73,6 @@ const grupos: Grupo[] = [
       'SARAH PAULA SILVA',
       'BEATRIZ DA SILVA SANTOS',
       'BRENDA MORENO DOS SANTOS',
-      'HIGOR DA SILVA',
       'RONALDO SANTANA',
       'CLARA VITÓRIA SANTOS VITAL'
     ],
