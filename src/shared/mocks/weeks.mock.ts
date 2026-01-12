@@ -5,7 +5,7 @@ const weeks: IWeeks = {
     {
       "id": 1,
       "titulo": "Semana 1",
-      "subtitulo": "5/5 dias",
+      "subtitulo": "6/6 dias",
       "descricao": "Introdução à Web, Servidores, Internet, Figma e Fundamentos",
       "icone": "fa-globe",
       "dias": [
@@ -192,6 +192,164 @@ const weeks: IWeeks = {
                 <h3 class="title is-5 mt-5 mb-3">Na Próxima Aula...</h3>
                 <div class="content">
                   <p>Vamos mergulhar nos dois lados dessa conversa: o que é <strong>Front-End</strong> e <strong>Back-End</strong>.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          `
+        },
+        {
+          "id": 50,
+          "titulo": "Introdução ao Figma",
+          "subtitulo": "Aula 1.1",
+          "descricao": "Descobrindo a importância do Figma no processo de design, o que é um protótipo de projeto e por que os times trabalham primeiro com protótipos antes de codar",
+          "icone": "fa-palette",
+          "conteudo": `
+          <div class="container">
+            <div class="mb-6" id="figma-importancia">
+              <h2 class="title is-4 section-title mb-5">1. O que é o Figma?</h2>
+              <div class="columns is-vcentered">
+                <div class="column">
+                  <div class="content is-size-5">
+                    <p class="mb-5">
+                      O Figma é uma <strong>ferramenta de design colaborativo baseada na nuvem</strong> que revolucionou
+                      a forma como designers e desenvolvedores trabalham juntos. É como um "Google Docs para design",
+                      onde múltiplas pessoas podem editar o mesmo arquivo simultaneamente.
+                    </p>
+                  </div>
+                  <div class="box box-dark">
+                    <h3 class="title is-5 highlight-pink">Por que o Figma é Essencial?</h3>
+                    <div class="content">
+                      <ul>
+                        <li><strong>Colaboração em Tempo Real:</strong> Várias pessoas editam o mesmo arquivo ao mesmo tempo.</li>
+                        <li><strong>Acessível de Qualquer Lugar:</strong> Funciona no navegador, sem necessidade de instalação.</li>
+                        <li><strong>Protótipos Interativos:</strong> Crie animações e transições que simulam a experiência real.</li>
+                        <li><strong>Hand-off Perfeito:</strong> Exporte assets e gere especificações automaticamente para devs.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <figure class="image">
+                    <img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?q=80&w=2070&auto=format&fit=crop"
+                      alt="Interface do Figma mostrando um design de aplicativo" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="prototipo">
+              <h2 class="title is-4 section-title mb-5">2. O que é um Protótipo de Projeto?</h2>
+              <div class="columns is-vcentered">
+                <div class="column">
+                  <figure class="image">
+                    <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?q=80&w=2064&auto=format&fit=crop"
+                      alt="Ilustração de um protótipo de aplicativo em wireframe" />
+                  </figure>
+                </div>
+                <div class="column">
+                  <div class="content is-size-5">
+                    <p class="mb-5">
+                      Um protótipo é uma <strong>representação preliminar de um produto</strong>, criado antes da versão final.
+                      É como a "maquete" ou "modelo" de um prédio antes da construção real.
+                    </p>
+                  </div>
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-4">Tipos de Protótipos</h3>
+                    <div class="content">
+                      <ul>
+                        <li><strong>Wireframe:</strong> Estrutura básica, sem cores ou detalhes visuais.</li>
+                        <li><strong>Mockup:</strong> Design visual completo, mas estático.</li>
+                        <li><strong>Protótipo Interativo:</strong> Versão funcional que simula a experiência do usuário.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="fluxo-prototipo">
+              <h2 class="title is-4 section-title mb-5">3. Por que Construir Protótipos Antes de Codar?</h2>
+
+              <div class="diagram-box mb-5">
+                <div class="columns is-vcentered">
+                  <div class="column has-text-centered">
+                    <h3 class="title is-4 mb-2">1. Ideia</h3>
+                    <p class="emoji-large mb-3">💡</p>
+                    <p>Conceito inicial do produto</p>
+                  </div>
+                  <div class="column is-narrow has-text-centered">
+                    <div class="is-size-4 has-text-grey">→</div>
+                  </div>
+                  <div class="column has-text-centered">
+                    <h3 class="title is-4 mb-2">2. Protótipo</h3>
+                    <p class="emoji-large mb-3">🎨</p>
+                    <p>Design e validação da ideia</p>
+                  </div>
+                  <div class="column is-narrow has-text-centered">
+                    <div class="is-size-4 has-text-grey">→</div>
+                  </div>
+                  <div class="column has-text-centered">
+                    <h3 class="title is-4 mb-2">3. Código</h3>
+                    <p class="emoji-large mb-3">💻</p>
+                    <p>Implementação técnica</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="columns is-vcentered">
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-4">Benefícios do Fluxo Protótipo → Código</h3>
+                    <div class="content">
+                      <ul>
+                        <li><strong>Redução de Riscos:</strong> Identifique problemas antes de investir tempo em código.</li>
+                        <li><strong>Comunicação Clara:</strong> Todos no time entendem exatamente o que será construído.</li>
+                        <li><strong>Iteração Rápida:</strong> Teste ideias rapidamente sem escrever código complexo.</li>
+                        <li><strong>Experiência do Usuário:</strong> Foque na usabilidade antes da funcionalidade técnica.</li>
+                        <li><strong>Economia de Tempo e Dinheiro:</strong> Evite retrabalho e mudanças custosas no código.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <figure class="image">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop"
+                      alt="Equipe discutindo um protótipo em reunião" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="atividade-figma">
+              <h2 class="title is-4 section-title mb-5">4. Atividade Prática: Explorando o Figma</h2>
+              <div class="box box-dark">
+                <div class="content is-size-5">
+                  <p class="mb-4">Vamos começar nossa jornada no Figma:</p>
+                  <ol>
+                    <li class="mb-3">Acesse <strong>figma.com</strong> e crie uma conta gratuita.</li>
+                    <li class="mb-3">Explore a interface: crie um novo arquivo e experimente as ferramentas básicas.</li>
+                    <li class="mb-3">Procure por templates de UI/UX para entender como são estruturados os projetos.</li>
+                    <li><strong>Próximo passo:</strong> Na próxima aula, vamos criar nosso primeiro wireframe!</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="sintese-figma">
+              <h2 class="title is-4 section-title mb-5">5. Síntese e Próximos Passos</h2>
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-3">Resumo da Aula</h3>
+                <div class="content">
+                  <ul>
+                    <li><strong>Figma</strong> é uma ferramenta essencial para design colaborativo e criação de protótipos.</li>
+                    <li>Um <strong>protótipo</strong> é uma representação preliminar que ajuda a validar ideias antes do código.</li>
+                    <li>O fluxo <strong>Protótipo → Código</strong> reduz riscos e melhora a qualidade final do produto.</li>
+                  </ul>
+                </div>
+                <h3 class="title is-5 mt-5 mb-3">Na Próxima Aula...</h3>
+                <div class="content">
+                  <p>Esta é a última aula da semana! Você está pronto para começar a programar.</p>
                 </div>
               </div>
             </div>
@@ -918,7 +1076,7 @@ const weeks: IWeeks = {
             </div>
           </div>
           `
-        }
+        },
       ]
     },
     {
