@@ -773,6 +773,206 @@ const weeks: IWeeks = {
           `
         },
         {
+          "id": 52,
+          "titulo": "IDE e Visual Studio Code",
+          "subtitulo": "Aula 1.7",
+          "descricao": "Descobrindo o que é uma IDE, a importância do Visual Studio Code no desenvolvimento e como extensões e autocomplete podem acelerar seu trabalho",
+          "icone": "fa-code",
+          "conteudo": `
+          <div class="container">
+            <div class="mb-6" id="ide-conceito">
+              <h2 class="title is-4 section-title mb-5">1. O que é uma IDE (Ambiente de Desenvolvimento Integrado)?</h2>
+              <div class="columns is-vcentered">
+                <div class="column">
+                  <div class="content is-size-5">
+                    <p class="mb-5">
+                      Uma <strong>IDE (Integrated Development Environment)</strong> é uma aplicação que combina várias ferramentas
+                      essenciais para o desenvolvimento de software em um único ambiente. É como uma "oficina completa"
+                      para programadores, onde você tem tudo que precisa em um só lugar.
+                    </p>
+                  </div>
+                  <div class="box box-dark">
+                    <h3 class="title is-5 highlight-pink">Ferramentas Essenciais em uma IDE</h3>
+                    <div class="content">
+                      <ul>
+                        <li><strong>Editor de Código:</strong> Onde você escreve e edita seu código</li>
+                        <li><strong>Debugger:</strong> Para encontrar e corrigir erros no código</li>
+                        <li><strong>Terminal Integrado:</strong> Para executar comandos sem sair da IDE</li>
+                        <li><strong>Controle de Versão:</strong> Integração com Git</li>
+                        <li><strong>Autocomplete:</strong> Sugestões inteligentes enquanto você digita</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <figure class="image">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2069&auto=format&fit=crop"
+                      alt="Foto de um desenvolvedor trabalhando em uma IDE moderna" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="vscode-importancia">
+              <h2 class="title is-4 section-title mb-5">2. Por que o Visual Studio Code é Especial?</h2>
+              <div class="columns is-vcentered">
+                <div class="column">
+                  <figure class="image">
+                    <img src="https://images.unsplash.com/photo-1556075798-4825dfaaf498?q=80&w=2076&auto=format&fit=crop"
+                      alt="Interface do Visual Studio Code mostrando código" />
+                  </figure>
+                </div>
+                <div class="column">
+                  <div class="content is-size-5">
+                    <p class="mb-5">
+                      O <strong>Visual Studio Code (VS Code)</strong> é uma IDE gratuita e open-source desenvolvida pela Microsoft
+                      que se tornou a ferramenta mais popular entre desenvolvedores web. Sua popularidade vem da combinação
+                      perfeita entre poder, simplicidade e extensibilidade.
+                    </p>
+                  </div>
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-4">Vantagens do VS Code</h3>
+                    <div class="content">
+                      <ul>
+                        <li><strong>Gratuito e Open-Source:</strong> Sem custos e código aberto</li>
+                        <li><strong>Leve e Rápido:</strong> Abre instantaneamente, mesmo em projetos grandes</li>
+                        <li><strong>Multiplataforma:</strong> Funciona no Windows, macOS e Linux</li>
+                        <li><strong>Extensível:</strong> Milhares de extensões para qualquer linguagem</li>
+                        <li><strong>IntelliSense:</strong> Autocomplete inteligente e contextual</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="extensoes">
+              <h2 class="title is-4 section-title mb-5">3. Extensões: Personalizando sua IDE</h2>
+
+              <div class="diagram-box mb-5">
+                <div class="columns is-vcentered">
+                  <div class="column has-text-centered">
+                    <h3 class="title is-4 mb-2">VS Code Básico</h3>
+                    <p class="emoji-large mb-3">📝</p>
+                    <p>Editor simples e funcional</p>
+                  </div>
+                  <div class="column is-narrow has-text-centered">
+                    <div class="is-size-4 has-text-grey">+</div>
+                  </div>
+                  <div class="column has-text-centered">
+                    <h3 class="title is-4 mb-2">Extensões</h3>
+                    <p class="emoji-large mb-3">🔧</p>
+                    <p>Funcionalidades específicas</p>
+                  </div>
+                  <div class="column is-narrow has-text-centered">
+                    <div class="is-size-4 has-text-grey">=</div>
+                  </div>
+                  <div class="column has-text-centered">
+                    <h3 class="title is-4 mb-2">IDE Personalizada</h3>
+                    <p class="emoji-large mb-3">🚀</p>
+                    <p>Ferramenta poderosa e específica</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="columns is-vcentered">
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-4">Extensões Essenciais para Desenvolvimento Web</h3>
+                    <div class="content">
+                      <ul>
+                        <li><strong>ES7+ React/Redux/React-Native snippets:</strong> Atalhos para React</li>
+                        <li><strong>Prettier:</strong> Formatação automática de código</li>
+                        <li><strong>ESLint:</strong> Análise estática e correção de erros</li>
+                        <li><strong>Auto Rename Tag:</strong> Renomeia tags HTML/XML automaticamente</li>
+                        <li><strong>Bracket Pair Colorizer:</strong> Colore pares de chaves e parênteses</li>
+                        <li><strong>GitLens:</strong> Suporte avançado ao Git</li>
+                        <li><strong>Live Server:</strong> Servidor local para desenvolvimento web</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <figure class="image">
+                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=2070&auto=format&fit=crop"
+                      alt="Interface mostrando extensões do VS Code" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="autocomplete">
+              <h2 class="title is-4 section-title mb-5">4. Autocomplete e IntelliSense: Seu Assistente Pessoal</h2>
+              <div class="columns is-vcentered">
+                <div class="column">
+                  <div class="content is-size-5">
+                    <p class="mb-5">
+                      O <strong>IntelliSense</strong> do VS Code é um sistema inteligente de autocomplete que entende o contexto
+                      do seu código e oferece sugestões relevantes. É como ter um programador experiente olhando por cima
+                      do seu ombro e sugerindo o que escrever.
+                    </p>
+                  </div>
+                  <div class="box box-dark">
+                    <h3 class="title is-5 mb-4">Como o IntelliSense Ajuda</h3>
+                    <div class="content">
+                      <ul>
+                        <li><strong>Completar Nomes:</strong> Sugere variáveis, funções e classes disponíveis</li>
+                        <li><strong>Parâmetros de Função:</strong> Mostra quais parâmetros uma função aceita</li>
+                        <li><strong>Documentação:</strong> Exibe documentação das funções enquanto você digita</li>
+                        <li><strong>Correção de Erros:</strong> Sugere correções para erros de sintaxe</li>
+                        <li><strong>Importações Automáticas:</strong> Adiciona imports necessários automaticamente</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <figure class="image">
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop"
+                      alt="Demonstração do IntelliSense no VS Code" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="atividade-vscode">
+              <h2 class="title is-4 section-title mb-5">5. Atividade Prática: Configurando seu VS Code</h2>
+              <div class="box box-dark">
+                <div class="content is-size-5">
+                  <p class="mb-4">Vamos transformar seu VS Code em uma IDE profissional:</p>
+                  <ol>
+                    <li class="mb-3">Baixe e instale o VS Code de <strong>code.visualstudio.com</strong></li>
+                    <li class="mb-3">Abra o VS Code e vá para a aba de extensões (Ctrl+Shift+X)</li>
+                    <li class="mb-3">Instale as extensões essenciais: Prettier, ESLint, ES7+ React/Redux/React-Native</li>
+                    <li class="mb-3">Configure o Prettier como formatador padrão (Ctrl+Shift+P → "Format Document")</li>
+                    <li class="mb-3">Teste o IntelliSense: crie um arquivo .js e comece a digitar código</li>
+                    <li><strong>Próximo passo:</strong> Agora você está pronto para começar a programar profissionalmente!</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="sintese-vscode">
+              <h2 class="title is-4 section-title mb-5">6. Síntese e Próximos Passos</h2>
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-3">Resumo da Aula</h3>
+                <div class="content">
+                  <ul>
+                    <li><strong>IDE</strong> é um ambiente completo para desenvolvimento de software</li>
+                    <li><strong>VS Code</strong> é a IDE mais popular devido à sua velocidade, extensibilidade e gratuidade</li>
+                    <li><strong>Extensões</strong> transformam o VS Code em uma ferramenta especializada</li>
+                    <li><strong>IntelliSense</strong> acelera o desenvolvimento com sugestões inteligentes</li>
+                  </ul>
+                </div>
+                <h3 class="title is-5 mt-5 mb-3">Agora Você Está Pronto!</h3>
+                <div class="content">
+                  <p>Com o VS Code configurado e todas essas ferramentas, você tem tudo que precisa para começar sua jornada como desenvolvedor. As próximas semanas serão sobre colocar a mão na massa!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          `
+        },
+        {
           "id": 5,
           "titulo": "O Mercado de Trabalho Front-End",
           "subtitulo": "Aula 1.5",
