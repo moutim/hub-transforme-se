@@ -1282,7 +1282,7 @@ const weeks: IWeeks = {
     {
       "id": 2,
       "titulo": "Semana 2",
-      "subtitulo": "2/2 dias",
+      "subtitulo": "6/6 aulas",
       "descricao": "Primeiros passos com HTML, CSS e estruturação de páginas",
       "icone": "fa-code",
       "dias": [
@@ -1496,6 +1496,209 @@ const weeks: IWeeks = {
                 <div class="content">
                   <p class="mb-4">Hoje vimos a estrutura básica e aprendemos a usar as principais tags para textos, links, imagens, listas, layouts e formulários. Você já tem o conhecimento fundamental para criar a estrutura de qualquer página web!</p>
                   <p><strong>Na próxima aula, vamos aprender a estilizar tudo isso com CSS!</strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          `
+        },
+        {
+          "id": 53,
+          "titulo": "Entendendo o Box Model",
+          "subtitulo": "Aula 2.1",
+          "descricao": "Compreendendo o conceito fundamental de Box Model: como todo elemento HTML possui content, padding, border e margin",
+          "icone": "fa-square",
+          "conteudo": `
+          <div class="container">
+            <div class="mb-6" id="o-que-e-box-model">
+              <h2 class="title is-4 section-title mb-5">1. O que é o Box Model?</h2>
+              <div class="content is-size-5">
+                <p class="mb-5">
+                  No HTML, <strong>todo elemento é uma caixa</strong>. Não importa se é um parágrafo, uma imagem, um botão ou uma div — para o navegador, tudo é tratado como um "retângulo invisível". Esse conceito fundamental é chamado de <span class="highlight-pink">Box Model</span>.
+                </p>
+                <p class="mb-5">
+                  Entender o Box Model é essencial porque ele define como os elementos ocupam espaço na página e como eles se relacionam uns com os outros. É a base de todo o layout em CSS.
+                </p>
+              </div>
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">A Analogia da Caixa de Presente 🎁</h3>
+                <div class="content">
+                  <p>Imagine que você está embalando um presente:</p>
+                  <ul>
+                    <li><strong>O presente em si</strong> é o <span class="highlight-pink">content</span> (conteúdo).</li>
+                    <li><strong>O papel de seda</strong> ao redor do presente é o <span class="highlight-pink">padding</span> (preenchimento interno).</li>
+                    <li><strong>A caixa de papelão</strong> é a <span class="highlight-pink">border</span> (borda).</li>
+                    <li><strong>O espaço entre a caixa e outras caixas</strong> na prateleira é a <span class="highlight-pink">margin</span> (margem).</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="componentes-box-model">
+              <h2 class="title is-4 section-title mb-5">2. Os 4 Componentes do Box Model</h2>
+              <div class="content is-size-5 mb-5">
+                <p>
+                  Cada elemento HTML é composto por 4 camadas que, de dentro para fora, são:
+                </p>
+              </div>
+              
+              <div class="columns mb-5">
+                <div class="column">
+                  <div class="box box-dark has-text-centered">
+                    <h3 class="title is-5 highlight-pink mb-3">1. Content</h3>
+                    <p>A área onde o conteúdo real aparece (texto, imagem, etc.). É controlada por <code>width</code> e <code>height</code>.</p>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="box box-dark has-text-centered">
+                    <h3 class="title is-5 highlight-pink mb-3">2. Padding</h3>
+                    <p>Espaço <strong>interno</strong> entre o conteúdo e a borda. Empurra a borda para fora do conteúdo.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <div class="box box-dark has-text-centered">
+                    <h3 class="title is-5 highlight-pink mb-3">3. Border</h3>
+                    <p>A linha ao redor do padding e do conteúdo. Pode ser visível ou invisível.</p>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="box box-dark has-text-centered">
+                    <h3 class="title is-5 highlight-pink mb-3">4. Margin</h3>
+                    <p>Espaço <strong>externo</strong> ao redor da borda. Separa o elemento de outros elementos.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="visualizando-box-model">
+              <h2 class="title is-4 section-title mb-5">3. Visualizando o Box Model</h2>
+              <div class="content is-size-5 mb-5">
+                <p>
+                  A melhor forma de entender é visualizar. Veja como as camadas se organizam de dentro para fora:
+                </p>
+              </div>
+              <div class="box box-dark p-5">
+                <div style="background: #6b7280; padding: 30px; text-align: center;">
+                  <span style="color: white; font-size: 14px;">MARGIN (área externa - cinza)</span>
+                  <div style="background: #f59e0b; padding: 30px; margin-top: 10px;">
+                    <span style="color: white; font-size: 14px;">BORDER (borda - laranja)</span>
+                    <div style="background: #10b981; padding: 30px; margin-top: 10px;">
+                      <span style="color: white; font-size: 14px;">PADDING (espaço interno - verde)</span>
+                      <div style="background: #3b82f6; padding: 20px; margin-top: 10px;">
+                        <span style="color: white; font-weight: bold;">CONTENT (conteúdo - azul)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="exemplo-pratico">
+              <h2 class="title is-4 section-title mb-5">4. Exemplo Prático em CSS</h2>
+              <div class="content is-size-5 mb-5">
+                <p>
+                  Veja como aplicar cada camada do Box Model usando CSS:
+                </p>
+              </div>
+              <pre class="box-dark p-4"><code>/* Exemplo de Box Model */
+.minha-caixa {
+  /* 1. Content - tamanho do conteúdo */
+  width: 200px;
+  height: 100px;
+  
+  /* 2. Padding - espaço INTERNO */
+  padding: 20px;
+  
+  /* 3. Border - a borda ao redor */
+  border: 5px solid #e80170;
+  
+  /* 4. Margin - espaço EXTERNO */
+  margin: 30px;
+  
+  /* Cor de fundo para visualizar */
+  background-color: #374151;
+}</code></pre>
+              <div class="box box-dark mt-5">
+                <h3 class="title is-5 mb-4">📐 Calculando o Tamanho Total</h3>
+                <div class="content">
+                  <p>No exemplo acima, qual é a largura total ocupada pelo elemento?</p>
+                  <ul>
+                    <li>Content: <code>200px</code></li>
+                    <li>Padding: <code>20px</code> (esquerda) + <code>20px</code> (direita) = <code>40px</code></li>
+                    <li>Border: <code>5px</code> (esquerda) + <code>5px</code> (direita) = <code>10px</code></li>
+                    <li><strong>Total:</strong> 200 + 40 + 10 = <span class="highlight-pink">250px</span></li>
+                  </ul>
+                  <p class="mt-3"><em>A margin não é contada no tamanho do elemento, mas sim no espaço que ele ocupa na página.</em></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="padding-vs-margin">
+              <h2 class="title is-4 section-title mb-5">5. Padding vs Margin: Quando Usar Cada Um?</h2>
+              <div class="columns">
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 highlight-pink mb-4">Padding (Interno)</h3>
+                    <div class="content">
+                      <p>Use quando quiser:</p>
+                      <ul>
+                        <li>Dar "respiro" ao conteúdo dentro de um elemento</li>
+                        <li>Aumentar a área clicável de um botão</li>
+                        <li>Manter o texto afastado das bordas</li>
+                      </ul>
+                      <p class="mt-3"><strong>Dica:</strong> O padding herda a cor de fundo do elemento!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 highlight-pink mb-4">Margin (Externo)</h3>
+                    <div class="content">
+                      <p>Use quando quiser:</p>
+                      <ul>
+                        <li>Separar elementos uns dos outros</li>
+                        <li>Centralizar um elemento (<code>margin: auto</code>)</li>
+                        <li>Criar espaçamento entre seções</li>
+                      </ul>
+                      <p class="mt-3"><strong>Dica:</strong> A margin é sempre transparente!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="inspecionando">
+              <h2 class="title is-4 section-title mb-5">6. Atividade: Inspecionando o Box Model</h2>
+              <div class="box box-dark">
+                <div class="content is-size-5">
+                  <p class="mb-4">Vamos usar as Ferramentas do Desenvolvedor para ver o Box Model em ação:</p>
+                  <ol>
+                    <li class="mb-3">Pressione <strong>F12</strong> no navegador para abrir as DevTools.</li>
+                    <li class="mb-3">Selecione qualquer elemento na página usando a ferramenta de seleção (ícone de cursor).</li>
+                    <li class="mb-3">Na aba <strong>"Computed"</strong> ou <strong>"Calculado"</strong>, você verá um diagrama colorido do Box Model!</li>
+                    <li>Passe o mouse sobre o diagrama para ver cada camada destacada na página.</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="conclusao-box-model">
+              <h2 class="title is-4 section-title mb-5">7. Próximos Passos</h2>
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-3">Resumo da Aula</h3>
+                <div class="content">
+                  <ul>
+                    <li><strong>Todo elemento HTML é uma caixa</strong> com 4 camadas.</li>
+                    <li>De dentro para fora: <strong>Content → Padding → Border → Margin</strong>.</li>
+                    <li><strong>Padding</strong> é espaço interno; <strong>Margin</strong> é espaço externo.</li>
+                    <li>O tamanho total de um elemento é a soma de content + padding + border.</li>
+                  </ul>
+                </div>
+                <h3 class="title is-5 mt-5 mb-3">Na Próxima Aula...</h3>
+                <div class="content">
+                  <p>Vamos praticar o Box Model com exercícios de HTML e CSS, criando layouts com espaçamentos bem definidos!</p>
                 </div>
               </div>
             </div>
@@ -1821,6 +2024,86 @@ div {
                 <h3 class="title is-5 mb-4">Exercício 6: Juntando Tudo</h3>
                 <div class="content mb-4">
                   <p>Crie uma <code>&lt;div&gt;</code> principal que servirá como um card. Dentro dela, coloque uma imagem, um título <code>&lt;h3&gt;</code>, um parágrafo <code>&lt;p&gt;</code> e, por fim, um link <code>&lt;a&gt;</code> que diz "Saiba Mais".</p>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-4">Exercício 7: Tabela de Horários</h3>
+                <div class="content mb-4">
+                  <p>Crie uma tabela (<code>&lt;table&gt;</code>) que represente uma grade de horários semanal. Use <code>&lt;thead&gt;</code> para o cabeçalho com os dias da semana, <code>&lt;tbody&gt;</code> para o corpo com os horários e atividades, e <code>&lt;th&gt;</code> para os títulos das colunas.</p>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-4">Exercício 8: Formulário Completo</h3>
+                <div class="content mb-4">
+                  <p>Expanda o formulário de contato anterior. Adicione um campo <code>&lt;select&gt;</code> com opções de assunto, um <code>&lt;textarea&gt;</code> para a mensagem, e um grupo de <code>&lt;input type="radio"&gt;</code> para o usuário escolher como prefere ser contatado (E-mail ou Telefone). Use <code>&lt;fieldset&gt;</code> e <code>&lt;legend&gt;</code> para agrupar os campos relacionados.</p>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-4">Exercício 9: Galeria de Imagens</h3>
+                <div class="content mb-4">
+                  <p>Crie uma galeria simples. Use uma <code>&lt;div&gt;</code> como container principal com um <code>&lt;h2&gt;</code> "Galeria". Dentro, coloque várias imagens (<code>&lt;img&gt;</code>), cada uma dentro de sua própria <code>&lt;div&gt;</code> com um parágrafo <code>&lt;p&gt;</code> abaixo descrevendo a imagem.</p>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-4">Exercício 10: Lista de Definições</h3>
+                <div class="content mb-4">
+                  <p>Crie um glossário de termos de programação usando a tag <code>&lt;dl&gt;</code> (definition list). Use <code>&lt;dt&gt;</code> para o termo (ex: "HTML", "CSS", "JavaScript") e <code>&lt;dd&gt;</code> para a definição de cada um. Inclua pelo menos 5 termos.</p>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-4">Exercício 11: Página de Produto</h3>
+                <div class="content mb-4">
+                  <p>Monte a estrutura de uma página de produto usando <code>&lt;div&gt;</code> como container principal. Adicione uma <code>&lt;img&gt;</code> para a foto do produto, um <code>&lt;h1&gt;</code> para o nome, um <code>&lt;p&gt;</code> para a descrição, um <code>&lt;span&gt;</code> para destacar o preço, e uma lista não ordenada para as características do produto.</p>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-4">Exercício 12: Incorporando Vídeo</h3>
+                <div class="content mb-4">
+                  <p>Crie uma página que incorpore um vídeo do YouTube usando a tag <code>&lt;iframe&gt;</code>. Adicione um título <code>&lt;h2&gt;</code> acima do vídeo e um parágrafo <code>&lt;p&gt;</code> abaixo com uma breve descrição do conteúdo. Dica: no YouTube, clique em "Compartilhar" > "Incorporar" para obter o código do iframe.</p>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-4">Exercício 13: Citação em Destaque</h3>
+                <div class="content mb-4">
+                  <p>Crie uma página com uma citação famosa usando <code>&lt;blockquote&gt;</code>. Adicione o texto da citação dentro do blockquote e use a tag <code>&lt;cite&gt;</code> para indicar o autor. Acima, coloque um <code>&lt;h1&gt;</code> com "Citação do Dia".</p>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-4">Exercício 14: Texto com Formatação</h3>
+                <div class="content mb-4">
+                  <p>Crie um parágrafo que utilize várias tags de formatação de texto: <code>&lt;strong&gt;</code> para texto importante, <code>&lt;em&gt;</code> para ênfase, <code>&lt;mark&gt;</code> para destacar, <code>&lt;small&gt;</code> para texto menor, <code>&lt;del&gt;</code> para texto deletado e <code>&lt;ins&gt;</code> para texto inserido.</p>
                 </div>
 
               </div>
