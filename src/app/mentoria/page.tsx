@@ -27,7 +27,7 @@ export default function MentoriaPage() {
   ];
 
   return (
-    <div className="container mt-6">
+    <div className="mt-6">
       <h1 className="title is-2 mb-6">Tutoria Técnica</h1>
 
       {/* Sobre o Mentor */}
