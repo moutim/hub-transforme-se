@@ -38,6 +38,7 @@ export default function MenuAside() {
               <ListItem text={asideClosed ? '': 'Dias'} icon='fa-calendar-day' route="/days" />
               <ListItem text={asideClosed ? '': 'Grupos'} icon='fa-arrows-rotate' route="/groups" />
               <ListItem text={asideClosed ? '': 'Complementar'} icon='fa-folder-open' route="/materials" />
+              <ListItem text={asideClosed ? '': 'Mentoria'} icon='fa-chalkboard-user' route="/mentoria" />
             </ul>
           </nav>
         </div>
