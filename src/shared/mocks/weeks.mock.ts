@@ -2112,6 +2112,288 @@ div {
           `
         },
         {
+          "id": 54,
+          "titulo": "HTML Semântico e SEO",
+          "subtitulo": "Aula 2.4",
+          "descricao": "Entenda a importância do HTML semântico para acessibilidade e SEO, e como ele impacta o ranqueamento nos mecanismos de busca",
+          "icone": "fa-search",
+          "conteudo": `
+          <div class="container">
+            <div class="mb-6" id="o-que-e-seo">
+              <h2 class="title is-4 section-title mb-5">1. O que é SEO?</h2>
+              <div class="content is-size-5">
+                <p class="mb-5">
+                  <strong>SEO</strong> (Search Engine Optimization) significa <strong>Otimização para Mecanismos de Busca</strong>. 
+                  É um conjunto de técnicas e boas práticas que ajudam seu site a aparecer nas primeiras posições 
+                  dos resultados de busca do Google, Bing e outros buscadores.
+                </p>
+              </div>
+              <div class="box box-dark">
+                <h3 class="title is-5 highlight-pink">Por que SEO é importante?</h3>
+                <div class="content">
+                  <ul>
+                    <li><strong>Visibilidade:</strong> Sites bem ranqueados recebem mais visitas orgânicas (gratuitas).</li>
+                    <li><strong>Credibilidade:</strong> Usuários confiam mais em sites que aparecem no topo das buscas.</li>
+                    <li><strong>Economia:</strong> Menos necessidade de investir em anúncios pagos.</li>
+                    <li><strong>Experiência do usuário:</strong> Boas práticas de SEO geralmente melhoram a usabilidade do site.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="box box-dark mt-4">
+                <h3 class="title is-5 highlight-pink">Como os buscadores funcionam?</h3>
+                <div class="content">
+                  <p class="mb-3">Os mecanismos de busca usam robôs (crawlers) que:</p>
+                  <ol>
+                    <li><strong>Rastreiam:</strong> Navegam pela web lendo o conteúdo das páginas.</li>
+                    <li><strong>Indexam:</strong> Armazenam e organizam as informações encontradas.</li>
+                    <li><strong>Ranqueiam:</strong> Ordenam os resultados com base em relevância e qualidade.</li>
+                  </ol>
+                  <p class="mt-3">O HTML semântico ajuda os robôs a entenderem melhor o conteúdo da sua página!</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="html-semantico">
+              <h2 class="title is-4 section-title mb-5">2. O que é HTML Semântico?</h2>
+              <div class="content is-size-5">
+                <p class="mb-5">
+                  <strong>HTML Semântico</strong> significa usar as tags HTML de acordo com o seu <strong>significado</strong>, 
+                  não apenas pela sua aparência visual. Tags semânticas descrevem o propósito do conteúdo, 
+                  tornando o código mais legível para desenvolvedores, navegadores e mecanismos de busca.
+                </p>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 has-text-danger">❌ Código NÃO Semântico</h3>
+                    <pre class="p-3"><code>&lt;div id="cabecalho"&gt;
+  &lt;div class="logo"&gt;Meu Site&lt;/div&gt;
+  &lt;div class="menu"&gt;...&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="conteudo"&gt;
+  &lt;div class="artigo"&gt;...&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="rodape"&gt;...&lt;/div&gt;</code></pre>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 has-text-success">✅ Código Semântico</h3>
+                    <pre class="p-3"><code>&lt;header&gt;
+  &lt;h1&gt;Meu Site&lt;/h1&gt;
+  &lt;nav&gt;...&lt;/nav&gt;
+&lt;/header&gt;
+&lt;main&gt;
+  &lt;article&gt;...&lt;/article&gt;
+&lt;/main&gt;
+&lt;footer&gt;...&lt;/footer&gt;</code></pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="beneficios">
+              <h2 class="title is-4 section-title mb-5">3. Benefícios do HTML Semântico</h2>
+              <div class="columns is-multiline">
+                <div class="column is-6">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 highlight-pink">🔍 Melhor SEO</h3>
+                    <p>Os buscadores entendem melhor a estrutura e o conteúdo da página, melhorando o ranqueamento.</p>
+                  </div>
+                </div>
+                <div class="column is-6">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 highlight-pink">♿ Acessibilidade</h3>
+                    <p>Leitores de tela usam as tags semânticas para navegar e descrever o conteúdo para pessoas com deficiência visual.</p>
+                  </div>
+                </div>
+                <div class="column is-6">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 highlight-pink">🛠️ Manutenção</h3>
+                    <p>Código mais organizado e fácil de entender, facilitando futuras alterações.</p>
+                  </div>
+                </div>
+                <div class="column is-6">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 highlight-pink">📱 Responsividade</h3>
+                    <p>Navegadores e dispositivos interpretam melhor o layout quando a estrutura é semântica.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="tags-semanticas">
+              <h2 class="title is-4 section-title mb-5">4. Principais Tags Semânticas</h2>
+              <div class="box box-dark">
+                <div class="content is-size-5">
+                  <table class="table is-fullwidth">
+                    <thead>
+                      <tr>
+                        <th>Tag</th>
+                        <th>Significado</th>
+                        <th>Quando usar</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><code>&lt;header&gt;</code></td>
+                        <td>Cabeçalho</td>
+                        <td>Topo da página ou de uma seção, geralmente contém logo e navegação</td>
+                      </tr>
+                      <tr>
+                        <td><code>&lt;nav&gt;</code></td>
+                        <td>Navegação</td>
+                        <td>Menus de navegação principal do site</td>
+                      </tr>
+                      <tr>
+                        <td><code>&lt;main&gt;</code></td>
+                        <td>Conteúdo principal</td>
+                        <td>O conteúdo central e único da página (use apenas uma vez por página)</td>
+                      </tr>
+                      <tr>
+                        <td><code>&lt;article&gt;</code></td>
+                        <td>Artigo independente</td>
+                        <td>Conteúdo que faz sentido sozinho: posts, notícias, comentários</td>
+                      </tr>
+                      <tr>
+                        <td><code>&lt;section&gt;</code></td>
+                        <td>Seção temática</td>
+                        <td>Agrupa conteúdo relacionado com um tema específico</td>
+                      </tr>
+                      <tr>
+                        <td><code>&lt;aside&gt;</code></td>
+                        <td>Conteúdo lateral</td>
+                        <td>Informações complementares: barras laterais, widgets, anúncios</td>
+                      </tr>
+                      <tr>
+                        <td><code>&lt;footer&gt;</code></td>
+                        <td>Rodapé</td>
+                        <td>Final da página ou seção: copyright, links, contato</td>
+                      </tr>
+                      <tr>
+                        <td><code>&lt;figure&gt;</code></td>
+                        <td>Figura</td>
+                        <td>Imagens, gráficos ou ilustrações com legenda</td>
+                      </tr>
+                      <tr>
+                        <td><code>&lt;figcaption&gt;</code></td>
+                        <td>Legenda da figura</td>
+                        <td>Descrição ou crédito de uma figura</td>
+                      </tr>
+                      <tr>
+                        <td><code>&lt;time&gt;</code></td>
+                        <td>Data/Hora</td>
+                        <td>Datas e horários em formato legível por máquinas</td>
+                      </tr>
+                      <tr>
+                        <td><code>&lt;mark&gt;</code></td>
+                        <td>Destaque</td>
+                        <td>Texto marcado/destacado por relevância</td>
+                      </tr>
+                      <tr>
+                        <td><code>&lt;address&gt;</code></td>
+                        <td>Endereço</td>
+                        <td>Informações de contato do autor ou proprietário</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="exemplo-estrutura">
+              <h2 class="title is-4 section-title mb-5">5. Exemplo de Estrutura Semântica Completa</h2>
+              <div class="content is-size-5 mb-4">
+                <p>Veja como ficaria a estrutura de uma página de blog usando HTML semântico:</p>
+              </div>
+              <pre class="box-dark p-4"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-BR"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="description" content="Blog sobre programação"&gt;
+  &lt;title&gt;Meu Blog de Tecnologia&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;header&gt;
+    &lt;h1&gt;Meu Blog de Tecnologia&lt;/h1&gt;
+    &lt;nav&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href="/"&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="/sobre"&gt;Sobre&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="/contato"&gt;Contato&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/nav&gt;
+  &lt;/header&gt;
+
+  &lt;main&gt;
+    &lt;article&gt;
+      &lt;header&gt;
+        &lt;h2&gt;Como começar a programar&lt;/h2&gt;
+        &lt;time datetime="2026-01-21"&gt;21 de Janeiro de 2026&lt;/time&gt;
+      &lt;/header&gt;
+      &lt;p&gt;Neste artigo você vai aprender...&lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="programacao.jpg" alt="Pessoa programando"&gt;
+        &lt;figcaption&gt;Desenvolvedor trabalhando em código&lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/article&gt;
+
+    &lt;aside&gt;
+      &lt;h3&gt;Posts Relacionados&lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href="#"&gt;O que é HTML?&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Primeiros passos com CSS&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/aside&gt;
+  &lt;/main&gt;
+
+  &lt;footer&gt;
+    &lt;address&gt;
+      Contato: &lt;a href="mailto:email@exemplo.com"&gt;email@exemplo.com&lt;/a&gt;
+    &lt;/address&gt;
+    &lt;p&gt;&amp;copy; 2026 Meu Blog. Todos os direitos reservados.&lt;/p&gt;
+  &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+            </div>
+
+            <div class="mb-6" id="dicas-seo">
+              <h2 class="title is-4 section-title mb-5">6. Dicas de SEO com HTML</h2>
+              <div class="box box-dark">
+                <div class="content is-size-5">
+                  <ul>
+                    <li><strong>Use apenas um &lt;h1&gt; por página:</strong> Ele deve descrever o tema principal.</li>
+                    <li><strong>Hierarquia de títulos:</strong> Use h1 → h2 → h3 em ordem, sem pular níveis.</li>
+                    <li><strong>Meta description:</strong> Adicione uma descrição clara no &lt;head&gt; da página.</li>
+                    <li><strong>Atributo alt nas imagens:</strong> Descreva o conteúdo das imagens para SEO e acessibilidade.</li>
+                    <li><strong>URLs amigáveis:</strong> Use palavras descritivas, não códigos ou números.</li>
+                    <li><strong>Links internos:</strong> Conecte suas páginas entre si para facilitar a navegação.</li>
+                    <li><strong>Conteúdo de qualidade:</strong> Textos úteis e relevantes são o fator mais importante.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="resumo">
+              <h2 class="title is-4 section-title mb-5">7. Resumo</h2>
+              <div class="box box-dark">
+                <div class="content is-size-5">
+                  <p class="mb-4">
+                    <strong>HTML Semântico + SEO = Sites melhores!</strong>
+                  </p>
+                  <ul>
+                    <li>SEO ajuda seu site a ser encontrado nos buscadores.</li>
+                    <li>HTML semântico usa tags com significado (&lt;header&gt;, &lt;main&gt;, &lt;footer&gt;, etc.).</li>
+                    <li>Tags semânticas melhoram SEO, acessibilidade e manutenção do código.</li>
+                    <li>Sempre use alt em imagens, hierarquia correta de títulos e meta descriptions.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          `
+        },
+        {
           "id": 11,
           "titulo": "Exercícios de Estilização CSS",
           "subtitulo": "Exercícios",
