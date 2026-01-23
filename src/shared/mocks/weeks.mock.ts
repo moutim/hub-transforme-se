@@ -2404,72 +2404,74 @@ div {
             <div class="box has-text-centered mb-6 border-left-pink">
               <h3 class="title is-5 mb-3">Instruções Iniciais</h3>
               <div class="content">
-                <p class="mb-3">Para os exercícios abaixo, você vai aplicar os estilos em um arquivo CSS externo. Siga os passos:</p>
-                <ol class="has-text-left mb-3">
-                  <li>Crie um novo arquivo e salve-o como <code>estilos.css</code>.</li>
-                  <li>Em cada um dos seus arquivos dos exercícios de HTML, adicione a seguinte linha dentro da tag <code>&lt;head&gt;</code> para lincar seu CSS:</li>
-                </ol>
+                <p class="mb-3">Para os exercícios abaixo, aplique os estilos em um arquivo CSS externo chamado <code>estilos.css</code>. Em cada arquivo HTML de exercício, inclua dentro do <code>&lt;head&gt;</code>:</p>
                 <pre class="box-dark p-4"><code>&lt;link rel="stylesheet" href="estilos.css"&gt;</code></pre>
-                <p class="mt-3">Agora, escreva todas as suas regras de CSS apenas no arquivo <code>estilos.css</code>.</p>
+                <p class="mt-3">As regras pedidas abaixo não devem usar <strong>display: flex</strong> nem <strong>display: grid</strong>. Use propriedades como <code>padding</code>, <code>margin</code>, <code>color</code>, <code>background-color</code>, <code>border</code>, <code>border-radius</code>, <code>box-shadow</code>, <code>text-align</code>, <code>font-size</code>, <code>line-height</code>, <code>max-width</code>, <code>object-fit</code>, <code>float</code> quando necessário.</p>
               </div>
             </div>
-            
+
+            <!-- Exercícios 1 a 16 com estrutura HTML de exemplo e instruções de estilo -->
+
             <div class="mb-5">
               <div class="box box-dark border-left-pink">
                 <h3 class="title is-5 mb-4">Exercício 1: Estilizando o Post</h3>
                 <div class="content mb-4">
-                  <p>Para a sua página do "Post de Blog", crie regras no seu arquivo CSS para:</p>
-                  <ol>
-                    <li>Centralizar o texto dos elementos \`&lt;h1&gt;\` e \`&lt;h2&gt;\`.</li>
-                    <li>Mudar a cor do \`&lt;h1&gt;\` para \`#e80170\`.</li>
-                  </ol>
-                </div>
-                <div class="box-dark p-4 content">
-
-                </div>
-              </div>
-            </div>
-
-            <div class="mb-5">
-              <div class="box box-dark border-left-pink">
-                <h3 class="title is-5 mb-4">Exercício 2: Criando um Card de Verdade</h3>
-                <div class="content mb-4">
-                  <p>No seu HTML do "Cartão de Apresentação", adicione uma classe \`card\` à \`&lt;div&gt;\` principal. No CSS, estilize essa classe para ter:</p>
-                  <ol>
-                    <li>Largura de \`300px\`.</li>
-                    <li>Cor de fundo \`#374151\`.</li>
-                    <li>\`20px\` de padding.</li>
-                    <li>Borda arredondada de \`10px\`.</li>
-                  </ol>
-                </div>
-                <div class="box-dark p-4 content">
-
+                  <p>HTML a estilizar: título, subtítulo e parágrafos do post.</p>
+                  <pre class="p-3"><code>&lt;article class="post"&gt;
+  &lt;h1&gt;Título do Post&lt;/h1&gt;
+  &lt;h2&gt;Subtítulo&lt;/h2&gt;
+  &lt;p&gt;Parágrafo de abertura...&lt;/p&gt;
+&lt;/article&gt;</code></pre>
+                  <p>Instruções CSS: centralize os títulos (<code>text-align</code>), defina <code>color: #e80170</code> para o <code>h1</code>, ajuste <code>line-height</code> dos parágrafos e limite a largura com <code>max-width: 720px</code> e <code>margin</code> automático.</p>
                 </div>
               </div>
             </div>
 
             <div class="mb-5">
               <div class="box box-dark border-left-pink">
-                <h3 class="title is-5 mb-4">Exercício 3: Melhorando a Receita</h3>
+                <h3 class="title is-5 mb-4">Exercício 2: Cartão de Apresentação</h3>
                 <div class="content mb-4">
-                  <p>Para a página da "Receita de Bolo":</p>
-                  <ol>
-                    <li>Remova os marcadores padrão da lista de ingredientes (\`&lt;ul&gt;\`).</li>
-                    <li>Mude a cor do texto de todos os \`&lt;h2&gt;\` para \`#e80170\`.</li>
-                  </ol>
+                  <p>HTML a estilizar: cartão com imagem, nome e descrição.</p>
+                  <pre class="p-3"><code>&lt;div class="card"&gt;
+  &lt;img src="foto.jpg" alt="Foto" class="card-img"/&gt;
+  &lt;h3&gt;Nome&lt;/h3&gt;
+  &lt;p&gt;Descrição curta&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+                  <p>Instruções CSS: largura fixa (<code>max-width: 300px</code>), <code>padding: 20px</code>, <code>background-color: #374151</code>, <code>border-radius: 10px</code>, e <code>box-shadow</code> suave; defina a imagem com <code>width:100%</code> e <code>object-fit:cover</code>.</p>
                 </div>
               </div>
             </div>
-            
+
             <div class="mb-5">
               <div class="box box-dark border-left-pink">
-                <h3 class="title is-5 mb-4">Exercício 4: Links sem Sublinhado</h3>
+                <h3 class="title is-5 mb-4">Exercício 3: Receita de Bolo</h3>
                 <div class="content mb-4">
-                  <p>Na sua "Página de Links Favoritos":</p>
-                  <ol>
-                    <li>Remova o sublinhado de todos os links (\`&lt;a&gt;\`).</li>
-                    <li>Mude a cor do texto dos links para \`#e80170\`.</li>
-                  </ol>
+                  <p>HTML a estilizar: título da receita, lista de ingredientes e modo de preparo.</p>
+                  <pre class="p-3"><code>&lt;h1&gt;Bolo de Chocolate&lt;/h1&gt;
+&lt;h2&gt;Ingredientes&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Farinha&lt;/li&gt;
+  &lt;li&gt;Açúcar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Modo de Preparo&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Misturar ingredientes&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+                  <p>Instruções CSS: remova marcadores com <code>list-style:none</code>, use <code>padding</code> para os itens, adicione <code>border-left</code> colorido nos títulos e defina <code>font-size</code> maior para o <code>h1</code>.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-4">Exercício 4: Página de Links</h3>
+                <div class="content mb-4">
+                  <p>HTML a estilizar: lista de links favoritos.</p>
+                  <pre class="p-3"><code>&lt;h1&gt;Meus Sites Favoritos&lt;/h1&gt;
+&lt;ul class="links"&gt;
+  &lt;li&gt;&lt;a href="#"&gt;Google&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+                  <p>Instruções CSS: remova sublinhado (<code>text-decoration:none</code>), defina <code>color: #e80170</code>, e use <code>padding</code> e <code>border-bottom</code> em cada item para separação visual.</p>
                 </div>
               </div>
             </div>
@@ -2478,31 +2480,174 @@ div {
               <div class="box box-dark border-left-pink">
                 <h3 class="title is-5 mb-4">Exercício 5: Formulário Agradável</h3>
                 <div class="content mb-4">
-                  <p>Para o "Formulário de Contato", estilize todos os campos \`&lt;input&gt;\` para que eles tenham:</p>
-                  <ol>
-                    <li>\`10px\` de padding.</li>
-                    <li>Uma borda de \`1px solid gray\`.</li>
-                    <li>Cantos arredondados de \`5px\`.</li>
-                  </ol>
+                  <p>HTML a estilizar: formulário simples com labels e inputs.</p>
+                  <pre class="p-3"><code>&lt;form class="contato"&gt;
+  &lt;label&gt;Nome&lt;input type="text" name="nome" /&gt;&lt;/label&gt;
+  &lt;label&gt;Mensagem&lt;textarea&gt;&lt;/textarea&gt;&lt;/label&gt;
+  &lt;button type="submit"&gt;Enviar&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+                  <p>Instruções CSS: aplique <code>padding:10px</code> nos inputs, <code>border:1px solid #ccc</code>, <code>border-radius:5px</code>, e espaçamento vertical entre campos com <code>margin-bottom</code>.</p>
                 </div>
               </div>
             </div>
 
             <div class="mb-5">
               <div class="box box-dark border-left-pink">
-                <h3 class="title is-5 mb-4">Exercício 6: Estilizando o Botão</h3>
+                <h3 class="title is-5 mb-4">Exercício 6: Botão Estilizado</h3>
                 <div class="content mb-4">
-                  <p>Na estrutura do exercício "Juntando Tudo", adicione a classe \`botao\` ao link. No CSS, estilize essa classe para que o link pareça um botão:</p>
-                  <ol>
-                    <li>Cor de fundo \`#e80170\`.</li>
-                    <li>Cor do texto \`white\`.</li>
-                    <li>\`10px\` de padding.</li>
-                    <li>Sem sublinhado (\`text-decoration: none\`).</li>
-                    <li>Borda arredondada de \`5px\`.</li>
-                  </ol>
+                  <p>HTML a estilizar: link transformado em botão.</p>
+                  <pre class="p-3"><code>&lt;a href="#" class="botao"&gt;Saiba Mais&lt;/a&gt;</code></pre>
+                  <p>Instruções CSS: fundo <code>#e80170</code>, cor do texto <code>#fff</code>, <code>padding:10px 16px</code>, <code>text-decoration:none</code>, e <code>border-radius:5px</code>. Adicione um <code>box-shadow</code> leve para profundidade.</p>
                 </div>
               </div>
             </div>
+
+            <!-- Novos exercícios 7 a 16 -->
+
+            <div class="mb-5">
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-4">Exercício 7: Galeria de Imagens</h3>
+                <div class="content mb-4">
+                  <p>HTML a estilizar: galeria com figuras e legendas.</p>
+                  <pre class="p-3"><code>&lt;section class="galeria"&gt;
+  &lt;figure&gt;
+    &lt;img src="img1.jpg" alt="" /&gt;
+    &lt;figcaption&gt;Legenda 1&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/section&gt;</code></pre>
+                  <p>Instruções CSS: defina <code>max-width</code> para figuras, borda sutil e <code>padding</code> interno; use <code>float</code> para alinhar imagens em linha se desejar e limpe os floats com um <code>clear</code> no container.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-4">Exercício 8: Tabela de Horários</h3>
+                <div class="content mb-4">
+                  <p>HTML a estilizar: tabela com cabeçalho e corpo.</p>
+                  <pre class="p-3"><code>&lt;table class="grade"&gt;
+  &lt;thead&gt;&lt;tr&gt;&lt;th&gt;Dia&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+  &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Segunda&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
+&lt;/table&gt;</code></pre>
+                  <p>Instruções CSS: estilize <code>th</code> com <code>background-color</code>, defina <code>padding</code> nas células, use <code>border-collapse:collapse</code> e bordas finas entre células.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-4">Exercício 9: Incorporando Vídeo</h3>
+                <div class="content mb-4">
+                  <p>HTML a estilizar: iframe do YouTube com legenda.</p>
+                  <pre class="p-3"><code>&lt;figure&gt;
+  &lt;iframe src="..." title="video"&gt;&lt;/iframe&gt;
+  &lt;figcaption&gt;Descrição do vídeo&lt;/figcaption&gt;
+&lt;/figure&gt;</code></pre>
+                  <p>Instruções CSS: defina <code>max-width</code> para o iframe, use <code>height</code> proporcional, adicione borda e <code>box-shadow</code>. Use <code>object-fit:cover</code> quando aplicar em elementos substituíveis.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-4">Exercício 10: Citação em Destaque</h3>
+                <div class="content mb-4">
+                  <p>HTML a estilizar: blockquote com autor.</p>
+                  <pre class="p-3"><code>&lt;blockquote&gt;Texto da citação&lt;/blockquote&gt;
+&lt;cite&gt;Autor&lt;/cite&gt;</code></pre>
+                  <p>Instruções CSS: aplique <code>font-style:italic</code>, <code>border-left:4px solid #e80170</code>, <code>padding-left</code> e <code>margin</code> para destaque visual.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-4">Exercício 11: Texto com Formatação</h3>
+                <div class="content mb-4">
+                  <p>HTML a estilizar: parágrafo com ênfases e destaques.</p>
+                  <pre class="p-3"><code>&lt;p&gt;Texto com &lt;strong&gt;importância&lt;/strong&gt;, &lt;em&gt;ênfase&lt;/em&gt; e &lt;mark&gt;destaque&lt;/mark&gt;.&lt;/p&gt;</code></pre>
+                  <p>Instruções CSS: defina estilos para <code>strong</code> (font-weight), <code>em</code> (font-style), <code>mark</code> (background-color), e ajuste <code>letter-spacing</code> e <code>line-height</code> para leitura.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-4">Exercício 12: Lista de Definições</h3>
+                <div class="content mb-4">
+                  <p>HTML a estilizar: glossário usando <code>&lt;dl&gt;</code>.</p>
+                  <pre class="p-3"><code>&lt;dl&gt;
+  &lt;dt&gt;HTML&lt;/dt&gt;
+  &lt;dd&gt;Linguagem de marcação&lt;/dd&gt;
+&lt;/dl&gt;</code></pre>
+                  <p>Instruções CSS: destaque <code>dt</code> com <code>font-weight:bold</code>, adicione <code>margin-left</code> em <code>dd</code> e use <code>background-color</code> sutil no par de definição.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-4">Exercício 13: Página de Produto</h3>
+                <div class="content mb-4">
+                  <p>HTML a estilizar: foto do produto, título, descrição e preço.</p>
+                  <pre class="p-3"><code>&lt;div class="produto"&gt;
+  &lt;img src="produto.jpg" alt=""/&gt;
+  &lt;h1&gt;Produto&lt;/h1&gt;
+  &lt;p class="preco"&gt;R$ 99,90&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+                  <p>Instruções CSS: defina <code>max-width</code>, destaque o preço com <code>color</code> e <code>font-weight</code>, use <code>border</code> e <code>padding</code> para separar visualmente.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-4">Exercício 14: Lista de Cards</h3>
+                <div class="content mb-4">
+                  <p>HTML a estilizar: lista vertical de cards.</p>
+                  <pre class="p-3"><code>&lt;ul class="cards"&gt;
+  &lt;li class="card"&gt;
+    &lt;h3&gt;Card&lt;/h3&gt;
+    &lt;p&gt;Descrição&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+                  <p>Instruções CSS: defina margem entre itens (<code>margin-bottom</code>), padding interno, borda e <code>background-color</code>. Para layout em colunas, use larguras e floats em vez de flex/grid.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-4">Exercício 15: Navegação</h3>
+                <div class="content mb-4">
+                  <p>HTML a estilizar: cabeçalho com menu de navegação.</p>
+                  <pre class="p-3"><code>&lt;header&gt;
+  &lt;nav&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/nav&gt;
+&lt;/header&gt;</code></pre>
+                  <p>Instruções CSS: estilize os itens de menu com <code>padding</code>, <code>border-radius</code> em links, altere <code>background-color</code> de itens ativos e use <code>text-transform:uppercase</code> se desejar.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-4">Exercício 16: Rodapé e Contato</h3>
+                <div class="content mb-4">
+                  <p>HTML a estilizar: rodapé com endereço e links de contato.</p>
+                  <pre class="p-3"><code>&lt;footer&gt;
+  &lt;address&gt;
+    &lt;a href="mailto:email@exemplo.com"&gt;email@exemplo.com&lt;/a&gt;
+  &lt;/address&gt;
+&lt;/footer&gt;</code></pre>
+                  <p>Instruções CSS: defina <code>background-color</code> escuro, cor do texto clara, padding generoso e <code>text-align:center</code>. Use <code>font-size</code> menor para informações secundárias.</p>
+                </div>
+              </div>
+            </div>
+
           </div>
           `
         }
