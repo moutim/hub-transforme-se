@@ -2650,6 +2650,257 @@ div {
 
           </div>
           `
+        },
+        {
+          "id": 55,
+          "titulo": "CSS Flexbox",
+          "subtitulo": "Aula 2.5",
+          "descricao": "Entenda o display:flex, para que serve, sua importância nos layouts modernos e como ele se compara ao CSS Grid",
+          "icone": "fa-align-left",
+          "conteudo": `
+          <div class="container">
+            <div class="mb-6" id="o-que-e-flex">
+              <h2 class="title is-4 section-title mb-5">1. O que é display: flex?</h2>
+              <div class="content is-size-5">
+                <p class="mb-4">
+                  <strong>Flexbox</strong> (Flexible Box Layout) é um módulo de layout do CSS projetado para distribuir espaço e alinhar itens dentro de um container de forma eficiente, mesmo quando o tamanho dos itens é desconhecido ou dinâmico.
+                </p>
+                <p class="mb-4">
+                  A ideia principal é simples: você define um elemento pai como <code>display: flex;</code> e ele se torna um <strong>flex container</strong>. Todos os filhos diretos desse container tornam-se <strong>flex items</strong> e passam a obedecer às regras do Flexbox.
+                </p>
+              </div>
+              <div class="box box-dark">
+                <h3 class="title is-5 highlight-pink">Sintaxe básica</h3>
+                <pre class="p-3"><code>.container {
+  display: flex;
+}</code></pre>
+              </div>
+            </div>
+
+            <div class="mb-6" id="importancia">
+              <h2 class="title is-4 section-title mb-5">2. Para que serve e por que é importante</h2>
+              <div class="content is-size-5">
+                <p class="mb-4">Antes do Flexbox, criar layouts responsivos e centralizados exigia hacks com floats, tabelas ou posicionamento absoluto. O Flexbox resolve esses problemas de forma elegante:</p>
+                <ul>
+                  <li><strong>Alinhamento fácil:</strong> centralizar elementos vertical e horizontalmente com poucas linhas.</li>
+                  <li><strong>Distribuição de espaço:</strong> dividir espaço entre itens automaticamente.</li>
+                  <li><strong>Responsividade:</strong> itens se adaptam ao tamanho do container.</li>
+                  <li><strong>Ordenação visual:</strong> mudar a ordem dos elementos sem alterar o HTML.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="mb-6" id="propriedades-container">
+              <h2 class="title is-4 section-title mb-5">3. Propriedades do Flex Container (pai)</h2>
+              <div class="box box-dark">
+                <div class="content is-size-5">
+                  <ul>
+                    <li><code>display: flex;</code> — ativa o Flexbox no container.</li>
+                    <li><code>flex-direction</code> — define a direção dos itens: <code>row</code> (linha, padrão), <code>row-reverse</code>, <code>column</code>, <code>column-reverse</code>.</li>
+                    <li><code>justify-content</code> — alinha itens no eixo principal: <code>flex-start</code>, <code>flex-end</code>, <code>center</code>, <code>space-between</code>, <code>space-around</code>, <code>space-evenly</code>.</li>
+                    <li><code>align-items</code> — alinha itens no eixo cruzado: <code>stretch</code> (padrão), <code>flex-start</code>, <code>flex-end</code>, <code>center</code>, <code>baseline</code>.</li>
+                    <li><code>flex-wrap</code> — permite quebra de linha: <code>nowrap</code> (padrão), <code>wrap</code>, <code>wrap-reverse</code>.</li>
+                    <li><code>gap</code> — espaçamento entre os itens (ex: <code>gap: 16px;</code>).</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="propriedades-item">
+              <h2 class="title is-4 section-title mb-5">4. Propriedades dos Flex Items (filhos)</h2>
+              <div class="box box-dark">
+                <div class="content is-size-5">
+                  <ul>
+                    <li><code>flex-grow</code> — quanto o item deve crescer em relação aos outros (ex: <code>flex-grow: 1;</code>).</li>
+                    <li><code>flex-shrink</code> — quanto o item deve encolher se não houver espaço.</li>
+                    <li><code>flex-basis</code> — tamanho inicial do item antes de crescer/encolher.</li>
+                    <li><code>flex</code> — atalho para grow, shrink e basis (ex: <code>flex: 1;</code> ou <code>flex: 1 1 200px;</code>).</li>
+                    <li><code>align-self</code> — sobrescreve o align-items para um item específico.</li>
+                    <li><code>order</code> — muda a ordem visual do item (padrão 0).</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="exemplos">
+              <h2 class="title is-4 section-title mb-5">5. Exemplos Práticos</h2>
+
+              <h3 class="title is-5 mb-3">Exemplo 1: Centralizar um elemento</h3>
+              <pre class="box-dark p-4"><code>&lt;div class="container"&gt;
+  &lt;div class="box"&gt;Centralizado!&lt;/div&gt;
+&lt;/div&gt;
+
+/* CSS */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: #1f2937;
+}
+.box {
+  padding: 20px;
+  background-color: #e80170;
+  color: white;
+}</code></pre>
+
+              <h3 class="title is-5 mt-5 mb-3">Exemplo 2: Barra de navegação</h3>
+              <pre class="box-dark p-4"><code>&lt;nav class="navbar"&gt;
+  &lt;div class="logo"&gt;MeuSite&lt;/div&gt;
+  &lt;ul class="menu"&gt;
+    &lt;li&gt;Home&lt;/li&gt;
+    &lt;li&gt;Sobre&lt;/li&gt;
+    &lt;li&gt;Contato&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+
+/* CSS */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  background-color: #374151;
+}
+.menu {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}</code></pre>
+
+              <h3 class="title is-5 mt-5 mb-3">Exemplo 3: Cards que crescem igualmente</h3>
+              <pre class="box-dark p-4"><code>&lt;div class="cards"&gt;
+  &lt;div class="card"&gt;Card 1&lt;/div&gt;
+  &lt;div class="card"&gt;Card 2&lt;/div&gt;
+  &lt;div class="card"&gt;Card 3&lt;/div&gt;
+&lt;/div&gt;
+
+/* CSS */
+.cards {
+  display: flex;
+  gap: 16px;
+}
+.card {
+  flex: 1;
+  padding: 24px;
+  background-color: #4b5563;
+  border-radius: 8px;
+}</code></pre>
+            </div>
+
+            <div class="mb-6" id="comparativo-grid">
+              <h2 class="title is-4 section-title mb-5">6. Flexbox vs CSS Grid</h2>
+              <div class="content is-size-5 mb-4">
+                <p>Ambos são poderosos, mas têm propósitos diferentes:</p>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 highlight-pink">Flexbox</h3>
+                    <ul>
+                      <li>Layout em <strong>uma dimensão</strong> (linha OU coluna).</li>
+                      <li>Ideal para componentes: menus, cards em linha, botões.</li>
+                      <li>Os itens se ajustam ao conteúdo.</li>
+                      <li>Mais simples para alinhamentos rápidos.</li>
+                    </ul>
+                    <pre class="p-3 mt-3"><code>.container {
+  display: flex;
+  gap: 16px;
+}</code></pre>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 highlight-pink">CSS Grid</h3>
+                    <ul>
+                      <li>Layout em <strong>duas dimensões</strong> (linhas E colunas).</li>
+                      <li>Ideal para layouts de página completos.</li>
+                      <li>Controle preciso de posicionamento.</li>
+                      <li>Mais poderoso para grids complexos.</li>
+                    </ul>
+                    <pre class="p-3 mt-3"><code>.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}</code></pre>
+                  </div>
+                </div>
+              </div>
+              <div class="box box-dark mt-4">
+                <h4 class="title is-6 mb-3">Quando usar cada um?</h4>
+                <div class="content">
+                  <ul>
+                    <li><strong>Flexbox:</strong> componentes menores, alinhamentos simples, distribuição em uma direção.</li>
+                    <li><strong>Grid:</strong> layouts de página, galerias, dashboards, estruturas bidimensionais.</li>
+                    <li><strong>Ambos juntos:</strong> Grid para o layout geral da página, Flexbox para os componentes internos.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="por-que-flex-mais-facil">
+              <h2 class="title is-4 section-title mb-5">7. Por que o Flex é mais fácil para começar?</h2>
+              <div class="content is-size-5">
+                <p class="mb-4">O Flexbox é geralmente mais intuitivo para iniciantes porque:</p>
+                <ul>
+                  <li>Requer menos propriedades para resultados visíveis.</li>
+                  <li>O comportamento padrão já é útil (itens em linha, sem quebra).</li>
+                  <li><code>justify-content</code> e <code>align-items</code> resolvem 90% dos casos de alinhamento.</li>
+                  <li>Não precisa definir colunas/linhas explicitamente como no Grid.</li>
+                </ul>
+              </div>
+              <div class="box box-dark">
+                <h4 class="title is-6 mb-3">Comparação de código para centralizar</h4>
+                <div class="columns">
+                  <div class="column">
+                    <p><strong>Com Flexbox (3 linhas):</strong></p>
+                    <pre class="p-3"><code>.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}</code></pre>
+                  </div>
+                  <div class="column">
+                    <p><strong>Com Grid (3 linhas):</strong></p>
+                    <pre class="p-3"><code>.container {
+  display: grid;
+  place-items: center;
+}</code></pre>
+                  </div>
+                </div>
+                <p class="mt-3">Ambos funcionam bem! Mas o Flexbox é mais versátil para layouts lineares.</p>
+              </div>
+            </div>
+
+            <div class="mb-6" id="referencia">
+              <h2 class="title is-4 section-title mb-5">8. Referência Completa</h2>
+              <div class="content is-size-5">
+                <p class="mb-4">Para consultar todas as propriedades do Flexbox com exemplos visuais, acesse o guia completo:</p>
+                <div class="box box-dark">
+                  <p><strong>📚 CSS-Tricks - A Complete Guide to Flexbox:</strong></p>
+                  <p><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#prefixing-flexbox" target="_blank" rel="noopener noreferrer" class="has-text-link">https://css-tricks.com/snippets/css/a-guide-to-flexbox/</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="resumo">
+              <h2 class="title is-4 section-title mb-5">9. Resumo</h2>
+              <div class="box box-dark">
+                <div class="content is-size-5">
+                  <ul>
+                    <li><code>display: flex;</code> no pai ativa o Flexbox.</li>
+                    <li><code>justify-content</code> alinha no eixo principal (horizontal por padrão).</li>
+                    <li><code>align-items</code> alinha no eixo cruzado (vertical por padrão).</li>
+                    <li><code>gap</code> adiciona espaçamento entre itens.</li>
+                    <li><code>flex: 1;</code> faz itens crescerem igualmente.</li>
+                    <li>Use Flexbox para componentes e layouts unidimensionais.</li>
+                    <li>Combine com Grid para layouts mais complexos.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          `
         }
       ]
     },
