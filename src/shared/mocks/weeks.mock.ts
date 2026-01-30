@@ -3288,6 +3288,257 @@ div {
             </div>
           </div>
           `
+        },
+        {
+          "id": 56,
+          "titulo": "Deploy e Vercel",
+          "subtitulo": "Aula 3.2",
+          "descricao": "Aprenda o que é deploy, conheça a plataforma Vercel e faça seu primeiro site ir para produção em minutos",
+          "icone": "fa-rocket",
+          "conteudo": `
+          <div class="container">
+            <div class="mb-6" id="o-que-e-deploy">
+              <h2 class="title is-4 section-title mb-5">1. O que é Deploy?</h2>
+              <div class="content is-size-5">
+                <p class="mb-4">
+                  <strong>Deploy</strong> (ou implantação) é o processo de colocar seu site ou aplicação na internet para que outras pessoas possam acessá-lo. É basicamente "publicar" seu projeto, tirando-o do seu computador local e colocando-o em um servidor acessível a qualquer um com conexão à internet.
+                </p>
+                <p class="mb-4">
+                  Quando você está desenvolvendo no seu computador, apenas você consegue ver o resultado acessando <code>localhost</code> ou abrindo arquivos HTML localmente. Depois do deploy, qualquer pessoa pode acessar seu site através de uma URL real, como <code>meuprojeto.vercel.app</code>.
+                </p>
+              </div>
+              <div class="box box-dark">
+                <h3 class="title is-5 highlight-pink">Por que fazer deploy?</h3>
+                <div class="content">
+                  <ul>
+                    <li><strong>Compartilhar:</strong> Mostre seu trabalho para amigos, familiares e recrutadores.</li>
+                    <li><strong>Portfolio:</strong> Construa um portfólio online com seus projetos reais e acessíveis.</li>
+                    <li><strong>Testes reais:</strong> Veja como seu site se comporta em diferentes dispositivos e conexões.</li>
+                    <li><strong>Experiência profissional:</strong> Aprenda ferramentas e processos usados no mercado.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="o-que-e-vercel">
+              <h2 class="title is-4 section-title mb-5">2. O que é Vercel?</h2>
+              <div class="content is-size-5">
+                <p class="mb-4">
+                  <strong>Vercel</strong> é uma plataforma de hospedagem e deploy otimizada para aplicações front-end. Criada pelos desenvolvedores do Next.js, a Vercel tornou-se uma das ferramentas mais populares para colocar sites no ar de forma rápida e gratuita.
+                </p>
+              </div>
+              <div class="columns is-multiline">
+                <div class="column is-6">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 highlight-pink">✅ Vantagens da Vercel</h3>
+                    <ul>
+                      <li><strong>Gratuito:</strong> Plano grátis generoso para projetos pessoais.</li>
+                      <li><strong>Rápido:</strong> Deploy em segundos após conectar seu repositório.</li>
+                      <li><strong>HTTPS automático:</strong> Certificado SSL grátis (seu site fica com cadeado 🔒).</li>
+                      <li><strong>Domínio grátis:</strong> Recebe um domínio <code>.vercel.app</code> automaticamente.</li>
+                      <li><strong>Preview deployments:</strong> Cada branch/pull request gera uma URL de preview.</li>
+                      <li><strong>CDN global:</strong> Seu site fica rápido em qualquer lugar do mundo.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="column is-6">
+                  <div class="box box-dark">
+                    <h3 class="title is-5 highlight-pink">🎯 Ideal para:</h3>
+                    <ul>
+                      <li>Sites estáticos (HTML, CSS, JS)</li>
+                      <li>Aplicações React, Vue, Angular</li>
+                      <li>Projetos Next.js</li>
+                      <li>Portfolios pessoais</li>
+                      <li>Landing pages</li>
+                      <li>Blogs e documentações</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="tutorial-passo-a-passo">
+              <h2 class="title is-4 section-title mb-5">3. Tutorial: Deploy no Vercel com GitHub</h2>
+              <div class="content is-size-5 mb-4">
+                <p>Siga os passos abaixo para colocar seu site no ar em poucos minutos:</p>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📋 Passo 1: Prepare seu projeto no GitHub</h3>
+                <div class="content">
+                  <p class="mb-3">Antes de fazer deploy, certifique-se de que seu projeto está em um repositório público no GitHub:</p>
+                  <ol>
+                    <li>Crie um repositório no GitHub (pode ser público ou privado).</li>
+                    <li>Faça commit e push de todos os arquivos do seu projeto.</li>
+                    <li>Verifique se o arquivo principal do seu site se chama <code>index.html</code> (ou está na raiz do projeto).</li>
+                  </ol>
+                  <pre class="p-3 mt-3"><code># Comandos básicos para subir seu código
+git add .
+git commit -m "Preparando para deploy"
+git push origin main</code></pre>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🚀 Passo 2: Crie uma conta na Vercel</h3>
+                <div class="content">
+                  <ol>
+                    <li>Acesse <a href="https://vercel.com" target="_blank" rel="noopener noreferrer" class="has-text-link">vercel.com</a>.</li>
+                    <li>Clique em <strong>"Sign Up"</strong> (Cadastrar).</li>
+                    <li>Escolha <strong>"Continue with GitHub"</strong> para fazer login com sua conta do GitHub.</li>
+                    <li>Autorize a Vercel a acessar seus repositórios quando solicitado.</li>
+                  </ol>
+                  <p class="mt-3 notification is-info is-light">💡 <strong>Dica:</strong> Use a mesma conta do GitHub onde está seu projeto para facilitar a integração.</p>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📦 Passo 3: Importe seu repositório</h3>
+                <div class="content">
+                  <p class="mb-3">Agora vamos conectar seu repositório do GitHub à Vercel:</p>
+                  <ol>
+                    <li>No dashboard da Vercel, clique em <strong>"Add New..."</strong> → <strong>"Project"</strong>.</li>
+                    <li>Na lista de repositórios, encontre o projeto que deseja fazer deploy.</li>
+                    <li>Clique em <strong>"Import"</strong> ao lado do repositório escolhido.</li>
+                  </ol>
+                  <p class="mt-3">Se não encontrar seu repositório na lista, clique em <strong>"Adjust GitHub App Permissions"</strong> e autorize o acesso.</p>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">⚙️ Passo 4: Configure o projeto (geralmente automático)</h3>
+                <div class="content">
+                  <p class="mb-3">A Vercel detecta automaticamente o tipo de projeto. Você verá uma tela com configurações:</p>
+                  <ul>
+                    <li><strong>Project Name:</strong> O nome do seu projeto (pode ser alterado).</li>
+                    <li><strong>Framework Preset:</strong> A Vercel tenta detectar automaticamente (ex: Next.js, React, HTML estático).</li>
+                    <li><strong>Root Directory:</strong> Deixe <code>./</code> se seu <code>index.html</code> está na raiz.</li>
+                    <li><strong>Build Command:</strong> Para HTML/CSS/JS puro, pode deixar vazio.</li>
+                    <li><strong>Output Directory:</strong> Para HTML/CSS/JS puro, deixe vazio ou <code>./</code>.</li>
+                  </ul>
+                  <p class="mt-3 notification is-warning is-light">⚠️ <strong>Importante:</strong> Para sites estáticos simples (HTML, CSS, JS), geralmente não precisa alterar nada. A Vercel reconhece automaticamente.</p>
+                </div>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🎉 Passo 5: Clique em "Deploy"</h3>
+                <div class="content">
+                  <ol>
+                    <li>Revise as configurações e clique no botão <strong>"Deploy"</strong>.</li>
+                    <li>Aguarde alguns segundos enquanto a Vercel faz o build e publica seu site.</li>
+                    <li>Quando concluído, você verá uma tela de sucesso com confetes 🎊!</li>
+                    <li>Clique em <strong>"Visit"</strong> ou copie a URL gerada (algo como <code>seu-projeto.vercel.app</code>).</li>
+                  </ol>
+                  <p class="mt-4"><strong>Pronto! Seu site está no ar! 🚀</strong></p>
+                </div>
+              </div>
+
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">🔄 Passo 6: Atualizações automáticas</h3>
+                <div class="content">
+                  <p class="mb-3">A partir de agora, cada vez que você fizer um <code>git push</code> na branch principal (main), a Vercel automaticamente:</p>
+                  <ul>
+                    <li>Detecta a mudança no GitHub.</li>
+                    <li>Faz um novo build.</li>
+                    <li>Atualiza seu site em produção.</li>
+                  </ul>
+                  <p class="mt-3">Você não precisa fazer nada manualmente! Apenas desenvolva e faça push. A Vercel cuida do resto.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="recursos-extras">
+              <h2 class="title is-4 section-title mb-5">4. Recursos Extras da Vercel</h2>
+              <div class="columns is-multiline">
+                <div class="column is-6">
+                  <div class="box box-dark">
+                    <h3 class="title is-6 mb-3">🌐 Domínio Personalizado</h3>
+                    <p>Você pode conectar seu próprio domínio (ex: <code>meuprojeto.com</code>) nas configurações do projeto, na aba "Domains".</p>
+                  </div>
+                </div>
+                <div class="column is-6">
+                  <div class="box box-dark">
+                    <h3 class="title is-6 mb-3">👀 Preview Deployments</h3>
+                    <p>Cada branch ou pull request gera uma URL única de preview, perfeito para testar antes de colocar em produção.</p>
+                  </div>
+                </div>
+                <div class="column is-6">
+                  <div class="box box-dark">
+                    <h3 class="title is-6 mb-3">📊 Analytics</h3>
+                    <p>Veja estatísticas de visitantes, páginas mais acessadas e performance do seu site (disponível no plano gratuito).</p>
+                  </div>
+                </div>
+                <div class="column is-6">
+                  <div class="box box-dark">
+                    <h3 class="title is-6 mb-3">⚡ Edge Functions</h3>
+                    <p>Rode código no servidor (API routes) sem precisar de um backend separado (ideal para Next.js).</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="dicas-praticas">
+              <h2 class="title is-4 section-title mb-5">5. Dicas e Boas Práticas</h2>
+              <div class="box box-dark">
+                <div class="content is-size-5">
+                  <ul>
+                    <li><strong>Organize bem seus arquivos:</strong> Mantenha <code>index.html</code> na raiz, CSS em <code>/css</code> ou <code>/styles</code>, e JS em <code>/js</code> ou <code>/scripts</code>.</li>
+                    <li><strong>Teste localmente primeiro:</strong> Sempre verifique se tudo funciona no seu computador antes de fazer deploy.</li>
+                    <li><strong>Use commits descritivos:</strong> Mensagens claras ajudam a identificar mudanças caso algo quebre.</li>
+                    <li><strong>Aproveite os preview deployments:</strong> Teste mudanças em branches separadas antes de mesclar na main.</li>
+                    <li><strong>Verifique o README.md:</strong> Documente seu projeto no GitHub para que outros (e você no futuro) entendam como funciona.</li>
+                    <li><strong>Cuidado com caminhos:</strong> Use caminhos relativos para imagens e arquivos (<code>./imagens/foto.jpg</code> em vez de <code>/Users/seu-nome/...</code>).</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="alternativas">
+              <h2 class="title is-4 section-title mb-5">6. Outras Plataformas de Deploy</h2>
+              <div class="content is-size-5 mb-4">
+                <p>Além da Vercel, existem outras opções gratuitas populares:</p>
+              </div>
+              <div class="columns is-multiline">
+                <div class="column is-4">
+                  <div class="box box-dark">
+                    <h3 class="title is-6 mb-2">Netlify</h3>
+                    <p class="is-size-6">Similar à Vercel, com plano gratuito generoso e integração com Git.</p>
+                  </div>
+                </div>
+                <div class="column is-4">
+                  <div class="box box-dark">
+                    <h3 class="title is-6 mb-2">GitHub Pages</h3>
+                    <p class="is-size-6">Hospedagem gratuita direto do repositório GitHub, ideal para sites estáticos.</p>
+                  </div>
+                </div>
+                <div class="column is-4">
+                  <div class="box box-dark">
+                    <h3 class="title is-6 mb-2">Render</h3>
+                    <p class="is-size-6">Suporta sites estáticos e aplicações com backend, também com plano gratuito.</p>
+                  </div>
+                </div>
+              </div>
+              <p class="is-size-6 has-text-grey mt-3">A Vercel se destaca pela velocidade, facilidade de uso e integração perfeita com Next.js, sendo a escolha preferida de muitos desenvolvedores.</p>
+            </div>
+
+            <div class="mb-6" id="resumo">
+              <h2 class="title is-4 section-title mb-5">7. Resumo</h2>
+              <div class="box box-dark">
+                <div class="content is-size-5">
+                  <ul>
+                    <li><strong>Deploy</strong> é colocar seu site na internet para que todos possam acessar.</li>
+                    <li><strong>Vercel</strong> é uma plataforma rápida, gratuita e otimizada para front-end.</li>
+                    <li>O processo é simples: GitHub → Vercel → Deploy em segundos.</li>
+                    <li>Atualizações são automáticas: faça push no GitHub e a Vercel atualiza seu site.</li>
+                    <li>Você ganha um domínio grátis (<code>.vercel.app</code>) e HTTPS automático.</li>
+                    <li>Ideal para portfolios, projetos pessoais e aprendizado.</li>
+                  </ul>
+                  <p class="mt-4"><strong>Agora é sua vez! Escolha um projeto e coloque-o no ar para mostrar ao mundo! 🌍✨</strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          `
         }
       ]
     },
