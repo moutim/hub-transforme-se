@@ -3578,9 +3578,10 @@ git push origin main</code></pre>
               </div>
               <div class="columns is-multiline is-mobile">
                 <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
-                  <div class="box box-dark has-text-centered">
+                  <a href="https://www.youtube.com/watch?v=TdjmTjuU8JE" target="_blank" class="box box-dark has-text-centered" style="display: block; text-decoration: none;">
                     <h4 class="title is-5 ">Clone do Spotify</h4>
-                  </div>
+                    <span class="tag is-link is-light"><i class="fab fa-youtube mr-1"></i> Tutorial</span>
+                  </a>
                 </div>
                 <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                   <div class="box box-dark has-text-centered">
@@ -3588,29 +3589,34 @@ git push origin main</code></pre>
                   </div>
                 </div>
                 <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
-                  <div class="box box-dark has-text-centered">
+                  <a href="https://www.youtube.com/watch?v=bLNar9fmtqk" target="_blank" class="box box-dark has-text-centered" style="display: block; text-decoration: none;">
                     <h4 class="title is-5 ">Clone do Tinder 🥵</h4>
-                  </div>
+                    <span class="tag is-link is-light"><i class="fab fa-youtube mr-1"></i> Tutorial</span>
+                  </a>
                 </div>
                 <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
-                  <div class="box box-dark has-text-centered">
+                  <a href="https://www.youtube.com/watch?v=eJTyfr4SvXI" target="_blank" class="box box-dark has-text-centered" style="display: block; text-decoration: none;">
                     <h4 class="title is-5 ">Login do Facebook</h4>
-                  </div>
+                    <span class="tag is-link is-light"><i class="fab fa-youtube mr-1"></i> Tutorial</span>
+                  </a>
                 </div>
                 <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
-                  <div class="box box-dark has-text-centered">
+                  <a href="https://www.youtube.com/watch?v=9caMQ3VhJVM" target="_blank" class="box box-dark has-text-centered" style="display: block; text-decoration: none;">
                     <h4 class="title is-5 ">Site da Starbucks</h4>
-                  </div>
+                    <span class="tag is-link is-light"><i class="fab fa-youtube mr-1"></i> Tutorial</span>
+                  </a>
                 </div>
                 <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
-                  <div class="box box-dark has-text-centered">
+                  <a href="https://www.youtube.com/watch?v=cDjSJpdvAIU" target="_blank" class="box box-dark has-text-centered" style="display: block; text-decoration: none;">
                     <h4 class="title is-5 ">Clone site da Tesla</h4>
-                  </div>
+                    <span class="tag is-link is-light"><i class="fab fa-youtube mr-1"></i> Tutorial</span>
+                  </a>
                 </div>
                 <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
-                  <div class="box box-dark has-text-centered">
+                  <a href="https://www.youtube.com/watch?v=rhPSo4_Tgi0" target="_blank" class="box box-dark has-text-centered" style="display: block; text-decoration: none;">
                     <h4 class="title is-5 ">Clone do Youtube</h4>
-                  </div>
+                    <span class="tag is-link is-light"><i class="fab fa-youtube mr-1"></i> Tutorial</span>
+                  </a>
                 </div>
                 <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                   <div class="box box-dark has-text-centered">
