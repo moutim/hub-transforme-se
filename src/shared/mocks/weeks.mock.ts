@@ -3619,9 +3619,10 @@ git push origin main</code></pre>
                   </a>
                 </div>
                 <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
-                  <div class="box box-dark has-text-centered">
+                  <a href="https://www.youtube.com/watch?v=8IcKBnfOB7M" target="_blank" class="box box-dark has-text-centered" style="display: block; text-decoration: none;">
                     <h4 class="title is-5 ">Clone da Netflix</h4>
-                  </div>
+                    <span class="tag is-link is-light"><i class="fab fa-youtube mr-1"></i> Tutorial</span>
+                  </a>
                 </div>
               </div>
             </div>
