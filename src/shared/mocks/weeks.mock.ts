@@ -3645,14 +3645,276 @@ git push origin main</code></pre>
     {
       "id": 5,
       "titulo": "Semana 5",
-      "subtitulo": "5/5 dias",
-      "descricao": "Introdução à Lógica de Programação, Algoritmos e Portugol",
+      "subtitulo": "6/6 dias",
+      "descricao": "Responsividade com Media Queries e Introdução à Lógica de Programação",
       "icone": "fa-brain",
       "dias": [
         {
+          "id": 57,
+          "titulo": "Responsividade",
+          "subtitulo": "Aula 5.1",
+          "descricao": "Aprenda o que é responsividade, por que ela é essencial no desenvolvimento web moderno e como usar Media Queries com min-width e max-width.",
+          "icone": "fa-mobile-screen",
+          "conteudo": `
+  <div class="container">
+    <section id="aula-responsividade">
+      <div class="content is-size-5">
+
+        <div id="o-que-e-responsividade" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">1. O que é Responsividade?</h3>
+          <p class="mb-5">Responsividade é a <strong><span class="highlight-pink">capacidade de um site se adaptar automaticamente a diferentes tamanhos de tela</span></strong>. Seja um celular pequeno, um tablet, um notebook ou um monitor gigante, um site responsivo ajusta seu layout para oferecer a melhor experiência possível em cada dispositivo.</p>
+          <p class="mb-5">Imagine que você acessa um site pelo celular e precisa ficar dando zoom e arrastando a tela para conseguir ler o conteúdo. Isso é um péssimo exemplo de experiência do usuário! Um site responsivo evita esse problema.</p>
+          
+          <div class="box box-dark border-left-pink p-5 mb-5">
+            <h4 class="title is-5 mb-3"><i class="fas fa-lightbulb mr-2"></i>Analogia</h4>
+            <p>Pense em água sendo colocada em diferentes recipientes: ela se adapta ao formato de cada um. Um site responsivo funciona da mesma forma - o conteúdo "flui" e se ajusta ao espaço disponível.</p>
+          </div>
+        </div>
+
+        <div id="por-que-responsividade" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">2. Por que a Responsividade é Importante?</h3>
+          <div class="columns is-multiline">
+            <div class="column is-half">
+              <div class="box box-dark p-4">
+                <h4 class="title is-5 mb-2"><i class="fas fa-users mr-2"></i>Mais da metade dos acessos</h4>
+                <p>Hoje, mais de 60% dos acessos à internet vêm de dispositivos móveis. Se seu site não funciona bem no celular, você perde a maioria dos visitantes.</p>
+              </div>
+            </div>
+            <div class="column is-half">
+              <div class="box box-dark p-4">
+                <h4 class="title is-5 mb-2"><i class="fas fa-search mr-2"></i>SEO e Google</h4>
+                <p>O Google prioriza sites responsivos nos resultados de busca. Um site que não é mobile-friendly perde posições no ranking.</p>
+              </div>
+            </div>
+            <div class="column is-half">
+              <div class="box box-dark p-4">
+                <h4 class="title is-5 mb-2"><i class="fas fa-heart mr-2"></i>Experiência do Usuário</h4>
+                <p>Usuários satisfeitos ficam mais tempo no site, interagem mais e têm mais chances de converter (comprar, se cadastrar, etc).</p>
+              </div>
+            </div>
+            <div class="column is-half">
+              <div class="box box-dark p-4">
+                <h4 class="title is-5 mb-2"><i class="fas fa-code mr-2"></i>Um código, múltiplos dispositivos</h4>
+                <p>Em vez de criar sites separados para desktop e mobile, você mantém apenas um código que funciona em todos os lugares.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="media-queries" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">3. Media Queries: A Ferramenta da Responsividade</h3>
+          <p class="mb-5"><strong>Media Queries</strong> são regras CSS que permitem aplicar estilos diferentes dependendo das características do dispositivo, como a largura da tela. É com elas que dizemos: "Se a tela for menor que X pixels, faça isso".</p>
+          
+          <div class="box box-dark p-5 mb-5">
+            <h4 class="title is-5 mb-3">Sintaxe Básica</h4>
+            <pre><code class="language-css">@media (condição) {
+  /* Estilos que serão aplicados quando a condição for verdadeira */
+}</code></pre>
+          </div>
+        </div>
+
+        <div id="max-width" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">4. max-width: "Até essa largura"</h3>
+          <p class="mb-5">O <code class="inline">max-width</code> aplica os estilos quando a tela é <strong>menor ou igual</strong> ao valor especificado. É a abordagem <strong>Desktop First</strong>: você começa estilizando para telas grandes e vai "descendo" para telas menores.</p>
+          
+          <div class="box box-dark p-5 mb-5">
+            <h4 class="title is-5 mb-3">Exemplo com max-width</h4>
+            <pre><code class="language-css">/* Estilo padrão para desktop */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Quando a tela for ATÉ 768px (tablets e celulares) */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+/* Quando a tela for ATÉ 480px (celulares pequenos) */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 10px;
+  }
+}</code></pre>
+          </div>
+
+          <div class="box box-dark border-left-pink p-5 mb-5">
+            <h4 class="title is-5 mb-3"><i class="fas fa-info-circle mr-2"></i>Como funciona</h4>
+            <p>O navegador lê de cima para baixo. Se a tela tiver 400px, ele aplica o estilo padrão, depois o de 768px (porque 400 é menor que 768), e depois o de 480px (porque 400 é menor que 480). O último estilo "vence".</p>
+          </div>
+        </div>
+
+        <div id="min-width" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">5. min-width: "A partir dessa largura"</h3>
+          <p class="mb-5">O <code class="inline">min-width</code> aplica os estilos quando a tela é <strong>maior ou igual</strong> ao valor especificado. É a abordagem <strong>Mobile First</strong>: você começa estilizando para celulares e vai "subindo" para telas maiores.</p>
+          
+          <div class="box box-dark p-5 mb-5">
+            <h4 class="title is-5 mb-3">Exemplo com min-width (Mobile First)</h4>
+            <pre><code class="language-css">/* Estilo padrão para celulares */
+.menu {
+  display: block;
+}
+
+.menu-item {
+  width: 100%;
+  padding: 15px;
+}
+
+/* A partir de 768px (tablets) */
+@media (min-width: 768px) {
+  .menu {
+    display: flex;
+  }
+  
+  .menu-item {
+    width: auto;
+  }
+}
+
+/* A partir de 1024px (desktop) */
+@media (min-width: 1024px) {
+  .menu-item {
+    padding: 20px 30px;
+  }
+}</code></pre>
+          </div>
+
+          <div class="box box-dark border-left-pink p-5 mb-5">
+            <h4 class="title is-5 mb-3"><i class="fas fa-star mr-2"></i>Mobile First é Recomendado!</h4>
+            <p>A abordagem Mobile First é considerada uma boa prática porque você começa pelo essencial (tela pequena, menos espaço) e vai adicionando complexidade conforme o espaço aumenta. É mais fácil adicionar do que remover.</p>
+          </div>
+        </div>
+
+        <div id="breakpoints" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">6. Breakpoints Comuns</h3>
+          <p class="mb-5">Breakpoints são os "pontos de quebra" onde o layout muda. Não existe um padrão universal, mas estes são valores comumente usados:</p>
+          
+          <div class="table-container">
+            <table class="table is-bordered is-fullwidth">
+              <thead>
+                <tr>
+                  <th>Dispositivo</th>
+                  <th>Breakpoint</th>
+                  <th>Exemplo de uso</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><i class="fas fa-mobile-alt mr-2"></i>Celulares pequenos</td>
+                  <td>até 480px</td>
+                  <td><code class="inline">@media (max-width: 480px)</code></td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-mobile mr-2"></i>Celulares</td>
+                  <td>até 768px</td>
+                  <td><code class="inline">@media (max-width: 768px)</code></td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-tablet-alt mr-2"></i>Tablets</td>
+                  <td>769px - 1024px</td>
+                  <td><code class="inline">@media (min-width: 769px)</code></td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-laptop mr-2"></i>Laptops</td>
+                  <td>1025px - 1200px</td>
+                  <td><code class="inline">@media (min-width: 1025px)</code></td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-desktop mr-2"></i>Desktops grandes</td>
+                  <td>acima de 1200px</td>
+                  <td><code class="inline">@media (min-width: 1201px)</code></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div id="exemplo-pratico" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">7. Exemplo Prático Completo</h3>
+          <p class="mb-5">Veja um exemplo de como um card pode se adaptar a diferentes tamanhos de tela:</p>
+          
+          <div class="box box-dark p-5 mb-5">
+            <h4 class="title is-5 mb-3">HTML</h4>
+            <pre><code class="language-html">&lt;div class="cards-container"&gt;
+  &lt;div class="card"&gt;Card 1&lt;/div&gt;
+  &lt;div class="card"&gt;Card 2&lt;/div&gt;
+  &lt;div class="card"&gt;Card 3&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+          </div>
+
+          <div class="box box-dark p-5 mb-5">
+            <h4 class="title is-5 mb-3">CSS com Media Queries</h4>
+            <pre><code class="language-css">/* Mobile First - Estilo base para celulares */
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card {
+  background: #333;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Tablets - a partir de 768px */
+@media (min-width: 768px) {
+  .cards-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: calc(50% - 5px); /* 2 cards por linha */
+  }
+}
+
+/* Desktop - a partir de 1024px */
+@media (min-width: 1024px) {
+  .card {
+    width: calc(33.333% - 7px); /* 3 cards por linha */
+  }
+}</code></pre>
+          </div>
+        </div>
+
+        <div id="viewport-meta" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">8. Não Esqueça da Meta Tag Viewport!</h3>
+          <p class="mb-5">Para que a responsividade funcione corretamente em dispositivos móveis, você <strong>precisa</strong> incluir esta meta tag no <code class="inline">&lt;head&gt;</code> do seu HTML:</p>
+          
+          <div class="box box-dark p-5 mb-5">
+            <pre><code class="language-html">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code></pre>
+          </div>
+
+          <p class="mb-5">Essa tag diz ao navegador para usar a largura real do dispositivo e não simular uma tela de desktop.</p>
+        </div>
+
+        <div id="conclusao" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">9. Resumo</h3>
+          <div class="box box-dark border-left-pink p-5">
+            <ul>
+              <li class="mb-3"><strong>Responsividade</strong> = site que se adapta a qualquer tela</li>
+              <li class="mb-3"><strong>Media Queries</strong> = regras CSS condicionais baseadas no tamanho da tela</li>
+              <li class="mb-3"><strong>max-width</strong> = aplica estilos até determinada largura (Desktop First)</li>
+              <li class="mb-3"><strong>min-width</strong> = aplica estilos a partir de determinada largura (Mobile First)</li>
+              <li class="mb-3"><strong>Mobile First</strong> = abordagem recomendada - comece pelo celular</li>
+              <li><strong>Meta viewport</strong> = essencial para responsividade funcionar em dispositivos móveis</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </div>
+          `
+        },
+        {
           "id": 16,
           "titulo": "Lógica de Programação",
-          "subtitulo": "Aula 5.1",
+          "subtitulo": "Aula 5.2",
           "descricao": "Introduz lógica de programação: algoritmos, variáveis, operadores e condicionais. Praticamos Portugol e traduzimos soluções para JavaScript.",
           "icone": "fa-brain",
           "conteudo": `
