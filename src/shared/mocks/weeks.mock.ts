@@ -3915,11 +3915,11 @@ git push origin main</code></pre>
           "id": 16,
           "titulo": "Lógica de Programação",
           "subtitulo": "Aula 5.2",
-          "descricao": "Introduz lógica de programação: algoritmos, variáveis, operadores e condicionais. Praticamos Portugol e traduzimos soluções para JavaScript.",
+          "descricao": "Introduz lógica de programação com JavaScript: algoritmos, variáveis, operadores e condicionais na prática.",
           "icone": "fa-brain",
           "conteudo": `
   <div class="container">
-    <section id="aula-5-1">
+    <section id="aula-5-2">
       <div class="content is-size-5">
         <div id="o-que-e-logica" class="mb-6">
           <h3 class="title is-4 section-title mb-4">1. O que é Lógica de Programação?</h3>
@@ -3940,29 +3940,46 @@ git push origin main</code></pre>
               <li>Mostre o resultado.</li>
             </ol>
           </div>
+
+          <div class="box box-dark p-4 mb-4">
+            <h4 class="title is-5 mb-2">Em JavaScript:</h4>
+            <pre><code class="language-javascript">let numero1 = 10;
+let numero2 = 5;
+let soma = numero1 + numero2;
+console.log(soma); // Mostra: 15</code></pre>
+          </div>
         </div>
 
         <div id="variaveis" class="mb-6">
           <h3 class="title is-4 section-title mb-4">3. Variáveis: As "Caixas" para Guardar Informações</h3>
           <p class="mb-5">Para que o computador execute os passos, ele precisa de um lugar para guardar as informações com as quais está trabalhando. <strong>Variáveis</strong> são como caixas com etiquetas: elas têm um nome e guardam um valor dentro.</p>
+          <p class="mb-5">Em JavaScript, usamos <code class="inline">let</code> ou <code class="inline">const</code> para declarar variáveis:</p>
+
+          <div class="box box-dark p-4 mb-4">
+            <pre><code class="language-javascript">let nome = "Maria";     // pode mudar depois
+const idade = 30;       // não pode mudar (constante)</code></pre>
+          </div>
 
           <div class="columns">
             <div class="column">
               <div class="box box-dark p-4">
                 <h4 class="title is-5 mb-2">Texto (String)</h4>
-                <p>Para guardar palavras e frases. Ex: <code class="inline">nome = "Maria"</code></p>
+                <p>Para guardar palavras e frases.</p>
+                <code class="inline">let nome = "Maria";</code>
               </div>
             </div>
             <div class="column">
               <div class="box box-dark p-4">
-                <h4 class="title is-5 mb-2">Número (Integer/Float)</h4>
-                <p>Para guardar números inteiros ou com casas decimais. Ex: <code class="inline">idade = 30</code></p>
+                <h4 class="title is-5 mb-2">Número (Number)</h4>
+                <p>Para guardar números inteiros ou decimais.</p>
+                <code class="inline">let idade = 30;</code>
               </div>
             </div>
             <div class="column">
               <div class="box box-dark p-4">
                 <h4 class="title is-5 mb-2">Lógico (Boolean)</h4>
-                <p>Para guardar apenas dois valores: <code class="inline">Verdadeiro</code> ou <code class="inline">Falso</code>.</p>
+                <p>Para guardar apenas dois valores.</p>
+                <code class="inline">let ativo = true;</code>
               </div>
             </div>
           </div>
@@ -3976,33 +3993,112 @@ git push origin main</code></pre>
             <div class="column">
               <div class="box box-dark p-4">
                 <h4 class="title is-5 mb-2">Aritméticos</h4>
-                <p>Soma (<code class="inline">+</code>), Subtração (<code class="inline">-</code>), Multiplicação (<code class="inline">*</code>), Divisão (<code class="inline">/</code>).</p>
+                <p>Soma (<code class="inline">+</code>), Subtração (<code class="inline">-</code>), Multiplicação (<code class="inline">*</code>), Divisão (<code class="inline">/</code>), Resto (<code class="inline">%</code>).</p>
               </div>
             </div>
             <div class="column">
               <div class="box box-dark p-4">
                 <h4 class="title is-5 mb-2">Relacionais</h4>
-                <p>Maior que (<code class="inline">&gt;</code>), Menor que (<code class="inline">&lt;</code>), Igual a (<code class="inline">==</code>), Diferente de (<code class="inline">!=</code>).</p>
+                <p>Maior (<code class="inline">&gt;</code>), Menor (<code class="inline">&lt;</code>), Igual (<code class="inline">===</code>), Diferente (<code class="inline">!==</code>).</p>
               </div>
             </div>
+          </div>
+
+          <div class="box box-dark p-4 mb-4">
+            <h4 class="title is-5 mb-2">Exemplos em JavaScript:</h4>
+            <pre><code class="language-javascript">let a = 10;
+let b = 3;
+
+console.log(a + b);  // 13
+console.log(a - b);  // 7
+console.log(a * b);  // 30
+console.log(a / b);  // 3.333...
+console.log(a % b);  // 1 (resto da divisão)
+
+console.log(a > b);   // true
+console.log(a === b); // false</code></pre>
           </div>
         </div>
 
         <div id="condicionais" class="mb-6">
           <h3 class="title is-4 section-title mb-4">5. Condicionais: Tomando Decisões</h3>
-          <p class="mb-5">Nem sempre um algoritmo segue uma linha reta. Às vezes, o computador precisa tomar uma decisão com base em uma condição. Para isso, usamos o <strong>SE / SENÃO</strong> (<code class="inline">if / else</code>).</p>
+          <p class="mb-5">Nem sempre um algoritmo segue uma linha reta. Às vezes, o computador precisa tomar uma decisão com base em uma condição. Para isso, usamos o <strong>if / else</strong>.</p>
 
-          <pre class="p-4"><code>SE (idade &gt;= 18) ENTAO
-  escreva("Você é maior de idade.")
-SENAO
-  escreva("Você é menor de idade.")
-FIMSE
-</code></pre>
+          <div class="box box-dark p-4 mb-4">
+            <h4 class="title is-5 mb-2">Estrutura do if/else em JavaScript:</h4>
+            <pre><code class="language-javascript">let idade = 20;
+
+if (idade >= 18) {
+  console.log("Você é maior de idade.");
+} else {
+  console.log("Você é menor de idade.");
+}</code></pre>
+          </div>
+
+          <div class="box box-dark p-4 mb-4">
+            <h4 class="title is-5 mb-2">Múltiplas condições com else if:</h4>
+            <pre><code class="language-javascript">let nota = 7;
+
+if (nota >= 7) {
+  console.log("Aprovado!");
+} else if (nota >= 5) {
+  console.log("Recuperação");
+} else {
+  console.log("Reprovado");
+}</code></pre>
+          </div>
         </div>
 
-        <div id="portugol-js" class="mb-6">
-          <h3 class="title is-4 section-title mb-4">6. Portugol e JavaScript</h3>
-          <p class="mb-5">Para treinar nossa mente, vamos primeiro escrever nossos algoritmos em <strong><span class="highlight-pink">Portugol</span></strong>, uma "linguagem" que se parece com o português e foca apenas na lógica. Depois que a lógica estiver correta, vamos "traduzir" para o <strong><span class="highlight-pink">JavaScript</span></strong>, uma linguagem de programação real que os navegadores entendem.</p>
+        <div id="entrada-dados" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">6. Recebendo Dados do Usuário</h3>
+          <p class="mb-5">Para pedir informações ao usuário no navegador, usamos o <code class="inline">prompt()</code>. Ele mostra uma caixinha onde o usuário pode digitar:</p>
+
+          <div class="box box-dark p-4 mb-4">
+            <pre><code class="language-javascript">let nome = prompt("Qual é o seu nome?");
+console.log("Olá, " + nome + "!");</code></pre>
+          </div>
+
+          <div class="box box-dark border-left-pink p-5 mb-5">
+            <h4 class="title is-5 mb-3"><i class="fas fa-exclamation-triangle mr-2"></i>Atenção!</h4>
+            <p>O <code class="inline">prompt()</code> sempre retorna uma <strong>string</strong> (texto). Se você precisa de um número, converta usando <code class="inline">Number()</code> ou <code class="inline">parseInt()</code>:</p>
+            <pre class="mt-3"><code class="language-javascript">let idadeTexto = prompt("Qual sua idade?");
+let idade = Number(idadeTexto);
+// ou diretamente:
+let idade = Number(prompt("Qual sua idade?"));</code></pre>
+          </div>
+        </div>
+
+        <div id="exemplo-completo" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">7. Exemplo Completo</h3>
+          <p class="mb-5">Vamos juntar tudo em um exemplo prático - verificar se uma pessoa pode votar:</p>
+
+          <div class="box box-dark p-4 mb-4">
+            <pre><code class="language-javascript">// Pedir a idade
+let idade = Number(prompt("Digite sua idade:"));
+
+// Verificar a situação de votação
+if (idade < 16) {
+  console.log("Você ainda não pode votar.");
+} else if (idade < 18 || idade > 70) {
+  console.log("Seu voto é opcional.");
+} else {
+  console.log("Seu voto é obrigatório.");
+}</code></pre>
+          </div>
+        </div>
+
+        <div id="resumo" class="mb-6">
+          <h3 class="title is-4 section-title mb-4">8. Resumo</h3>
+          <div class="box box-dark border-left-pink p-5">
+            <ul>
+              <li class="mb-3"><strong>Lógica de Programação</strong> = organizar o pensamento para resolver problemas</li>
+              <li class="mb-3"><strong>Algoritmo</strong> = sequência de passos para chegar a uma solução</li>
+              <li class="mb-3"><strong>Variáveis</strong> = caixas para guardar informações (<code class="inline">let</code> e <code class="inline">const</code>)</li>
+              <li class="mb-3"><strong>Operadores</strong> = ferramentas para cálculos e comparações</li>
+              <li class="mb-3"><strong>Condicionais</strong> = <code class="inline">if/else</code> para tomar decisões</li>
+              <li><strong>prompt()</strong> = receber dados do usuário no navegador</li>
+            </ul>
+          </div>
         </div>
 
       </div>
@@ -4013,75 +4109,129 @@ FIMSE
         {
           "id": 17,
           "titulo": "Exercícios: Praticando a Lógica 5.1",
-          "subtitulo": "Aula 5.1",
-          "descricao": "Exercícios práticos para fixar lógica: Olá Mundo, operações, médias, condições e estruturas de decisão; resolva em Portugol e JavaScript usando lógica de programação.",
+          "subtitulo": "Aula 5.3",
+          "descricao": "Exercícios práticos de JavaScript para fixar lógica: Olá Mundo, operações, médias, condições e estruturas de decisão usando prompt, alert e console.log.",
           "icone": "fa-brain",
           "conteudo": `
   <div class="container">
     <section id="exercicios">
-      <h2 class="title is-3 lesson-title mb-5">Exercícios: Praticando a Lógica</h2>
-      <p class="content is-size-5 has-text-centered mb-5">Para cada problema, pense primeiro na solução em <strong>Portugol</strong> (a sequência de passos) e depois tente "traduzir" para <strong>JavaScript</strong>.</p>
+      <h2 class="title is-3 lesson-title mb-5">Exercícios: Praticando a Lógica com JavaScript</h2>
+      
+      <div class="box box-dark border-left-pink p-5 mb-5">
+        <h4 class="title is-5 mb-3"><i class="fas fa-info-circle mr-2"></i>Como fazer os exercícios</h4>
+        <p class="mb-3">Para cada exercício, crie um arquivo <code class="inline">.html</code> com a seguinte estrutura:</p>
+        <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Exercício&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;script&gt;
+    // Seu código JavaScript aqui
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+        <p class="mt-3">Use <code class="inline">prompt()</code> para receber dados, <code class="inline">console.log()</code> ou <code class="inline">alert()</code> para mostrar resultados.</p>
+      </div>
 
       <div>
         <div class="box box-dark mb-4">
           <h3 class="title is-5 mb-3">1. Olá, Mundo!</h3>
-          <p>Crie um algoritmo que simplesmente mostre a mensagem "Olá, Mundo!" na tela.</p>
+          <p>Crie um código JavaScript que mostre a mensagem "Olá, Mundo!" no console.</p>
+          <div class="mt-3 pt-3" style="border-top: 1px solid #444;">
+            <p class="has-text-grey"><i class="fas fa-lightbulb mr-1"></i> Dica: use <code class="inline">console.log("Olá, Mundo!");</code></p>
+          </div>
         </div>
+
         <div class="box box-dark mb-4">
           <h3 class="title is-5 mb-3">2. Nome e Sobrenome</h3>
-          <p>Crie um algoritmo que peça o nome e o sobrenome do usuário e, em seguida, mostre o nome completo.</p>
+          <p>Peça o nome e o sobrenome do usuário usando <code class="inline">prompt()</code> e mostre o nome completo.</p>
+          <div class="mt-3 pt-3" style="border-top: 1px solid #444;">
+            <p class="has-text-grey"><i class="fas fa-lightbulb mr-1"></i> Dica: concatene strings com <code class="inline">+</code> ou use template literals com <code class="inline">\${}</code></p>
+          </div>
         </div>
+
         <div class="box box-dark mb-4">
           <h3 class="title is-5 mb-3">3. Soma de Dois Números</h3>
-          <p>Crie um algoritmo que solicite dois números ao usuário e mostre a soma deles.</p>
+          <p>Solicite dois números ao usuário e mostre a soma deles.</p>
+          <div class="mt-3 pt-3" style="border-top: 1px solid #444;">
+            <p class="has-text-grey"><i class="fas fa-exclamation-triangle mr-1"></i> Lembre-se: <code class="inline">prompt()</code> retorna texto! Use <code class="inline">Number()</code> para converter.</p>
+          </div>
         </div>
+
         <div class="box box-dark mb-4">
           <h3 class="title is-5 mb-3">4. Calculadora de Média</h3>
-          <p>Crie um algoritmo que peça 3 notas de um aluno e calcule a média. Mostre a média no final.</p>
+          <p>Peça 3 notas de um aluno e calcule a média aritmética. Mostre a média no final.</p>
         </div>
+
         <div class="box box-dark mb-4">
           <h3 class="title is-5 mb-3">5. Sucessor e Antecessor</h3>
-          <p>Crie um algoritmo que peça um número e mostre na tela o seu antecessor e o seu sucessor.</p>
+          <p>Peça um número e mostre na tela o seu antecessor (número - 1) e o seu sucessor (número + 1).</p>
         </div>
+
         <div class="box box-dark mb-4">
           <h3 class="title is-5 mb-3">6. Aumento Salarial</h3>
-          <p>Crie um algoritmo que leia o salário de um funcionário e mostre seu novo salário com 15% de aumento.</p>
+          <p>Leia o salário de um funcionário e mostre seu novo salário com 15% de aumento.</p>
+          <div class="mt-3 pt-3" style="border-top: 1px solid #444;">
+            <p class="has-text-grey"><i class="fas fa-lightbulb mr-1"></i> Dica: <code class="inline">novoSalario = salario * 1.15</code></p>
+          </div>
         </div>
+
         <div class="box box-dark mb-4">
           <h3 class="title is-5 mb-3">7. Conversor de Moedas</h3>
-          <p>Crie um algoritmo que leia um valor em Reais e converta para Dólares. Considere a cotação do Dólar como R$ 5,00.</p>
+          <p>Leia um valor em Reais e converta para Dólares. Considere a cotação do Dólar como R$ 5,00.</p>
         </div>
+
         <div class="box box-dark mb-4">
           <h3 class="title is-5 mb-3">8. Par ou Ímpar?</h3>
-          <p>Crie um algoritmo que leia um número e diga se ele é par ou ímpar. (Dica: use o operador de resto de divisão %).</p>
+          <p>Leia um número e diga se ele é par ou ímpar.</p>
+          <div class="mt-3 pt-3" style="border-top: 1px solid #444;">
+            <p class="has-text-grey"><i class="fas fa-lightbulb mr-1"></i> Dica: use o operador de resto <code class="inline">%</code>. Se <code class="inline">numero % 2 === 0</code>, é par!</p>
+          </div>
         </div>
+
         <div class="box box-dark mb-4">
           <h3 class="title is-5 mb-3">9. Maior de Idade</h3>
-          <p>Crie um algoritmo que leia a idade de uma pessoa e diga se ela é maior de idade (18 anos ou mais) ou não.</p>
+          <p>Leia a idade de uma pessoa e diga se ela é maior de idade (18 anos ou mais) ou não.</p>
+          <div class="mt-3 pt-3" style="border-top: 1px solid #444;">
+            <p class="has-text-grey"><i class="fas fa-lightbulb mr-1"></i> Dica: use <code class="inline">if (idade >= 18)</code></p>
+          </div>
         </div>
+
         <div class="box box-dark mb-4">
           <h3 class="title is-5 mb-3">10. Qual é maior?</h3>
-          <p>Crie um algoritmo que leia dois números e informe qual deles é o maior.</p>
+          <p>Leia dois números e informe qual deles é o maior.</p>
         </div>
+
         <div class="box box-dark mb-4">
           <h3 class="title is-5 mb-3">11. Aprovado ou Reprovado?</h3>
-          <p>Crie um algoritmo que calcule a média de duas notas e informe se o aluno foi aprovado (média &gt;= 7) ou reprovado.</p>
+          <p>Calcule a média de duas notas e informe se o aluno foi aprovado (média &gt;= 7) ou reprovado.</p>
         </div>
+
         <div class="box box-dark mb-4">
           <h3 class="title is-5 mb-3">12. Positivo, Negativo ou Zero?</h3>
-          <p>Crie um algoritmo que leia um número e informe se ele é positivo, negativo ou zero.</p>
+          <p>Leia um número e informe se ele é positivo, negativo ou zero.</p>
+          <div class="mt-3 pt-3" style="border-top: 1px solid #444;">
+            <p class="has-text-grey"><i class="fas fa-lightbulb mr-1"></i> Dica: use <code class="inline">if</code>, <code class="inline">else if</code> e <code class="inline">else</code></p>
+          </div>
         </div>
+
         <div class="box box-dark mb-4">
           <h3 class="title is-5 mb-3">13. Categoria de Nadador</h3>
-          <p>Crie um algoritmo que leia a idade de um nadador e o classifique em uma das seguintes categorias: Infantil A (5-7 anos), Infantil B (8-11 anos), Juvenil A (12-13 anos), Juvenil B (14-17 anos) ou Adulto (maiores de 18 anos).</p>
+          <p>Leia a idade de um nadador e o classifique: Infantil A (5-7), Infantil B (8-11), Juvenil A (12-13), Juvenil B (14-17) ou Adulto (18+).</p>
         </div>
+
         <div class="box box-dark mb-4">
           <h3 class="title is-5 mb-3">14. Login Simples</h3>
-          <p>Crie um algoritmo que peça um nome de usuário e uma senha. Se o usuário for "admin" e a senha for "1234", mostre "Login efetuado com sucesso". Caso contrário, mostre "Falha na autenticação".</p>
+          <p>Peça um nome de usuário e uma senha. Se o usuário for "admin" e a senha for "1234", mostre "Login efetuado com sucesso". Caso contrário, mostre "Falha na autenticação".</p>
+          <div class="mt-3 pt-3" style="border-top: 1px solid #444;">
+            <p class="has-text-grey"><i class="fas fa-lightbulb mr-1"></i> Dica: use <code class="inline">&&</code> para verificar as duas condições</p>
+          </div>
         </div>
+
         <div class="box box-dark mb-4">
           <h3 class="title is-5 mb-3">15. Calculadora de IMC</h3>
-          <p>Crie um algoritmo para calcular o IMC (Índice de Massa Corporal) de uma pessoa. Peça o peso (em kg) e a altura (em metros). A fórmula é: IMC = peso / (altura * altura). Mostre o resultado.</p>
+          <p>Calcule o IMC (Índice de Massa Corporal). Peça o peso (kg) e a altura (metros). Fórmula: <code class="inline">IMC = peso / (altura * altura)</code></p>
         </div>
       </div>
     </section>
