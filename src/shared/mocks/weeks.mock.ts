@@ -3999,7 +3999,7 @@ const idade = 30;       // não pode mudar (constante)</code></pre>
             <div class="column">
               <div class="box box-dark p-4">
                 <h4 class="title is-5 mb-2">Relacionais</h4>
-                <p>Maior (<code class="inline">&gt;</code>), Menor (<code class="inline">&lt;</code>), Igual (<code class="inline">===</code>), Diferente (<code class="inline">!==</code>).</p>
+                <p>Maior (<code class="inline">&gt;</code>), Menor (<code class="inline">&lt;</code>), Igual (<code class="inline">===</code>), Diferente (<code class="inline">!==</code>), E (<code class="inline">&&</code>), Ou (<code class="inline">||</code>).</p>
               </div>
             </div>
           </div>
@@ -4016,7 +4016,9 @@ console.log(a / b);  // 3.333...
 console.log(a % b);  // 1 (resto da divisão)
 
 console.log(a > b);   // true
-console.log(a === b); // false</code></pre>
+console.log(a === b); // false
+console.log(a > 5 && b > 5); // false
+console.log(a > 5 || b > 5); // true</code></pre>
           </div>
         </div>
 
