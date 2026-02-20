@@ -4950,6 +4950,120 @@ funcao inicio() {
     </section>
   </div>
 `
+        },
+        {
+          id: 58,
+          titulo: "Exercícios: Arrays e Objetos",
+          subtitulo: "Aula 5.6",
+          descricao: "Conjunto de 10 exercícios práticos focados em arrays e objetos usando prompt, variáveis e condicionais.",
+          icone: "fa-list",
+        conteudo: `
+  <div class="container">
+    <section id="exercicios-arrays-objetos">
+      <div class="content is-size-5">
+        <p class="mb-4">Resolva os problemas abaixo usando apenas variáveis, condicionais, arrays, objetos e <code>prompt()</code>. Mostre resultados com <code>console.log()</code> ou <code>alert()</code>. Cada exercício inclui pequenas operações adicionais (buscar, atualizar, remover) para praticar manipulação de coleções e objetos.</p>
+        <ol>
+          <li>
+            <strong>Lista de Compras</strong>
+            <ul>
+              <li>Peça ao usuário 5 itens (um por vez) e salve-os em um array.</li>
+              <li>Mostre a lista final e quantos itens foram adicionados.</li>
+              <li>Peça um nome de item para remover; se existir, remova e mostre a lista atualizada; se não existir, informe ao usuário.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Cadastro de Contato</strong>
+            <ul>
+              <li>Peça nome, telefone e email; crie um objeto {nome, telefone, email}.</li>
+              <li>Mostre os dados e pergunte se quer atualizar o telefone ou email; aplique a mudança no objeto e mostre o objeto atualizado.</li>
+              <li>Implemente a opção de "limpar" o cadastro (tornar campos vazios) caso o usuário confirme.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Filtrar Adultos</strong>
+            <ul>
+              <li>Peça 5 idades, armazene em um array.</li>
+              <li>Mostre todas as idades e em seguida mostre apenas as idades de pessoas maiores de 18 anos.</li>
+              <li>Conte quantos são maiores e quantos são menores e mostre esses totais.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Calculadora de Preço</strong>
+            <ul>
+              <li>Peça 4 preços e guarde em um array; calcule a soma total e a média.</li>
+              <li>Remova o maior preço do array (simulando um desconto/promocão) e recalcule a média sem esse item.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Inventário Simples</strong>
+            <ul>
+              <li>Crie um objeto produto {nome, quantidade}. Peça nome e quantidade.</li>
+              <li>Se quantidade &gt; 0 mostre "Em estoque", senão "Fora de estoque".</li>
+              <li>Implemente opções para "repor" (aumentar) ou "retirar" (diminuir) quantidade pelo usuário e mostre o novo estado.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Buscar Usuário</strong>
+            <ul>
+              <li>Monte um array com 3 objetos de usuários (nome, email).</li>
+              <li>Peça um email e verifique se existe um usuário com esse email; mostre o nome se encontrado, ou "Não encontrado" caso contrário.</li>
+              <li>Se encontrado, ofereça a opção de remover o usuário do array e exiba a lista atualizada.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Marcar Tarefas</strong>
+            <ul>
+              <li>Peça 3 tarefas e armazene como objetos {texto, feita:false}.</li>
+              <li>Permita que o usuário marque uma tarefa como feita (por índice) e também que remova uma tarefa.</li>
+              <li>Mostre a lista antes e depois das alterações e conte quantas tarefas estão concluídas.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Contagem por Categoria</strong>
+            <ul>
+              <li>Peça 6 itens com categoria (ex: comida, limpeza) e armazene em um array de objetos {nome, categoria}.</li>
+              <li>Crie um objeto que conte quantos itens existem por categoria (ex: {comida: 3, limpeza:2}).</li>
+              <li>Implemente a remoção de todos os itens de uma categoria escolhida e atualize a contagem final.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Ranking de Pontuação</strong>
+            <ul>
+              <li>Peça 4 nomes e pontuações, salve em um array de objetos {nome, pontos}.</li>
+              <li>Mostre o maior pontuador (nome e pontos).</li>
+              <li>Pergunte se o usuário quer atualizar a pontuação de alguém; se sim, atualize o objeto e calcule o novo vencedor.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Carrinho Simples</strong>
+            <ul>
+              <li>Peça o nome e preço de até 5 produtos; armazene em um array de objetos.</li>
+              <li>Calcule o total; se o total &gt; 100 mostre "Frete grátis", caso contrário mostre o valor do frete (R$ 10).</li>
+              <li>Permita remover um produto pelo nome e recalcule total e frete após a remoção.</li>
+            </ul>
+          </li>
+        </ol>
+        <div class="box box-dark mt-5">
+          <h4 class="title is-5 mb-3">Dicas</h4>
+          <ul>
+            <li>Use <code>prompt()</code> para receber entradas e <code>Number()</code> ao solicitar números.</li>
+            <li>Arrays: <code>[]</code>, objetos: <code>{}</code>. Use laços <code>for</code> e condicional <code>if</code> para busca/remoção/atualização.</li>
+            <li>Valide entradas simples (ex: não aceitar string vazia) e mostre mensagens claras ao usuário.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+`
         }
       ]
     },
