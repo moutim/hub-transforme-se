@@ -4243,7 +4243,7 @@ if (idade < 16) {
         {
           id: 18,
           titulo: "Revisão e Exercícios de Lógica — Parte 2",
-          subtitulo: "Aula 5.2",
+          subtitulo: "Aula 5.4",
           descricao: "Revisão prática de lógica: condicionais, conversões, cálculos e validações; escrevemos algoritmos em Portugol para estruturar soluções passo a passo.",
           icone: "fa-brain",
           conteudo: `
@@ -4273,7 +4273,7 @@ if (idade < 16) {
         {
           id: 19,
           titulo: "Exercícios: Praticando a Lógica 5.2",
-          subtitulo: "Aula 5.2",
+          subtitulo: "Aula 5.5",
           descricao: "Conjunto de exercícios avançados para praticar lógica usando Portugol: descontos, conversões, decisões, IMC, empréstimos e classificações passo a passo.",
           icone: "fa-brain",
           conteudo: `
@@ -4479,7 +4479,7 @@ if (idade < 16) {
         {
           id: 20,
           titulo: "Estruturas de Dados e Laços de Repetição",
-          subtitulo: "Aula 5.3",
+          subtitulo: "Aula 5.6",
           descricao: "Exploramos vetores, registros e laços de repetição em Portugol, praticando algoritmos para manipular coleções e automatizar tarefas.",
           icone: "fa-brain",
           conteudo: `
@@ -4523,7 +4523,7 @@ if (idade < 16) {
         {
           id: 21,
           titulo: "Exercícios: Praticando a Lógica 5.3",
-          subtitulo: "Aula 5.3",
+          subtitulo: "Aula 5.7",
           descricao: "Conjunto de exercícios práticos sobre vetores e laços: preencher, somar, filtrar pares, buscar valores e inverter vetores usando Portugol.",
           icone: "fa-brain",
           conteudo: `
@@ -4579,7 +4579,7 @@ if (idade < 16) {
         {
           id: 22,
           titulo: "O Laço enquanto (while)",
-          subtitulo: "Aula 5.4",
+          subtitulo: "Aula 5.8",
           descricao: "Aprenda o laço 'enquanto' (while), suas diferenças para o 'para', uso em menus, e o perigo dos loops infinitos em Portugol.",
           icone: "fa-brain",
           conteudo: `
@@ -4666,7 +4666,7 @@ enquanto (contador < 5) {
         {
           id: 23,
           titulo: "Exercícios: Praticando a Lógica 5.2",
-          subtitulo: "Aula 5.4",
+          subtitulo: "Aula 5.9",
           descricao: "Exercícios práticos com o laço 'enquanto': contagem, validação, somas, fatorial, Fibonacci e manipulação de vetores em Portugol.",
           icone: "fa-brain",
           conteudo: `
@@ -4806,7 +4806,7 @@ Encerrando o programa...
         {
           id: 25,
           titulo: "Funções: Criando Nossas Ferramentas",
-          subtitulo: "Aula 5.5",
+          subtitulo: "Aula 5.10",
           descricao: "Funções em Portugol: como criar, usar parâmetros, retornar valores e evitar repetição de código.",
           icone: "fa-brain",
           conteudo: `
@@ -4879,7 +4879,7 @@ funcao inicio() {
         {
           id: 26,
           titulo: "Exercícios: Praticando a Lógica 5.5",
-          subtitulo: "Aula 5.5",
+          subtitulo: "Aula 5.11",
           descricao: "Exercícios práticos com funções: parâmetros, retorno, vetores, tabuada, calculadora e refatoração em Portugol.",
           icone: "fa-brain",
           conteudo: `
@@ -4954,7 +4954,7 @@ funcao inicio() {
         {
           id: 58,
           titulo: "Exercícios: Arrays e Objetos",
-          subtitulo: "Aula 5.6",
+          subtitulo: "Aula 5.12",
           descricao: "Conjunto de 10 exercícios práticos focados em arrays e objetos usando prompt, variáveis e condicionais.",
           icone: "fa-list",
         conteudo: `
