@@ -10267,6 +10267,519 @@ WHERE id = 1;</code></pre>
           </div>
           `
         },
+        {
+          id: 70,
+          titulo: "Criando um Projeto React com Vite",
+          subtitulo: "Aula 11.6",
+          descricao: "Passo a passo completo para criar um projeto React com JavaScript e Vite: do comando inicial até componentes, rotas, páginas, useState e chamadas à API com Axios",
+          icone: "fa-react",
+          conteudo: `
+          <div class="container">
+
+            <div class="mb-6" id="introducao">
+              <h2 class="title is-4 section-title mb-5">1. Introdução: React + Vite</h2>
+              <div class="content is-size-5">
+                <p class="mb-5">
+                  <strong>React</strong> é a biblioteca JavaScript mais popular do mundo para criar interfaces de usuário. O <strong>Vite</strong> é uma ferramenta de build moderna e extremamente rápida que substitui o antigo Create React App.
+                </p>
+                <div class="box box-dark border-left-pink">
+                  <h3 class="title is-5 mb-3">🎯 O que você vai aprender nesta aula:</h3>
+                  <ul>
+                    <li>Criar um projeto React com Vite do zero</li>
+                    <li>Entender a estrutura de pastas</li>
+                    <li>Criar componentes reutilizáveis</li>
+                    <li>Configurar rotas com React Router</li>
+                    <li>Criar páginas organizadas</li>
+                    <li>Gerenciar estado com <code>useState</code></li>
+                    <li>Fazer chamadas à API com Axios</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6" id="criando-projeto">
+              <h2 class="title is-4 section-title mb-5">2. Criando o Projeto</h2>
+              <div class="content is-size-5">
+                <p class="mb-4">
+                  Certifique-se de ter o <strong>Node.js</strong> instalado (versão 18 ou superior). Abra o terminal e execute:
+                </p>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">⚡ Comando Inicial</h3>
+                <pre><code>npm create vite@latest meu-projeto -- --template react
+cd meu-projeto
+npm install
+npm run dev</code></pre>
+                <p class="mt-4">
+                  Após esses comandos, o Vite irá iniciar o servidor em <code>http://localhost:5173</code>. Abra no navegador e você verá a página inicial do React!
+                </p>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📁 Estrutura de Pastas Gerada</h3>
+                <pre><code>meu-projeto/
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── assets/
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js</code></pre>
+                <div class="content mt-4">
+                  <ul>
+                    <li><strong>src/main.jsx</strong> — Ponto de entrada da aplicação</li>
+                    <li><strong>src/App.jsx</strong> — Componente raiz</li>
+                    <li><strong>public/</strong> — Arquivos estáticos públicos</li>
+                    <li><strong>index.html</strong> — HTML base da aplicação</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="notification is-warning is-light">
+                <strong>💡 Dica:</strong> Apague os arquivos <code>App.css</code> e o conteúdo padrão do <code>App.jsx</code> para começar com um projeto limpo!
+              </div>
+            </div>
+
+            <div class="mb-6" id="componentes">
+              <h2 class="title is-4 section-title mb-5">3. Criando Componentes</h2>
+              <div class="content is-size-5">
+                <p class="mb-5">
+                  Componentes são os <strong>blocos de construção</strong> do React. Cada componente é uma função JavaScript que retorna HTML (JSX). Crie uma pasta <code>src/components/</code> para organizar seus componentes.
+                </p>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📦 Exemplo: Componente Button</h3>
+                <p class="mb-3">Crie o arquivo <code>src/components/Button.jsx</code>:</p>
+                <pre><code>function Button({ texto, onClick }) {
+  return (
+    &lt;button onClick={onClick} style={{ padding: "10px 20px", cursor: "pointer" }}&gt;
+      {texto}
+    &lt;/button&gt;
+  );
+}
+
+export default Button;</code></pre>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📦 Exemplo: Componente Card</h3>
+                <p class="mb-3">Crie o arquivo <code>src/components/Card.jsx</code>:</p>
+                <pre><code>function Card({ titulo, descricao }) {
+  return (
+    &lt;div style={{ border: "1px solid #ccc", borderRadius: "8px", padding: "16px", marginBottom: "16px" }}&gt;
+      &lt;h3&gt;{titulo}&lt;/h3&gt;
+      &lt;p&gt;{descricao}&lt;/p&gt;
+    &lt;/div&gt;
+  );
+}
+
+export default Card;</code></pre>
+              </div>
+
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">✅ Usando os Componentes no App.jsx</h3>
+                <pre><code>import Button from "./components/Button";
+import Card from "./components/Card";
+
+function App() {
+  return (
+    &lt;div&gt;
+      &lt;h1&gt;Meu App React&lt;/h1&gt;
+      &lt;Card titulo="Olá Mundo" descricao="Este é meu primeiro componente!" /&gt;
+      &lt;Button texto="Clique aqui" onClick={() =&gt; alert("Funcionou!")} /&gt;
+    &lt;/div&gt;
+  );
+}
+
+export default App;</code></pre>
+              </div>
+            </div>
+
+            <div class="mb-6" id="rotas">
+              <h2 class="title is-4 section-title mb-5">4. Configurando Rotas com React Router</h2>
+              <div class="content is-size-5">
+                <p class="mb-5">
+                  O <strong>React Router</strong> permite navegar entre páginas sem recarregar o navegador. Primeiro, instale o pacote:
+                </p>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📦 Instalando o React Router</h3>
+                <pre><code>npm install react-router-dom</code></pre>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🗂️ Estrutura de Páginas</h3>
+                <p class="mb-3">Crie uma pasta <code>src/pages/</code> com as páginas:</p>
+                <pre><code>src/
+└── pages/
+    ├── Home.jsx
+    ├── Sobre.jsx
+    └── Usuarios.jsx</code></pre>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🛣️ Configurando as Rotas no App.jsx</h3>
+                <pre><code>import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home";
+import Sobre from "./pages/Sobre";
+import Usuarios from "./pages/Usuarios";
+
+function App() {
+  return (
+    &lt;BrowserRouter&gt;
+      &lt;nav&gt;
+        &lt;Link to="/"&gt;Home&lt;/Link&gt; |{" "}
+        &lt;Link to="/sobre"&gt;Sobre&lt;/Link&gt; |{" "}
+        &lt;Link to="/usuarios"&gt;Usuários&lt;/Link&gt;
+      &lt;/nav&gt;
+
+      &lt;Routes&gt;
+        &lt;Route path="/" element={&lt;Home /&gt;} /&gt;
+        &lt;Route path="/sobre" element={&lt;Sobre /&gt;} /&gt;
+        &lt;Route path="/usuarios" element={&lt;Usuarios /&gt;} /&gt;
+      &lt;/Routes&gt;
+    &lt;/BrowserRouter&gt;
+  );
+}
+
+export default App;</code></pre>
+              </div>
+
+              <div class="notification is-info is-light">
+                <strong>💡 Dica:</strong> O componente <code>&lt;Link&gt;</code> substitui a tag <code>&lt;a&gt;</code> do HTML. Ele navega entre páginas sem recarregar o site!
+              </div>
+            </div>
+
+            <div class="mb-6" id="paginas">
+              <h2 class="title is-4 section-title mb-5">5. Criando as Páginas</h2>
+              <div class="content is-size-5">
+                <p class="mb-5">
+                  Cada página é simplesmente um <strong>componente React</strong>. A diferença é que as páginas representam uma rota completa, enquanto componentes são partes reutilizáveis da interface.
+                </p>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🏠 src/pages/Home.jsx</h3>
+                <pre><code>function Home() {
+  return (
+    &lt;div&gt;
+      &lt;h1&gt;Bem-vindo ao meu App!&lt;/h1&gt;
+      &lt;p&gt;Esta é a página inicial.&lt;/p&gt;
+    &lt;/div&gt;
+  );
+}
+
+export default Home;</code></pre>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">ℹ️ src/pages/Sobre.jsx</h3>
+                <pre><code>function Sobre() {
+  return (
+    &lt;div&gt;
+      &lt;h1&gt;Sobre&lt;/h1&gt;
+      &lt;p&gt;Este projeto foi criado com React + Vite.&lt;/p&gt;
+    &lt;/div&gt;
+  );
+}
+
+export default Sobre;</code></pre>
+              </div>
+
+              <div class="notification is-success is-light">
+                <strong>✅ Boas Práticas:</strong> Sempre nomeie seus componentes e páginas com a <strong>primeira letra maiúscula</strong> (PascalCase). Isso é uma convenção obrigatória no React!
+              </div>
+            </div>
+
+            <div class="mb-6" id="usestate">
+              <h2 class="title is-4 section-title mb-5">6. Gerenciando Estado com useState</h2>
+              <div class="content is-size-5">
+                <p class="mb-5">
+                  O <code>useState</code> é um <strong>Hook</strong> do React que permite guardar e atualizar dados dentro de um componente. Toda vez que o estado muda, o componente é re-renderizado automaticamente.
+                </p>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🔢 Exemplo: Contador</h3>
+                <pre><code>import { useState } from "react";
+
+function Contador() {
+  const [contador, setContador] = useState(0);
+
+  return (
+    &lt;div&gt;
+      &lt;h2&gt;Contador: {contador}&lt;/h2&gt;
+      &lt;button onClick={() =&gt; setContador(contador + 1)}&gt;Incrementar&lt;/button&gt;
+      &lt;button onClick={() =&gt; setContador(contador - 1)}&gt;Decrementar&lt;/button&gt;
+      &lt;button onClick={() =&gt; setContador(0)}&gt;Resetar&lt;/button&gt;
+    &lt;/div&gt;
+  );
+}
+
+export default Contador;</code></pre>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📝 Exemplo: Formulário Controlado</h3>
+                <pre><code>import { useState } from "react";
+
+function Formulario() {
+  const [nome, setNome] = useState("");
+  const [mensagem, setMensagem] = useState("");
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    setMensagem("Olá, " + nome + "!");
+  }
+
+  return (
+    &lt;div&gt;
+      &lt;form onSubmit={handleSubmit}&gt;
+        &lt;input
+          type="text"
+          placeholder="Digite seu nome"
+          value={nome}
+          onChange={(e) =&gt; setNome(e.target.value)}
+        /&gt;
+        &lt;button type="submit"&gt;Enviar&lt;/button&gt;
+      &lt;/form&gt;
+      {mensagem &amp;&amp; &lt;p&gt;{mensagem}&lt;/p&gt;}
+    &lt;/div&gt;
+  );
+}
+
+export default Formulario;</code></pre>
+              </div>
+
+              <div class="box box-dark">
+                <h3 class="title is-5 mb-4">📋 Exemplo: Lista de Itens</h3>
+                <pre><code>import { useState } from "react";
+
+function ListaTarefas() {
+  const [tarefas, setTarefas] = useState(["Estudar React", "Praticar Vite"]);
+  const [novaTarefa, setNovaTarefa] = useState("");
+
+  function adicionarTarefa() {
+    if (novaTarefa.trim() === "") return;
+    setTarefas([...tarefas, novaTarefa]);
+    setNovaTarefa("");
+  }
+
+  return (
+    &lt;div&gt;
+      &lt;h2&gt;Lista de Tarefas&lt;/h2&gt;
+      &lt;input
+        value={novaTarefa}
+        onChange={(e) =&gt; setNovaTarefa(e.target.value)}
+        placeholder="Nova tarefa"
+      /&gt;
+      &lt;button onClick={adicionarTarefa}&gt;Adicionar&lt;/button&gt;
+      &lt;ul&gt;
+        {tarefas.map((tarefa, index) =&gt; (
+          &lt;li key={index}&gt;{tarefa}&lt;/li&gt;
+        ))}
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  );
+}
+
+export default ListaTarefas;</code></pre>
+              </div>
+            </div>
+
+            <div class="mb-6" id="axios">
+              <h2 class="title is-4 section-title mb-5">7. Chamadas à API com Axios</h2>
+              <div class="content is-size-5">
+                <p class="mb-5">
+                  O <strong>Axios</strong> é uma biblioteca para fazer requisições HTTP de forma simples e elegante. Usaremos junto com o Hook <code>useEffect</code> para buscar dados quando o componente carregar.
+                </p>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📦 Instalando o Axios</h3>
+                <pre><code>npm install axios</code></pre>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🌐 GET — Buscando dados da API</h3>
+                <p class="mb-3">Atualize o arquivo <code>src/pages/Usuarios.jsx</code>:</p>
+                <pre><code>import { useState, useEffect } from "react";
+import axios from "axios";
+
+function Usuarios() {
+  const [usuarios, setUsuarios] = useState([]);
+  const [carregando, setCarregando] = useState(true);
+  const [erro, setErro] = useState(null);
+
+  useEffect(() =&gt; {
+    axios
+      .get("https://jsonplaceholder.typicode.com/users")
+      .then((resposta) =&gt; {
+        setUsuarios(resposta.data);
+        setCarregando(false);
+      })
+      .catch((error) =&gt; {
+        setErro("Erro ao carregar usuários.");
+        setCarregando(false);
+      });
+  }, []);
+
+  if (carregando) return &lt;p&gt;Carregando...&lt;/p&gt;;
+  if (erro) return &lt;p&gt;{erro}&lt;/p&gt;;
+
+  return (
+    &lt;div&gt;
+      &lt;h1&gt;Usuários&lt;/h1&gt;
+      {usuarios.map((usuario) =&gt; (
+        &lt;div key={usuario.id} style={{ border: "1px solid #ccc", padding: "12px", marginBottom: "8px" }}&gt;
+          &lt;h3&gt;{usuario.name}&lt;/h3&gt;
+          &lt;p&gt;Email: {usuario.email}&lt;/p&gt;
+          &lt;p&gt;Cidade: {usuario.address.city}&lt;/p&gt;
+        &lt;/div&gt;
+      ))}
+    &lt;/div&gt;
+  );
+}
+
+export default Usuarios;</code></pre>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">📤 POST — Enviando dados para a API</h3>
+                <pre><code>import { useState } from "react";
+import axios from "axios";
+
+function CriarUsuario() {
+  const [nome, setNome] = useState("");
+  const [email, setEmail] = useState("");
+  const [resposta, setResposta] = useState(null);
+
+  function handleSubmit(e) {
+    e.preventDefault();
+
+    axios
+      .post("https://jsonplaceholder.typicode.com/users", { name: nome, email: email })
+      .then((res) =&gt; {
+        setResposta(res.data);
+      })
+      .catch((err) =&gt; {
+        console.error(err);
+      });
+  }
+
+  return (
+    &lt;div&gt;
+      &lt;h2&gt;Criar Usuário&lt;/h2&gt;
+      &lt;form onSubmit={handleSubmit}&gt;
+        &lt;input value={nome} onChange={(e) =&gt; setNome(e.target.value)} placeholder="Nome" /&gt;
+        &lt;input value={email} onChange={(e) =&gt; setEmail(e.target.value)} placeholder="Email" /&gt;
+        &lt;button type="submit"&gt;Criar&lt;/button&gt;
+      &lt;/form&gt;
+      {resposta &amp;&amp; &lt;p&gt;Usuário criado com ID: {resposta.id}&lt;/p&gt;}
+    &lt;/div&gt;
+  );
+}
+
+export default CriarUsuario;</code></pre>
+              </div>
+
+              <div class="box box-dark mb-5">
+                <h3 class="title is-5 mb-4">🗂️ Organizando as Chamadas com um Arquivo de API</h3>
+                <p class="mb-3">Crie o arquivo <code>src/services/api.js</code> para centralizar as configurações do Axios:</p>
+                <pre><code>import axios from "axios";
+
+const api = axios.create({
+  baseURL: "https://jsonplaceholder.typicode.com",
+  timeout: 5000,
+});
+
+export default api;</code></pre>
+                <p class="mt-3 mb-3">Agora importe <code>api</code> no lugar de <code>axios</code> diretamente:</p>
+                <pre><code>import api from "../services/api";
+
+// GET
+api.get("/users").then((res) =&gt; console.log(res.data));
+
+// POST
+api.post("/users", { name: "João", email: "joao@email.com" })
+   .then((res) =&gt; console.log(res.data));</code></pre>
+              </div>
+
+              <div class="notification is-success is-light">
+                <strong>✅ Boas Práticas:</strong> Sempre centralize as configurações do Axios em um arquivo <code>services/api.js</code>. Isso facilita a manutenção e evita repetição de código!
+              </div>
+            </div>
+
+            <div class="mb-6" id="estrutura-final">
+              <h2 class="title is-4 section-title mb-5">8. Estrutura Final do Projeto</h2>
+              <div class="content is-size-5">
+                <p class="mb-5">Ao final da aula, seu projeto estará organizado assim:</p>
+              </div>
+              <div class="box box-dark">
+                <pre><code>meu-projeto/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Button.jsx
+│   │   └── Card.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Sobre.jsx
+│   │   └── Usuarios.jsx
+│   ├── services/
+│   │   └── api.js
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js</code></pre>
+              </div>
+            </div>
+
+            <div class="mb-6" id="conclusao">
+              <h2 class="title is-4 section-title mb-5">9. Conclusão</h2>
+              <div class="box box-dark border-left-pink">
+                <h3 class="title is-5 mb-3">Parabéns! Você criou seu primeiro projeto React com Vite! 🎉</h3>
+                <div class="content">
+                  <h4 class="title is-6 mt-5 mb-3">📚 O que você aprendeu:</h4>
+                  <ul class="mb-4">
+                    <li>Como criar um projeto React com Vite do zero</li>
+                    <li>A estrutura de pastas e arquivos do projeto</li>
+                    <li>Como criar e reutilizar componentes com JSX</li>
+                    <li>Como configurar rotas com React Router DOM</li>
+                    <li>Como criar páginas organizadas</li>
+                    <li>Como gerenciar estado com <code>useState</code></li>
+                    <li>Como buscar e enviar dados com Axios</li>
+                    <li>Como organizar chamadas de API em um arquivo de serviços</li>
+                  </ul>
+
+                  <h4 class="title is-6 mt-5 mb-3">🚀 Próximos passos:</h4>
+                  <ul class="mb-4">
+                    <li>Explore o Hook <code>useEffect</code> para executar código quando o componente monta</li>
+                    <li>Aprenda <code>useContext</code> para compartilhar estado entre componentes</li>
+                    <li>Explore o <code>useReducer</code> para estados mais complexos</li>
+                    <li>Estilize seu app com Tailwind CSS ou Styled Components</li>
+                    <li>Faça o deploy do seu projeto na Vercel (100% gratuito!)</li>
+                  </ul>
+
+                  <div class="notification is-info is-light mt-5">
+                    <strong>💡 Dica Final:</strong> A melhor forma de aprender React é <strong>construindo projetos reais</strong>. Crie um clone de um site que você gosta usando tudo que aprendeu aqui!
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          `
+        },
       ]
     }
   ]
